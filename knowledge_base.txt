@@ -2,7 +2,6 @@ Maintenance
 - Coding agents must update this knowledge base whenever they change files, repacking logic, or mod structure.
 
 Workspace Folders
-- original-storm: Original Storm mod files as received. Do not edit; use as source of truth.
 - vanilla-uncompiled: Vanilla reference sources. Contains uncompiled_lua.scd and z_uncompiled_lua_dlc1.scd plus extracted trees for read-only reference.
 - working-dir: Active edit workspace. All changes should be made here before repacking into gamedata.
 
