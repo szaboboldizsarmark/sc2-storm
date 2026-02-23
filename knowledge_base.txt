@@ -6,6 +6,14 @@ Change Log (Latest)
   File: working-dir/zz_STORM.scd/mods/DLC1/zzz_Cybran_STORM_blueprintmerges.bp
 - Added RadarStealth to UEF Giant Transport (uux0103).
   File: working-dir/zz_STORM.scd/mods/DLC1/zzz_UEF_STORM_blueprintmerges.bp
+- Aegis (uux0116d1) shield changes:
+  - ShieldMaxHealth set to 150000.
+  File: working-dir/zz_STORM.scd/mods/DLC1/zzz_UEF_STORM_blueprintmerges.bp
+- Recharge Shield ability changes:
+  - Cooldown set to 90 seconds.
+  - Energy cost set to 15000.
+  - Implemented by replacing bytecode BP with uncompiled BP in working-dir.
+  File: working-dir/z_lua_dlc1/mods/DLC1/shadow/abilities/RechargeShield_Ability.bp
 
 Workspace Folders
 - original-storm: Template-only source for zip metadata (entry order, FAT headers, backslashes). Do not read or edit; it exists solely to preserve metadata during repacks.

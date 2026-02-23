@@ -2510,6 +2510,7 @@ UnitBlueprint {
         MaxHealth = 10000,
         RegenRate = 50, -- 16
         Shield = {
+            ShieldMaxHealth = 150000, -- 50000
             ShieldRechargeTime = 100, -- 0
             ShieldRegenRate = 125, -- 0
         },
