@@ -1,0 +1,98 @@
+EmitterBlueprint {
+	BlueprintId = 'uef_massextractor_06_dirt',
+	Lifetime = -1.00,
+	Repeattime = 109.70,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	AlignRotation = true,
+	LODCutoff = 150.00,
+	ParticleResistance = true,
+	InterpolateEmission = false,
+	TextureStripcount = 4.00,
+	Texture = [[/textures/particles/sparks/sp_0004_35.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	EmitRateCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=26.6290,y=0.6000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=63.6808,y=8.0000,z=8.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=8.5237,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=0.2962,y=1.7000,z=0.7000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=53.7530,y=0.0000,z=0.5000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=56.4736,y=0.0000,z=0.5000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=54.8500,y=0.5000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=25.7576,y=0.3000,z=0.1000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=53.8408,y=0.1500,z=0.3000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=56.7149,y=0.2500,z=0.1000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=54.8500,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=54.8500,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=54.8500,y=2.0000,z=4.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 109.7000,
+		Keys = {
+			{ x=28.9498,y=0.2000,z=0.4000 },
+		},
+	},
+}

@@ -1,0 +1,89 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/TacticalMissile/snd_UEF_TacticalMissile_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/TacticalMissile/snd_UEF_TacticalMissile_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/TacticalMissile/snd_UEF_TacticalMissile_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+        'TACTICAL',
+        'MISSILE',
+        'NOSPLASHDAMAGE',
+    },
+    CollisionOffsetY = -0.8,
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 2,
+        MaxHealth = 2,
+    },
+    Display = {
+        CameraFollowsProjectile = true,
+        Mesh = {
+        	CastShadow = false,
+            LODs = {
+                {
+                    DiffuseName = '/projectiles/UEF/UTacticalMissile01/UTacticalMissile01_Diffuse.dds',
+                    MaskName = '/projectiles/UEF/UTacticalMissile01/UTacticalMissile01_Mask.dds',
+                    NormalName = '/projectiles/UEF/UTacticalMissile01/UTacticalMissile01_Normal.dds',
+                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, environment_mapping',
+                },
+            },
+        },
+        StrategicIconSize = 2,
+        UniformScale = 0.07,
+    },
+    Effects = {
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Cruisemissile01_Impact02',
+            },
+            Unit = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+    },
+    General = {
+        Category = 'Missile',
+        EntityCategory = {
+            'UEF',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+            'TACTICAL',
+            'MISSILE',
+            'NOSPLASHDAMAGE',
+        },
+        Faction = 'UEF',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 3,
+        InitialSpeed = 3,
+        MaxSpeed = 12,
+        MaxZigZag = 2,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = false,
+        TrackTargetGround = true,
+        TurnRate = 4,
+        UseGravity = false,
+        VelocityAlign = false,
+        ZigZagFrequency = 0.2,
+    },
+    SizeX = 2,
+}

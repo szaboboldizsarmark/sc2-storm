@@ -1,0 +1,112 @@
+EmitterBlueprint {
+	BlueprintId = 'uux0115_evt_a_01_energy',
+	Lifetime = 50.00,
+	Repeattime = 50.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 400.00,
+	InterpolateEmission = false,
+	TextureStripcount = 4.00,
+	SortOrder = 1.00,
+	Texture = [[/textures/particles/electricity/el_0005_46.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0124_fire.dds]],
+	DistortionMapTexture = [[/textures/particles/displacement/di_0009_55.dds]],
+	EmitRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=26.0000,y=1.0000,z=0.0000 },
+			{ x=30.0000,y=0.5000,z=0.0000 },
+			{ x=48.0000,y=0.1000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=16.4250,y=1.4000,z=0.6000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.5000,y=0.0000,z=3.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=12.0000,y=0.5000,z=1.5000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.5000,y=0.0000,z=3.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=10.9500,y=0.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=8.9000,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.4000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=27.5000,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=26.6000,y=3.6000,z=0.3000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=9.8000,y=3.6000,z=0.3000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=15.0500,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=24.5000,y=2.0000,z=4.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=12.1350,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapScaleCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=9.1700,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapBeginStrengthCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=9.6950,y=0.0000,z=0.0000 },
+		},
+	},
+}

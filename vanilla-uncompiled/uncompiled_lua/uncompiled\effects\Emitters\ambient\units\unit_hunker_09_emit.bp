@@ -1,0 +1,95 @@
+EmitterBlueprint {
+	BlueprintId = 'unit_hunker_09',
+	Lifetime = 16.00,
+	Repeattime = 16.00,
+	Blendmode = 3.00,
+	Flat = true,
+	LODCutoff = 400.00,
+	Texture = [[/textures/particles/glow_03.dds]],
+	RampTexture = [[/textures/particles/ramp_jammer_01.dds]],
+	EmitRateCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=14.9000,y=0.0000,z=0.0000 },
+			{ x=15.0000,y=2.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=8.0208,y=5.0000,z=3.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=7.9568,y=0.1000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=7.9568,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=8.0208,y=0.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=8.0832,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=8.0640,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=7.8528,y=0.0000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=8.2768,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=7.9568,y=12.0000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=8.1680,y=8.0000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=8.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=8.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 16.0000,
+		Keys = {
+			{ x=4.7488,y=0.0000,z=0.0000 },
+		},
+	},
+}

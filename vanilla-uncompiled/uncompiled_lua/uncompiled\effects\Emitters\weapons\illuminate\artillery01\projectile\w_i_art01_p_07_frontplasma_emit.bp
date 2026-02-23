@@ -1,0 +1,83 @@
+EmitterBlueprint {
+	BlueprintId = 'w_i_art01_p_07_frontplasma',
+	Lifetime = -1.00,
+	Repeattime = 1.00,
+	Blendmode = 0.00,
+	EmitIfVisible = false,
+	SortOrder = 2.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/cloud_smoke_alpha_08.dds]],
+	RampTexture = [[/textures/particles/ramp_blue_04.dds]],
+	EmitRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4170,y=6.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5040,y=1.3000,z=0.4000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5100,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5100,y=0.4300,z=0.2000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4900,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2500,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.3450,y=0.3000,z=0.1000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2490,y=0.3000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5100,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2950,y=0.0000,z=0.0000 },
+		},
+	},
+}

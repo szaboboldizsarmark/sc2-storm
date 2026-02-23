@@ -1,0 +1,104 @@
+EmitterBlueprint {
+	BlueprintId = 'w_c_can04_l_13_rearelec',
+	Lifetime = 8.00,
+	Repeattime = 8.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	LODCutoff = 200.00,
+	ParticleResistance = true,
+	TextureStripcount = 2.00,
+	LowFidelity = false,
+	MedFidelity = false,
+	Texture = [[/textures/particles/electricity/el_0006_56.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0035_white.dds]],
+	EmitRateCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=2.1216,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=1.5200,y=1.0000,z=0.5000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.4000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.4000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=8.0000,y=-3.3000,z=0.3000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0480,y=0.1000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=8.0000,y=0.0000,z=0.0500 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=8.0000,y=0.0000,z=0.0500 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=0.0000,y=-0.1000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0000,y=0.2000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=8.0000,y=1.3000,z=0.3000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=8.0000,y=1.3000,z=0.3000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.2400,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=3.9200,y=1.0000,z=2.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=2.0688,y=0.5000,z=0.4000 },
+		},
+	},
+}

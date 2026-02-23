@@ -1,0 +1,124 @@
+EmitterBlueprint {
+	BlueprintId = 'tt_dirt02_footfall01_02',
+	Lifetime = 6.00,
+	Repeattime = 6.00,
+	Blendmode = 0.00,
+	LODCutoff = -1.00,
+	ParticleResistance = true,
+	LowFidelity = false,
+	Texture = [[/textures/particles/dust/du_0009_55.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0400,y=6.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.0000,y=20.0000,z=4.0000 },
+			{ x=6.0000,y=50.0000,z=4.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0180,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=0.8000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.4000,z=0.4000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=0.8000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.0000,y=1.0000,z=0.0000 },
+			{ x=1.0000,y=0.4000,z=0.0000 },
+			{ x=6.0000,y=0.2000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=0.6000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0240,y=0.4000,z=0.4000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=0.6000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=-0.0070,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.0000,y=0.1000,z=0.0000 },
+			{ x=1.0000,y=0.0200,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0550,y=0.1850,z=0.1000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.0000,y=1.2000,z=0.1000 },
+			{ x=6.0000,y=0.9000,z=0.1000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0420,y=0.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.8443,y=0.6000,z=0.2000 },
+		},
+	},
+}

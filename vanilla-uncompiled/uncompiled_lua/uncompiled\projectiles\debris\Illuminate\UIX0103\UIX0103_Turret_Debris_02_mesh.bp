@@ -1,0 +1,60 @@
+MeshBlueprint {
+	LODs = {
+		{
+			LODCutoff = 200,
+            MeshName = '/projectiles/debris/Illuminate/UIX0103/UIX0103_Turret_Debris_02_lod0.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/units/Illuminate/UIX0103/UIX0103_diffuse.dds',
+						NormalName = '/Units/Illuminate/UIX0103/UIX0103_Normal.dds',
+						TeamName = '/Units/Illuminate/UIX0103/UIX0103_Team.dds',
+						MaskName = '/Units/Illuminate/UIX0103/UIX0103_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage, wreckage_edge_highlight, alpha_test = 128',
+						},
+					},
+				},
+			},
+		},	
+		{
+			LODCutoff = 800,
+            MeshName = '/projectiles/debris/Illuminate/UIX0103/UIX0103_Turret_Debris_02_lod1.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/units/Illuminate/UIX0103/UIX0103_diffuse.dds',
+						NormalName = '/Units/Illuminate/UIX0103/UIX0103_Normal.dds',
+						TeamName = '/Units/Illuminate/UIX0103/UIX0103_Team.dds',
+						MaskName = '/Units/Illuminate/UIX0103/UIX0103_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage, alpha_test = 128',
+						},
+					},
+				},
+			},
+		},
+		{
+			LODCutoff = 1000,
+            MeshName = '/projectiles/debris/Illuminate/UIX0103/UIX0103_Turret_Debris_02_lod2.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/units/Illuminate/UIX0103/UIX0103_diffuse.dds',
+						NormalName = '/Units/Illuminate/UIX0103/UIX0103_Normal.dds',
+						TeamName = '/Units/Illuminate/UIX0103/UIX0103_Team.dds',
+						MaskName = '/Units/Illuminate/UIX0103/UIX0103_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage, alpha_test = 128',
+						},
+					},
+				},
+			},
+		},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

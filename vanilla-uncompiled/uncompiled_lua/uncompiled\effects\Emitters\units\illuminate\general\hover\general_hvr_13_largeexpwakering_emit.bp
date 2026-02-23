@@ -1,0 +1,65 @@
+EmitterBlueprint {
+	BlueprintId = 'general_hvr_13_largeexpwakering',
+	Lifetime = -1.00,
+	Repeattime = 1.00,
+	Blendmode = 3.00,
+	Flat = true,
+	LODCutoff = 350.00,
+	SortOrder = -1.00,
+	Texture = [[/textures/particles/water_ripple_alpha_01.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	EmitRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.5000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=15.0000,z=2.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.1000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.1000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=5.0000,z=1.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4182,y=12.0000,z=2.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.7500,z=0.2000 },
+		},
+	},
+}

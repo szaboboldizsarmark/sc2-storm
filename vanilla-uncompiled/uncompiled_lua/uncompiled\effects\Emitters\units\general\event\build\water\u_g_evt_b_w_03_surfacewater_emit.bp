@@ -1,0 +1,105 @@
+EmitterBlueprint {
+	BlueprintId = 'u_g_evt_b_w_03_surfacewater',
+	Lifetime = -1.00,
+	Repeattime = 6.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	LocalAcceleration = true,
+	Flat = true,
+	LODCutoff = 500.00,
+	InterpolateEmission = false,
+	SortOrder = 1.00,
+	Texture = [[/textures/particles/water_plume_alpha_02.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	DistortionMapTexture = [[/textures/particles/displacement/di_0005_55.dds]],
+	EmitRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=2.9400,y=0.6000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.0000,y=20.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0600,y=0.0000,z=2.5000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.0500,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0600,y=0.0000,z=2.5000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.3000,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.4800,y=7.0000,z=1.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=13.0000,z=2.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.1800,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=2.9400,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.6623,y=0.5000,z=0.6000 },
+		},
+	},
+	DistMapScaleCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.7018,y=1.2809,z=0.0000 },
+		},
+	},
+	DistMapBeginStrengthCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.8206,y=0.0300,z=0.0000 },
+		},
+	},
+	DistMapEndStrengthCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.5831,y=0.0300,z=0.0000 },
+		},
+	},
+	DistMapUShiftRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.2665,y=0.0150,z=0.0000 },
+		},
+	},
+}

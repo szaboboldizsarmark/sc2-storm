@@ -1,0 +1,141 @@
+EmitterBlueprint {
+	BlueprintId = 'water_idle_ripples_06',
+	Lifetime = -1.00,
+	Repeattime = 1.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	Flat = true,
+	SnapToWaterline = true,
+	OnlyEmitOnWater = true,
+	InterpolateEmission = false,
+	SortOrder = -99.00,
+	Texture = [[/textures/particles/water/wa_0002_44.dds]],
+	RampTexture = [[/textures/particles/ramp_water_06.dds]],
+	DistortionMapTexture = [[/textures/particles/displacement/di_0009_55.dds]],
+	EmitRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0370,y=0.5000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=80.0000,z=30.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4910,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.0000,z=0.3000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5120,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.0000,z=0.3000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.0500,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5790,y=0.0000,z=0.1000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5060,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.0000,z=0.1000 },
+		},
+	},
+	ZAccelCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4260,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.5000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5040,y=0.8000,z=0.3000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.3000,z=0.3000 },
+		},
+	},
+	DistMapScaleCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.1675,y=1.5000,z=0.5000 },
+		},
+	},
+	DistMapBeginStrengthCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2573,y=0.0500,z=0.0000 },
+		},
+	},
+	DistMapEndStrengthCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2177,y=0.0500,z=0.0000 },
+		},
+	},
+	DistMapUShiftRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2546,y=0.0050,z=0.0000 },
+		},
+	},
+	DistMapVShiftRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2652,y=0.0050,z=0.0000 },
+		},
+	},
+}

@@ -1,0 +1,67 @@
+EmitterBlueprint {
+	BlueprintId = 'ambient_t_10_surface',
+	Lifetime = -1.00,
+	Repeattime = 50.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	Flat = true,
+	LODCutoff = 500.00,
+	EmitIfVisible = false,
+	SnapToWaterline = true,
+	Texture = [[/textures/particles/water_ripple_alpha_02.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	EmitRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.2000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=100.0000,z=50.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=2.6000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=2.6000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=2.0000,z=0.7000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=4.0000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.6000,z=0.4000 },
+		},
+	},
+}

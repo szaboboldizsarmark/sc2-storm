@@ -1,0 +1,13 @@
+BeamBlueprint {
+    Lifetime = 1.0,
+    --TextureName = '/textures/particles/beam_exhaust_01.dds',
+    TextureName = '/textures/particles/beam_white_02.dds',
+    Thickness = 0.1,
+    StartColor = {x=0.6,y=0.6,z=1,w=1}, -- R,G,B,A
+    EndColor = {x=0.0,y=0.0,z=0,w=0}, -- R,G,B,A
+    Length = 0.6,
+    UShift = 0.0,
+    VShift = -0.95,
+	RepeatRate = 1.0,
+    Blendmode = 3.0,
+}

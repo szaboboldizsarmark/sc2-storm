@@ -1,0 +1,65 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/ILLUMINATE/Laser/snd_Illuminate_Laser_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/ILLUMINATE/Laser/snd_Illuminate_Laser_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/ILLUMINATE/Laser/snd_Illuminate_Laser_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Display = {
+        StrategicIconSize = 2,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Illuminate_Plasma07_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Illuminate_Plasma07_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Illuminate_Plasma07_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'Illuminate_Plasma07_ImpactAir01',
+                TrajectoryAligned = true,
+            },
+            UnitAir = {
+                Template = 'Illuminate_Plasma07_ImpactAir01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Illuminate_Plasma07_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        Faction = 'Illuminate',
+        TechLevel = 1,
+        Weapon = 'Heavy Phasic Autogun',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        InitialSpeed = 14.6,
+        InitialSpeedRange = 3,
+        InitialSpeedReduceDistance = 30,
+        LeadTarget = false,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

@@ -1,0 +1,86 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/AntiAir/snd_UEF_AntiAir_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/AntiAir/snd_UEF_AntiAir_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/AntiAir/snd_UEF_AntiAir_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'MISSILE',
+        'PROJECTILE',
+        'ANTIAIR',
+    },
+    CollisionShape = 'Sphere',
+    Display = {
+        Mesh = {
+        	CastShadow = false,
+            LODs = {
+                {
+                    DiffuseName = '/projectiles/UEF/UAntiAir01/UAntiAir01_albedo.dds',
+                    LODCutoff = 150,
+                    MeshName = '/projectiles/UEF/UAntiAir01/UAntiAir01_lod0.scm',
+                    ShaderName = 'TMeshAlpha',
+                },
+            },
+        },
+        StrategicIconSize = 2,
+        UniformScale = 0.25,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Cruisemissile02_Trails01',
+        },
+        Impacts = {
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+            },
+            Unit = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+            },
+            UnitAir = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'UEF_Cruisemissile01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Anti Air',
+        EntityCategory = {
+            'UEF',
+            'MISSILE',
+            'PROJECTILE',
+            'ANTIAIR',
+        },
+        Faction = 'UEF',
+        TechLevel = 1,
+        Weapon = 'Nanodart Launcher',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 2,
+        InitialSpeed = 15,
+        LeadTarget = false,
+        Lifetime = 4,
+        MaxSpeed = 25,
+        MaxZigZag = 2,
+        OnLostTargetLifetime = 0.7,
+        RotationalVelocityRange = 200,
+        TrackTarget = true,
+        TurnRate = 80,
+        UseGravity = false,
+        VelocityAlign = true,
+        ZigZagFrequency = 0.2,
+    },
+    SizeX = 1,
+}

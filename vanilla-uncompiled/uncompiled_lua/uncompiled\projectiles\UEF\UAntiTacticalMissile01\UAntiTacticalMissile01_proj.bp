@@ -1,0 +1,80 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = Sound {
+            Bank = 'Impacts',
+            Cue = 'XSS_Missile_Impact',
+            LodCutoff = 'Weapon_LodCutoff',
+        },
+        ImpactTerrain = Sound {
+            Bank = 'Impacts',
+            Cue = 'XSS_Missile_Impact',
+            LodCutoff = 'Weapon_LodCutoff',
+        },
+        ImpactWater = Sound {
+            Bank = 'Impacts',
+            Cue = 'Impact_Water_Splash_AEON',
+            LodCutoff = 'Weapon_LodCutoff',
+        },
+    },
+    Categories = {
+        'PROJECTILE',
+        'TACTICAL',
+        'MISSILE',
+        'ANTIMISSILE',
+    },
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 1,
+        MaxHealth = 1,
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        MeshBlueprint = '/projectiles/UEF/UTacticalMissile01/UTacticalMissile01_mesh.bp',
+        UniformScale = 0.07,
+    },
+    Effects = {
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+    },
+    General = {
+        Category = 'Missile',
+        Faction = 'UEF',
+    },
+    Interface = {
+        HelpText = 'UEF Anti Tactical Missile',
+    },
+    Physics = {
+        Acceleration = 25,
+        Lifetime = 10,
+        MaxSpeed = 100,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = true,
+        TrackTargetGround = false,
+        TurnRate = 300,
+        UseGravity = false,
+        Velocity = 100,
+        VelocityAlign = true,
+    },
+    SizeX = 1,
+}

@@ -1,0 +1,7 @@
+AbilityBlueprint {
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0081>Sacrifice Heal',
+    InitiallyEnabled = false,
+	ScriptModule = '/abilities/StructureSacrifice_Ability.lua',
+	OrderBitmapId = 'structuresacrifice',
+}

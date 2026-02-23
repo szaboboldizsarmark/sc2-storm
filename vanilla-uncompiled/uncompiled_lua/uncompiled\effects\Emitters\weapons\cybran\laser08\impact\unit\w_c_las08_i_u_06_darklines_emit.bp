@@ -1,0 +1,108 @@
+EmitterBlueprint {
+	BlueprintId = 'w_c_las08_i_u_06_darklines',
+	Lifetime = 1.00,
+	Repeattime = 1.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	LocalAcceleration = true,
+	AlignRotation = true,
+	LowFidelity = false,
+	Texture = [[/textures/particles/blast_cloud_01.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0131_purple.dds]],
+	EmitRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0000,y=2.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0010,y=1.3000,z=0.3000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2650,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5100,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.3500,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2410,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2650,y=1.5000,z=0.3000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.1290,y=0.0000,z=0.4000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.3000,z=0.1500 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5500,y=0.1000,z=0.3000 },
+		},
+	},
+	ZAccelCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.1330,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2050,y=0.7000,z=0.4000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4920,y=4.0000,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.3400,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4900,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2380,y=0.3000,z=0.3000 },
+		},
+	},
+}

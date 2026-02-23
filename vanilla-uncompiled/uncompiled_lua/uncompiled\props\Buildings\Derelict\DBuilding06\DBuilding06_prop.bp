@@ -1,0 +1,74 @@
+PropBlueprint {
+	Categories = {
+        'INVULNERABLE',
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 200,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Buildings/Derelict/DBuilding02/DBuilding02_diffuse.dds',
+                                    MaskName = '/props/Buildings/Building02/Building02_Mask.dds',
+                                    NormalName = '/props/Buildings/Derelict/DBuilding02/DBuilding02_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Buildings/Building06/Building06_lod0.scm',
+                },
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Buildings/Derelict/DBuilding02/DBuilding02_diffuse.dds',
+                                    MaskName = '/props/Buildings/Building02/Building02_Mask.dds',
+                                    NormalName = '/props/Buildings/Derelict/DBuilding02/DBuilding02_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Buildings/Building06/Building06_lod1.scm',
+                },
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Buildings/Derelict/DBuilding02/DBuilding02_diffuse.dds',
+                                    MaskName = '/props/Buildings/Building02/Building02_Mask.dds',
+                                    NormalName = '/props/Buildings/Derelict/DBuilding02/DBuilding02_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Buildings/Building06/Building06_lod2.scm',
+                },
+            },
+        },
+        UniformScale = 0.2,
+    },
+    Footprint = {
+        SizeX = 10,
+        SizeZ = 10,
+    },
+    Interface = {
+        HelpText = 'DBuilding06',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

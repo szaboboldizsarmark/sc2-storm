@@ -1,0 +1,36 @@
+AbilityBlueprint {
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	ActivationRetriggerDelay = 15,
+	Buffs = {
+		'RadarOverdrive',
+	},
+    Cooldown = 30,
+    CooldownOnDeactivation = true,
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0054>Overdrive',
+	Duration = 15,
+	Effects = {
+		OnActivate = {
+			{
+				Emitters = {
+					'/effects/emitters/units/illuminate/uib0301/overdrive/uib0301_overdrive_01_ring_emit.bp',
+					'/effects/emitters/units/illuminate/uib0301/overdrive/uib0301_overdrive_02_wisps_emit.bp',
+					'/effects/emitters/units/illuminate/uib0301/overdrive/uib0301_overdrive_03_refraction_emit.bp',
+				},
+			},
+		},
+	},	
+    InitiallyEnabled = false,
+	RemoveBuffsOnDeactivate = true,
+	Resource = {
+        OnActivate = {
+            SourceAmount = 400,
+            SourceType = 'Energy',
+        },
+    },
+	OrderBitmapId = 'radarovd',
+}

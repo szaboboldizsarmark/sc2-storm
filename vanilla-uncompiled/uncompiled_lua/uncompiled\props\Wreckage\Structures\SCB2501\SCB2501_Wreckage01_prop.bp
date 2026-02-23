@@ -1,0 +1,57 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Wreckage/Structures/SCB2501/SCB2501_Wreckage01_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/props/Wreckage/Structures/SCB2501/SCB2501_Wreckage01_Mask.dds',
+                                    NormalName = '/Units/Scenario/SCB2501/SCB2501_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage, wreckage_edge_highlight',
+                                    TeamName = '/Units/Scenario/SCB2501/SCB2501_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 1000,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Wreckage/Structures/SCB2501/SCB2501_Wreckage01_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/props/Wreckage/Structures/SCB2501/SCB2501_Wreckage01_Mask.dds',
+                                    NormalName = '/Units/Scenario/SCB2501/SCB2501_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage, wreckage_edge_highlight',
+                                    TeamName = '/Units/Scenario/SCB2501/SCB2501_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 1,
+    },
+    Economy = {
+        MassValue = 1,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

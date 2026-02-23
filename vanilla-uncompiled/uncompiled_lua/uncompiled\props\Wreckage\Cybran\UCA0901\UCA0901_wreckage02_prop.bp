@@ -1,0 +1,41 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/Cybran/UCA0901/UCA0901_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/Cybran/UCA0901/UCA0901_Mask.dds',
+                                    NormalName = '/Units/Cybran/UCA0901/UCA0901_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage',
+                                    TeamName = '/Units/Cybran/UCA0901/UCA0901_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/Units/Cybran/UCA0901/UCA0901_lod2.scm',
+                },
+            },
+        },
+        UniformScale = 0.1,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 4,
+    SizeY = 2,
+    SizeZ = 12,
+}

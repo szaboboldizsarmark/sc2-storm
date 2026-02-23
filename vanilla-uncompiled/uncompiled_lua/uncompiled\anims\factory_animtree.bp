@@ -1,0 +1,84 @@
+AnimTreeBlueprint {
+	Description = 'Factory AnimTree',
+	StartStateID = 'idle',
+	AnimTreeStates = {
+		['root'] = {
+			type = 'Messenger',
+			transitions = {
+				BuildIdle =								{ TargetStateID = 'build_idle' },
+				BuildLoop =								{ TargetStateID = 'build_loop' },
+				FinishBuild = 							{ TargetStateID = 'finish_build' },
+				ReverseFinishBuild = 					{ TargetStateID = 'reverse_finish_build' },	
+				AltFinishBuild = 						{ TargetStateID = 'alt_finish_build' },
+				AltReverseFinishBuild = 				{ TargetStateID = 'alt_reverse_finish_build' },				
+				StartBuild =							{ TargetStateID = 'start_build' },
+				Unpack =								{ TargetStateID = 'unpack' },
+			},
+			children = {
+				['building'] = {
+					type='Messenger',
+					transitions = {
+						StopBuild =						{ TargetStateID = 'idle' },		
+						FailedReverseBuild =  			{ TargetStateID = 'failed_build_reverse' },			
+					},
+					children = {
+						['build_idle'] = {
+							type='Messenger',
+						},
+						['start_build'] = {
+							type='BasicAnim',
+						},
+						['build_loop'] = {
+							type='BasicAnim',
+							data = {
+								Looping = true,
+							},
+						},
+						['finish_build'] = {
+							type='BasicAnim',
+						},
+						['reverse_finish_build'] = {
+							type='BasicAnim',
+							data = {
+								StartAtFrame = -1,
+							},
+						},
+						['alt_finish_build'] = {
+							type='BasicAnim',
+						},
+						['alt_reverse_finish_build'] = {
+							type='BasicAnim',
+							data = {
+								StartAtFrame = -1,
+							},
+						},
+					},
+				},			
+				['idle'] = {
+					type='Messenger',
+				},
+				['failed_build'] = {
+					type='Messenger',
+					transitions = {
+						BuildLoopComplete =				{ TargetStateID = 'reverse_start_build' },	
+						Idle = 							{ TargetStateID = 'idle' },					
+					},	
+					children = {
+						['failed_build_reverse'] = {
+							type='Messenger',
+						},
+						['reverse_start_build'] = {
+							type='BasicAnim',
+							data = {
+								StartAtFrame = -1,
+							},
+						},						
+					},				
+				},				
+				['unpack'] = {
+					type='BasicAnim',
+				},				
+			},
+		},
+	},
+}

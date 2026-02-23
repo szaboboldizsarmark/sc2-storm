@@ -1,0 +1,71 @@
+EmitterBlueprint {
+	BlueprintId = 'ambient_u_t_med_11_distort',
+	Lifetime = 10.00,
+	Repeattime = 10.00,
+	Blendmode = 5.00,
+	LODCutoff = 150.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/ring/rn_0046_55.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0065_whitefast_mod.dds]],
+	EmitRateCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.0000,z=0.0000 },
+			{ x=5.0000,y=0.2500,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=25.0000,z=15.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.0000,z=1.5000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=3.0000,z=1.5000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.0000,z=1.5000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=7.0000,z=2.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=1.0000,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=5.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

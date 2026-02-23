@@ -1,0 +1,53 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/Flamethrower/snd_Cybran_Flamethrower_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/CYBRAN/Flamethrower/snd_Cybran_Flamethrower_Impact',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/Flamethrower/snd_Cybran_Flamethrower_Impact',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Cybran_Flamethrower01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Cybran_Flamethrower01_Impact01',
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Cybran_Flamethrower01_Impact01',
+            },
+            Unit = {
+                Template = 'Cybran_Flamethrower01_Impact01',
+            },
+            UnitAir = {
+                Template = 'Cybran_Flamethrower01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Large01',
+            },
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        Weapon = 'Flamethrower',
+    },
+    Physics = {
+        Acceleration = 0,
+        InitialSpeed = 12,
+        InitialSpeedRange = 0,
+        InitialSpeedReduceDistance = 0,
+        MaxSpeed = 0,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

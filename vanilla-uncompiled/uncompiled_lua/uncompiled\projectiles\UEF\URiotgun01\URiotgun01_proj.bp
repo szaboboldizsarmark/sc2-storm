@@ -1,0 +1,63 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Units/UEF/UUA0103/snd_UUA0103_gunship_gun_impact',
+        ImpactTerrain = 'SC2/SC2/Units/UEF/UUA0103/snd_UUA0103_gunship_gun_impact',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/Artillery/snd_UEF_Artillery_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Display = {
+        StrategicIconSize = 2,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Riotgun01_Bulletspray01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Riotgun01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Riotgun01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'UEF_Riotgun01_Impact01',
+                TrajectoryAligned = true,
+            },
+            UnitAir = {
+                Template = 'UEF_Flak01_ImpactAirUnit01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        EntityCategory = {
+            'UEF',
+            'PROJECTILE',
+            'DIRECTFIRE',
+        },
+        Faction = 'UEF',
+        Weapon = 'Hells Fury Riot Gun',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        InitialSpeed = 13,
+        UseGravity = false,
+        VelocityAlign = true,
+    },
+}

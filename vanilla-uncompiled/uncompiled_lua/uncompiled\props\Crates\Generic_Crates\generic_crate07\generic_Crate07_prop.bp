@@ -1,0 +1,43 @@
+PropBlueprint {
+	Categories = {
+        'INVULNERABLE',
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Crates/generic_Crates/generic_Crate06/generic_crate06_diffuse.dds',
+                                    MaskName = '/props/Crates/generic_Crates/generic_Crate06/generic_crate06_mask.dds',
+                                    NormalName = '/props/Crates/generic_Crates/generic_Crate06/generic_crate06_normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+    },
+    Economy = {
+        MassValue = 1,
+    },
+    Footprint = {
+        SizeX = 2,
+        SizeZ = 2,
+    },
+    Interface = {
+        HelpText = 'generic_Crate07',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.5,
+    SizeY = 0.5,
+    SizeZ = 0.5,
+}

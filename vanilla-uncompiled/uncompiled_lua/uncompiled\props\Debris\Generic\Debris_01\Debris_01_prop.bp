@@ -1,0 +1,58 @@
+PropBlueprint {
+	Categories = {
+        'INVULNERABLE',
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 200,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.04,
+    },
+    Interface = {
+        HelpText = 'Generic_Debris_01',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

@@ -1,0 +1,59 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/UEF/UUB0801/UUB0801_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/UEF/UUB0801/UUB0801_Mask.dds',
+                                    NormalName = '/Units/UEF/UUB0801/UUB0801_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage',
+                                    TeamName = '/Units/UEF/UUB0801/UUB0801_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/UEF/UUB0801/UUB0801_Wreckage01_lod0.scm',
+                },
+                {
+                    LODCutoff = 800,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/UEF/UUB0801/UUB0801_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/UEF/UUB0801/UUB0801_Mask.dds',
+                                    NormalName = '/Units/UEF/UUB0801/UUB0801_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage',
+                                    TeamName = '/Units/UEF/UUB0801/UUB0801_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/UEF/UUB0801/UUB0801_Wreckage01_lod2.scm',
+                },
+            },
+        },
+        UniformScale = 0.075,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 9,
+    SizeY = 3,
+    SizeZ = 9,
+}

@@ -1,0 +1,47 @@
+EmitterBlueprint {
+	BlueprintId = 'w_u_art01_i_u_03_halfflash',
+	Lifetime = 1.00,
+	Repeattime = 1.00,
+	Blendmode = 3.00,
+	LODCutoff = 300.00,
+	InterpolateEmission = false,
+	SortOrder = 1.00,
+	Texture = [[/textures/particles/glow/gl_0004_44.dds]],
+	RampTexture = [[/textures/particles/ramp_white_orange_01.dds]],
+	EmitRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=1.5000,z=0.5000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.2000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=2.0000,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=1.0000,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=180.0000,z=0.0000 },
+		},
+	},
+}

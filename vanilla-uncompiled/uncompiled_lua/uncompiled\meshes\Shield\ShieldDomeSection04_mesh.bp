@@ -1,0 +1,24 @@
+MeshBlueprint {
+    LODs = {
+		{
+			MeshName = '/meshes/Shield/ShieldDomeSection02_lod0.scm',
+			LODCutoff = 1000,
+			MaterialSets = {
+				{
+					Materials = {
+						{
+							DiffuseName = '/meshes/Shield/ShieldDomeSection02_Diffuse.dds',
+							EffectName = '/meshes/Shield/Shield01_Effect.dds',
+							ShaderMacros = 'diffuse_lighting, shield_panel, fade_time = 1, fade_duration = 1, edge_highlight',
+							ShaderState = 'AdditiveBlendState',
+
+						},
+					},
+				},
+			},
+		},
+	},
+    IconFadeInZoom = 4,
+    SortOrder = 500,
+    DrawAfterWater = true,
+}

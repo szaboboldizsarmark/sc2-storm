@@ -1,0 +1,11 @@
+BeamBlueprint {
+    Lifetime = 2,
+    TextureName = '/textures/particles/beam_disruptor.dds',
+    Thickness = 0.5,
+    StartColor = {x=0.6,y=0.6,z=1,w=0.5}, -- R,G,B,A
+    EndColor = {x=0.6,y=0.6,z=1,w=0.5}, -- R,G,B,A
+    Length = 8,
+    LODCutoff = 500,
+    UShift = 0.0,
+    VShift = -0.5,
+}

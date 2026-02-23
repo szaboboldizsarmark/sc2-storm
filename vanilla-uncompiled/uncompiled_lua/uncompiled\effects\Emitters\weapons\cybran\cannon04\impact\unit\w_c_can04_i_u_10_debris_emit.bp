@@ -1,0 +1,97 @@
+EmitterBlueprint {
+	BlueprintId = 'w_c_can04_i_u_10_debris',
+	Lifetime = 5.00,
+	Repeattime = 5.00,
+	Blendmode = 3.00,
+	LODCutoff = 830.00,
+	SortOrder = 3.00,
+	LowFidelity = false,
+	MedFidelity = false,
+	Texture = [[/textures/particles/debris/db_0030_55.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.3600,y=4.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.6800,y=1.5000,z=0.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=3.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5500,y=0.0000,z=2.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.2000,y=0.8000,z=0.4000 },
+			{ x=5.0000,y=4.0000,z=0.4000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5500,y=0.0000,z=2.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5300,y=0.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.8900,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.7500,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.6600,y=3.5000,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.4450,y=4.0000,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.5050,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.4500,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.6360,y=0.0000,z=0.0000 },
+		},
+	},
+}

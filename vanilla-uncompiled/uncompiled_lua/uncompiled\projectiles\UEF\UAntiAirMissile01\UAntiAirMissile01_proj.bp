@@ -1,0 +1,93 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/Bomb/snd_UEF_Bomb_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/Bomb/snd_UEF_Bomb_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/Bomb/snd_UEF_Bomb_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'ANTIAIR',
+        'MISSILE',
+    },
+    CollisionShape = 'Sphere',
+    Display = {
+        Mesh = {
+        	CastShadow = false,
+            LODs = {
+                {
+                    DiffuseName = '/projectiles/UEF/UAntiAirMissile01/UAntiAirMissile01_Diffuse.dds',
+                    LODCutoff = 150,
+                    MaskName = '/projectiles/UEF/UAntiAirMissile01/UAntiAirMissile01_Mask.dds',
+                    MeshName = '/projectiles/UEF/UAntiAirMissile01/UAntiAirMissile01_lod0.scm',
+                    NormalName = '/projectiles/UEF/UAntiAirMissile01/UAntiAirMissile01_Normal.dds',
+                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, environment_mapping',
+                },
+            },
+        },
+        StrategicIconSize = 2,
+        UniformScale = 0.06,
+    },
+    Effects = {
+        Emitters = {
+            Offset = {
+                0,
+                0,
+                0,
+            },
+            Template = 'UEF_Cruisemissile01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            UnitAir = {
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'UEF_Cruisemissile01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Anti Air',
+        Faction = 'UEF',
+        TechLevel = 3,
+        Weapon = 'Flayer SAM Launcher',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 6,
+        InitialSpeed = 30,
+        LeadTarget = false,
+        Lifetime = 4,
+        MaxSpeed = 50,
+        MaxZigZag = 10,
+        OnLostTargetLifetime = 0.7,
+        TrackTarget = true,
+        TurnRate = 180,
+        UseGravity = false,
+        VelocityAlign = true,
+        ZigZagFrequency = 0.1,
+    },
+    SizeX = 1,
+}

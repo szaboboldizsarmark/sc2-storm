@@ -1,0 +1,64 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/ILLUMINATE/Artillery/snd_Illuminate_Artillery_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/ILLUMINATE/Artillery/snd_Illuminate_Artillery_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/ILLUMINATE/Artillery/snd_Illuminate_Artillery_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+    },
+    Display = {
+        CameraFollowsProjectile = true,
+        StrategicIconSize = 3,
+        UniformScale = 0.1,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Illuminate_Artillery01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Illuminate_Artillery01_Impact01',
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Illuminate_Artillery01_Impact01',
+            },
+            Unit = {
+                Template = 'Illuminate_Artillery01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Illuminate_Artillery01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Artillery',
+        EntityCategory = {
+            'ILLUMINATE',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+        },
+        Faction = 'Illuminate',
+        TechLevel = 2,
+        Weapon = 'APDS Artillery',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        LeadTarget = false,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

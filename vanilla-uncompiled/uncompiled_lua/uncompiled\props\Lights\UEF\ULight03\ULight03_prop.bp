@@ -1,0 +1,76 @@
+PropBlueprint {
+	Categories = {
+        'INVULNERABLE',
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 200,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, glow, alpha_test = 128',
+                                },
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, glow',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, ambient_occlusion, glow',
+                                },
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, glow',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, glow',
+                                },
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, glow',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+            SortOrder = 1000,
+        },
+        SimulationBones = {
+            'LightBottom',
+            'LightTop',
+        },
+        UniformScale = 0.2,
+    },
+    Footprint = {
+        SizeX = 2,
+        SizeZ = 2,
+    },
+    Interface = {
+        HelpText = 'ULight03',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0,
+    SizeY = 0,
+    SizeZ = 0,
+}

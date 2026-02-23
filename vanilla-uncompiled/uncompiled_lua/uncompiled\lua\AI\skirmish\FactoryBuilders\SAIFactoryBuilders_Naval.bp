@@ -1,0 +1,98 @@
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Naval Unit - Sub',
+    FactoryType = 'Sea',
+    Platoons = {
+        {
+            { UnitId = 'uus0104', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'BasePoolUnitRatioLessThan', ConditionFloat = 0.40, ConditionCategoryStringOne = 'MOBILE NAVAL SUBMERSIBLE', ConditionCategoryStringTwo = 'MOBILE NAVAL -SUBMERSIBLE', },
+			{ ConditionType = 'TestFlag', ConditionStringOne = 'NavalUnitsSpotted', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'MOBILE NAVAL', ConditionIntegerOne = 3, },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+		'Default Expansion Item Group',
+    },
+    Priority = 750,
+    SkirmishResourceType = 'NavalUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Naval Unit - Destroyer/Cruiser',
+    FactoryType = 'Sea',
+    Platoons = {
+        {
+            { UnitId = 'uus0102', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'ucs0103', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+		'Default Expansion Item Group',
+    },
+    Priority = 850,
+    SkirmishResourceType = 'NavalUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Naval Unit - Battleship',
+    FactoryType = 'Sea',
+    Platoons = {
+        {
+            { UnitId = 'uus0105', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'ucs0105', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+		{ ConditionType = 'BasePoolUnitRatioLessThan', ConditionFloat = 0.40, ConditionCategoryStringOne = 'MOBILE NAVAL BATTLESHIP', ConditionCategoryStringTwo = 'MOBILE NAVAL -BATTLESHIP', },
+		{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+    },
+    ItemGroups = {
+        'Default Item Group',
+		'Default Expansion Item Group',
+    },
+    Priority = 950,
+    SkirmishResourceType = 'NavalUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Naval Unit - Carrier',
+    FactoryType = 'Sea',
+    Platoons = {
+        {
+            { UnitId = 'ucs0901', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+		{ ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'NAVALCARRIER', ConditionIntegerOne = 2, },
+		{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+    },
+    ItemGroups = {
+        'Default Item Group',
+		'Default Expansion Item Group',
+    },
+    Priority = 950,
+    SkirmishResourceType = 'NavalUnits',
+}

@@ -1,0 +1,77 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/Bomb/snd_UEF_Bomb_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/Bomb/snd_UEF_Bomb_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/Bomb/snd_UEF_Bomb_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        Mesh = {
+        	CastShadow = false,
+            LODs = {
+                {
+                    DiffuseName = '/projectiles/UEF/UClusterBomb01/UClusterBomb01_Diffuse.dds',
+                    MeshName = '/projectiles/UEF/UClusterBomb01/UClusterBomb01_lod0.scm',
+                    ShaderName = 'TMeshAlpha',
+                },
+            },
+        },
+        StrategicIconSize = 3,
+        UniformScale = 0.32,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_ClusterBomb01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_ClusterBomb01_Impact01',
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_ClusterBomb01_Impact01',
+            },
+            Unit = {
+                Template = 'UEF_ClusterBomb01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'UEF_ClusterBomb01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Bomb',
+        EntityCategory = {
+            'UEF',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+        },
+        Faction = 'UEF',
+        Weapon = 'Napalm Carpet Bomb',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 5,
+        MaxSpeed = 25,
+        OnLostTargetLifetime = 8,
+        RealisticOrdinance = true,
+        RotationalVelocityRange = 0.25,
+        TrackTarget = true,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

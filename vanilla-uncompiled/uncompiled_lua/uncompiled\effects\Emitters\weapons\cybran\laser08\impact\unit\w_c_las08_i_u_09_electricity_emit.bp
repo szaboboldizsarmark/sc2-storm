@@ -1,0 +1,116 @@
+EmitterBlueprint {
+	BlueprintId = 'w_c_las08_i_u_09_electricity',
+	Lifetime = 5.00,
+	Repeattime = 5.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	LODCutoff = 200.00,
+	InterpolateEmission = false,
+	TextureStripcount = 4.00,
+	SortOrder = -1.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/electricity/el_0005_46.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.4800,y=2.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.1850,y=2.0000,z=0.2000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5350,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5500,y=0.0000,z=2.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.4800,y=1.0000,z=1.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.6650,y=0.0000,z=2.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.7500,y=0.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.4300,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.0650,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.2150,y=0.0000,z=0.0000 },
+		},
+	},
+	XAccelCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5100,y=0.0000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.8200,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.1400,y=0.8000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.0200,y=0.8000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.7200,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=-1.0000,z=0.5000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.0050,y=2.0000,z=4.0000 },
+		},
+	},
+}

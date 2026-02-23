@@ -1,0 +1,61 @@
+EmitterBlueprint {
+	BlueprintId = 'light_red_03',
+	Lifetime = -20.00,
+	Repeattime = 20.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 300.00,
+	EmitIfVisible = false,
+	InterpolateEmission = false,
+	Texture = [[/textures/particles/glow/gl_0006_44.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0095_red.dds]],
+	EmitRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.0000,y=2.0000,z=0.0000 },
+			{ x=0.2000,y=0.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.5276,y=20.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=9.5514,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.1850,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=5.8312,y=0.1000,z=0.0500 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=5.5936,y=0.2500,z=0.1000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.9774,y=0.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

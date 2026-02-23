@@ -1,0 +1,82 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/Bomb/snd_UEF_Bomb_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/Bomb/snd_UEF_Bomb_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/Bomb/snd_UEF_Bomb_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        Mesh = {
+        	CastShadow = false,
+            LODs = {
+                {
+                    DiffuseName = '/projectiles/UEF/UCarpetBomb01/UCarpetBomb01_Diffuse.dds',
+                    MaskName = '/projectiles/UEF/UCarpetBomb01/UCarpetBomb01_Mask.dds',
+                    MeshName = '/projectiles/UEF/UCarpetBomb01/UCarpetBomb01_lod0.scm',
+                    NormalName = '/projectiles/UEF/UCarpetBomb01/UCarpetBomb01_Normal.dds',
+                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, environment_mapping',
+                },
+            },
+        },
+        StrategicIconSize = 3,
+        UniformScale = 0.32,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Napalm01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Napalm01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Napalm01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'UEF_Napalm01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'UEF_Napalm01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Bomb',
+        EntityCategory = {
+            'UEF',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+        },
+        Faction = 'UEF',
+        Weapon = 'Napalm Carpet Bomb',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 5,
+        MaxSpeed = 25,
+        OnLostTargetLifetime = 8,
+        RealisticOrdinance = true,
+        RotationalVelocityRange = 0.25,
+        TrackTarget = true,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

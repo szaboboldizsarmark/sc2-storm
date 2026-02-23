@@ -1,0 +1,21 @@
+AbilityBlueprint {
+	ActivationRetriggerDelay = 30,
+	Buffs = {
+		'DisruptorStation',
+	},
+    Cooldown = 15,
+    CooldownOnDeactivation = true,
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0058>Activate Disruptor Station',
+	Duration = 30,
+    InitiallyEnabled = true,
+    Resource = {
+        OnActivate = {
+            SourceAmount = '1000',
+            SourceType = 'ENERGY',
+        },
+    },
+	RemoveBuffsOnDeactivate = true,
+	RunScript = 'OnActivateDisrutorStation',
+	OrderBitmapId = 'incdisruption',
+}

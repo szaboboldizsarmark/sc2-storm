@@ -1,0 +1,24 @@
+MeshBlueprint {
+	LODs = {
+		{
+			LODCutoff = 200,
+            MeshName = '/projectiles/debris/UEF/UUX0104/UUX0104_Turret_Debris_01_lod2.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/units/UEF/UUX0104/UUX0104_diffuse.dds',
+						NormalName = '/Units/UEF/UUX0104/UUX0104_Normal.dds',
+						TeamName = '/Units/UEF/UUX0104/UUX0104_Team.dds',
+						MaskName = '/Units/UEF/UUX0104/UUX0104_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

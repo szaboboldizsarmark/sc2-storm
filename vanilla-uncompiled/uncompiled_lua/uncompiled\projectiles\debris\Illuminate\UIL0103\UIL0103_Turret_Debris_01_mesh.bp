@@ -1,0 +1,23 @@
+MeshBlueprint {
+	LODs = {
+		{
+		    LODCutoff = 200,
+		    MaterialSets = {
+                {
+                    Materials = {
+                        {
+		    				DiffuseName = '/Units/Illuminate/UIL0103/UIL0103_Diffuse.dds',
+							NormalName = '/Units/Illuminate/UIL0103/UIL0103_Normal.dds',
+							MaskName = '/Units/Illuminate/UIL0103/UIL0103_Mask.dds',
+							EffectName = '/textures/Units/Shared/Wreckage.dds',
+            				ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, wreckage, team_color',
+            				TeamName = '/Units/Illuminate/UIL0103/UIL0103_Team.dds',
+            			},
+            		},
+            	},
+            },				
+		},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

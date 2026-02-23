@@ -1,0 +1,27 @@
+ProjectileBlueprint {
+    Display = {
+        MeshBlueprint = '/projectiles/UEF/UCannonShell01/UCannonShell01_mesh.bp',
+        UniformScale = 0.75,
+    },
+    Effects = {
+        Emitters ={
+            Template = 'UEF_Artillery01_Trails02',
+        },
+    },
+    Physics = {
+        MinBounceCount = 3,
+        MaxBounceCount = 3,
+        DestroyOnWater = true,
+        DirectionX = 0,
+        DirectionXRange = 1,
+        DirectionY = 1,
+        DirectionZ = 0,
+        DirectionZRange = 1,
+        InitialSpeed = 6.5,
+        InitialSpeedRange = 6.5,
+        MaxSpeed = 14,
+        RotationalVelocity = 360,
+        RotationalVelocityRange = 180,
+        VelocityAlign = false,
+    },
+}

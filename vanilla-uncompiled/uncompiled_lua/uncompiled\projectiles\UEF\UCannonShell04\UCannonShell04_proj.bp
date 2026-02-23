@@ -1,0 +1,64 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/Laser/snd_UEF_Laser_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/Cannon/snd_UEF_Cannon_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/Cannon/snd_UEF_Cannon_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Display = {
+        MeshBlueprint = '/projectiles/UEF/UCannonShell01/UCannonShell01_mesh.bp',
+        StrategicIconSize = 2,
+        UniformScale = 0.6,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Gauss02_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Gauss02_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Gauss02_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'UEF_Gauss02_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'UEF_Gauss02_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        Weapon = 'Gauss Cannon',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 0,
+        InitialSpeed = 12,
+        InitialSpeedRange = 0,
+        InitialSpeedReduceDistance = 0,
+        MaxSpeed = 0,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

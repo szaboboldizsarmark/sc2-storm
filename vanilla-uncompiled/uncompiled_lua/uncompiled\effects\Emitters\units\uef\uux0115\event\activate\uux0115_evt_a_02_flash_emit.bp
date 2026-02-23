@@ -1,0 +1,89 @@
+EmitterBlueprint {
+	BlueprintId = 'uux0115_evt_a_02_flash',
+	Lifetime = 30.00,
+	Repeattime = 30.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 400.00,
+	SortOrder = 1.00,
+	Texture = [[/textures/particles/glow_03.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0039_blue.dds]],
+	EmitRateCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=8.1600,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=9.8550,y=1.5000,z=0.5000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.3000,y=0.0000,z=3.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=7.2000,y=1.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.3000,y=-0.5000,z=2.5000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=6.5700,y=0.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=5.3400,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=16.5000,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.9600,y=5.0000,z=10.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=5.8800,y=5.0000,z=5.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=9.0300,y=90.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=14.7000,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=7.2810,y=0.0000,z=0.0000 },
+		},
+	},
+}

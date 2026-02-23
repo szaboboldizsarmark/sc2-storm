@@ -1,0 +1,21 @@
+MeshBlueprint {
+	LODs = {
+		{
+            LODCutoff = 200,
+					MaterialSets = {
+						{
+							Materials = {
+								{
+								DiffuseName = '/units/uef/uua0103/uua0103_diffuse.dds',
+								MaskName = '/units/uef/uua0103/uua0103_mask.dds',
+								NormalName = '/units/uef/uua0103/uua0103_normal.dds',
+				            	ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping',
+								},
+							},
+						},
+					},
+				},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

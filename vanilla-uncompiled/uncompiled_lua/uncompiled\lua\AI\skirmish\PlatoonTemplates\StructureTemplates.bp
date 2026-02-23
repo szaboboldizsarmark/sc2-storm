@@ -1,0 +1,48 @@
+PlatoonBlueprint {
+    BlueprintId = 'ArtilleryStructure',
+    GlobalSquads = {
+        { Category = 'STRUCTURE ARTILLERY -uub0104 -uux0114', UnitMin = 1, UnitMax = 3, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'TMLStructure',
+    GlobalSquads = {
+        { Category = 'STRUCTURE TACTICALMISSILEPLATFORM', UnitMin = 1, UnitMax = 3, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'NukeStructure',
+    GlobalSquads = {
+        { Category = 'STRUCTURE NUKE', UnitMin = 1, UnitMax = 1, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'AntiNukeStructure',
+    GlobalSquads = {
+        { Category = 'STRUCTURE STRATEGIC ANTIMISSILE -NUKE', UnitMin = 1, UnitMax = 1, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'NUCStructure',
+    GlobalSquads = {
+        { Category = 'uux0114', UnitMin = 1, UnitMax = 1, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'MagnetStructure',
+    GlobalSquads = {
+        { Category = 'ucx0114', UnitMin = 1, UnitMax = 1, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'MassFab',
+    GlobalSquads = {
+        { Category = 'uub0704, uib0704, ucb0704', UnitMin = 1, UnitMax = 1, Squad = 'Attack', FormationName = 'None' }
+    },
+}

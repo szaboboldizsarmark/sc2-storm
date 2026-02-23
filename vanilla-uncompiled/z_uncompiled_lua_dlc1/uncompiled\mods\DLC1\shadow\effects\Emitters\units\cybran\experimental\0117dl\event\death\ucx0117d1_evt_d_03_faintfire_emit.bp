@@ -1,0 +1,107 @@
+EmitterBlueprint {
+	BlueprintId = 'ucx0117d1_evt_d_03_faintfire',
+	Lifetime = 5.00,
+	Repeattime = 5.00,
+	Blendmode = 3.00,
+	LODCutoff = 200.00,
+	ParticleResistance = true,
+	InterpolateEmission = false,
+	Texture = [[/textures/particles/firecloud/fc_0001_55.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0072_emberflicker.dds]],
+	EmitRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=3.3300,y=10.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.1850,y=6.0000,z=4.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5350,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5500,y=0.4000,z=8.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.4800,y=4.0000,z=4.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.6650,y=0.0000,z=8.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.4050,y=3.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.6100,y=0.0000,z=1.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.3522,y=0.3000,z=0.2000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.3000,y=0.0000,z=1.0000 },
+		},
+	},
+	XAccelCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5100,y=0.0000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.0600,y=1.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.0000,y=2.0000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.4900,y=3.0000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.7200,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.1950,y=0.0000,z=0.0000 },
+		},
+	},
+}

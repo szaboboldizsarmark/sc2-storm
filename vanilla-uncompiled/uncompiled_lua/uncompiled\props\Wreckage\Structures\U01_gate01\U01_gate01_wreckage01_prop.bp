@@ -1,0 +1,39 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 800,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Structures/U01_Gate01/U01_Gate01_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/props/Structures/U01_Gate01/U01_Gate01_Mask.dds',
+                                    NormalName = '/props/Structures/U01_Gate01/U01_Gate01_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, wreckage, wreckage_edge_highlight',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 1,
+    },
+    Economy = {
+        MassValue = 1,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

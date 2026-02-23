@@ -1,0 +1,113 @@
+EmitterBlueprint {
+	BlueprintId = 'tt_water_submerge04_05',
+	Lifetime = 20.00,
+	Repeattime = 20.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	Flat = true,
+	LODCutoff = 250.00,
+	SnapToWaterline = true,
+	OnlyEmitOnWater = true,
+	ParticleResistance = true,
+	InterpolateEmission = false,
+	SortOrder = 1.00,
+	Texture = [[/textures/particles/ring/rn_0004_55.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	EmitRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=0.0000,z=0.0000 },
+			{ x=10.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=40.0000,z=25.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=4.2400,y=0.0000,z=1.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=20.0000,y=0.0000,z=2.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=4.9340,y=0.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=3.8600,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=1.9800,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=11.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=6.3852,y=0.0000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=4.2600,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.0000,y=4.0000,z=1.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=8.0000,z=4.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=2.9000,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=9.8000,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=9.0000,y=0.8000,z=0.2000 },
+		},
+	},
+}

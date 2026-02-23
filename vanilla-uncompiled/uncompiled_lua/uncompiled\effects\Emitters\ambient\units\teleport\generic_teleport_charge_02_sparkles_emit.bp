@@ -1,0 +1,87 @@
+EmitterBlueprint {
+	BlueprintId = 'generic_teleport_charge_02_sparkles',
+	Lifetime = -1.00,
+	Repeattime = 50.00,
+	Blendmode = 3.00,
+	ParticleResistance = true,
+	Texture = [[/textures/particles/glow_03.dds]],
+	RampTexture = [[/textures/particles/ramp_blue_06.dds]],
+	EmitRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.5000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=11.0160,y=19.2860,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=22.8890,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.6000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=2.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=2.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=2.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.5000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=16.0290,y=0.4000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=1.0000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=30.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

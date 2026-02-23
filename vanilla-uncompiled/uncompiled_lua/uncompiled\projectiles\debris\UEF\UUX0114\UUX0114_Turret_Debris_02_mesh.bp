@@ -1,0 +1,42 @@
+MeshBlueprint {
+	LODs = {
+		{
+			LODCutoff = 200,
+            MeshName = '/projectiles/debris/UEF/UUX0114/UUX0114_Turret_Debris_02_lod0.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/units/UEF/UUX0114/UUX0114_diffuse.dds',
+						NormalName = '/Units/UEF/UUX0114/UUX0114_Normal.dds',
+						TeamName = '/Units/UEF/UUX0114/UUX0114_Team.dds',
+						MaskName = '/Units/UEF/UUX0114/UUX0114_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},	
+		{
+			LODCutoff = 1000,
+            MeshName = '/projectiles/debris/UEF/UUX0114/UUX0114_Turret_Debris_02_lod1.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/units/UEF/UUX0114/UUX0114_diffuse.dds',
+						NormalName = '/Units/UEF/UUX0114/UUX0114_Normal.dds',
+						TeamName = '/Units/UEF/UUX0114/UUX0114_Team.dds',
+						MaskName = '/Units/UEF/UUX0114/UUX0114_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

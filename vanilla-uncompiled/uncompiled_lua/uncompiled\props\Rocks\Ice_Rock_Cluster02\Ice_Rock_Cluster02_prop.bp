@@ -1,0 +1,40 @@
+PropBlueprint {
+	Categories = {
+        'INVULNERABLE',
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Rocks/Ice_Rock_Cluster02/Ice_Rock_Cluster02_Diffuse.dds',
+                                    MaskName = '/props/Rocks/Ice_Rock_Cluster02/Ice_Rock_Cluster02_mask.dds',
+                                    NormalName = '/props/Rocks/Ice_Rock_Cluster02/Ice_Rock_Cluster02_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, point_cloud, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Rocks/Rock_Cluster02/Rock_Cluster02_lod0.scm',
+                },
+            },
+        },
+        UniformScale = 0.1,
+    },
+    Interface = {
+        HelpText = 'Ice_Rock_Cluster02',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Tree',
+    ScriptModule = '/lua/proptree.lua',
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

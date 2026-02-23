@@ -1,0 +1,110 @@
+EmitterBlueprint {
+	BlueprintId = 'w_u_art01_i_13_fill',
+	Lifetime = 1.00,
+	Repeattime = 1.00,
+	Blendmode = 3.00,
+	LODCutoff = 300.00,
+	ParticleResistance = true,
+	InterpolateEmission = false,
+	SortOrder = -5.00,
+	LowFidelity = false,
+	MedFidelity = false,
+	Texture = [[/textures/particles/aeon_plasma03.dds]],
+	RampTexture = [[/textures/particles/ramp_red_02.dds]],
+	EmitRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=12.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2744,y=7.0000,z=6.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=1.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2665,y=0.4000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=1.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2678,y=2.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.1930,y=0.0000,z=1.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0990,y=0.2500,z=0.2000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2836,y=0.0000,z=1.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2130,y=1.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5200,y=1.2500,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0000,y=1.5000,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.1450,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4900,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.3021,y=0.0000,z=0.0000 },
+		},
+	},
+}

@@ -1,0 +1,86 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+        'TACTICAL',
+        'MISSILE',
+        'NOSPLASHDAMAGE',
+    },
+    CollisionOffsetX = -0.3,
+    CollisionOffsetY = -0.7,
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 4,
+        MaxHealth = 4,
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        MeshBlueprint = '/projectiles/Cybran/CTacticalMissile01/CTacticalMissile01_mesh.bp',
+        StrategicIconSize = 2,
+        UniformScale = 0.07,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Cybran_Missile03_Trails02',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Cybran_Missile03_Impact01',
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Medium01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Cybran_Missile03_Impact01',
+            },
+            Unit = {
+                Template = 'Cybran_Missile03_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Cybran_Missile03_Polytrails02',
+        },
+    },
+    General = {
+        Category = 'Missile',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+            'TACTICAL',
+            'MISSILE',
+            'CYBRANMOBILEMISSILE',
+            'NOSPLASHDAMAGE',
+        },
+        Faction = 'Cybran',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 3,
+        InitialSpeed = 3,
+        MaxSpeed = 12,
+        MaxZigZag = 3,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = true,
+        TrackTargetGround = true,
+        TurnRate = 4,
+        UseGravity = false,
+        VelocityAlign = true,
+        ZigZagFrequency = 1,
+    },
+    SizeX = 2,
+}

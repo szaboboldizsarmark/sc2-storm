@@ -1,0 +1,141 @@
+EmitterBlueprint {
+	BlueprintId = 'zomfatboy_amb_03_sparks',
+	Lifetime = -120.00,
+	Repeattime = 120.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LocalAcceleration = true,
+	AlignRotation = true,
+	LODCutoff = 150.00,
+	ParticleResistance = true,
+	TextureStripcount = 2.00,
+	SortOrder = -10.00,
+	Texture = [[/textures/particles/riotgun_munition_04.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	DistortionMapTexture = [[/textures/particles/displacement/di_0010_44.dds]],
+	EmitRateCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=33.0000,y=0.1854,z=0.0000 },
+			{ x=36.0950,y=10.0000,z=6.0000 },
+			{ x=38.9448,y=0.0000,z=0.0000 },
+			{ x=59.2084,y=0.0000,z=0.0000 },
+			{ x=62.2164,y=10.0000,z=6.0000 },
+			{ x=64.4327,y=0.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=69.6600,y=5.0000,z=5.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=9.3240,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=60.0000,y=0.2000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=60.0000,y=-0.3000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=0.3240,y=1.4000,z=0.5000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=58.8000,y=0.0000,z=1.2000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=61.7760,y=0.2000,z=0.4000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=60.0000,y=0.0000,z=1.2000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=28.1760,y=0.3500,z=0.1000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=58.8960,y=0.1000,z=0.0500 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=62.0400,y=0.0500,z=0.0800 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=60.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=60.0000,y=1.0000,z=2.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=31.6680,y=0.2000,z=0.4000 },
+		},
+	},
+	DistMapScaleCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=33.0840,y=0.7155,z=0.0000 },
+		},
+	},
+	DistMapBeginStrengthCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=27.2280,y=0.0300,z=0.0000 },
+		},
+	},
+	DistMapEndStrengthCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=29.1240,y=0.0300,z=0.0000 },
+		},
+	},
+	DistMapUShiftRateCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=30.3960,y=0.0200,z=0.0000 },
+		},
+	},
+	DistMapVShiftRateCurve = {
+		XRange = 120.0000,
+		Keys = {
+			{ x=27.2280,y=0.0200,z=0.0000 },
+		},
+	},
+}

@@ -1,0 +1,109 @@
+EmitterBlueprint {
+	BlueprintId = 'w_u_noah01_i_02_fire',
+	Lifetime = 3.00,
+	Repeattime = 3.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	AlignRotation = true,
+	LODCutoff = 200.00,
+	ParticleResistance = true,
+	LowFidelity = false,
+	Texture = [[/textures/particles/fire/fr_0020_44.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	EmitRateCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.7956,y=4.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.5700,y=2.5000,z=0.7500 },
+		},
+	},
+	XPosCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.0000,y=0.5000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5180,y=1.6000,z=0.3000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=0.8000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=3.0000,y=-0.2000,z=0.3000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=0.8000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.0000,z=0.0100 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.7000,z=0.1000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.0000,y=0.5000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=2.5647,y=1.6000,z=0.6000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5900,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.4700,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.8193,y=0.0000,z=0.0000 },
+		},
+	},
+}

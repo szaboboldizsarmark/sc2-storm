@@ -1,0 +1,61 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/ILLUMINATE/Cannon/snd_Illuminate_Cannon_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/ILLUMINATE/Cannon/snd_Illuminate_Cannon_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/ILLUMINATE/Cannon/snd_Illuminate_Cannon_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Display = {
+        StrategicIconSize = 2,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Illuminate_Cannon01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Illuminate_Cannon01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Illuminate_Cannon01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'Illuminate_Cannon01_ImpactUnit01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Illuminate_Cannon01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        Faction = 'Illuminate',
+        TechLevel = 1,
+        Weapon = 'Tau Cannon',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        InitialSpeed = 14.6,
+        InitialSpeedRange = 3,
+        InitialSpeedReduceDistance = 30,
+        LeadTarget = false,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

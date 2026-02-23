@@ -1,0 +1,103 @@
+EmitterBlueprint {
+	BlueprintId = 'ambient_t_waterfall_01_small',
+	Lifetime = -6.00,
+	Repeattime = 6.00,
+	Blendmode = 0.00,
+	Gravity = true,
+	LODCutoff = 300.00,
+	SortOrder = 150.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/water_splash_alpha_04.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.2300,y=3.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=5.3740,y=25.0000,z=10.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.4660,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=10.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=10.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0430,y=0.4000,z=0.0000 },
+			{ x=6.0000,y=1.4290,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=2.9400,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.9160,y=0.3000,z=0.3000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=-0.0400,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=2.9760,y=3.0000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.1350,y=6.0000,z=2.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=2.8100,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0140,y=0.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

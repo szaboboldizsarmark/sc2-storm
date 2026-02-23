@@ -1,0 +1,43 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 1000,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Buildings/Illuminate/IBuilding01/IBuilding_diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/props/Buildings/Illuminate/IBuilding01/IBuilding_Mask.dds',
+                                    NormalName = '/props/Buildings/Illuminate/IBuilding01/IBuilding_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, wreckage, wreckage_edge_highlight',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Buildings/Illuminate/IBuilding01/IBuilding01_Wreckage01_lod0.scm',
+                },
+            },
+        },
+        UniformScale = 0.05,
+    },
+    Economy = {
+        MassValue = 1,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 8,
+    SizeY = 2.25,
+    SizeZ = 9,
+}

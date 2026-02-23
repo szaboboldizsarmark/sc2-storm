@@ -1,0 +1,132 @@
+EmitterBlueprint {
+	BlueprintId = 'illuminate_icbm_03_beam',
+	Lifetime = -1.00,
+	Repeattime = 1.00,
+	Blendmode = 3.00,
+	AlignRotation = true,
+	LODCutoff = 150.00,
+	ParticleResistance = true,
+	Texture = [[/textures/particles/ribbon/rb_0028_55.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0039_blue.dds]],
+	DistortionMapTexture = [[/textures/particles/displacement/di_0002_34.dds]],
+	EmitRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.8636,y=0.5000,z=0.1000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5805,y=13.0000,z=4.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0777,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.0000,z=1.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.5000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0027,y=0.5000,z=0.2000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4900,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5148,y=0.3200,z=0.2000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2348,y=0.0800,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4908,y=0.8000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5170,y=0.8000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2639,y=0.2000,z=0.4000 },
+		},
+	},
+	DistMapScaleCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.1979,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapBeginStrengthCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2335,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapEndStrengthCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2507,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapUShiftRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2348,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapVShiftRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2177,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapRotationRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2388,y=0.0000,z=0.0000 },
+		},
+	},
+}

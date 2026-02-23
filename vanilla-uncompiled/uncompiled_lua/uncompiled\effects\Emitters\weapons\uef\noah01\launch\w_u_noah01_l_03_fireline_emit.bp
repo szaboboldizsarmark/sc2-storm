@@ -1,0 +1,78 @@
+EmitterBlueprint {
+	BlueprintId = 'w_u_noah01_l_03_fireline',
+	Lifetime = 1.00,
+	Repeattime = 1.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	AlignRotation = true,
+	LODCutoff = 200.00,
+	InterpolateEmission = false,
+	Texture = [[/textures/particles/muzzle_flash_add_04.dds]],
+	RampTexture = [[/textures/particles/ramp_fire_04.dds]],
+	EmitRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0091,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.1590,y=2.4000,z=0.5000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5100,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.1130,y=5.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5060,y=1.5000,z=0.3000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5500,y=0.5000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2600,y=4.0000,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4960,y=6.0000,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5300,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2670,y=1.5000,z=3.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.3034,y=0.0000,z=0.0000 },
+		},
+	},
+}

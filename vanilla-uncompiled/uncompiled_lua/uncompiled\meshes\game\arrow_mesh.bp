@@ -1,0 +1,23 @@
+MeshBlueprint {
+    LODs = {
+ 	{
+				LODCutoff = 9001,
+			MaterialSets = {
+				{
+					Materials = {
+						{
+							DiffuseName = '/meshes/game/Arrow_Diffuse.dds',
+							MaskName = '/meshes/game/Arrow_mask.dds',
+							NormalName = '/meshes/game/Arrow_Normal.dds',
+							ShaderMacros = '/ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, glow',
+						},
+					},
+				},
+			},
+		},
+	},
+    IconFadeInZoom = 100,
+    UniformScale = 1.0,
+	ReflectInWater = false,
+	CastShadow = false,
+}

@@ -1,0 +1,84 @@
+EmitterBlueprint {
+	BlueprintId = 'ucl0001_e_ps_05_lines',
+	Lifetime = -1.00,
+	Repeattime = 1.00,
+	Blendmode = 5.00,
+	LocalVelocity = true,
+	ParticleResistance = true,
+	SortOrder = 2.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/aeon_plasma03.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.6000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=8.5000,z=5.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=2.5000,z=0.5000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=1.1000,z=0.3000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.0000,z=0.5000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.3000,z=0.5000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.0000,z=0.5000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.1000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.5000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=2.5000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.2000,z=0.4000 },
+		},
+	},
+}

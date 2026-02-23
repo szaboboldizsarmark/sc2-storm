@@ -1,0 +1,83 @@
+EmitterBlueprint {
+	BlueprintId = 'ambient_u_t_sml_01_glow',
+	Lifetime = 12.00,
+	Repeattime = 12.00,
+	Blendmode = 3.00,
+	LODCutoff = 250.00,
+	Texture = [[/textures/particles/glow_03.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0058_lightblue.dds]],
+	EmitRateCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=0.0000,y=2.0000,z=0.0000 },
+			{ x=12.0000,y=0.5000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=0.0010,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=0.0000,z=2.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=0.0000,z=2.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=0.0000,z=2.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=2.5000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=3.5000,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=8.0000,y=0.0000,z=0.0000 },
+			{ x=12.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

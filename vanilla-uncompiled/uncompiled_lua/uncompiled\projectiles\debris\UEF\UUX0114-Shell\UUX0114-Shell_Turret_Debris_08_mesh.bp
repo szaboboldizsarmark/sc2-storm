@@ -1,0 +1,22 @@
+MeshBlueprint {
+	LODs = {
+		{		
+            LODCutoff = 200,
+					MaterialSets = {
+						{
+							Materials = {
+								{
+								DiffuseName = '/projectiles/UEF/UUX0114-Shell/UUX0114-Shell_Diffuse.dds',
+								MaskName = '/projectiles/UEF/UUX0114-Shell/UUX0114-Shell_Mask.dds',
+								NormalName = '/projectiles/UEF/UUX0114-Shell/UUX0114-Shell_Normal.dds',
+								EffectName = '/textures/Units/Shared/Wreckage.dds',
+				            	ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping',
+								},
+							},
+						},
+					},
+				},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

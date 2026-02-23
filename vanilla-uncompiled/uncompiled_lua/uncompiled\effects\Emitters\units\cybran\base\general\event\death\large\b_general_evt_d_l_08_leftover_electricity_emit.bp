@@ -1,0 +1,116 @@
+EmitterBlueprint {
+	BlueprintId = 'b_general_evt_d_l_08_leftover_electricity',
+	Lifetime = 12.00,
+	Repeattime = 12.00,
+	Blendmode = 3.00,
+	LODCutoff = 500.00,
+	ParticleResistance = true,
+	TextureStripcount = 2.00,
+	SortOrder = 5.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/electricity/el_0001_45.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0122_red_flicker.dds]],
+	EmitRateCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=5.1428,y=4.0000,z=3.0000 },
+			{ x=8.5715,y=3.0000,z=3.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=5.2440,y=1.7000,z=0.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0840,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.1200,y=0.0000,z=8.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=5.9520,y=1.5000,z=1.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.3960,y=0.0000,z=8.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=2.4000,y=0.0000,z=0.2000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=1.4640,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=2.7240,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=3.1200,y=0.0000,z=0.0000 },
+		},
+	},
+	XAccelCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0240,y=0.0000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=0.9720,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=0.0000,y=2.6000,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=5.9760,y=2.8000,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=4.1280,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=-1.0000,z=0.3000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=2.8680,y=1.0000,z=2.0000 },
+		},
+	},
+}

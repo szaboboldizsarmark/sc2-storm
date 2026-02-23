@@ -1,0 +1,19 @@
+ProjectileBlueprint {
+    Audio = {
+		EMPExplosion = 'SC2_DLC1/Gen/s_W_UIX0104D1_Missile_Impact',
+    },
+    Display = {
+        StrategicIconSize = 3,
+    },
+    Physics = {
+        CollideEntity = false,
+        CollideSurface = false,
+        DestroyOnWater = false,
+        InitialSpeed = 0,
+        Lifetime = 100,        
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        UseGravity = false,
+        VelocityAlign = false,
+    },
+}

@@ -1,0 +1,119 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 250,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 2',
+                                },
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 2, leaf_sway = 5',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 450,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                            	{
+                                    DiffuseName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 2, leaf_sway = 5',
+                                },
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 2',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 1500,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 2',
+                                },
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 2, leaf_sway = 5',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 2, leaf_sway = 5',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = .09,
+        CollisionMeshBP = '/Props/Trees/Tree_jungle03_C/tree_jungle03_C_fallmesh',
+	    FallingAnimationSet = {
+			AnimRate = 0.75,
+   			AudioEvent = 'SC2/SC2/Environments/Tree/snd_tree_crush_medium',
+			d0 = '/Props/Trees/Tree_jungle03_C/jungle03c_A000_fall.sca',
+			d45 = '/Props/Trees/Tree_jungle03_C/jungle03c_A045_fall.sca',
+			d90 = '/Props/Trees/Tree_jungle03_C/jungle03c_A090_fall.sca',
+			d135 = '/Props/Trees/Tree_jungle03_C/jungle03c_A135_fall.sca',
+			d180 = '/Props/Trees/Tree_jungle03_C/jungle03c_A180_fall.sca',
+			d225 = '/Props/Trees/Tree_jungle03_C/jungle03c_A225_fall.sca',
+			d270 = '/Props/Trees/Tree_jungle03_C/jungle03c_A270_fall.sca',
+			d315 = '/Props/Trees/Tree_jungle03_C/jungle03c_A315_fall.sca',
+		}, 
+    },
+    Interface = {
+        HelpText = 'Tree_Jungle03',
+    },
+    Physics = {
+        BlockPath = false,
+        Destructable = true,
+    },
+    ScriptClass = 'Tree',
+    ScriptModule = '/lua/proptree.lua',
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

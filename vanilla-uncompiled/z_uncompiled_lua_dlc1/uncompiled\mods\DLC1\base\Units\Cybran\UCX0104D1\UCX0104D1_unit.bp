@@ -1,0 +1,279 @@
+UnitBlueprint {
+    Abilities = {
+        {
+            Blueprint = 'StealthField',
+        },
+    },
+    Audio = {
+        AmbientMove = 'SC2_DLC1/Gen/s_UCX0104D1_Cloaking_Walker_Loop',
+        AmbientStop = 'SC2_DLC1/Gen/s_UCX0104D1_Cloaking_Walker_Stop',
+        CloakActive = 'SC2_DLC1/Gen/s_UCX0104D1_Cloaking_Walker_Cloak',
+        Destroyed = 'SC2/SC2/Experimentals/CYBRAN/UCX0103/snd_UCX0103_BombBouncer_Destroy',
+        OnReclaimed = 'SC2/SC2/Destructions/Explosions/UEF/snd_Destroy_Med_Land',
+        Pack = 'SC2_DLC1/Gen/s_UCX0104D1_Cloaking_Walker_Pack',
+        ShieldOff = 'SC2/SC2/Experimentals/CYBRAN/UCX0103/snd_UCX0103_BombBouncer_Shield_Off',
+        ShieldOn = 'SC2/SC2/Experimentals/CYBRAN/UCX0103/snd_UCX0103_BombBouncer_Shield_On',
+        UISelection = 'SC2/SC2/Selection/snd_GENERIC_Select_Experimentals',
+        Unpack = 'SC2_DLC1/Gen/s_UCX0104D1_Cloaking_Walker_Pack',
+    },
+    Categories = {
+        'PRODUCTSC2',
+        'SELECTABLE',
+        'CYBRAN',
+        'MOBILE',
+        'LAND',
+        'TECH1',
+        'DIRECTFIRE',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'OVERLAYDIRECTFIRE',
+        'LANDGANTRYBUILDER',
+        'EXPERIMENTAL',
+        'SNEAKOTRON',
+        'CANNOTBECLOAKED',
+        'CANNOTBESTEALTHED',
+    },
+    CollisionOffsetZ = 0.1,
+    Death = {
+        DebrisPieces = true,
+        DestructionParts = {
+            {
+                AttachBone = 'sat_arm',
+                Mesh = '/mods/DLC1/base/projectiles/debris/Cybran/UCX0104D1/UCX0104D1_Turret_Debris_01_mesh',
+                Projectile = '/projectiles/debris/DebrisGenericLow01/DebrisGenericLow01_proj.bp',
+            },
+        },
+        ExplosionEffect = 'CybranStructureDestroyEffectsExtraLarge01',
+        ExplosionTendrils = true,
+    },
+    Defense = {
+        AirThreatLevel = 0,
+        EconomyThreatLevel = 0,
+        Health = 20000,
+        MaxHealth = 20000,
+        RegenRate = 71,
+        SurfaceThreatLevel = 5,
+    },
+    Description = '<LOC UNIT_DESCRIPTION_0136>Experimental Mobile Cloak Generator',
+    Display = {
+        AnimationDeath = {
+            {
+                Animation = '/mods/DLC1/base/units/Cybran/ucx0104D1/ucx0104D1_Adeath01.sca',
+                Weight = 100,
+            },
+        },
+        AnimationIdle = '/mods/DLC1/base/units/Cybran/ucx0104D1/ucx0104D1_Aidle01.sca',
+        AnimationWalk = '/mods/DLC1/base/units/Cybran/ucx0104D1/ucx0104D1_Amove01.sca',
+        DisplayName = '<LOC UNIT_NAME_0271>Cicada',
+        EffectGroupClassification = 'Medium',
+        HalfBakedShutdownEffect = 'HalfBakedShutdownAmbients',
+        HalfBakedShutdownEffectBone = 'sat_arm',
+        Mesh = {
+            IconFadeInZoom = 130,
+            LODReduceImmune = true,
+            LODs = {
+                {
+                    LODCutoff = 150,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    RampName = '/textures/Units/Shared/Ramps/Cybran_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, point_cloud, glow',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    RampName = '/textures/Units/Shared/Ramps/Cybran_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, point_cloud, glow',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 1000,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    RampName = '/textures/Units/Shared/Ramps/Cybran_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, ambient_occlusion, team_color, point_cloud',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        MovementEffects = {
+            Land = {
+                Effects = {
+                    {
+                        Bones = {
+                            'foot_fr_ref',
+                            'foot_fl_ref',
+                            'foot_cr_ref',
+                            'foot_cl_ref',
+                            'foot_br_ref',
+                            'foot_bl_ref',
+                        },
+                        Scale = 3,
+                        Type = 'GroundKickup01',
+                    },
+                },
+                Footfall = {
+                    Bones = {
+                        {
+                            FootBone = 'foot_fr_ref',
+                            Scale = 2,
+                            Type = 'FootFall02',
+                        },
+                        {
+                            FootBone = 'foot_fl_ref',
+                            Scale = 2,
+                            Type = 'FootFall02',
+                        },
+                        {
+                            FootBone = 'foot_cr_ref',
+                            Scale = 2,
+                            Type = 'FootFall02',
+                        },
+                        {
+                            FootBone = 'foot_cl_ref',
+                            Scale = 2,
+                            Type = 'FootFall02',
+                        },
+                        {
+                            FootBone = 'foot_br_ref',
+                            Scale = 2,
+                            Type = 'FootFall02',
+                        },
+                        {
+                            FootBone = 'foot_bl_ref',
+                            Scale = 2,
+                            Type = 'FootFall02',
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.1,
+    },
+    Economy = {
+        BuildTime = 115,
+        CaptureTimeMult = 0.6,
+        EnergyValue = 2375,
+        MassValue = 475,
+        SacrificeCaptureTimeMult = 0.2,
+    },
+    General = {
+        BuildIconIndex = 3,
+        BuildIconPage = 3,
+        BuildIconSortPriority = 10,
+        CommandCaps = {
+            RULEUCC_CallTransport = true,
+            RULEUCC_FormAttack = true,
+            RULEUCC_Guard = true,
+            RULEUCC_Move = true,
+            RULEUCC_Patrol = true,
+            RULEUCC_Stop = true,
+        },
+        ExperienceTable = 'MINI',
+        ExperienceValue = 1500,
+        FactionName = 'Cybran',
+        Icon = 'land',
+        TeleportCooldown = 20,
+        UnitName = '<LOC UNIT_NAME_0272>Cicada',
+        UnitWeight = 1,
+    },
+    Intel = {
+        CloakFieldRadius = 50,
+        RadarStealthFieldRadius = 50,
+        SonarStealthFieldRadius = 50,
+        VisionRadius = 20,
+    },
+    LifeBarHeight = 0.32,
+    LifeBarOffset = 3.5,
+    LifeBarSize = 6.25,
+    Navigation = {
+        IgnoreNeighbors = true,
+        Radius = 4.85,
+    },
+    Physics = {
+        BankingSlope = 0,
+        BuildOnLayerCaps = {
+            LAYER_Land = true,
+        },
+        CollisionPushClass = 3,
+        MaxAcceleration = 1.5,
+        MaxBrake = 10,
+        MaxSpeed = 3.8,
+        MaxSpeedReverse = 0,
+        MaxSteerForce = 10,
+        MeshExtentsX = 0.9,
+        MeshExtentsY = 0.7,
+        MeshExtentsZ = 1.6,
+        MotionType = 'RULEUMT_Land',
+        RotateOnSpot = false,
+        TurnRate = 45,
+    },
+    SelectionCenterOffsetZ = 0.65,
+    SelectionMeshOffsetX = 0,
+    SelectionMeshOffsetY = -0.5,
+    SelectionMeshOffsetZ = 0.85,
+    SelectionMeshScaleX = 0.9,
+    SelectionMeshScaleY = 1.1,
+    SelectionMeshScaleZ = 0.7,
+    SelectionSizeX = 3.6,
+    SelectionSizeZ = 3.1,
+    SelectionThickness = 0.5,
+    SizeX = 4,
+    SizeY = 5,
+    SizeZ = 4,
+    StrategicIconName = 'icon_experimental_generic',
+    StrategicIconSortPriority = 125,
+    Transport = {
+        StorageSize = 30,
+        TeleportTime = 5,
+    },
+    Weapons = {
+        {
+            AlwaysRecheckTarget = false,
+            AutoInitiateAttackCommand = false,
+            AutoInitiateAttackOnPatrol = false,
+            BallisticArc = 'RULEUBA_None',
+            Damage = 0,
+            DamageRadius = 0,
+            DisplayName = 'Dummy Range Weapon',
+            Label = 'DummyRange01',
+            MaxRadius = 50,
+            MinRadius = 0,
+            RateOfFire = 0,
+            ScriptClass = 'BareBonesWeapon',
+            ScriptModule = '/lua/sim/DefaultWeapons.lua',
+            TargetCheckInterval = 99999,
+            Turreted = false,
+            WeaponCategory = 'None',
+        },
+    },
+    Wreckage = {
+        Blueprint = '/mods/DLC1/base/props/Wreckage/Cybran/UCX0104D1/UCX0104D1_wreckage01_prop.bp',
+        Decay = 0,
+        EnergyMult = 0,
+        HealthMult = 0.9,
+        MassMult = 0.2,
+        ReclaimTimeMultiplier = 0.1,
+        UseCustomMesh = true,
+        WreckageLayers = {
+            Land = true,
+        },
+    },
+}

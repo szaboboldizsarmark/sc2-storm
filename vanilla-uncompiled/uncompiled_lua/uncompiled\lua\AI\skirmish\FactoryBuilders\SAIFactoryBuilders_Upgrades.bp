@@ -1,0 +1,205 @@
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Upgrade Module - Radar',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uum0141', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'ucm0141', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uim0141', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'uum0141', },
+            { ConditionType = 'BaseUnitIdLessThan', ConditionIntegerOne = 1, ConditionStringOne = 'uum0141, ucm0141, uim0141', },
+            { ConditionType = 'FogOfWarEnabled', },
+        },
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'ucm0141' },
+            { ConditionType = 'BaseUnitIdLessThan', ConditionIntegerOne = 1, ConditionStringOne = 'uum0141, ucm0141, uim0141', },
+            { ConditionType = 'FogOfWarEnabled', },
+        },
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'uim0141', },
+            { ConditionType = 'BaseUnitIdLessThan', ConditionIntegerOne = 1, ConditionStringOne = 'uum0141, ucm0141, uim0141', },
+            { ConditionType = 'FogOfWarEnabled', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Defense',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Upgrade Module - TML',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uum0111', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'ucm0111', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uim0111', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'uum0111', },
+            { ConditionType = 'TestFlag', ConditionStringOne = 'LandUnitsSpotted', },
+        },
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'ucm0111', },
+            { ConditionType = 'TestFlag', ConditionStringOne = 'LandUnitsSpotted', },
+        },
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'uim0111', },
+            { ConditionType = 'TestFlag', ConditionStringOne = 'LandUnitsSpotted', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Defense',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Upgrade Module - AA',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uum0121', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'ucm0121', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uim0121', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'uum0121', },
+            { ConditionType = 'TestFlag', ConditionStringOne = 'AirUnitsSpotted' },
+        },
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'ucm0121', },
+            { ConditionType = 'TestFlag', ConditionStringOne = 'AirUnitsSpotted' },
+        },
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'uim0121', },
+            { ConditionType = 'TestFlag', ConditionStringOne = 'AirUnitsSpotted' },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Defense',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Upgrade Module - Shield',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uum0211', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'ucm0211', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uim0211', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'uum0211', },
+            --{ ConditionType = 'TestFlag', ConditionStringOne = 'AirUnitsSpotted' },
+        },
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'ucm0211', },
+            --{ ConditionType = 'TestFlag', ConditionStringOne = 'AirUnitsSpotted' },
+        },
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'uim0211', },
+            --{ ConditionType = 'TestFlag', ConditionStringOne = 'AirUnitsSpotted' },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Defense',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Upgrade Module - Torpedo',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uum0131', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'ucm0131', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uim0131', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'uum0131', },
+        },
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'ucm0131', },
+        },
+        {
+            { ConditionType = 'FactoryCanBuildUpgradeModule', ConditionStringOne = 'uim0131', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Defense',
+}

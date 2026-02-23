@@ -1,0 +1,75 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/Laser/snd_UEF_Laser_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/Laser/snd_UEF_Laser_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/Laser/snd_UEF_Laser_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Display = {
+        Mesh = {
+        	CastShadow = false,
+            LODs = {
+                {
+                    DiffuseName = '/projectiles/UEF/UCannonShell01/UCannonShell01_Diffuse.dds',
+                    MaskName = '/projectiles/UEF/UCannonShell01/UCannonShell01_Mask.dds',
+                    NormalName = '/projectiles/UEF/UCannonShell01/UCannonShell01_Normal.dds',
+                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, alpha_test = 128',
+                },
+            },
+        },
+        StrategicIconSize = 2,
+        UniformScale = 1,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Gauss01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Gauss01_ImpactUnit01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Gauss01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'UEF_Gauss01_ImpactUnit01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'UEF_Gauss01_ImpactWater01',
+                TrajectoryAligned = true,
+            },
+        },
+        PolyTrails = {
+            Template = 'UEF_Gauss01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        Weapon = 'Gauss Cannon',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 0,
+        InitialSpeed = 12,
+        InitialSpeedRange = 0,
+        InitialSpeedReduceDistance = 0,
+        MaxSpeed = 0,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

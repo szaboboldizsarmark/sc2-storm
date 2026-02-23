@@ -1,0 +1,45 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/Artillery/snd_UEF_Artillery_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/Artillery/snd_UEF_Artillery_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/Artillery/snd_UEF_Artillery_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        MeshBlueprint = '/projectiles/UEF/UCannonShell01/UCannonShell01_mesh.bp',
+        StrategicIconSize = 3,
+        UniformScale = 0.9,
+    },
+    Effects = {
+        PolyTrails = {
+            Template = 'UEF_Artillery01_Polytrails01',
+        },
+        Emitters = {
+            Template = 'UEF_Artillery01_Trails01',
+        },
+    },
+    General = {
+        Category = 'Artillery',
+        Faction = 'UEF',
+        TechLevel = 1,
+        Weapon = 'Fragmentation Artillery',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        DetonateBelowHeight = 16,
+        InitialSpeed = 14.6,
+        InitialSpeedRange = 1,
+        InitialSpeedReduceDistance = 30,
+        LeadTarget = false,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

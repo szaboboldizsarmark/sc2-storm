@@ -1,0 +1,26 @@
+AbilityBlueprint {
+    ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	ActivationRetriggerDelay = 15,
+	Buffs = {
+		'HardenArtillery',
+	},
+    Cooldown = 30,
+    CooldownOnDeactivation = false,
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0048>Harden Mode',
+	Duration = 15,
+	Resource = {
+		OnActivate = {
+			SourceType = 'Energy',
+			SourceAmount = 500,
+		},
+	},
+    InitiallyEnabled = false,
+	RemoveBuffsOnDeactivate = true,
+    RunScript = 'OnHardenArtillery',
+	OrderBitmapId = 'hartillery',
+}

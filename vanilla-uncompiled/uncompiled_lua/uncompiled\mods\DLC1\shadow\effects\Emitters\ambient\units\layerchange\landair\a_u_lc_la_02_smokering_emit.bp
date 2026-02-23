@@ -1,0 +1,90 @@
+EmitterBlueprint {
+	BlueprintId = 'a_u_lc_la_02_smokering',
+	Lifetime = 5.00,
+	Repeattime = 5.00,
+	Blendmode = 0.00,
+	Flat = true,
+	LODCutoff = -1.00,
+	InterpolateEmission = false,
+	Texture = [[/textures/particles/ring_white_03.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0121_whiteandgrey.dds]],
+	EmitRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.2695,y=6.0000,z=1.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=3.0000,y=10.0000,z=5.0000 },
+			{ x=3.0000,y=18.0000,z=7.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5325,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.1000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.0650,y=0.2000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.0715,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5915,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.0195,y=0.2500,z=0.3000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.0000,y=6.0000,z=2.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=0.6000,z=0.5000 },
+		},
+	},
+}

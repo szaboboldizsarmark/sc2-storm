@@ -1,0 +1,66 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/Artillery/snd_UEF_Artillery_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/Artillery/snd_UEF_Artillery_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/Artillery/snd_UEF_Artillery_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        MeshBlueprint = '/projectiles/UEF/UCannonShell01/UCannonShell01_mesh.bp',
+        StrategicIconSize = 4,
+        UniformScale = 0.7,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Artillery04_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Artillery04_Impact01',
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Large01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Artillery04_Impact01',
+            },
+            Unit = {
+                Template = 'UEF_Artillery04_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Large01',
+            },
+        },
+        PolyTrails = {
+            Template = 'UEF_Artillery04_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Artillery',
+        EntityCategory = {
+            'ILLUMINATE',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+        },
+        Faction = 'UEF',
+        TechLevel = 2,
+        Weapon = 'APDS Artillery',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        LeadTarget = false,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

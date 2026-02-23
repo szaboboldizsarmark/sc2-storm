@@ -1,0 +1,548 @@
+
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Land Unit - Tank',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uul0101', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uil0101', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'LandUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Mobile Artillery',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uul0102', NumToBuild = 3 },
+        },
+        {
+            { UnitId = 'ucl0102', NumToBuild = 3 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'BasePoolUnitRatioLessThan', ConditionFloat = 0.15, ConditionCategoryStringOne = 'MOBILE LAND INDIRECTFIRE', ConditionCategoryStringTwo = 'LAND MOBILE -INDIRECTFIRE -ENGINEER', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'LandUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Assault Bot',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uul0103', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'ucl0103', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'LandUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Land Unit - Illuminate Assault Bot',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uil0103', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'IsSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'LandUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Missile Launcher',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uul0104', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'ucl0104', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uil0104', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'BasePoolUnitRatioLessThan', ConditionFloat = 0.15, ConditionCategoryStringOne = 'MOBILE LAND INDIRECTFIRE', ConditionCategoryStringTwo = 'LAND MOBILE -INDIRECTFIRE -ENGINEER', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'LandUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Anti-Air',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uul0105', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uil0105', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 50, ConditionStringOne = 'Air', ConditionIntegerTwo = 0, ConditionStringTwo = 'Enemy', },
+            { ConditionType = 'BasePoolUnitRatioLessThan', ConditionFloat = 0.2, ConditionCategoryStringOne = 'MOBILE LAND ANTIAIR', ConditionCategoryStringTwo = 'LAND MOBILE -ANTIAIR -ENGINEER', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'LandUnits',
+}
+
+--[[SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Engineer',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uul0002', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'ucl0002', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uil0002', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+			{ ConditionType = 'BaseNeedsEngineerBuilt', ConditionBool = false },
+			{ ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'MOBILE LAND ENGINEER -COMMAND', ConditionIntegerOne = 15, },
+            { ConditionType = 'BasePoolUnitsGreaterThan', ConditionIntegerOne = 5, ConditionCategoryStringOne = 'MOBILE LAND DIRECTFIRE -ENGINEER', },
+            { ConditionType = 'BasePoolUnitsLessThan', ConditionIntegerOne =  3, ConditionCategoryStringOne = 'MOBILE LAND ENGINEER', },
+            { ConditionType = 'BasePoolUnitRatioLessThan', ConditionFloat = 0.1, ConditionCategoryStringOne = 'MOBILE LAND ENGINEER', ConditionCategoryStringTwo = 'MOBILE LAND DIRECTFIRE -ENGINEER', },
+            { ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 5, ConditionCategoryStringOne = 'MOBILE LAND ENGINEER -COMMAND', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+	SharedInstanceCount = 'BattleEngineers',
+    SkirmishResourceType = 'LandUnits',
+}]]--
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Defensive unit',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'ucl0204', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uul0201', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uul0203', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uil0202', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uil0203', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'BasePoolUnitRatioLessThan', ConditionFloat = 0.2, ConditionCategoryStringOne = 'MOBILE DEFENSE', ConditionCategoryStringTwo = 'MOBILE LAND -ENGINEER -DEFENSE', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'LandUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Fatboy',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uux0101', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'NotCloseToAffordingUnit', ConditionStringOne = 'uux0111', ConditionFloat = 0.75, },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uux0111', ConditionBool = false, },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'MOBILE LAND EXPERIMENTAL', ConditionIntegerOne = 1, },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 800,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - King Kriptor',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uux0111', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 825,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Land Unit - Megalith',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'ucx0101', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'NotCloseToAffordingUnit', ConditionStringOne = 'ucx0111', ConditionFloat = 0.75, },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucx0111', ConditionBool = false, },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'MOBILE LAND EXPERIMENTAL', ConditionIntegerOne = 1, },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 800,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Bomb Bouncer',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'ucx0103', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'NotCloseToAffordingUnit', ConditionStringOne = 'ucx0111', ConditionFloat = 0.75, },
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 50, ConditionStringOne = 'Air', ConditionIntegerTwo = 20, ConditionStringTwo = 'Enemy', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucx0111', ConditionBool = false, },
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 50, ConditionStringOne = 'Air', ConditionIntegerTwo = 20, ConditionStringTwo = 'Enemy', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'MOBILE LAND EXPERIMENTAL', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 50, ConditionStringOne = 'Air', ConditionIntegerTwo = 20, ConditionStringTwo = 'Enemy', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 800,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Cybranzilla',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'ucx0111', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 825,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Urchinow',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uix0101', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'NotCloseToAffordingUnit', ConditionStringOne = 'uix0111', ConditionFloat = 0.75, },
+            { ConditionType = 'IsSkirmishAmphibiousMap' },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uix0111', ConditionBool = false, },
+            { ConditionType = 'IsSkirmishAmphibiousMap' },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'MOBILE LAND EXPERIMENTAL', ConditionIntegerOne = 1, },
+            { ConditionType = 'IsSkirmishAmphibiousMap' },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 800,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Airnomo',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uix0103', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 50, ConditionStringOne = 'Air', ConditionIntegerTwo = 20, ConditionStringTwo = 'Enemy', },
+            { ConditionType = 'NotCloseToAffordingUnit', ConditionStringOne = 'uix0111', ConditionFloat = 0.75, },
+            { ConditionType = 'IsSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 50, ConditionStringOne = 'Air', ConditionIntegerTwo = 20, ConditionStringTwo = 'Enemy', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uix0111', ConditionBool = false, },
+            { ConditionType = 'IsSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 50, ConditionStringOne = 'Air', ConditionIntegerTwo = 20, ConditionStringTwo = 'Enemy', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'MOBILE LAND EXPERIMENTAL', ConditionIntegerOne = 2, },
+            { ConditionType = 'IsSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 825,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Colossus',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uix0111', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'IsSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 825,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Land Unit - Pulinsmash',
+    FactoryType = 'Land',
+    Platoons = {
+        {
+            { UnitId = 'uix0115', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'NotCloseToAffordingUnit', ConditionStringOne = 'uix0111', ConditionFloat = 0.75, },
+			{ ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 50, ConditionStringOne = 'Land', ConditionIntegerTwo = 20, ConditionStringTwo = 'Enemy', },
+            { ConditionType = 'IsSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uix0111', ConditionBool = false, },
+			{ ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 50, ConditionStringOne = 'Land', ConditionIntegerTwo = 20, ConditionStringTwo = 'Enemy', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uix0115', ConditionIntegerOne = 2, },
+            { ConditionType = 'IsSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+		
+        {
+            { ConditionType = 'NotCloseToAffordingUnit', ConditionStringOne = 'uix0111', ConditionFloat = 0.75, },
+			{ ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 50, ConditionStringOne = 'Air', ConditionIntegerTwo = 20, ConditionStringTwo = 'Enemy', },
+            { ConditionType = 'IsSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uix0111', ConditionBool = false, },
+			{ ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 50, ConditionStringOne = 'Air', ConditionIntegerTwo = 20, ConditionStringTwo = 'Enemy', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uix0115', ConditionIntegerOne = 2, },
+            { ConditionType = 'IsSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 800,
+    SkirmishResourceType = 'Experimentals',
+}

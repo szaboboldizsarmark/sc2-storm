@@ -1,0 +1,12 @@
+BeamBlueprint {
+    Lifetime = 1.0,
+	TextureName = '/textures/particles/beam_disruptor.dds',
+    Thickness = 0.35,
+    StartColor = {x=5,y=9,z=5,w=1}, -- R,G,B,A
+    EndColor = {x=0,y=0,z=5,w=0}, -- R,G,B,A
+    Length = 2.0,
+    UShift = 0,
+    VShift = -0.3,
+    Blendmode = 3,
+	RepeatRate = .5,
+}

@@ -1,0 +1,234 @@
+SkirmishArchetypeBlueprint {
+    BlueprintId = 'DefaultNavalArchetype',
+	PlatoonPlan = {
+		{
+			PlatoonTaskType = 'NeuralLandAttack',
+			Aggressiveness = 1.0,
+		},
+		{
+			PlatoonTaskType = 'NeuralBomberAttack',
+			Aggressiveness = 1.0,
+		},
+		{
+			PlatoonTaskType = 'NeuralAirAttack',
+			Aggressiveness = 1.0,
+		},
+		{
+			PlatoonTaskType = 'NeuralNavalAttack',
+			Aggressiveness = 1.0,
+		},
+	},
+    StartingBases = {
+        'DefaultNaval',
+    },
+    ExpansionBases = {
+        'DefaultNavalExpansion',
+    },
+    ArchetypeResponseGroups = {
+        'Default Archetype Response',
+		'Naval Archetype Response',
+    },
+    EconomyPlan = {
+        {
+            ResourceType = 'Defense',
+            MassCap = 300,
+            MassPercent = 0.05,
+            EnergyCap = 750,
+            EnergyPercent = 0.05,
+        },
+        {
+            ResourceType = 'LandUnits',
+            MassCap = -1,
+            MassPercent = 0,
+            EnergyCap = -1,
+            EnergyPercent = 0,
+        },
+        {
+            ResourceType = 'AirUnits',
+            MassCap = -1,
+            MassPercent = 0,
+            EnergyCap = -1,
+            EnergyPercent = 0,
+        },
+        {
+            ResourceType = 'NavalUnits',
+            MassCap = 500,
+            MassPercent = 0.2,
+            EnergyCap = 1000,
+            EnergyPercent = 0.2,
+        },
+        {
+            ResourceType = 'Expansion',
+            MassCap = 300,
+            MassPercent = 0.25,
+            EnergyCap = 600,
+            EnergyPercent = 0.25,
+        },
+        {
+            ResourceType = 'Artillery',
+            MassCap = 350,
+            MassPercent = 0,
+            EnergyCap = 1500,
+            EnergyPercent = 0,
+        },
+        {
+            ResourceType = 'Experimentals',
+            MassCap = 1200,
+            MassPercent = 0.01,
+            EnergyCap = 4000,
+            EnergyPercent = 0.01,
+        },
+        {
+            ResourceType = 'Misc',
+            MassCap = -1,
+            MassPercent = 0,
+            EnergyCap = -1,
+            EnergyPercent = 0,
+        },
+    },
+    ResearchPlans = {
+        --**************************************************
+        --*                 UEF Research
+        --**************************************************
+            -- Sea/Struct
+        {
+            ResearchItems = {
+                'UBB_BUILDTIME',
+				'USU_BATTLESHIP',
+                'USP_STACKEDCANNONS',
+				'USB_TRAINING2',
+				'UBU_MASSCONVERTOR',
+				'UBU_SHIELDGENERATOR',
+				'UBU_LONGRANGEARTILLERY',
+				'USB_TRAINING4',
+				'UBU_DISRUPTORSTATION',
+				'UBP_ENGINEERINGTOWER',
+            },
+            FactionId = 1,
+            NavalResearchPriority = 1,
+            ACUResearchPriority = 2,
+            LandResearchPriority = 4,
+            StructureResearchPriority = 1,
+            AirResearchPriority = 3,
+        },
+            -- Sea/Air
+        {
+            ResearchItems = {
+                'UBB_BUILDTIME',
+				'USU_BATTLESHIP',
+				'UAU_GUNSHIP',
+                'USP_STACKEDCANNONS',
+				'USB_TRAINING2',
+				'UBU_MASSCONVERTOR',
+				'UAU_AC1000TERROR',
+				'UBU_SHIELDGENERATOR',
+				'UBU_LONGRANGEARTILLERY',
+				'USB_TRAINING4',
+				'UBU_DISRUPTORSTATION',
+				'UBP_ENGINEERINGTOWER',
+            },
+            FactionId = 1,
+            NavalResearchPriority = 1,
+            ACUResearchPriority = 3,
+            LandResearchPriority = 4,
+            StructureResearchPriority = 2,
+            AirResearchPriority = 1,
+        },
+            -- Exp Rush
+        {
+            ResearchItems = {
+                'UBB_BUILDTIME',
+				'USU_BATTLESHIP',
+				'UAU_AC1000TERROR',
+                'USP_STACKEDCANNONS',
+				'USB_TRAINING2',
+				'UBU_MASSCONVERTOR',
+				'UBU_SHIELDGENERATOR',
+				'UBU_LONGRANGEARTILLERY',
+				'USB_TRAINING4',
+				'UBU_DISRUPTORSTATION',
+				'UBP_ENGINEERINGTOWER',
+            },
+            FactionId = 1,
+            NavalResearchPriority = 1,
+            ACUResearchPriority = 2,
+            LandResearchPriority = 4,
+            StructureResearchPriority = 3,
+            AirResearchPriority = 2,
+        },
+        --**************************************************
+        --*                 Cybran Research
+        --**************************************************
+            -- Sea/Struct
+        {
+            ResearchItems = {
+				'CBB_BUILDCOST',
+                'CSU_BATTLESHIP',
+                'CSP_LANDWALKING',
+				'CSB_REGENERATION',
+				'CBU_MASSCONVERTOR',
+				'CSB_RANGE',
+				'CSB_TRAINING2',
+				'CBU_LONGRANGEARTILLERY',
+				'CSB_TRAINING4',
+				'CSB_LANDMOVESPEED',
+				'CSB_BUILDTIME',
+            },
+            FactionId = 2,
+            NavalResearchPriority = 1,
+            ACUResearchPriority = 2,
+            LandResearchPriority = 4,
+            StructureResearchPriority = 1,
+            AirResearchPriority = 3,
+        },
+            -- Sea/Air
+        {
+            ResearchItems = {
+				'CBB_BUILDCOST',
+                'CSU_BATTLESHIP',
+                'CSP_LANDWALKING',
+				'CAU_GUNSHIP',
+				'CSB_REGENERATION',
+				'CBU_MASSCONVERTOR',
+				'CSB_RANGE',
+				'CAU_SOULRIPPERII',
+				'CSB_TRAINING2',
+				'CBU_LONGRANGEARTILLERY',
+				'CSB_TRAINING4',
+				'CSB_LANDMOVESPEED',
+				'CSB_BUILDTIME',
+            },
+            FactionId = 2,
+            NavalResearchPriority = 1,
+            ACUResearchPriority = 1,
+            LandResearchPriority = 4,
+            StructureResearchPriority = 1,
+            AirResearchPriority = 1,
+        },
+            -- Exp Rush
+        {
+            ResearchItems = {
+				'CBB_BUILDCOST',
+                'CSU_BATTLESHIP',
+                'CSP_LANDWALKING',
+				'CAU_SOULRIPPERII',
+				'CSB_REGENERATION',
+				'CBU_MASSCONVERTOR',
+				'CSB_RANGE',
+				'CSB_TRAINING2',
+				'CBU_LONGRANGEARTILLERY',
+				'CSB_TRAINING4',
+				'CSB_LANDMOVESPEED',
+				'CSB_BUILDTIME',
+            },
+            FactionId = 2,
+            NavalResearchPriority = 1,
+            ACUResearchPriority = 3,
+            LandResearchPriority = 4,
+            StructureResearchPriority = 2,
+            AirResearchPriority = 2,
+        },
+        -- Faction 3 is unneeded. Illuminate do not have a navy so the AI uses the Land Archetype
+        -- on water maps for the Illuminate
+    },
+}

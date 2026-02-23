@@ -1,0 +1,107 @@
+EmitterBlueprint {
+	BlueprintId = 'uix0101_evt_d_05_lines',
+	Lifetime = 2.00,
+	Repeattime = 2.00,
+	Blendmode = 3.00,
+	AlignRotation = true,
+	LODCutoff = 150.00,
+	InterpolateEmission = false,
+	Texture = [[/textures/particles/ribbon/rb_0028_55.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0102_lightaqua.dds]],
+	EmitRateCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.5000,y=7.0000,z=3.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.4354,y=5.0000,z=1.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.5304,y=3.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.4240,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.6544,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.5726,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.4460,y=0.1500,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.3860,y=0.0000,z=1.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.1980,y=0.3500,z=0.3000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.5672,y=0.0000,z=1.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.4260,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.0400,y=6.0000,z=5.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.5220,y=13.0000,z=4.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.2900,y=0.0000,z=60.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.9800,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.6042,y=0.0000,z=0.0000 },
+		},
+	},
+}

@@ -1,0 +1,74 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Defense = {
+        Health = 4,
+        MaxHealth = 4,
+    },
+    Display = {
+        CameraFollowsProjectile = true,
+        MeshBlueprint = '/projectiles/UEF/UTacticalMissile01/UTacticalMissile01_mesh.bp',
+        StrategicIconSize = 3,
+        UniformScale = 0.1,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Cybran_Nanobot01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Cybran_Nanobot01_Impact01',
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Cybran_Nanobot01_Impact01',
+            },
+            Unit = {
+                Template = 'Cybran_Nanobot01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Cybran_Nanobot01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Missile',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'DIRECTFIRE',
+        },
+        Faction = 'Cybran',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 3,
+        DestroyOnWater = false,
+        MaxZigZag = 2,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = false,
+        TrackTargetGround = true,
+        TurnRate = 4,
+        UseGravity = false,
+        VelocityAlign = true,
+        ZigZagFrequency = 0.5,
+    },
+    SizeX = 2,
+}

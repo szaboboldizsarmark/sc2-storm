@@ -1,0 +1,61 @@
+EmitterBlueprint {
+	BlueprintId = 'empfluxwarhead_01',
+	Lifetime = 50.00,
+	Repeattime = 50.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = -1.00,
+	SnapToWaterline = true,
+	SortOrder = -99.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/ring_03.dds]],
+	RampTexture = [[/textures/particles/ramp_white_02.dds]],
+	EmitRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=1.5170,y=0.2000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=200.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=2.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=0.1000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=31.2500,z=0.1000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

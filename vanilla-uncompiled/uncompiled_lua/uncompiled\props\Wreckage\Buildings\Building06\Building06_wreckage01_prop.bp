@@ -1,0 +1,77 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Buildings/Derelict/DBuilding02/DBuilding02_diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/props/Buildings/Building02/Building02_Mask.dds',
+                                    NormalName = '/props/Buildings/Building02/Building02_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage, wreckage_edge_highlight',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Buildings/Building06/Building06_Wreckage01_lod0.scm',
+                },
+                {
+                    LODCutoff = 800,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Buildings/Derelict/DBuilding02/DBuilding02_diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/props/Buildings/Building02/Building02_Mask.dds',
+                                    NormalName = '/props/Buildings/Building02/Building02_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage, wreckage_edge_highlight',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Buildings/Building06/Building06_Wreckage01_lod1.scm',
+                },
+                {
+                    LODCutoff = 1000,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Buildings/Derelict/DBuilding02/DBuilding02_diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/props/Buildings/Building02/Building02_Mask.dds',
+                                    NormalName = '/props/Buildings/Building02/Building02_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage, wreckage_edge_highlight',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Buildings/Building06/Building06_Wreckage01_lod2.scm',
+                },
+            },
+        },
+        UniformScale = 0.05,
+    },
+    Economy = {
+        MassValue = 1,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 8,
+    SizeY = 2.25,
+    SizeZ = 9,
+}

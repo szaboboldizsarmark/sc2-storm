@@ -1,0 +1,109 @@
+EmitterBlueprint {
+	BlueprintId = 'b_general_evt_d_m_08_smokelines',
+	Lifetime = 3.00,
+	Repeattime = 3.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	AlignRotation = true,
+	LODCutoff = 500.00,
+	ParticleResistance = true,
+	InterpolateEmission = false,
+	TextureStripcount = 4.00,
+	SortOrder = -1.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/ribbon/rb_0026_46.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	EmitRateCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.0000,y=0.0000,z=0.0000 },
+			{ x=1.0000,y=5.0000,z=2.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.8232,y=10.0000,z=2.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.6360,y=0.0000,z=0.4000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.0000,y=0.2000,z=0.4000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5300,y=0.0000,z=0.4000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.6450,y=1.5000,z=0.5000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.5790,y=0.0000,z=0.6000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.2970,y=0.2200,z=0.2000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.6500,y=0.0000,z=0.6000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.6390,y=0.5500,z=0.1000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.0000,y=0.0000,z=0.0000 },
+			{ x=1.0000,y=1.4000,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.0000,y=0.0000,z=0.0000 },
+			{ x=1.0000,y=3.7000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.4350,y=0.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.4700,y=2.0000,z=4.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.9063,y=0.0000,z=0.0000 },
+		},
+	},
+}

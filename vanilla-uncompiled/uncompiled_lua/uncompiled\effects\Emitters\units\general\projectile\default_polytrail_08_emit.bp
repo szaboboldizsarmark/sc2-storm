@@ -1,0 +1,13 @@
+TrailEmitterBlueprint {
+	BlueprintId = 'default_polytrail_08',
+	Lifetime = -1.00,
+    TrailLength = 14,
+    Size = 0.07,
+    SortOrder = 0,
+    BlendMode = 3,
+    TextureRepeatRate = 1,
+    LODCutoff = 160,
+	RepeatTexture = [[/textures/particles/air_contrail_02.dds]],
+	RampTexture = [[/textures/particles/ramp_white_03.dds]],
+}
+

@@ -1,0 +1,542 @@
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Land Factory - LandFocus - Startup',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0001, ucb0001, uib0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0001, ucb0001, uib0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0001, ucb0001, uib0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    UnitToBuild = 'LandFactory',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 2000,
+    SkirmishResourceType = 'All',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Mass Extractor 1 - Startup - Land Focus',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'ucl0002',
+        'ucl0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Resource',
+    BasePriority = 1975,
+    SkirmishResourceType = 'All',
+    BuildLocation = 'MassPoint',
+    BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Mass Extractor 2 - Startup - Land Focus',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'ucl0002',
+        'ucl0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Resource',
+    BasePriority = 1975,
+    SkirmishResourceType = 'All',
+    BuildLocation = 'MassPoint',
+    BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Mass Extractor 3 - Startup - Land Focus',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'ucl0002',
+        'ucl0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Resource',
+    BasePriority = 1975,
+    SkirmishResourceType = 'All',
+    BuildLocation = 'MassPoint',
+    BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Mass Extractor 4 - Startup - Land Focus',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'ucl0002',
+        'ucl0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Resource',
+    BasePriority = 1975,
+    SkirmishResourceType = 'All',
+    BuildLocation = 'MassPoint',
+    BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Mass Extractor 5 - Startup - Land Focus',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'ucl0002',
+        'ucl0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Resource',
+    BasePriority = 1930,
+    SkirmishResourceType = 'All',
+    BuildLocation = 'MassPoint',
+    BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Need Power Generator - Startup - Land Focus',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'ucl0002',
+        'ucl0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0702', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0702', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0702', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    DebugItem = false,
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'EnergyProduction',
+    BuildLocation = 'Base',
+    BasePriority = 1925,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'All',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Research Station - Land Focus - Startup',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    UnitToBuild = 'ResearchStation',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 1900,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'All',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Mass Extractor 6 - Startup - Land Focus',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'ucl0002',
+        'ucl0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0701', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Resource',
+    BasePriority = 1875,
+    SkirmishResourceType = 'All',
+    BuildLocation = 'MassPoint',
+    BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - CDR Need Land Factory - 2 - LandFocus - Startup',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0001',
+        'ucl0001',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            --{ ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'RESEARCHSTATION', ConditionIntegerOne = 1, },
+			--{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            --{ ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'RESEARCHSTATION', ConditionIntegerOne = 1, },
+			--{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            --{ ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'RESEARCHSTATION', ConditionIntegerOne = 1, },
+			--{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+		
+        --[[{
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'RESEARCHSTATION', ConditionIntegerOne = 1, },
+			{ ConditionType = 'ResearchRequired', ConditionBool = false, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'RESEARCHSTATION', ConditionIntegerOne = 1, },
+			{ ConditionType = 'ResearchRequired', ConditionBool = false, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'RESEARCHSTATION', ConditionIntegerOne = 1, },
+			{ ConditionType = 'ResearchRequired', ConditionBool = false, },
+        },]]--
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    UnitToBuild = 'LandFactory',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 1950,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'All',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Need Power Generator 2 - Startup - Land Focus',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'ucl0002',
+        'ucl0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0702', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0702', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0702', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+        },
+    },
+    DebugItem = false,
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'EnergyProduction',
+    BuildLocation = 'Base',
+    BasePriority = 1825,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Expansion',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Need Power Generator 3 - Startup - Land Focus',
+    StartupItem = true,
+    MaxInstanceCount = 1,
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'ucl0002',
+        'ucl0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0702', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0702', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+        },
+        {
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0702', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+        },
+    },
+    DebugItem = false,
+    InstanceCount = 1,
+    ItemGroups = {
+        'Land Focus Startup Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'EnergyProduction',
+    BuildLocation = 'Base',
+    BasePriority = 1825,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Expansion',
+}
+

@@ -1,0 +1,93 @@
+EmitterBlueprint {
+	BlueprintId = 'w_u_rio01_i_u_02_smallflashes',
+	Lifetime = 1.00,
+	Repeattime = 1.00,
+	Blendmode = 3.00,
+	LODCutoff = 300.00,
+	TextureStripcount = 3.00,
+	SortOrder = 1.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/muzzle_flash_strip_add_01.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0115_white_premod.dds]],
+	EmitRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0000,y=35.0000,z=7.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5360,y=1.3000,z=0.7500 },
+		},
+	},
+	SizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0000,y=1.7500,z=0.0000 },
+			{ x=1.0000,y=2.7500,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5100,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0000,y=-0.2000,z=0.0000 },
+			{ x=1.0000,y=0.5000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.0000,y=-0.6500,z=0.0000 },
+			{ x=1.0000,y=0.5500,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5060,y=0.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.1780,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5500,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5320,y=0.0000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2890,y=0.1800,z=0.1200 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.3010,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4900,y=2.0000,z=0.0000 },
+		},
+	},
+}

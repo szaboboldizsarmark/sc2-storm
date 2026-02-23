@@ -1,0 +1,50 @@
+AnimTreeBlueprint {
+	Description = 'CDR Unit AnimTree',
+	StartStateID = 'initialidle',
+	AnimTreeStates = {
+		['root'] = {
+			type = 'Messenger',
+			transitions = {
+				OnHunker = { TargetStateID = 'hunker' },
+                OnHunkerIdle = { TargetStateID = 'hunkeridle' },
+                OnHunkerEnd = { TargetStateID = 'hunkerend' },
+				OnIdle = { TargetStateID = 'idle' },
+				OnWalk = { TargetStateID = 'walk' },
+				OnKilled = { TargetStateID = 'killed', },
+				Reset = { TargetStateID = 'initialidle' },
+			},
+			children = {
+				['hunkered'] = {
+					type='Messenger',
+					children = {
+						['hunker'] = {
+							type='BasicAnim',
+						},
+						['hunkeridle'] = {
+							type='BasicAnim',
+						},
+						['hunkerend'] = {
+							type='BasicAnim',
+						},
+					},
+				},
+				['walk'] = {
+					type='BasicAnim',
+                    data = {
+                        Looping = true,
+                        ScaleByMovementSpeed = true,
+                    },
+				},
+				['idle'] = {
+					type='BasicAnim',
+				},
+				['initialidle'] = {
+					type='Messenger',
+				},
+				['killed'] = {
+					type='BasicAnim',
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,25 @@
+MeshBlueprint {
+	LODs = {
+		{
+			LODCutoff = 500,
+            MeshName = '/mods/DLC1/base/projectiles/debris/Cybran/UCB0704/UCB0704_Turret_Debris_02_lod0.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/props/Structures/Algorithm_Gen/Algorithm_Gen_Gray_Diffuse.dds',
+						NormalName = '/props/Structures/Algorithm_Gen/Algorithm_Gen_Normal.dds',
+						TeamName = '/props/Structures/Algorithm_Gen/Algorithm_Gen_Team.dds',
+						MaskName = '/props/Structures/Algorithm_Gen/Algorithm_Gen_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},	
+		
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

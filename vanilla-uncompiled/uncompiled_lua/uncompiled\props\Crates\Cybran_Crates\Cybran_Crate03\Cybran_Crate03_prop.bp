@@ -1,0 +1,43 @@
+PropBlueprint {
+	Categories = {
+        'INVULNERABLE',
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Crates/Cybran_Crates/Cybran_Crate01/Cybran_crate01_diffuse.dds',
+                                    MaskName = '/props/Crates/Cybran_Crates/Cybran_Crate01/Cybran_crate01_diffuse.dds',
+                                    NormalName = '/props/Crates/Cybran_Crates/Cybran_Crate01/Cybran_crate01_normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+    },
+    Economy = {
+        MassValue = 1,
+    },
+    Footprint = {
+        SizeX = 5,
+        SizeZ = 5,
+    },
+    Interface = {
+        HelpText = 'Cybran_Crate03',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.5,
+    SizeY = 0.5,
+    SizeZ = 0.5,
+}

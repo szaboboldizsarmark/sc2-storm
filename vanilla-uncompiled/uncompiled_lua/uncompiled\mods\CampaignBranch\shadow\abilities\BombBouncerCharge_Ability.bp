@@ -1,0 +1,15 @@
+AbilityBlueprint {
+    Cooldown = 20,
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0059>Mega Blast Manual Charge',
+    InitiallyEnabled = true,
+	RunScript = 'OnBombBounceChargeActivate',
+	OrderBitmapId = 'bbouncecharge',
+    Resource = {
+        OnActivate = {
+            SourceAmount = '750',
+            SourceType = 'ENERGY',
+        },
+    },
+	ShowCmdButtonWhenDisabled = true,
+}

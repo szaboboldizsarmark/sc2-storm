@@ -1,0 +1,94 @@
+EmitterBlueprint {
+	BlueprintId = 'w_c_las05_i_u_12_darkflash',
+	Lifetime = 1.00,
+	Repeattime = 1.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	AlignRotation = true,
+	LODCutoff = 200.00,
+	InterpolateEmission = false,
+	TextureStripcount = 4.00,
+	SortOrder = 5.00,
+	LowFidelity = false,
+	MedFidelity = false,
+	Texture = [[/textures/particles/energy/en_0010_35.dds]],
+	RampTexture = [[/textures/particles/ramp_black_03.dds]],
+	EmitRateCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2720,y=4.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5360,y=4.0000,z=0.7500 },
+		},
+	},
+	XPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5100,y=0.0000,z=0.2000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2400,y=0.5000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5100,y=0.0000,z=0.2000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5060,y=1.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.1780,y=0.0000,z=0.5000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5000,y=0.3000,z=0.2000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5500,y=0.0000,z=0.5000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.5320,y=1.0000,z=1.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.2890,y=2.0000,z=0.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.3010,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 1.0000,
+		Keys = {
+			{ x=0.4900,y=2.0000,z=4.0000 },
+		},
+	},
+}

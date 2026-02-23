@@ -1,0 +1,102 @@
+EmitterBlueprint {
+	BlueprintId = 'w_i_nuke01_l_04_plasma_cloud',
+	Lifetime = 20.00,
+	Repeattime = 20.00,
+	Blendmode = 3.00,
+	LODCutoff = 500.00,
+	SnapToWaterline = true,
+	LowFidelity = false,
+	Texture = [[/textures/particles/ser_plasma07.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0058_lightblue.dds]],
+	EmitRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=8.0000,y=0.0000,z=0.0000 },
+			{ x=10.0000,y=5.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=5.0600,y=25.0000,z=10.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=4.6200,y=1.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=4.3800,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=0.0000,z=1.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=4.1600,y=0.2000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=5.2000,y=0.0000,z=0.4000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=0.2000,z=0.4000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=4.7400,y=0.0000,z=0.4000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=5.1400,y=1.0000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=6.1800,y=2.5000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=5.3800,y=0.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=1.0000,z=0.0770 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=3.5400,y=0.2000,z=0.0000 },
+		},
+	},
+}

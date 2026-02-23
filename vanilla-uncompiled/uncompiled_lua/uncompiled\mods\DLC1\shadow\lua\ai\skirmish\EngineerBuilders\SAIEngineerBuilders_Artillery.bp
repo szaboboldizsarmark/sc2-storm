@@ -1,0 +1,207 @@
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'LongRangeArtilleryStructure',
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'ucl0002',
+        'ucl0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0105', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'ucb0105', ConditionIntegerOne = 8, },
+			{ ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'ENERGYPRODUCTION', ConditionIntegerOne = 2, },
+			{ ConditionType = 'BaseEnemyUnitsInRangeGreaterThan', ConditionCategoryStringOne = 'STRUCTURE -MASSEXTRACTION', ConditionFloat = 600, ConditionIntegerOne = 0, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0105', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0105', ConditionIntegerOne = 8, },
+			{ ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'ENERGYPRODUCTION', ConditionIntegerOne = 2, },
+			{ ConditionType = 'BaseEnemyUnitsInRangeGreaterThan', ConditionCategoryStringOne = 'STRUCTURE -MASSEXTRACTION', ConditionFloat = 1050, ConditionIntegerOne = 0, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'LongRangeArtilleryStructure',
+    BuildLocation = 'Base',
+    BasePriority = 950,
+    InstanceCount = 2,
+    SkirmishResourceType = 'Experimentals',
+    BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'ShieldMelter',
+    BuilderIds = {
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uix0104d1', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uix0104d1', ConditionIntegerOne = 1, },
+			{ ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'ENERGYPRODUCTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'ShieldMelter',
+    BuildLocation = 'Base',
+    BasePriority = 950,
+    InstanceCount = 2,
+    SkirmishResourceType = 'Experimentals',
+    BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'ArtilleryStructure',
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0104', ConditionBool = true, },
+            --{ ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0104', ConditionIntegerOne = 10, },
+			{ ConditionType = 'BaseUnitIdLessThan', ConditionIntegerOne = 8, ConditionStringOne = 'uub0104', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'ArtilleryStructure',
+    BuildLocation = 'Base',
+    BasePriority = 950,
+    InstanceCount = 2,
+    SkirmishResourceType = 'Artillery',
+	BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'StrategicMissileLauncher',
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0107', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0107', ConditionIntegerOne = 8, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'ENERGYPRODUCTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0107', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uib0107', ConditionIntegerOne = 8, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'ENERGYPRODUCTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'StrategicMissileLauncher',
+    BuildLocation = 'Base',
+    BasePriority = 950,
+    InstanceCount = 1,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'StrategicMissileLauncherAndDefense',
+    BuilderIds = {
+        'ucl0002',
+        'ucl0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0204', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'ucb0204', ConditionIntegerOne = 8, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'ENERGYPRODUCTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'MissileLaunchAndDefense',
+    BuildLocation = 'Base',
+    BasePriority = 950,
+    InstanceCount = 1,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'StrategicMissileRedirector',
+    BuilderIds = {
+        'ucl0002',
+        'ucl0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0205d1', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'ucb0205d1', ConditionIntegerOne = 1, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'ENERGYPRODUCTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'StrategicRedirector',
+    BuildLocation = 'Base',
+    BasePriority = 950,
+    InstanceCount = 1,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+}
+

@@ -1,0 +1,69 @@
+ProjectileBlueprint {
+    Audio = {
+        ExistLoop = 'SC2/SC2/Projectiles/CYBRAN/StrategicMissile/snd_Cybran_StrategicMissile_Move_Loop',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+        'STRATEGIC',
+        'MISSILE',
+        'NOSPLASHDAMAGE',
+    },
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 25,
+        MaxHealth = 25,
+    },
+    Description = 'CYBRAN Nuclear Missile',
+    Display = {
+        CameraFollowTimeout = 10,
+        CameraFollowsProjectile = true,
+        Mesh = {
+            IconFadeInZoom = 200,
+            LODs = {
+                {
+                    DiffuseName = '/projectiles/Cybran/CStrategicMissile01/CStrategicMissile01_Diffuse.dds',
+                    MaskName = '/projectiles/Cybran/CStrategicMissile01/CStrategicMissile01_Mask.dds',
+                    MeshName = '/projectiles/Cybran/CStrategicMissile01/CStrategicMissile01_lod0.scm',
+                    NormalName = '/projectiles/Cybran/CStrategicMissile01/CStrategicMissile01_Normal.dds',
+                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, environment_mapping',
+                },
+            },
+        },
+        StrategicIconIgnoreIntel = true,
+        UniformScale = 1,
+    },
+    General = {
+        Category = 'Missile',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+            'STRATEGIC',
+            'MISSILE',
+            'NOSPLASHDAMAGE',
+        },
+        Faction = 'Cybran',
+    },
+    Interface = {
+        HelpText = 'CYBRAN Nuclear Missile',
+    },
+    Physics = {
+        Acceleration = 3,
+        CollideEntity = false,
+        CollideSurface = false,
+        InitialSpeed = 0,
+        Lifetime = 600,
+        MaxSpeed = 40,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = true,
+        TrackTargetGround = true,
+        TurnRate = 0,
+        UseGravity = false,
+        VelocityAlign = true,
+    },
+    SizeX = 1,
+    StrategicIconName = '/textures/ui/common/game/unit-over/icon-nuke_bmp.dds',
+}

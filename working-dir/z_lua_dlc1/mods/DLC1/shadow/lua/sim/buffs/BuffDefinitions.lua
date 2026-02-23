@@ -1,0 +1,529 @@
+-----------------------------------------------------------------------------
+--  File     : /lua/sim/BuffAffects.lua
+--  Author(s): Gordon Duclos, Eric Williamson
+--  Summary  : Buff Blueprint definitions
+--  Copyright © 2009 Gas Powered Games, Inc.  All rights reserved.
+-----------------------------------------------------------------------------
+import('/lua/sim/buffs/AdjacencyBuffs.lua')
+import('/lua/sim/buffs/ResearchBuffDefinitions.lua')
+import('/lua/sim/buffs/CheatBuffs.lua') -- Buffs for AI Cheating
+import('/lua/sim/buffs/CampaignBuffs.lua') -- Campaign Difficulty Buffs
+
+------------------------------------------------------------------
+-- VETERANCY BUFFS
+------------------------------------------------------------------
+BuffBlueprint {
+    Name = 'VETERANCYLEVEL01',
+    DisplayName = 'VeterancyLevel01',
+    BuffType = 'VETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	Damage = { Mult = 0.1, },
+        HealthMax = { Mult = 0.1, },
+        HealthRegen = { Mult = 0.25, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'VETERANCYLEVEL02',
+    DisplayName = 'VeterancyLevel02',
+    BuffType = 'VETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	Damage = { Mult = 0.2, },
+        HealthMax = { Mult = 0.2, },
+        HealthRegen = { Mult = 0.5, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'VETERANCYLEVEL03',
+    DisplayName = 'VeterancyLevel03',
+    BuffType = 'VETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	Damage = { Mult = 0.3, },
+        HealthMax = { Mult = 0.3, },
+        HealthRegen = { Mult = 0.75, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'VETERANCYLEVEL04',
+    DisplayName = 'VeterancyLevel04',
+    BuffType = 'VETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	Damage = { Mult = 0.4, },
+        HealthMax = { Mult = 0.4, },
+        HealthRegen = { Mult = 1, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'VETERANCYLEVEL05',
+    DisplayName = 'VeterancyLevel05',
+    BuffType = 'VETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	Damage = { Mult = 0.5, },
+        HealthMax = { Mult = 0.5, },
+        HealthRegen = { Mult = 1.25, },
+    },
+}
+
+------------------------------------------------------------------
+-- EXTRACTOR VETERANCY BUFFS
+------------------------------------------------------------------
+
+BuffBlueprint {
+    Name = 'EXTRACTORVETERANCYLEVEL01',
+    DisplayName = 'ExtractorVeterancyLevel01',
+    BuffType = 'EXTRACTORVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	MassProduction = { Mult = 0.25, },
+        HealthMax = { Mult = 0.25, },
+        HealthRegen = { Mult = 0.25, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'EXTRACTORVETERANCYLEVEL02',
+    DisplayName = 'ExtractorVeterancyLevel02',
+    BuffType = 'EXTRACTORVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	MassProduction = { Mult = 0.5, },
+        HealthMax = { Mult = 0.5, },
+        HealthRegen = { Mult = 0.5, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'EXTRACTORVETERANCYLEVEL03',
+    DisplayName = 'ExtractorVeterancyLevel03',
+    BuffType = 'EXTRACTORVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	MassProduction = { Mult = 0.75, },
+        HealthMax = { Mult = 1, },
+        HealthRegen = { Mult = 1, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'EXTRACTORVETERANCYLEVEL04',
+    DisplayName = 'ExtractorVeterancyLevel04',
+    BuffType = 'EXTRACTORVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	MassProduction = { Mult = 1, },
+        HealthMax = { Mult = 1.5, },
+        HealthRegen = { Mult = 1.5, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'EXTRACTORVETERANCYLEVEL05',
+    DisplayName = 'ExtractorVeterancyLevel05',
+    BuffType = 'EXTRACTORVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	MassProduction = { Mult = 1.5, },
+        HealthMax = { Mult = 2, },
+        HealthRegen = { Mult = 2, },
+    },
+}
+
+------------------------------------------------------------------
+-- ACU VETERANCY BUFFS
+------------------------------------------------------------------
+BuffBlueprint {
+    Name = 'ACUVETERANCYLEVEL01',
+    DisplayName = 'ACUVeterancyLevel01',
+    BuffType = 'ACUVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	Damage = { Mult = 0.1, },
+        HealthMax = { Mult = 0.1, },
+        HealthRegen = { Mult = 0.2, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'ACUVETERANCYLEVEL02',
+    DisplayName = 'ACUVeterancyLevel02',
+    BuffType = 'ACUVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	Damage = { Mult = 0.2, },
+        HealthMax = { Mult = 0.2, },
+        HealthRegen = { Mult = 0.4, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'ACUVETERANCYLEVEL03',
+    DisplayName = 'ACUVeterancyLevel03',
+    BuffType = 'ACUVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	Damage = { Mult = 0.3 },
+        HealthMax = { Mult = 0.3, },
+        HealthRegen = { Mult = 0.6, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'ACUVETERANCYLEVEL04',
+    DisplayName = 'ACUVeterancyLevel04',
+    BuffType = 'ACUVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	Damage = { Mult = 0.4, },
+        HealthMax = { Mult = 0.4, },
+        HealthRegen = { Mult = 0.8, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'ACUVETERANCYLEVEL05',
+    DisplayName = 'ACUVeterancyLevel05',
+    BuffType = 'ACUVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+    	Damage = { Mult = 0.5, },
+        HealthMax = { Mult = 0.5, },
+        HealthRegen = { Mult = 1, },
+    },
+}
+
+------------------------------------------------------------------
+-- FACTORY VETERANCY BUFFS - BUILD RATE AND BUILD COSTS
+------------------------------------------------------------------
+BuffBlueprint {
+    Name = 'FACTORYVETERANCYLEVEL01',
+    DisplayName = 'FactoryVeterancyLevel01',
+    BuffType = 'FACTORYVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+        BuildTime = { Mult = -0.04, },
+        BuildCostMass = { Mult = -0.04, },
+        BuildCostEnergy = { Mult = -0.04, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'FACTORYVETERANCYLEVEL02',
+    DisplayName = 'FactoryVeterancyLevel02',
+    BuffType = 'FACTORYVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+        BuildTime = { Mult = -0.08, },
+        BuildCostMass = { Mult = -0.08, },
+        BuildCostEnergy = { Mult = -0.08, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'FACTORYVETERANCYLEVEL03',
+    DisplayName = 'FactoryVeterancyLevel03',
+    BuffType = 'FACTORYVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+        BuildTime = { Mult = -0.12, },
+        BuildCostMass = { Mult = -0.12, },
+        BuildCostEnergy = { Mult = -0.12, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'FACTORYVETERANCYLEVEL04',
+    DisplayName = 'FactoryVeterancyLevel04',
+    BuffType = 'FACTORYVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+        BuildTime = { Mult = -0.16, },
+        BuildCostMass = { Mult = -0.16, },
+        BuildCostEnergy = { Mult = -0.16, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'FACTORYVETERANCYLEVEL05',
+    DisplayName = 'FactoryVeterancyLevel05',
+    BuffType = 'FACTORYVETERANCYLEVEL',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+        BuildTime = { Mult = -0.2, },
+        BuildCostMass = { Mult = -0.2, },
+        BuildCostEnergy = { Mult = -0.2, },
+    },
+}
+
+------------------------------------------------------------------
+-- MISCELANEOUS BUFFS
+------------------------------------------------------------------
+BuffBlueprint {
+    Name = 'Hunker',
+    DisplayName = 'Hunker',
+    BuffType = 'HUNKER',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+        DamageReduction = {
+            Mult = -0.60,
+        },
+    },
+}
+
+BuffBlueprint {
+    Name = 'ACUHunker',
+    DisplayName = 'ACUHunker',
+    BuffType = 'ACUHUNKER',
+    Stacks = 'NEVER',
+    Duration = -1,
+    Affects = {
+        DamageReduction = {
+            Mult = -0.50,
+        },
+    },
+}
+
+BuffBlueprint {
+    Name = 'HardenArtillery',
+    DisplayName = 'Harden Artillery',
+    BuffType = 'HARDENARTILLERY',
+    Stacks = 'NEVER',
+    Duration = -1,
+    Affects = {
+    	Damage = { Mult = 0.5, },
+        HealthMax = { Mult = 0.5, },
+        HealthRegen = { Mult = 1.25, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'DisruptorStation',
+    DisplayName = 'Disruptor Station',
+    BuffType = 'DISRUPTORSTATION',
+    Stacks = 'NEVER',
+    Duration = -1,
+    Affects = {
+    	StunChance = { Add = 37.5, },
+        StunDuration = { Add = 5.0 },
+    },
+}
+
+BuffBlueprint {
+    Name = 'SpeedReducingMegaArmor',
+    DisplayName = 'Speed Reducing Mega-Armor',
+    BuffType = 'SPEEDREDUCINGMEGAARMOR',
+    Stacks = 'NEVER',
+    Duration = -1,
+    Affects = {
+    	MoveSpeed = { Mult = -0.8, },
+        HealthMax = { Mult = 1.5, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'SpeedReducingMegaArmorSkirmish',
+    DisplayName = 'Speed Reducing Mega-Armor',
+    BuffType = 'HUNKER',
+    Stacks = 'NEVER',
+    Duration = -1,
+    Affects = {
+    	MoveSpeed = { Mult = -0.6, },
+        DamageReduction = { Mult = -0.50, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'SpeedOverdrive',
+    DisplayName = 'Speed Overdrive',
+    BuffType = 'SPEEDOVERDRIVE',
+    Stacks = 'NEVER',
+    Duration = -1,
+    Affects = {
+    	MoveSpeed = { Mult = 0.5, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'RadarOverdrive',
+    DisplayName = 'Radar Overdrive',
+    BuffType = 'RADAROVERDRIVE',
+    Stacks = 'NEVER',
+    Duration = -1,
+    Affects = {
+    	RadarRadius = { Mult = 1, }, -- 0.75
+        VisionRadius = { Mult = 1, }, -- 10
+    },
+}
+
+BuffBlueprint {
+    Name = 'RadarOverdriveXP',
+    DisplayName = 'Radar Overdrive XP',
+    BuffType = 'RADAROVERDRIVEXP',
+    Stacks = 'NEVER',
+    Duration = -1,
+    Affects = {
+    	RadarRadius = { Mult = 2, }, -- 4
+        VisionRadius = { Mult = 2, }, -- 8
+	SonarRadius = { Mult = 2, }, -- 8
+    },
+}
+
+BuffBlueprint {
+    Name = 'ProtobrainExperience',
+    DisplayName = 'Increased Experience Gain',
+    BuffType = 'PROTOBRAINEXPERIENCE',
+    Stacks = 'REFRESH',
+    Duration = 8,
+    Affects = {
+        ExperienceGain = {
+            Mult = 2.0, -- 3.0
+        },
+    },
+}
+
+BuffBlueprint {
+    Name = 'ArmorEnhancement',
+    DisplayName = 'Increased Armor',
+    BuffType = 'ARMORENHANCEMENT',
+    Stacks = 'REFRESH',
+    Duration = 4,
+    Affects = {
+        HealthMax = {
+            Mult = 0.2,
+        },
+    },
+}
+
+BuffBlueprint {
+    Name = 'ArmorEnhancementSkirmish',
+    DisplayName = 'Increased Armor',
+    BuffType = 'ARMORENHANCEMENTSKIRMISH',
+    Stacks = 'REFRESH',
+    Duration = 8,
+    Affects = {
+        HealthRegen = { Mult = 2, },
+    },
+}
+
+BuffBlueprint {
+    Name = 'ArmorEnhancementColossus',
+    DisplayName = 'Increased Armor',
+    BuffType = 'ARMORENHANCEMENTCOLOSSUS',
+    Stacks = 'REFRESH',
+    Duration = 8,
+    Affects = {
+        HealthMax = {
+            Mult = 0.2,
+        },
+    },
+}
+
+BuffBlueprint {
+    Name = 'JackhammerUnpacked',
+    DisplayName = 'JackhammerUnpacked',
+    BuffType = 'JACKHAMMERUNPACKED',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+        DamageReduction = {
+            Mult = 0.25,
+        },
+    },
+}
+
+-- Default jump movement speed increase buff
+BuffBlueprint {
+    Name = 'JumpMoveSpeedIncrease01',
+    DisplayName = 'Increased Move Speed',
+    BuffType = 'JUMPMOVESPEEDINCREASE01',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+        MoveSpeed = {
+            Mult = 1.0,
+        },
+    },
+}
+
+-- Commander jump movement speed increase buff
+BuffBlueprint {
+    Name = 'JumpMoveSpeedIncrease02',
+    DisplayName = 'Increased Move Speed',
+    BuffType = 'JUMPMOVESPEEDINCREASE02',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+        MoveSpeed = {
+            Mult = 1.0,
+        },
+    },
+}
+
+BuffBlueprint {
+    Name = 'HealingNaniteCloudBuff',
+    DisplayName = 'Increase Regeneration',
+    BuffType = 'HEALINGNANITECLOUD',
+    Stacks = 'REFRESH',
+    Duration = 5,
+    Affects = {
+        HealthRegen = {
+            Mult = 3,
+        },
+    },
+}
+
+-- Super smart proto brain buff
+BuffBlueprint {
+    Name = 'ProtoBrainSuperSmart01',
+    DisplayName = 'Increased Research production.',
+    BuffType = 'PROTOBRAINSUPERSMART01',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+        ResearchProduction = {
+            Mult = 1,
+        },
+    },
+}
+
+BuffBlueprint {
+    Name = 'CybranLandMoveSpeedRedux01',
+    DisplayName = 'Lowers Cybran Ship Movement on Land',
+    BuffType = 'CYBRANLANDMOVESPEEDREDUX01',
+    Stacks = 'REPLACE',
+    Duration = -1,
+    Affects = {
+        MoveSpeed = {
+            Mult = -0.5,
+        },
+    },
+}
+__moduleinfo.auto_reload = true

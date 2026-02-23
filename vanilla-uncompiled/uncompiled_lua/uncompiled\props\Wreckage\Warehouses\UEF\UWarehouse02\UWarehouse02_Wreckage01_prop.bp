@@ -1,0 +1,43 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Warehouses/UEF/UWarehouse02/UWarehouse02_Gray_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/props/Warehouses/UEF/UWarehouse02/UWarehouse02_Mask.dds',
+                                    NormalName = '/props/Warehouses/UEF/UWarehouse02/UWarehouse02_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage, wreckage_edge_highlight',
+                                    TeamName = '/props/Warehouses/UEF/UWarehouse02/UWarehouse02_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.06,
+    },
+    Economy = {
+        MassValue = 1,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

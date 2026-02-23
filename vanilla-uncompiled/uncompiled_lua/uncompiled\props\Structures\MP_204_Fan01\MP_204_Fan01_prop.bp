@@ -1,0 +1,37 @@
+PropBlueprint {
+	Categories = {
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            CastShadow = false,
+            LODs = {
+                {
+                    LODCutoff = 10000,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/textures/Terrain/Man_made/Walls/MP_204_Wall_006a_d.dds',
+                                    MaskName = '/textures/Terrain/Man_made/Walls/MP_204_Wall_006a_m.dds',
+                                    NormalName = '/textures/Terrain/Man_made/Walls/Wall_006a_n.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.1,
+    },
+    Interface = {
+        HelpText = 'MP_204_Fan01',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

@@ -1,0 +1,23 @@
+MeshBlueprint {
+	LODs = {
+		{
+			LODCutoff = 800,
+            MeshName = '/projectiles/debris/Props/Structures/Tech_Cache/Tech_Cache_Turret_Debris_01_lod0.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/props/Structures/Tech_Cache/Tech_Cache_gray_diffuse.dds',
+						NormalName = '/props/Structures/Tech_Cache/Tech_Cache_Normal.dds',
+						MaskName = '/props/Structures/Tech_Cache/Tech_Cache_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},	
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

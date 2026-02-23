@@ -1,0 +1,115 @@
+EmitterBlueprint {
+	BlueprintId = 'destruction_damaged_watersmoke_01',
+	Lifetime = -30.00,
+	Repeattime = 30.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	Gravity = true,
+	AlignRotation = true,
+	CreateIfVisible = true,
+	SortOrder = -950.00,
+	Texture = [[/textures/particles/riotgun_munition_04.dds]],
+	RampTexture = [[/textures/particles/ramp_blue_02.dds]],
+	EmitRateCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=0.0000,y=10.0000,z=20.0000 },
+			{ x=0.5000,y=10.0000,z=10.0000 },
+			{ x=0.5000,y=0.0000,z=0.0000 },
+			{ x=3.3000,y=0.0000,z=0.0000 },
+			{ x=3.3000,y=5.0000,z=2.0000 },
+			{ x=4.0000,y=5.0000,z=2.0000 },
+			{ x=4.0000,y=0.0000,z=0.0000 },
+			{ x=13.6870,y=0.0000,z=0.0000 },
+			{ x=14.5000,y=10.0000,z=5.0000 },
+			{ x=14.5000,y=0.0000,z=0.0000 },
+			{ x=18.1510,y=-0.5000,z=0.0000 },
+			{ x=18.1510,y=5.0000,z=5.0000 },
+			{ x=19.2010,y=5.0000,z=5.0000 },
+			{ x=19.2010,y=-0.5000,z=0.0000 },
+			{ x=23.5340,y=-0.5000,z=0.0000 },
+			{ x=23.5340,y=10.0000,z=20.0000 },
+			{ x=24.7000,y=10.0000,z=20.0000 },
+			{ x=24.7000,y=0.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=18.0080,y=5.0000,z=3.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=21.6900,y=0.1500,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.0400,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.6330,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=16.0290,y=1.5000,z=0.4000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=24.6150,y=0.0000,z=0.2000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=13.7750,y=0.0000,z=0.4000 },
+			{ x=23.7450,y=0.0000,z=0.4000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.0000,y=0.0000,z=0.2000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.0000,y=-0.0100,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.7500,y=0.1500,z=0.1000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.0000,y=0.0500,z=0.0500 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

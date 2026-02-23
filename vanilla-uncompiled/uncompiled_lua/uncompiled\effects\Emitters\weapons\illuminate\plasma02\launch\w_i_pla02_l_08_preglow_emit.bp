@@ -1,0 +1,98 @@
+EmitterBlueprint {
+	BlueprintId = 'w_i_pla02_l_08_preglow',
+	Lifetime = 6.00,
+	Repeattime = 6.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = -1.00,
+	ParticleResistance = true,
+	Texture = [[/textures/particles/glow.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0102_lightaqua.dds]],
+	EmitRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.5594,y=7.0000,z=4.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.0000,y=2.0000,z=0.0000 },
+			{ x=6.0000,y=0.3500,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.2000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=0.7500 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0060,y=0.0000,z=0.7500 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.3000,z=0.5000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.1000,z=0.1000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.0000,y=4.0000,z=0.1000 },
+			{ x=4.5515,y=7.0000,z=0.4000 },
+			{ x=6.0000,y=12.0000,z=0.4000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=6.0000,y=0.2000,z=0.1000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=10.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	DistMapScaleCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.7256,y=0.0000,z=0.0000 },
+		},
+	},
+}

@@ -1,0 +1,41 @@
+PropBlueprint {
+	Categories = {
+        'INVULNERABLE',
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Buildings/Illuminate/IBuilding01/IBuilding_Diffuse.dds',
+                                    MaskName = '/props/Buildings/Illuminate/IBuilding01/IBuilding_mask.dds',
+                                    NormalName = '/props/Buildings/Illuminate/IBuilding01/IBuilding_normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.08,
+    },
+    Footprint = {
+        SizeX = 30,
+        SizeZ = 30,
+    },
+    Interface = {
+        HelpText = 'IBuilding03',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

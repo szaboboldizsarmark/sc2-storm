@@ -1,0 +1,107 @@
+EmitterBlueprint {
+	BlueprintId = 'ucx0115_amb_05_steam',
+	Lifetime = -4.00,
+	Repeattime = 4.00,
+	Blendmode = 0.00,
+	LODCutoff = 150.00,
+	TextureStripcount = 2.00,
+	Texture = [[/textures/particles/cloud_strip_01.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	EmitRateCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=3.4544,y=0.4000,z=0.1000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.3220,y=30.0000,z=10.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=0.3108,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=5.3000,z=0.0000 },
+			{ x=2.0000,y=-5.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=4.3000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=-5.5000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=0.0108,y=0.4000,z=0.0500 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=1.9600,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0592,y=0.3000,z=0.1000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=0.9392,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=1.9632,y=0.6000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0680,y=1.3000,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=1.0000,z=2.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=1.0556,y=0.2000,z=0.4000 },
+		},
+	},
+}

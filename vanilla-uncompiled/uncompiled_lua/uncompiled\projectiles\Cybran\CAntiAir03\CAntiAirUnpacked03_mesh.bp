@@ -1,0 +1,13 @@
+MeshBlueprint {
+    LODs = {
+        {
+        	LODCutoff = 150,
+            MeshName = '/projectiles/Cybran/CAntiAir03/CAntiAirUnpacked03_lod0.scm',
+            DiffuseName = '/projectiles/Cybran/CAntiAir03/CAntiAirUnPacked03_Diffuse.dds',
+            MaskName = '/projectiles/Cybran/CAntiAir03/CAntiAirUnPacked03_Mask.dds',
+            NormalName = '/projectiles/Cybran/CAntiAir03/CAntiAirUnPacked03_Normal.dds',
+            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, environment_mapping',
+            
+        },
+    },
+}

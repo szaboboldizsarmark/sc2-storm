@@ -1,0 +1,41 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/UEF/UUS0105/UUS0105_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/UEF/UUS0105/UUS0105_Mask.dds',
+                                    NormalName = '/Units/UEF/UUS0105/UUS0105_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage',
+                                    TeamName = '/Units/UEF/UUS0105/UUS0105_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/Units/UEF/UUS0105/UUS0105_lod2.scm',
+                },
+            },
+        },
+        UniformScale = 0.045,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 1.7,
+    SizeY = 1.3,
+    SizeZ = 10.5,
+}

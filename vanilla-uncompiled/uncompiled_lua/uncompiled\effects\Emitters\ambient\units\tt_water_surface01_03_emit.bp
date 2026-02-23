@@ -1,0 +1,112 @@
+EmitterBlueprint {
+	BlueprintId = 'tt_water_surface01_03',
+	Lifetime = 50.00,
+	Repeattime = 50.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	AlignRotation = true,
+	Flat = true,
+	CreateIfVisible = true,
+	SnapToWaterline = true,
+	SortOrder = -96.00,
+	Texture = [[/textures/particles/water_ripple_alpha_03.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=21.0000,y=-0.5000,z=0.0000 },
+			{ x=25.0000,y=0.6000,z=0.5000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=21.9750,y=20.0000,z=10.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=24.6000,y=0.1460,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=0.1000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=27.6392,y=-0.1500,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=1.7500 },
+			{ x=39.3140,y=-1.0000,z=3.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.1250,y=0.1000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=0.3250,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=26.5175,y=0.0000,z=0.2000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.1250,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=37.1428,y=1.0000,z=0.1500 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=0.2000,y=2.5000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=23.5500,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=22.1000,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=17.2823,y=0.0000,z=0.0000 },
+		},
+	},
+}

@@ -1,0 +1,65 @@
+PropBlueprint {
+	Categories = {
+        'INVULNERABLE',
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 200,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, glow, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, ambient_occlusion, glow, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, glow, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.2,
+    },
+    Economy = {
+        MassValue = 25,
+    },
+    Footprint = {
+        SizeX = 3,
+        SizeZ = 3,
+    },
+    Interface = {
+        HelpText = 'IWarehouse03',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

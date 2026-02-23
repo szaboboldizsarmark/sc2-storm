@@ -1,0 +1,124 @@
+EmitterBlueprint {
+	BlueprintId = 'seraphim_being_built_ambient_02',
+	Lifetime = -1.00,
+	Repeattime = 50.00,
+	Blendmode = 3.00,
+	SortOrder = -1.00,
+	Texture = [[/textures/particles/ser_plasma09.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0058_lightblue.dds]],
+	DistortionMapTexture = [[/textures/particles/displacement/di_0009_55.dds]],
+	EmitRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.3960,y=0.2000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=24.9340,y=28.5710,z=0.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.4620,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=24.9340,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=26.1210,y=0.1000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.2640,y=0.4000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.3300,y=0.0000,z=0.1000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=24.5380,y=0.2000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=0.1000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.1320,y=0.5000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.1320,y=1.1430,z=0.1000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=26.1210,y=1.0000,z=4.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	DistMapScaleCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=12.0053,y=0.7191,z=0.0000 },
+		},
+	},
+	DistMapBeginStrengthCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=11.2137,y=0.0857,z=0.0000 },
+		},
+	},
+	DistMapEndStrengthCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=9.8285,y=0.0786,z=0.0000 },
+		},
+	},
+	DistMapUShiftRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=7.9815,y=0.0333,z=0.0000 },
+		},
+	},
+	DistMapVShiftRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=12.8628,y=0.0143,z=0.0000 },
+		},
+	},
+}

@@ -1,0 +1,60 @@
+EmitterBlueprint {
+	BlueprintId = 'generic_teleportout_06_refraction',
+	Lifetime = 4.00,
+	Repeattime = 4.00,
+	Blendmode = 5.00,
+	LODCutoff = 150.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/ring/rn_0023_33.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0065_whitefast_mod.dds]],
+	EmitRateCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=5.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=1.5000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=4.0000,z=0.0000 },
+			{ x=2.0000,y=0.5000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=0.5000,z=0.5000 },
+			{ x=2.0000,y=3.6000,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=5.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

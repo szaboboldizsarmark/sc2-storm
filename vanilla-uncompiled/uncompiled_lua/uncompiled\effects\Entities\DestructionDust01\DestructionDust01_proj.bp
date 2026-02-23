@@ -1,0 +1,24 @@
+ProjectileBlueprint {
+    DevStatus = 'STABLE',
+    Display = {
+    },
+    Effects = {
+        Emitters = {
+            Template = 'DestructionDust01_Trails01',
+        },
+    },
+    Physics = {
+        MinBounceCount = 10000,
+        MaxBounceCount = 10000,
+        BounceVelDamp = 1,
+        DestroyOnWater = false,
+        InitialSpeed = 20,
+        InitialSpeedRange = 0,
+        Lifetime = 0.6,
+        MaxSpeed = 100,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0.5,
+        TurnRate = 0,
+        UseGravity = false,
+    },
+}

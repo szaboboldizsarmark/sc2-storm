@@ -1,0 +1,47 @@
+version = 3
+ScenarioInfo = {
+    devname = 'MP_206: 6 Player 3v3 LAND',
+    name = '<LOC SC2_MAPNAME_0036>[6] Van Horne Core (3v3)',
+    x360_name = '<LOC SC2_MAPNAME_0037>[4] Van Horne Core (2v2)',
+    x360_maptype = '2v2',
+	pc_ranked = true,
+    description = 'SC2_MP_206',
+    type = 'skirmish',
+    starts = true,
+    preview = '',
+    reverbPreset = 'SC2_MP_206',
+    size = {1024, 1024},
+    map = '/maps/SC2_MP_206/SC2_MP_206.scmap',
+    save = '/maps/SC2_MP_206/SC2_MP_206_save.lua',
+    script = '/maps/SC2_MP_206/SC2_MP_206_script.lua',
+    norushradius = 90.000000,
+    norushoffsetX_ARMY_1 = 0.000000,
+    norushoffsetY_ARMY_1 = 0.000000,
+    norushoffsetX_ARMY_2 = 0.000000,
+    norushoffsetY_ARMY_2 = 0.000000,
+    norushoffsetX_ARMY_3 = -10.000000,
+    norushoffsetY_ARMY_3 = 16.000000,
+    norushoffsetX_ARMY_4 = 10.000000,
+    norushoffsetY_ARMY_4 = -17.000000,
+    norushoffsetX_ARMY_5 = 0.000000,
+    norushoffsetY_ARMY_5 = 0.000000,
+    norushoffsetX_ARMY_6 = 0.000000,
+    norushoffsetY_ARMY_6 = 0.000000,
+    StartPositions = {
+ 				['ARMY_1'] = { 782.5, 119.346, 556.5 },
+                ['ARMY_2'] = { 241.5, 119.347, 466.5 },
+                ['ARMY_3'] = { 667.5, 119.346, 281.5 },
+                ['ARMY_4'] = { 356.5, 119.346, 742.5 },
+                ['ARMY_5'] = { 844.5, 119.346, 273.5 },
+                ['ARMY_6'] = { 179.5, 119.347, 750.5 },
+    },
+    Configurations = {
+        ['standard'] = {
+            teams = {
+                { name = 'FFA', armies = {'ARMY_1','ARMY_2','ARMY_3','ARMY_4','ARMY_5','ARMY_6',} },
+            },
+            customprops = {
+                ['ExtraArmies'] = STRING( 'ARMY_EXTRA' ),
+            },
+        },
+    }}

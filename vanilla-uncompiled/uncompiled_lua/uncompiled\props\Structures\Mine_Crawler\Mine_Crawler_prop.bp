@@ -1,0 +1,64 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 200,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/Scenario/SCL2101/SCL2101_Diffuse.win.dds',
+                                    MaskName = '/Units/Scenario/SCL2101/SCL2101_Mask.dds',
+                                    NormalName = '/Units/Scenario/SCL2101/SCL2101_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/Units/Scenario/SCL2101/SCL2101_lod0.scm',
+                },
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/Scenario/SCL2101/SCL2101_diffuse.dds',
+                                    MaskName = '/Units/Scenario/SCL2101/SCL2101_Mask.dds',
+                                    NormalName = '/Units/Scenario/SCL2101/SCL2101_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/Units/Scenario/SCL2101/SCL2101_lod1.scm',
+                },
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/Scenario/SCL2101/SCL2101_diffuse.dds',
+                                    MaskName = '/Units/Scenario/SCL2101/SCL2101_Mask.dds',
+                                    NormalName = '/Units/Scenario/SCL2101/SCL2101_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/Units/Scenario/SCL2101/SCL2101_lod2.scm',
+                },
+            },
+        },
+        UniformScale = 0.12,
+    },
+    Interface = {
+        HelpText = 'Mine Crawler',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    CullVolumeScaleZ = 6.5,
+}

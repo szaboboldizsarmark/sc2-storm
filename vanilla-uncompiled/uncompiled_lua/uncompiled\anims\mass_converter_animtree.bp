@@ -1,0 +1,28 @@
+AnimTreeBlueprint {
+	Description = 'Mass Converter Unit AnimTree',
+	StartStateID = 'idle',
+	AnimTreeStates = {
+		['root'] = {
+			type = 'Messenger',
+			transitions = {
+				OnIdle = { TargetStateID = 'idle' },
+				OnConvert = { TargetStateID = 'convert' },
+				OnReverseConvert = { TargetStateID = 'reverse_convert' },
+			},
+			children = {
+				['convert'] = {
+					type='BasicAnim',
+				},
+				['reverse_convert'] = {
+					type='BasicAnim',
+					data = {
+						StartAtFrame = -1,
+					},
+				},
+				['idle'] = {
+					type='Messenger',
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,91 @@
+EmitterBlueprint {
+	BlueprintId = 'fire_cloud_06',
+	Lifetime = 4.00,
+	Repeattime = 4.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	LODCutoff = -1.00,
+	SnapToWaterline = true,
+	Texture = [[/textures/particles/fire_cloud_premod_04.dds]],
+	RampTexture = [[/textures/particles/ramp_white_01.dds]],
+	EmitRateCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=0.2260,y=28.0630,z=0.0000 },
+			{ x=2.0000,y=0.4680,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=0.0320,y=1.6130,z=3.0000 },
+			{ x=0.3400,y=3.2260,z=5.0000 },
+			{ x=0.6650,y=7.0000,z=0.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0260,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=1.0000 },
+			{ x=3.7210,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=0.0060,y=0.3000,z=0.5000 },
+			{ x=3.7210,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=0.0580,y=0.0000,z=1.0000 },
+			{ x=3.7210,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0730,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0950,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=0.0160,y=0.0150,z=0.0000 },
+			{ x=0.6480,y=0.0880,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=0.0050,y=0.1270,z=0.0000 },
+			{ x=0.5010,y=0.4440,z=0.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 4.0000,
+		Keys = {
+			{ x=2.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

@@ -1,0 +1,70 @@
+ProjectileBlueprint {
+    Audio = {
+        ExistLoop = 'SC2/SC2/Projectiles/UEF/StrategicMissile/snd_UEF_StrategicMissile_Move_Loop',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+        'STRATEGIC',
+        'MISSILE',
+        'NOSPLASHDAMAGE',
+    },
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 25,
+        MaxHealth = 25,
+    },
+    Description = 'UEF Nuclear Missile',
+    Display = {
+        CameraFollowTimeout = 10,
+        CameraFollowsProjectile = true,
+        Mesh = {
+            IconFadeInZoom = 200,
+            LODs = {
+                {
+                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, environment_mapping',
+                },
+            },
+        },
+        StrategicIconIgnoreIntel = true,
+        UniformScale = 0.035,
+    },
+    Effects = {
+        Beam = {
+            Template = 'TIFMissileNuke01_Beam01',
+        },
+    },
+    General = {
+        Category = 'Missile',
+        EntityCategory = {
+            'UEF',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+            'STRATEGIC',
+            'MISSILE',
+            'NOSPLASHDAMAGE',
+        },
+        Faction = 'UEF',
+    },
+    Interface = {
+        HelpText = 'UEF Nuclear Missile',
+    },
+    Physics = {
+        Acceleration = 3,
+        CollideEntity = false,
+        CollideSurface = false,
+        InitialSpeed = 0,
+        Lifetime = 600,
+        MaxSpeed = 30,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = true,
+        TrackTargetGround = true,
+        TurnRate = 0,
+        UseGravity = false,
+        VelocityAlign = true,
+    },
+    SizeX = 1,
+    StrategicIconName = '/textures/ui/common/game/unit-over/icon-nuke_bmp.dds',
+}

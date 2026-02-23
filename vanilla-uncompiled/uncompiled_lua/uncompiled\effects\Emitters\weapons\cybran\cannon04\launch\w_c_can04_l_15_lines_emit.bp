@@ -1,0 +1,49 @@
+EmitterBlueprint {
+	BlueprintId = 'w_c_can04_l_15_lines',
+	Lifetime = 3.00,
+	Repeattime = 3.00,
+	Blendmode = 5.00,
+	LocalVelocity = true,
+	SortOrder = 2.00,
+	LowFidelity = false,
+	MedFidelity = false,
+	Texture = [[/textures/particles/ring/rn_0021_44.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=2.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=7.0000,z=3.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.0000,y=-3.6000,z=0.0000 },
+			{ x=3.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.7000,z=0.3000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=3.0000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=180.0000,z=360.0000 },
+		},
+	},
+}

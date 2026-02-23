@@ -1,0 +1,34 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+            CastShadow = false,
+            LODs = {
+                {
+                    LODCutoff = 10000,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/textures/Terrain/mp_201/MP_201_Desertmetal_001a_d.dds',
+                                    MaskName = '/textures/Terrain/mp_201/MP_204_Wall_006a_m.dds',
+                                    NormalName = '/textures/Terrain/mp_201/MP_201_Desertmetal_001a_d.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.1,
+    },
+    Interface = {
+        HelpText = 'MP_201_tubeprops',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

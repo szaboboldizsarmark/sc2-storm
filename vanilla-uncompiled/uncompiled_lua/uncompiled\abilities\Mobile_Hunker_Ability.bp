@@ -1,0 +1,82 @@
+AbilityBlueprint {
+	AbilityStateChange = {
+		OnActivate = {
+			Disable = {
+				'PowerDetonate',
+				'TriArmorHalfSpeed',
+			},
+		},
+		RestoreStatesOnDeactivate = true,
+	},
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_CheckUnitState',	
+			UnitStateRestrictions = {
+				'Jumping',
+			},
+		},
+	},	
+	ActivationRetriggerDelay = 3,
+	AI = {
+		DisableAttackOnActivate = true,
+		EnableAttackOnDeactivate = true,
+		IgnoreSteeringWhileActive = true,
+	},
+	Buffs = {
+		'Hunker',
+	},
+	Commands = {
+		OnActivate = {
+			Disable = {
+				RULEUCC_Attack = true,
+				RULEUCC_Guard = true,
+				RULEUCC_Jump = true,
+				RULEUCC_Move = true,
+				RULEUCC_Patrol = true,
+				RULEUCC_RetaliateToggle = true,
+				RULEUCC_Stop = true,
+			},
+		},
+		ClearCommandQueueOnActivate = true,
+		RestoreCommandCapsOnDeactivate = true,
+	},
+	CommandType = 'EACT_Toggle',
+    Cooldown = 5,
+    CooldownOnDeactivation = true,
+    DisplayName = '<LOC SC2_ABILITIES_0050>Hunker',
+	Effects = {
+		OnActivate = {
+			{
+				Emitters = {
+					'/effects/emitters/ambient/units/unit_hunker_02_emit.bp',  -- rings
+					'/effects/emitters/ambient/units/unit_hunker_05_emit.bp',  -- base glow
+				},
+			},
+		},
+		OnDeactivate = {},
+		RemoveEffectsOnDeactivate = true,
+	},
+    InitiallyEnabled = false,
+    Navigation = {
+		CollisionPushClassOverride = 10,
+    },    
+	OrderBitmapId = 'hunker',
+	RefreshUIOnActivate = true;
+	RefreshUIOnDeactivate = true;
+	RemoveBuffsOnDeactivate = true,	
+	ScriptModule = '/abilities/Mobile_Hunker_Ability.lua',
+	UnitStates = {
+		OnActivate = {
+			Enable = {
+				'Immobile',
+				'Hunkered',
+			},
+		},
+		OnDeactivate = {
+			Disable = {
+				'Immobile',
+				'Hunkered',
+			},
+		},
+	},
+}

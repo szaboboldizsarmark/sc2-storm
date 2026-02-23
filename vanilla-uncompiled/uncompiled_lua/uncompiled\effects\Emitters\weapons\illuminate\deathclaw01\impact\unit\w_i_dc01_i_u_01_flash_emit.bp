@@ -1,0 +1,74 @@
+EmitterBlueprint {
+	BlueprintId = 'w_i_dc01_i_u_01_flash',
+	Lifetime = 3.00,
+	Repeattime = 3.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 300.00,
+	SnapToWaterline = true,
+	InterpolateEmission = false,
+	SortOrder = 5.00,
+	Texture = [[/textures/particles/flare_lens_add_02.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.0000,y=0.0000,z=0.0000 },
+			{ x=1.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.0320,y=1.3000,z=0.5000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.6090,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.2500,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5720,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5090,y=8.0000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=8.0000,z=0.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=1.0000,z=0.0000 },
+		},
+	},
+}

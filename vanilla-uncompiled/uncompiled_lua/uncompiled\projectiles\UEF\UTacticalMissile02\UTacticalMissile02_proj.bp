@@ -1,0 +1,89 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/TacticalMissile/snd_UEF_TacticalMissile_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/TacticalMissile/snd_UEF_TacticalMissile_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/TacticalMissile/snd_UEF_TacticalMissile_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+        'TACTICAL',
+        'MISSILE',
+        'NOSPLASHDAMAGE',
+    },
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 4,
+        MaxHealth = 4,
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        MeshBlueprint = '/projectiles/UEF/UTacticalMissile01/UTacticalMissile01_mesh.bp',
+        StrategicIconSize = 3,
+        UniformScale = 0.1,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Cruisemissile02_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Scale = 1.5,
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Scale = 1.5,
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Scale = 1.5,
+                Template = 'UEF_Cruisemissile01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'UEF_Cruisemissile04_Polytrails02',
+        },
+    },
+    General = {
+        Category = 'Missile',
+        EntityCategory = {
+            'UEF',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+            'TACTICAL',
+            'MISSILE',
+            'NOSPLASHDAMAGE',
+        },
+        Faction = 'UEF',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 3,
+        InitialSpeed = 3,
+        MaxSpeed = 12,
+        MaxZigZag = 0.8,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = true,
+        TrackTargetGround = true,
+        TurnRate = 4,
+        UseGravity = false,
+        VelocityAlign = true,
+        ZigZagFrequency = 3,
+    },
+    SizeX = 2,
+}

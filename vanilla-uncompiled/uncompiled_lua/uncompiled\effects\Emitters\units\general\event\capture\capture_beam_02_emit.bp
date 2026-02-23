@@ -1,0 +1,13 @@
+BeamBlueprint {
+    Lifetime = 2,
+    TextureName = '/textures/particles/beam_uef_orbital_01.dds',
+    Thickness = 0.36,
+    Blendmode = 3,    
+    StartColor = {x=1,y=1,z=1,w=0.5}, -- R,G,B,A
+    EndColor = {x=1,y=1,z=1,w=0.5}, -- R,G,B,A
+    Length = 8,
+    LODCutoff = 400,
+    RepeatRate = 0.2,
+    UShift = 0.0,
+    VShift = -0.35,
+}

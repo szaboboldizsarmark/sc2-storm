@@ -1,0 +1,77 @@
+MeshBlueprint {
+    IconFadeInZoom = 1000,
+    LODs = {
+        {
+			MeshName = 'Tree_Palm13_fall_lod0.scm',
+            LODCutoff = 50,
+            MaterialSets = {
+                {
+                    Materials = {
+                        {
+                            DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Diffuse.dds',
+                            MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Mask.dds',
+                            NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                        {
+                            DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Diffuse.dds',
+                            MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Mask.dds',
+                            NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                    },
+                },
+            },
+        },
+        {
+			MeshName = 'Tree_Palm13_fall_lod1.scm',
+            LODCutoff = 150,
+            MaterialSets = {
+                {
+                    Materials = {
+                        {
+                            DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Diffuse.dds',
+                            MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Mask.dds',
+                            NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                        {
+                            DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Diffuse.dds',
+                            MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Mask.dds',
+                            NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                    },
+                },
+            },
+        },
+        {
+   			MeshName = 'Tree_Palm13_fall_lod2.scm',
+            LODCutoff = 9001,
+            MaterialSets = {
+                {
+                    Materials = {
+                        {
+                            DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Diffuse.dds',
+                            MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Mask.dds',
+                            NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                        {
+                            DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Diffuse.dds',
+                            MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Mask.dds',
+                            NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                    },
+                },
+            },
+        },
+    },
+}

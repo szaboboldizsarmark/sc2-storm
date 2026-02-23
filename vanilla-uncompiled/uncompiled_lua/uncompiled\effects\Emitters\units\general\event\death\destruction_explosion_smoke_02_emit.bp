@@ -1,0 +1,107 @@
+EmitterBlueprint {
+	BlueprintId = 'destruction_explosion_smoke_02',
+	Lifetime = 10.00,
+	Repeattime = 10.00,
+	Blendmode = 0.00,
+	LODCutoff = -1.00,
+	SnapToWaterline = true,
+	SortOrder = 10.00,
+	Texture = [[/textures/particles/cloud_smoke_alpha_10.dds]],
+	RampTexture = [[/textures/particles/ramp_fire_smoke_01.dds]],
+	EmitRateCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=8.5200,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=0.0000,y=50.0000,z=0.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=4.7230,y=1.3080,z=1.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.0000,z=0.2000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.7000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.0000,z=0.2000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=4.9500,y=0.1600,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.0000,z=0.5000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0300,y=0.0100,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0400,y=0.0000,z=0.5000 },
+		},
+	},
+	XAccelCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=4.9700,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0700,y=0.6000,z=0.6000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0660,y=1.8250,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=4.9300,y=0.5000,z=1.0000 },
+		},
+	},
+}

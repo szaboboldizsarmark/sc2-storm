@@ -1,0 +1,116 @@
+EmitterBlueprint {
+	BlueprintId = 'w_u_rio01_l_04_smoke',
+	Lifetime = 3.00,
+	Repeattime = 3.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	ParticleResistance = true,
+	InterpolateEmission = false,
+	TextureStripcount = 4.00,
+	SortOrder = -1.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/cloud_smoke_alpha_04.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=7.0000,z=7.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.1000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.1500,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.0000,y=0.1500,z=0.1000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.0000,z=0.2500 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.1871,y=0.0000,z=0.2500 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=2.9844,y=1.0000,z=1.0000 },
+		},
+	},
+	XAccelCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.8550,y=0.0000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.2500,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.3000,z=0.1500 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.7000,z=0.4000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.0000,z=10.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=2.0000,z=4.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=0.2000,z=0.4000 },
+		},
+	},
+}

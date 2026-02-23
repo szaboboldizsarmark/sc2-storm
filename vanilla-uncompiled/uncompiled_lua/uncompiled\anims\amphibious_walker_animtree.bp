@@ -1,0 +1,85 @@
+AnimTreeBlueprint {
+	Description = 'Amphibious Walker AnimTree',
+	StartStateID = 'startidle',
+	AnimTreeStates = {
+		['root'] = {
+			type = 'Messenger',
+			transitions = {
+				OnIdle = 				{ TargetStateID = 'idle' },
+				OnTransitionToLand = 	{ TargetStateID = 'transition_to_land' },
+				OnTransitionToSea = 	{ TargetStateID = 'transition_to_sea' },
+				OnMove = 				{ TargetStateID = 'move' },
+				OnCustomAnim = 			{ TargetStateID = "custom_anim" },
+				OnCustomAnimLoop =		{ TargetStateID = "custom_anim_loop" },
+			},
+			children = {
+				['idle'] = {
+					type='BasicAnim',
+					data = {
+						Looping = true,
+						ScaleByMovementSpeed = false,
+						PlaybackWithMovementDir = false,
+						StartAtFrame = 0,
+						RandomStartFrame = false,
+					},	
+				},
+				['move'] = {
+					type='BasicAnim',
+					data = {
+						Looping = true,
+						ScaleByMovementSpeed = true,
+						PlaybackWithMovementDir = false,
+						StartAtFrame = 0,
+						RandomStartFrame = false,
+					},
+				},
+				['startidle'] = {
+					type='Messenger',
+				},
+				['transition_to_land'] = {
+					type='BasicAnim',
+				},
+				['transition_to_sea'] = {
+					type='BasicAnim',
+				},
+				["custom_anim_base"] = {
+					type="Messenger",
+					transitions = {
+						EndCustomAnim = 	{ TargetStateID = "startidle" },
+					},
+					children = {
+						["custom_anim"] = {
+							type="BasicAnim",
+							transitions = {
+								AnimEnd =		{ TargetStateID = "custom_anim_terminal" },
+							},
+							children = {},
+							data = {
+								Looping = false,
+								ScaleByMovementSpeed = false,
+								PlaybackWithMovementDir = false,
+								StartAtFrame = 0,
+								RandomStartFrame = false,
+							},
+						},
+						["custom_anim_terminal"] = {
+							type="Messenger",
+						},
+						["custom_anim_loop"] = {
+							type="BasicAnim",
+							transitions = {},
+							children = {},
+							data = {
+								Looping = true,
+								ScaleByMovementSpeed = false,
+								PlaybackWithMovementDir = false,
+								StartAtFrame = 0,
+								RandomStartFrame = false,
+							},
+						},
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,96 @@
+EmitterBlueprint {
+	BlueprintId = 'w_c_nuke01_l_05_prefire',
+	Lifetime = 30.00,
+	Repeattime = 30.00,
+	Blendmode = 3.00,
+	LODCutoff = 500.00,
+	TextureStripcount = 4.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/fire_flame_add_05.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	EmitRateCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=29.9606,y=4.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=30.0000,y=7.0000,z=3.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.3000,y=0.0300,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.1980,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.8310,y=0.3000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=1.0000,y=1.5000,z=0.0000 },
+			{ x=10.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.6334,y=0.0000,z=0.2000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.0000,y=-0.1000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.1980,y=0.0000,z=0.2000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.5936,y=0.2500,z=0.0200 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=14.7227,y=1.8000,z=0.7000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.1187,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.3000,y=0.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.0000,y=2.0000,z=4.0000 },
+		},
+	},
+}

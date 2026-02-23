@@ -1,0 +1,184 @@
+SkirmishFormBlueprint {
+    BlueprintId = 'Artillery Platoon',
+    PlatoonTemplate = 'ArtilleryStructure',
+    PlatoonBehavior = 'Artillery',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+	},
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+		'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'ShieldMelter Platoon',
+    PlatoonTemplate = 'ShieldMelter',
+    PlatoonBehavior = 'ShieldMelter',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    BuilderType = 'Any',
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+		'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'TML Platoon',
+    PlatoonTemplate = 'TMLStructure',
+    PlatoonBehavior = 'TML',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+	},
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+		'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Nuke Platoon',
+    PlatoonTemplate = 'NukeStructure',
+    PlatoonBehavior = 'Nuke',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    BuilderType = 'Any',
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+		'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Anti Nuke Platoon',
+    PlatoonTemplate = 'AntiNukeStructure',
+    PlatoonBehavior = 'AntiNuke',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    BuilderType = 'Any',
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+		'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'NUC Platoon',
+    PlatoonTemplate = 'NUCStructure',
+    PlatoonBehavior = 'NUCAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+	},
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+		'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Aegis Platoon',
+    PlatoonTemplate = 'AegisStructure',
+    PlatoonBehavior = 'Aegis',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    BuilderType = 'Any',
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+		'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Magnet Platoon',
+    PlatoonTemplate = 'MagnetStructure',
+    PlatoonBehavior = 'UnitMagnet',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+	},
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+		'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Illuminator Platoon',
+    PlatoonTemplate = 'IlluminatorStructure',
+    PlatoonBehavior = 'Illuminator',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    BuilderType = 'Any',
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+		'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Mass Fab',
+    PlatoonTemplate = 'MassFab',
+    PlatoonBehavior = 'MassFab',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    BuilderType = 'Any',
+	InstanceCount = 800,
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+		'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}

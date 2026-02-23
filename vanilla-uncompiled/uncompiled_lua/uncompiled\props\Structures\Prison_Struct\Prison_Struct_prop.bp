@@ -1,0 +1,40 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Structures/Prison_Struct/Prison_Struct_02_Diffuse.dds',
+                                    MaskName = '/props/Structures/Prison_Struct/Prison_Struct_02_Mask.dds',
+                                    NormalName = '/props/Structures/Prison_Struct/Prison_Struct_02_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                                {
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.2,
+    },
+    Footprint = {
+        SizeX = 20,
+        SizeZ = 20,
+    },
+    Interface = {
+        HelpText = 'Prison_Access_Structure',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

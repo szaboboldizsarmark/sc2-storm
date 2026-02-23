@@ -1,0 +1,61 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/Artillery/snd_UEF_Artillery_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/Artillery/snd_UEF_Artillery_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/Artillery/snd_UEF_Artillery_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        MeshBlueprint = '/projectiles/UEF/UCannonShell01/UCannonShell01_mesh.bp',
+        StrategicIconSize = 3,
+        UniformScale = 0.75,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Artillery01_Trails02',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Artillery01_Impact01',
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Artillery01_Impact01',
+            },
+            Unit = {
+                Template = 'UEF_Artillery01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+    },
+    General = {
+        Category = 'Artillery',
+        EntityCategory = {
+            'UEF',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+        },
+        Faction = 'UEF',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        InitialSpeed = 34,
+        InitialSpeedReduceDistance = 200,
+        LeadTarget = false,
+        TurnRate = 360,
+        VelocityAlign = false,
+    },
+}

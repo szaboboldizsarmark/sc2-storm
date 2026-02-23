@@ -1,0 +1,103 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 50,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 15',
+                                },
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 15, leaf_sway = 10',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 150,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 15',
+                                },
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 15, leaf_sway = 10',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Bark_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 15',
+                                },
+                                {
+                                    DiffuseName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Diffuse.dds',
+                                    MaskName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Mask.dds',
+                                    NormalName = '/Props/Trees/Tree_Palm12/TreePalm12Frond_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, wind_sway = 15, leaf_sway = 10',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.3,
+        CollisionMeshBP = '/Props/Trees/Tree_Palm12/Tree_Palm12_fallmesh',
+	    FallingAnimationSet = {
+   			AnimRate = 0.75,
+   			AudioEvent = 'SC2/SC2/Environments/Tree/snd_tree_crush_medium',
+			d0 = '/Props/Trees/Tree_Palm12/Palm12_A000_fall.sca',
+			d45 = '/Props/Trees/Tree_Palm12/Palm12_A045_fall.sca',
+			d90 = '/Props/Trees/Tree_Palm12/Palm12_A090_fall.sca',
+			d135 = '/Props/Trees/Tree_Palm12/Palm12_A135_fall.sca',
+			d180 = '/Props/Trees/Tree_Palm12/Palm12_A180_fall.sca',
+			d225 = '/Props/Trees/Tree_Palm12/Palm12_A225_fall.sca',
+			d270 = '/Props/Trees/Tree_Palm12/Palm12_A270_fall.sca',
+			d315 = '/Props/Trees/Tree_Palm12/Palm12_A315_fall.sca',
+		},
+    },
+    Interface = {
+        HelpText = 'Tree_Palm12',
+    },
+    Physics = {
+        BlockPath = false,
+        Destructable = true,
+    },
+    ScriptClass = 'Tree',
+    ScriptModule = '/lua/proptree.lua',
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

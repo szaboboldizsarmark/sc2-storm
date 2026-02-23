@@ -1,0 +1,46 @@
+version = 3
+ScenarioInfo = {
+    devname = 'MP_305: 6 Player FFA LAND/NAVAL',
+    name = '<LOC SC2_MAPNAME_0048>[6] Boras Naval Test Range (FFA)',
+    x360_name = '<LOC SC2_MAPNAME_0049>[4] Boras Naval Test Range (2v2)',
+    x360_maptype = '2v2',
+    description = 'SC2_MP_305',
+    type = 'skirmish',
+    starts = true,
+    preview = '',
+    reverbPreset = 'SC2_MP_305',
+    size = {1024, 1024},
+    map = '/maps/SC2_MP_305/SC2_MP_305.scmap',
+    save = '/maps/SC2_MP_305/SC2_MP_305_save.lua',
+    script = '/maps/SC2_MP_305/SC2_MP_305_script.lua',
+    norushradius = 50.000000,
+    norushoffsetX_ARMY_1 = 0.000000,
+    norushoffsetY_ARMY_1 = 0.000000,
+    norushoffsetX_ARMY_2 = 0.000000,
+    norushoffsetY_ARMY_2 = 0.000000,
+    norushoffsetX_ARMY_3 = 0.000000,
+    norushoffsetY_ARMY_3 = 0.000000,
+    norushoffsetX_ARMY_4 = 0.000000,
+    norushoffsetY_ARMY_4 = 0.000000,
+    norushoffsetX_ARMY_5 = 0.000000,
+    norushoffsetY_ARMY_5 = 0.000000,
+    norushoffsetX_ARMY_6 = 0.000000,
+    norushoffsetY_ARMY_6 = 0.000000,
+    StartPositions = {
+    			['ARMY_1'] = { 405.5, 250.943, 198.5 },
+                ['ARMY_3'] = { 730.5, 250.943, 263.5 },
+                ['ARMY_6'] = { 836.5, 250.944, 576.5 },
+                ['ARMY_2'] = { 618.5, 250.943, 824.5 },
+                ['ARMY_4'] = { 294.5, 250.942, 760.5 },
+                ['ARMY_5'] = { 187.5, 250.943, 447.5 },
+    },
+    Configurations = {
+        ['standard'] = {
+            teams = {
+                { name = 'FFA', armies = {'ARMY_1','ARMY_2','ARMY_3','ARMY_4','ARMY_5','ARMY_6',} },
+            },
+            customprops = {
+                ['ExtraArmies'] = STRING( 'ARMY_EXTRA' ),
+            },
+        },
+    }}

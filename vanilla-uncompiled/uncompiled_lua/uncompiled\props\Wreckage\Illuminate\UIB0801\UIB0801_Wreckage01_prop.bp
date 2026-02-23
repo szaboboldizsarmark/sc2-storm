@@ -1,0 +1,62 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/Illuminate/UIB0801/UIB0801_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/Illuminate/UIB0801/UIB0801_Mask.dds',
+                                    NormalName = '/Units/Illuminate/UIB0801/UIB0801_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128, wreckage, wreckage_edge_highlight, team_color',
+                                    TeamName = '/Units/Illuminate/UIB0801/UIB0801_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Illuminate/UIB0801/UIB0801_Wreckage01_lod0.scm',
+                },
+                {
+                    LODCutoff = 800,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/Illuminate/UIB0801/UIB0801_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/Illuminate/UIB0801/UIB0801_Mask.dds',
+                                    NormalName = '/Units/Illuminate/UIB0801/UIB0801_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128, wreckage, team_color',
+                                    TeamName = '/Units/Illuminate/UIB0801/UIB0801_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Illuminate/UIB0801/UIB0801_Wreckage01_lod2.scm',
+                },
+            },
+        },
+        UniformScale = 0.055,
+    },
+    Economy = {
+		AssociatedUnitBP = 'UIB0801',
+    },      
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 6,
+    SizeY = 5,
+    SizeZ = 6,
+}

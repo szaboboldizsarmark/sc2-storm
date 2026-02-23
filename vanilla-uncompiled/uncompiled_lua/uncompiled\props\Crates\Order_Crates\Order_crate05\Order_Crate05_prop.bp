@@ -1,0 +1,45 @@
+PropBlueprint {
+	Categories = {
+        'INVULNERABLE',
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Crates/order_Crates/order_Crate01/order_crate01_diffuse.dds',
+                                    MaskName = '/props/Crates/order_Crates/order_Crate01/order_crate01_mask.dds',
+                                    NormalName = '/props/Crates/order_Crates/order_Crate01/order_crate01_normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128',
+                                    TeamName = '/props/Crates/order_Crates/order_Crate01/order_crate01_team.dds',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.3,
+    },
+    Economy = {
+        MassValue = 25,
+    },
+    Footprint = {
+        SizeX = 2,
+        SizeZ = 2,
+    },
+    Interface = {
+        HelpText = 'Order_Crate05',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.5,
+    SizeY = 0.5,
+    SizeZ = 0.5,
+}

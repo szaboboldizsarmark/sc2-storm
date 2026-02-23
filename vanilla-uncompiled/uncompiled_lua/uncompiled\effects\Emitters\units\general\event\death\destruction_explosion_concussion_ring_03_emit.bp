@@ -1,0 +1,69 @@
+EmitterBlueprint {
+	BlueprintId = 'destruction_explosion_concussion_ring_03',
+	Lifetime = 2.00,
+	Repeattime = 2.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	Flat = true,
+	LODCutoff = -1.00,
+	SnapToWaterline = true,
+	SortOrder = -10.00,
+	Texture = [[/textures/particles/ring_12.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0121_whiteandgrey.dds]],
+	EmitRateCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.0200,y=1.0000,z=0.0000 },
+			{ x=0.8127,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.0000,y=2.0000,z=0.0000 },
+			{ x=1.0000,y=7.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.0000,y=0.1500,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.0130,y=0.3380,z=0.1000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.0130,y=30.0000,z=0.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.0000,y=180.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.8100,y=0.5000,z=0.0000 },
+		},
+	},
+}

@@ -1,0 +1,19 @@
+MeshBlueprint {
+	LODs = {
+		{
+			DiffuseName = '/units/illuminate/uil0101/uil0101_diffuse.dds',
+            LODCutoff = 200,
+					MaterialSets = {
+						{
+							Materials = {
+								{
+				            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping',
+								},
+							},
+						},
+					},
+				},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

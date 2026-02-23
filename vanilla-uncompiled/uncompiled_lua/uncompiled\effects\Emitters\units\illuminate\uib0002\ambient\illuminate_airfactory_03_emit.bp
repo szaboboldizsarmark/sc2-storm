@@ -1,0 +1,95 @@
+EmitterBlueprint {
+	BlueprintId = 'illuminate_airfactory_03',
+	Lifetime = -1.00,
+	Repeattime = 5.00,
+	Blendmode = 3.00,
+	Flat = true,
+	LODCutoff = 830.00,
+	SortOrder = 1.00,
+	Texture = [[/textures/particles/glow_03.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0039_blue.dds]],
+	EmitRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=4.3180,y=0.1000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.9025,y=20.0000,z=0.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.3885,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=-0.8000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.0135,y=0.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.4500,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5740,y=0.0000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.1740,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.4540,y=15.0000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5850,y=15.0000,z=0.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=0.0000,z=0.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.7348,y=0.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.2995,y=0.0000,z=0.0000 },
+		},
+	},
+}

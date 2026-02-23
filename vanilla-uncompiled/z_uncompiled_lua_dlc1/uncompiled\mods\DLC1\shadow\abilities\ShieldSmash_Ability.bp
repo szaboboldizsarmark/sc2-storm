@@ -1,0 +1,21 @@
+AbilityBlueprint {
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	CommandType = 'EACT_Immediate',
+    Cooldown = 30,
+	CooldownOnDeactivation = true,
+    DisplayName = 'Shield Smash',
+	Duration = 15,
+    InitiallyEnabled = true,
+    Resource = {
+        OnActivate = {
+            SourceAmount = 2000,
+            SourceType = 'ENERGY',
+        },
+    },
+	ScriptModule = '/abilities/ShieldSmash_Ability.lua',
+	OrderBitmapId = 'knockback',
+}

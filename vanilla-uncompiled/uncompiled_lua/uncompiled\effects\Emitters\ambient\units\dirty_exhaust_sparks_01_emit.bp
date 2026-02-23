@@ -1,0 +1,77 @@
+EmitterBlueprint {
+	BlueprintId = 'dirty_exhaust_sparks_01',
+	Lifetime = 4.40,
+	Repeattime = 4.40,
+	Blendmode = 3.00,
+	Gravity = true,
+	CreateIfVisible = true,
+	ParticleResistance = true,
+	Texture = [[/textures/particles/sparkle_white_add_02.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0072_emberflicker.dds]],
+	EmitRateCurve = {
+		XRange = 4.4000,
+		Keys = {
+			{ x=2.2170,y=5.0000,z=5.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 4.4000,
+		Keys = {
+			{ x=2.2870,y=6.0000,z=4.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 4.4000,
+		Keys = {
+			{ x=2.2000,y=2.0000,z=0.1100 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 4.4000,
+		Keys = {
+			{ x=2.2000,y=0.0000,z=0.5000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 4.4000,
+		Keys = {
+			{ x=2.3100,y=-0.4000,z=0.5000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 4.4000,
+		Keys = {
+			{ x=0.6910,y=0.0000,z=0.5000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 4.4000,
+		Keys = {
+			{ x=2.2000,y=0.3000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 4.4000,
+		Keys = {
+			{ x=2.2640,y=0.2000,z=0.1000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 4.4000,
+		Keys = {
+			{ x=2.2000,y=0.0200,z=0.0400 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 4.4000,
+		Keys = {
+			{ x=2.2000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 4.4000,
+		Keys = {
+			{ x=2.2000,y=1.0000,z=0.0000 },
+		},
+	},
+}

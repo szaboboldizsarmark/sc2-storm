@@ -1,0 +1,24 @@
+MeshBlueprint {
+	LODs = {
+		{
+			LODCutoff = 1000,
+            MeshName = '/projectiles/debris/Cybran/UCB0003/UCB0003_Turret_Debris_05_lod0.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/units/Cybran/UCB0003/UCB0003_diffuse.dds',
+						NormalName = '/Units/Cybran/UCB0003/UCB0003_Normal.dds',
+						TeamName = '/Units/Cybran/UCB0003/UCB0003_Team.dds',
+						MaskName = '/Units/Cybran/UCB0003/UCB0003_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},			
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

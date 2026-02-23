@@ -1,0 +1,34 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+        		CastShadow = false,
+            LODs = {
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {                                
+                                    DiffuseName = '/props/Markers/Commands/UEF_Rally/UEF_Rally_Diffuse.dds',
+									MaskName = '/props/Markers/Commands/UEF_Rally/UEF_Rally_Mask.dds',
+									NormalName = '/props/Markers/Commands/UEF_Rally/UEF_Rally_Normal.dds',                             
+									ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, glow',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.05,
+    },
+    Interface = {
+        HelpText = 'UEF_Rally',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

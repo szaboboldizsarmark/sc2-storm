@@ -1,0 +1,89 @@
+EmitterBlueprint {
+	BlueprintId = 'w_g_emp01_b_14_inwardrings',
+	Lifetime = 55.00,
+	Repeattime = 55.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	Flat = true,
+	LODCutoff = 1000.00,
+	EmitIfVisible = false,
+	CatchupEmit = false,
+	InterpolateEmission = false,
+	SortOrder = -2.00,
+	Texture = [[/textures/particles/ring/rn_0007_55.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	EmitRateCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=28.2700,y=0.2500,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=24.7500,y=30.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=28.0500,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=27.5000,y=5.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=6.2150,y=0.1000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=27.8300,y=1.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=30.2500,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=0.0000,y=50.0000,z=0.0000 },
+			{ x=55.0000,y=75.0000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=15.0205,y=0.0000,z=0.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=29.1500,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=26.9500,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 55.0000,
+		Keys = {
+			{ x=30.9375,y=0.7000,z=0.2000 },
+			{ x=55.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

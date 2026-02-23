@@ -1,0 +1,42 @@
+PropBlueprint {
+	Categories = {
+        'INVULNERABLE',
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            CastShadow = false,
+            LODs = {
+                {
+                    LODCutoff = 10000,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = 'driller01_Diffuse.dds',
+                                    MaskName = 'driller01_Mask.dds',
+                                    NormalName = 'driller01_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting'
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.1,
+    },
+    Footprint = {
+        SizeX = 6,
+        SizeZ = 6,
+    },
+    Interface = {
+        HelpText = 'driller01',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.1,
+    SizeY = 0.1,
+    SizeZ = 0.1,
+}

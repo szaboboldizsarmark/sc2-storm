@@ -1,0 +1,78 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+        'TACTICAL',
+        'MISSILE',
+        'NOSPLASHDAMAGE',
+    },
+    CollisionOffsetX = -0.3,
+    CollisionOffsetY = -0.7,
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 4,
+        MaxHealth = 4,
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        Mesh = {
+        	CastShadow = false,
+            IconFadeInZoom = 200,
+            LODs = {
+                {
+                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, environment_mapping',
+                },
+            },
+        },
+        StrategicIconSize = 2,
+        UniformScale = 0.07,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Cybran_Missile01_Trails01',
+        },
+        Impacts = {
+        },
+        PolyTrails = {
+            Template = 'Cybran_Missile01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Missile',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+            'TACTICAL',
+            'MISSILE',
+            'CYBRANMOBILEMISSILE',
+            'NOSPLASHDAMAGE',
+        },
+        Faction = 'Cybran',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 3,
+        InitialSpeed = 3,
+        MaxSpeed = 12,
+        MaxZigZag = 2,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = true,
+        TrackTargetGround = true,
+        TurnRate = 4,
+        UseGravity = false,
+        VelocityAlign = true,
+        ZigZagFrequency = 0.5,
+    },
+    SizeX = 2,
+}

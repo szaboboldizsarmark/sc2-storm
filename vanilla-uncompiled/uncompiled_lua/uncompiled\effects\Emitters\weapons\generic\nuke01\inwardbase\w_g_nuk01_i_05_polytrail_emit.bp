@@ -1,0 +1,13 @@
+TrailEmitterBlueprint {
+	BlueprintId = 'w_g_nuk01_i_05_polytrail',
+	Lifetime = -1.00,
+    TrailLength = 45.0,
+    Size = 1.5,
+    SortOrder = -2,
+    BlendMode = 0,
+    TextureRepeatRate = 0.2,
+    LODCutoff = 1000,
+    EmitIfVisible = false,
+	RepeatTexture = [[/textures/particles/ramp/ra_0130_air_trail.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0129_trail_faint.dds]],
+}

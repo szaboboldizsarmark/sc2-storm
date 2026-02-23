@@ -1,0 +1,57 @@
+MeshBlueprint {
+	LODs = {
+		{
+			LODCutoff = 200,
+            MeshName = '/projectiles/debris/Props/Structures/Quantum_Lab/Quantum_Lab_Turret_Debris_01_lod0.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/props/Structures/Quantum_Lab/Quantum_Lab_Gray_Diffuse.dds',
+						NormalName = '/props/Structures/Quantum_Lab/Quantum_Lab_Normal.dds',
+						MaskName = '/props/Structures/Quantum_Lab/Quantum_Lab_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},	
+		{
+			LODCutoff = 800,
+            MeshName = '/projectiles/debris/Props/Structures/Quantum_Lab/Quantum_Lab_Turret_Debris_01_lod1.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/props/Structures/Quantum_Lab/Quantum_Lab_Gray_Diffuse.dds',
+						NormalName = '/props/Structures/Quantum_Lab/Quantum_Lab_Normal.dds',
+						MaskName = '/props/Structures/Quantum_Lab/Quantum_Lab_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},
+		{
+			LODCutoff = 1000,
+            MeshName = '/projectiles/debris/Props/Structures/Quantum_Lab/Quantum_Lab_Turret_Debris_01_lod2.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/props/Structures/Quantum_Lab/Quantum_Lab_Gray_Diffuse.dds',
+						NormalName = '/props/Structures/Quantum_Lab/Quantum_Lab_Normal.dds',
+						MaskName = '/props/Structures/Quantum_Lab/Quantum_Lab_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

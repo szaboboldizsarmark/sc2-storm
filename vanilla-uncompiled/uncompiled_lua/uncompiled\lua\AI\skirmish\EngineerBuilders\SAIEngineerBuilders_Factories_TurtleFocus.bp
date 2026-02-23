@@ -1,0 +1,552 @@
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Land Factory - TurtleFocus',
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0001, ucb0001, uib0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0001, ucb0001, uib0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0001, ucb0001, uib0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Factories',
+    },
+    UnitToBuild = 'LandFactory',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 900,
+    SkirmishResourceType = 'All',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Air Factory - TurtleFocus',
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        }
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Factories',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'AirFactory',
+    BuildLocation = 'Base',
+    BasePriority = 1025,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'All',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Air Factory - 2 - TurtleFocus',
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Factories',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'AirFactory',
+    BuildLocation = 'Base',
+    BasePriority = 975,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'All',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Air Factory - More - TurtleFocus',
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.5, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.5, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.5, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'MassStorageTypeGreaterThan', ConditionFloat = 500, ConditionStringOne = "Slush" },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'MassStorageTypeGreaterThan', ConditionFloat = 500, ConditionStringOne = "Slush" },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'MassStorageTypeGreaterThan', ConditionFloat = 500, ConditionStringOne = "Slush" },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Factories',
+    },
+    MinDifficultyLevel = 2,
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'AirFactory',
+    BuildLocation = 'Base',
+    BasePriority = 875,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Expansion',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Location - Need Naval Factory - TurtleFocus',
+    BuilderIds = {
+        'uul0002',
+        'ucl0002',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'BaseIsNaval', },
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0003, ucb0003', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'BaseIsNaval', },
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0003, ucb0003', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Factories',
+    },
+	BufferSize = 5,
+    UnitToBuild = 'SeaFactory',
+    BuildLocation = 'NavalMarker',
+    BuildRelative = 'CenterPoint',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 1025,
+    SkirmishResourceType = 'All',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need ExperimentalGantry - TurtleFocus',
+    AnnounceFail = false,
+    BuilderIds = {
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0011', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uib0011', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Factories',
+    },
+    UnitToBuild = 'ExperimentalGantry',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need LandGantry - TurtleFocus',
+    AnnounceFail = false,
+    BuilderIds = {
+        'ucl0001',
+        'ucl0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0011', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'ucb0011', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Factories',
+    },
+    UnitToBuild = 'LandGantry',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need AirGantry - TurtleFocus',
+    AnnounceFail = false,
+    BuilderIds = {
+        'ucl0001',
+        'ucl0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0012', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'ucb0012', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Factories',
+    },
+    UnitToBuild = 'AirGantry',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need UtilityGantry - TurtleFocus',
+    AnnounceFail = false,
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0012', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0012', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Factories',
+    },
+    UnitToBuild = 'UtilityGantry',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need AssaultGantry - TurtleFocus',
+    AnnounceFail = false,
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0011', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0011', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Factories',
+    },
+    UnitToBuild = 'AssaultGantry',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+
+-- turtle uses a lot more research than normal
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Research Station - Less than 3 - TurtleFocus',
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0801, ucb0801, uib0801', ConditionIntegerOne = 3, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+			{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0801, ucb0801, uib0801', ConditionIntegerOne = 3, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+			{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0801, ucb0801, uib0801', ConditionIntegerOne = 3, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+			{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Item Group',
+    },
+    UnitToBuild = 'ResearchStation',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 1050,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'All',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Research Station - Less than 4 - TurtleFocus',
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0801, ucb0801, uib0801', ConditionIntegerOne = 4, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+			{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0801, ucb0801, uib0801', ConditionIntegerOne = 4, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+			{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0801, ucb0801, uib0801', ConditionIntegerOne = 4, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+			{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Item Group',
+    },
+    UnitToBuild = 'ResearchStation',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 1050,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'All',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Research Station - Less than 5 - TurtleFocus',
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0801, ucb0801, uib0801', ConditionIntegerOne = 5, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+			{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0801, ucb0801, uib0801', ConditionIntegerOne = 5, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+			{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uub0801, ucb0801, uib0801', ConditionIntegerOne = 5, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+			{ ConditionType = 'ResearchRequired', ConditionBool = true, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Turtle Item Group',
+    },
+    UnitToBuild = 'ResearchStation',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 1050,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'All',
+}

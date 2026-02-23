@@ -1,0 +1,77 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/Illuminate/UIX0113/UIX0113_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/Illuminate/UIX0113/UIX0113_Mask.dds',
+                                    NormalName = '/Units/Illuminate/UIX0113/UIX0113_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage',
+                                    TeamName = '/Units/Illuminate/UIX0113/UIX0113_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Illuminate/UIX0113/UIX0113_Wreckage01_lod0.scm',
+                },
+                {
+                    LODCutoff = 800,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/Illuminate/UIX0113/UIX0113_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/Illuminate/UIX0113/UIX0113_Mask.dds',
+                                    NormalName = '/Units/Illuminate/UIX0113/UIX0113_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage',
+                                    TeamName = '/Units/Illuminate/UIX0113/UIX0113_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Illuminate/UIX0113/UIX0113_Wreckage01_lod1.scm',
+                },
+                {
+                    LODCutoff = 1000,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/Illuminate/UIX0113/UIX0113_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/Illuminate/UIX0113/UIX0113_Mask.dds',
+                                    NormalName = '/Units/Illuminate/UIX0113/UIX0113_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage',
+                                    TeamName = '/Units/Illuminate/UIX0113/UIX0113_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Illuminate/UIX0113/UIX0113_Wreckage01_lod2.scm',
+                },
+            },
+        },
+        UniformScale = 0.13,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 9,
+    SizeY = 9.5,
+    SizeZ = 10.3,
+}

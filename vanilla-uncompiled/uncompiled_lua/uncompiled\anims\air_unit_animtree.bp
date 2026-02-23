@@ -1,0 +1,25 @@
+AnimTreeBlueprint {
+	Description = 'Air Unit AnimTree',
+	StartStateID = 'idle',
+	AnimTreeStates = {
+		['root'] = {
+			type = 'Messenger',
+			transitions = {
+				OnIdle = { TargetStateID = 'idle' },
+				OnLanding = { TargetStateID = 'landing' },
+				OnTakeOff = { TargetStateID = 'takeoff' },
+			},
+			children = {
+				['landing'] = {
+					type='BasicAnim',
+				},
+				['takeoff'] = {
+					type='BasicAnim',
+				},
+				['idle'] = {
+					type='Messenger',
+				},
+			},
+		},
+	},
+}

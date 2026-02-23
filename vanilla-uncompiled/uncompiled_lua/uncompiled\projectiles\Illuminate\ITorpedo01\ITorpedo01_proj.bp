@@ -1,0 +1,69 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/ILLUMINATE/Torpedo/snd_Illuminate_Torpedo_Impact',
+        ImpactWater = 'SC2/SC2/Projectiles/ILLUMINATE/Torpedo/snd_Illuminate_Torpedo_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'ANTINAVY',
+        'TORPEDO',
+        'NOSPLASHDAMAGE',
+    },
+    Display = {
+        MeshBlueprint = '/projectiles/UEF/UTorpedo01/UTorpedo01_mesh.bp',
+        StrategicIconSize = 2,
+        UniformScale = 0.12,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Torpedo01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Torpedo01_Impact03',
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Torpedo01_Impact03',
+            },
+            UnderWater = {
+                Template = 'UEF_Torpedo01_Impact03',
+            },
+            UnitUnderwater = {
+                Template = 'UEF_Torpedo01_Impact03',
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+    },
+    General = {
+        Category = 'Anti Navy',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'ANTINAVY',
+            'TORPEDO',
+        },
+        Faction = 'Illuminate',
+        Weapon = 'Angler Torpedo',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 5,
+        DestroyOnWater = false,
+        InitialSpeed = 3,
+        Lifetime = 7,
+        MaxSpeed = 18,
+        StayUnderwater = true,
+        TrackTarget = true,
+        TurnRate = 230,
+        VelocityAlign = true,
+    },
+}

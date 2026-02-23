@@ -1,0 +1,92 @@
+EmitterBlueprint {
+	BlueprintId = 'w_c_can04_i_u_13_groundflash',
+	Lifetime = 7.00,
+	Repeattime = 7.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	Flat = true,
+	LODCutoff = 2500.00,
+	InterpolateEmission = false,
+	SortOrder = 3.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/glow_02.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.1500,y=1.5000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.5700,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=1.6800,y=0.1500,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.5700,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.5420,y=0.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=1.2460,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.8500,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.1500,y=10.0000,z=2.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.1500,y=7.0000,z=2.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=2.1070,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.4300,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.5000,y=0.4000,z=0.0000 },
+		},
+	},
+}

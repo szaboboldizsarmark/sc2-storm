@@ -1,0 +1,47 @@
+version = 3
+ScenarioInfo = {
+    devname = 'D1_202: 3v3 LAND/NAVAL',
+    name = '<LOC SC2_DLC_MAPNAME_0016>[6] Igneous (3v3)',
+    x360_name = '<LOC SC2_DLC_MAPNAME_0017>[4] Igneous (2v2)',
+    x360_maptype = '2v2',
+    description = 'SC2_D1_202',
+    type = 'skirmish',
+    starts = true,
+    preview = '',
+    reverbPreset = 'SC2_D1_202',
+    size = {1024, 1024},
+    map = '/maps/SC2_D1_202/SC2_D1_202.scmap',
+    save = '/maps/SC2_D1_202/SC2_D1_202_save.lua',
+    script = '/maps/SC2_D1_202/SC2_D1_202_script.lua',
+    norushradius = 75.000000,
+    norushoffsetX_ARMY_1 = 25.000000,
+    norushoffsetY_ARMY_1 = -10.000000,
+    norushoffsetX_ARMY_2 = -25.000000,
+    norushoffsetY_ARMY_2 = 10.000000,
+    norushoffsetX_ARMY_3 = 25.000000,
+    norushoffsetY_ARMY_3 = 20.000000,
+    norushoffsetX_ARMY_4 = -25.000000,
+    norushoffsetY_ARMY_4 = -20.000000,
+    norushoffsetX_ARMY_5 = -45.000000,
+    norushoffsetY_ARMY_5 = 20.000000,
+    norushoffsetX_ARMY_6 = 45.000000,
+    norushoffsetY_ARMY_6 = -20.000000,
+    mappack = 4,
+    StartPositions = {
+                ['ARMY_1'] = { 428.5, 71.362, 692.5 },
+                ['ARMY_2'] = { 595.5, 71.362, 331.5 },
+                ['ARMY_3'] = { 250.5, 65.629, 449.5 },
+                ['ARMY_4'] = { 773.5, 65.629, 574.5 },
+                ['ARMY_5'] = { 284.5, 70.417, 843.5 },
+                ['ARMY_6'] = { 739.5, 70.419, 180.5 },
+    },
+    Configurations = {
+        ['standard'] = {
+            teams = {
+                { name = 'FFA', armies = {'ARMY_1','ARMY_2','ARMY_3','ARMY_4','ARMY_5','ARMY_6',} },
+            },
+            customprops = {
+                ['ExtraArmies'] = STRING( 'ARMY_EXTRA' ),
+            },
+        },
+    }}

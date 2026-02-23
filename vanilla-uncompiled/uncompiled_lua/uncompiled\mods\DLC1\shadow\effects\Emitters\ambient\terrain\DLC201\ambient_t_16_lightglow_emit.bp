@@ -1,0 +1,59 @@
+EmitterBlueprint {
+	BlueprintId = 'ambient_t_16_lightglow',
+	Lifetime = -1.00,
+	Repeattime = 10.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 2000.00,
+	EmitIfVisible = false,
+	Texture = [[/textures/particles/glow/gl_0001_33.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0100_lightblue.dds]],
+	EmitRateCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=0.2000,y=0.2500,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=15.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.1000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=2.0000,z=4.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.5000,z=0.0000 },
+		},
+	},
+}

@@ -1,0 +1,313 @@
+--****************************
+--*			Defenses
+--****************************
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    ResponseCountMaximum = 1,
+    BlueprintId = 'Air units spotted',
+    ResponseType = 'SetFlag',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'AirUnitsSpotted',
+    },
+    Events = {
+        {
+            EventType = 'StrategicThreatGreaterThan',
+            RepeatType = 'TrueOnceRepeatTest',
+            NumRings = 50,
+            ThreatValue = 1,
+            ThreatType = 'Air',
+            Alliance = 'Enemy',
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    ResponseCountMaximum = 1,
+    BlueprintId = 'Land units spotted',
+    ResponseType = 'SetFlag',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'LandUnitsSpotted',
+    },
+    Events = {
+        {
+            EventType = 'StrategicThreatGreaterThan',
+            RepeatType = 'TrueOnceRepeatTest',
+            NumRings = 50,
+            ThreatValue = 7, -- allows us to filter out the ACU and engineer blips
+            ThreatType = 'Land',
+            Alliance = 'Enemy',
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    ResponseCountMaximum = 1,
+    BlueprintId = 'Naval units spotted',
+    ResponseType = 'SetFlag',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NavalUnitsSpotted',
+    },
+    Events = {
+        {
+            EventType = 'StrategicThreatGreaterThan',
+            RepeatType = 'TrueOnceRepeatTest',
+            NumRings = 50,
+            ThreatValue = 1,
+            ThreatType = 'Naval',
+            Alliance = 'Enemy',
+        },
+    },
+}
+--****************************
+--*			Shields
+--****************************
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Artillery, Exp, or TML Spotted',
+    ResponseType = 'SetFlag',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NeedMoreShields',
+    },
+    Events = {
+        {
+            EventType = 'EnemyUnitSighting',
+            CategoryString = 'ARTILLERY STRUCTURE, EXPERIMENTAL MOBILE, TACTICALMISSILEPLATFORM',
+            Minimum = 1,
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Artillery damage taken flag',
+    ResponseType = 'SetFlag',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NeedMoreShields',
+    },
+    Events = {
+        {
+            EventType = 'EnemyDamageTaken',
+            CategoryString = 'ARTILLERY STRUCTURE',
+            Minimum = 1,
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Artillery or experimental mobile spotted',
+    ResponseType = 'ResearchNeed',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NeedShields',
+    },
+    Events = {
+        {
+            EventType = 'EnemyUnitSighting',
+            CategoryString = 'ARTILLERY STRUCTURE, EXPERIMENTAL MOBILE',
+            Minimum = 1,
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Artillery damage taken',
+    ResponseCountMaximum = 1,
+    ResponseType = 'ResearchNeed',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NeedShields',
+    },
+    Events = {
+        {
+            EventType = 'EnemyDamageTaken',
+            CategoryString = 'ARTILLERY STRUCTURE',
+            Minimum = 1,
+        },
+    },
+}
+--****************************
+--*			Nukes
+--****************************
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Nukes Spotted',
+    ResponseCountMaximum = 1,
+    ResponseType = 'SetFlag',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NukesSpotted',
+    },
+    Events = {
+        {
+            EventType = 'EnemyUnitSighting',
+            CategoryString = 'NUKE',
+            Minimum = 1,
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Nuke damage taken flag',
+    ResponseCountMaximum = 1,
+    ResponseType = 'SetFlag',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NukesSpotted',
+    },
+    Events = {
+        {
+            EventType = 'EnemyDamageTaken',
+            CategoryString = 'NUKE',
+            Minimum = 1,
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Nuke units spotted',
+    ResponseCountMaximum = 1,
+    ResponseType = 'ResearchNeed',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NeedAntiNukes',
+    },
+    Events = {
+        {
+            EventType = 'EnemyUnitSighting',
+            CategoryString = 'NUKE',
+            Minimum = 1,
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Nuke damage taken',
+    ResponseCountMaximum = 1,
+    ResponseType = 'ResearchNeed',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NeedAntiNukes',
+    },
+    Events = {
+        {
+            EventType = 'EnemyDamageTaken',
+            CategoryString = 'NUKE',
+            Minimum = 1,
+        },
+    },
+}
+--****************************
+--*			AA
+--****************************
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    ResponseCountMaximum = 1,
+    BlueprintId = 'Need AA Upgrade',
+    ResponseType = 'ResearchNeed',
+    ResponseGroups = {
+        'Land Archetype Response',
+		'Rush Archetype Response',
+		'Turtle Archetype Response',
+		'Balanced Archetype Response',
+    },
+    ResponseData = {
+        'NeedAAUpgrade',
+    },
+    Events = {
+        {
+            EventType = 'StrategicThreatGreaterThan',
+            RepeatType = 'TrueOnceRepeatTest',
+            NumRings = 50,
+            ThreatValue = 5,
+            ThreatType = 'StructureAntiAir',
+            Alliance = 'Enemy',
+        },
+    },
+}
+--****************************
+--*		Anti-Turtle
+--****************************
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    ResponseCountMaximum = 1,
+    BlueprintId = 'High anti air threat',
+    ResponseType = 'ResearchNeed',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NeedArtillery',
+		'NeedNukes',
+    },
+    Events = {
+        {
+            EventType = 'StrategicThreatGreaterThan',
+            RepeatType = 'TrueOnceRepeatTest',
+            NumRings = 50,
+            ThreatValue = 300,
+            ThreatType = 'StructureAntiAir',
+            Alliance = 'Enemy',
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    ResponseCountMaximum = 1,
+    BlueprintId = 'High anti surface threat',
+    ResponseType = 'ResearchNeed',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NeedArtillery',
+		'NeedNukes',
+    },
+    Events = {
+        {
+            EventType = 'StrategicThreatGreaterThan',
+            RepeatType = 'TrueOnceRepeatTest',
+            NumRings = 50,
+            ThreatValue = 300,
+            ThreatType = 'StructureAntiSurface',
+            Alliance = 'Enemy',
+        },
+    },
+}

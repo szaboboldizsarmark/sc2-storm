@@ -1,0 +1,117 @@
+EmitterBlueprint {
+	BlueprintId = 'w_i_bom01_i_u_09_lightcloud',
+	Lifetime = 2.00,
+	Repeattime = 2.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	Gravity = true,
+	LODCutoff = 200.00,
+	ParticleResistance = true,
+	InterpolateEmission = false,
+	SortOrder = 1.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/water/wa_0002_44.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0058_lightblue.dds]],
+	EmitRateCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.3320,y=4.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.8740,y=4.0000,z=1.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.0140,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.0200,y=0.0000,z=0.7000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.9920,y=1.0000,z=0.4000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.2740,y=0.0000,z=0.7000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.5620,y=0.1000,z=0.2000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.2440,y=0.0000,z=1.2000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.4540,y=-0.5000,z=0.3000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.5200,y=0.0000,z=1.2000 },
+		},
+	},
+	XAccelCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=1.0040,y=0.0000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.1620,y=0.3000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.0000,y=1.0000,z=0.1000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.9960,y=1.8000,z=0.3000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.6880,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.4780,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 2.0000,
+		Keys = {
+			{ x=0.5360,y=0.3000,z=0.3000 },
+		},
+	},
+}

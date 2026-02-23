@@ -1,0 +1,71 @@
+PropBlueprint {
+	Categories = {
+        'INVULNERABLE',
+        'UNTARGETABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 200,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Buildings/Building04/Building04_Diffuse.dds',
+                                    MaskName = '/props/Buildings/Building04/Building04_mask.dds',
+                                    NormalName = '/props/Buildings/Building04/Building04_normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Buildings/Building04/Building04_Diffuse.dds',
+                                    MaskName = '/props/Buildings/Building04/Building04_mask.dds',
+                                    NormalName = '/props/Buildings/Building04/Building04_normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Buildings/Building04/Building04_Diffuse.dds',
+                                    MaskName = '/props/Buildings/Building04/Building04_mask.dds',
+                                    NormalName = '/props/Buildings/Building04/Building04_normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.2,
+    },
+    Footprint = {
+        SizeX = 17,
+        SizeZ = 17,
+    },
+    Interface = {
+        HelpText = 'Building04',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

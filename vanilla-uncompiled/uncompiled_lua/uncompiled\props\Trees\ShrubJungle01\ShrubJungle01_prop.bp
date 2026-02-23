@@ -1,0 +1,36 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Props/Trees/ShrubJungle01/ShrubJungle01_Diffuse.dds',
+                                    MaskName = '/Props/Trees/ShrubJungle01/ShrubJungle01_Mask.dds',
+                                    NormalName = '/Props/Trees/ShrubJungle01/ShrubJungle01_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128, leaf_sway = 2',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.1,
+    },
+    Interface = {
+        HelpText = 'ShrubJungle01',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Tree',
+    ScriptModule = '/lua/proptree.lua',
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

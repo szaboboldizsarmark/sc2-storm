@@ -1,0 +1,147 @@
+Maintenance
+- Coding agents must update this knowledge base whenever they change files, repacking logic, or mod structure.
+
+Workspace Folders
+- original-storm: Original Storm mod files as received. Do not edit; use as source of truth.
+- vanilla-uncompiled: Vanilla reference sources. Contains uncompiled_lua.scd and z_uncompiled_lua_dlc1.scd plus extracted trees for read-only reference.
+- working-dir: Active edit workspace. All changes should be made here before repacking into gamedata.
+
+Supreme Commander 2 Modding Database: Vanilla vs Storm
+
+Overview: How Storm Works (High-Level)
+- Note: In this setup, zz_STORM.scd is used as a directory (not a zip archive). It shadows files directly via folder structure.
+- SupCom2 loads core archives from gamedata (e.g., lua.scd, z_lua_dlc1.scd).
+- Storm is NOT a pure standalone mod archive. It uses a hybrid approach:
+  - Mostly compiled Lua bytecode in base/DLC archives.
+  - A small set of plaintext (uncompiled) Lua/BP overrides inside those same archives.
+- The Storm package therefore works by replacing specific files in lua.scd and z_lua_dlc1.scd,
+  while leaving the rest compiled. The game appears to tolerate mixed bytecode + plaintext.
+- A fully uncompiled lua.scd/z_lua_dlc1.scd built from uncompiled_* archives does NOT launch,
+  likely due to path/layout differences and missing engine expectations.
+- zz_STORM.scd contains additional content (shadow paths, blueprints, scripts).
+  It appears to rely on the modified base/DLC files to be effective.
+
+Section 1: lua.scd (Storm vs Vanilla)
+Changed files (plaintext in Storm, bytecode in Vanilla):
+- lua/common/factions.lua
+Summary of changes:
+- Removes AdditionalInitialUnits entries for multiple factions.
+- Storm version is plaintext; vanilla version is Lua bytecode.
+
+Section 2: z_lua_dlc1.scd (Storm vs Vanilla)
+Changed files (plaintext in Storm, bytecode in Vanilla):
+- mods/DLC1/shadow/lua/sim/Experience.lua
+- mods/DLC1/shadow/lua/sim/EffectTemplates.lua
+- mods/DLC1/shadow/lua/sim/Research.lua
+- mods/DLC1/shadow/lua/sim/buffs/BuffDefinitions.lua
+- mods/DLC1/shadow/lua/sim/buffs/ResearchBuffDefinitions.lua
+- mods/DLC1/shadow/lua/ui/game/research/research_layout.lua
+- mods/DLC1/shadow/lua/ai/skirmish/FactoryBuilders/SAiFactoryBuilders_Air.bp
+- mods/DLC1/shadow/lua/ai/skirmish/FactoryBuilders/SAIFactoryBuilders_Land.bp
+- mods/DLC1/shadow/lua/ai/skirmish/EngineerBuilders/SAIEngineerBuilders_Artillery.bp
+- mods/DLC1/base/Units/Illuminate/UIX0104D1/UIX0104D1_script.lua
+- mods/DLC1/base/Units/Illuminate/UIX0104D1/UIX0104D1_unit.bp
+- mods/DLC1/base/Units/Cybran/UCS0105/UCS0105_script.lua
+- mods/DLC1/base/Units/Cybran/UCL0002/UCL0002_script.lua
+- mods/DLC1/base/Units/Cybran/UCS0901/UCS0901_script.lua
+- mods/DLC1/base/Units/Cybran/UCS0103/UCS0103_script.lua
+- mods/DLC1/base/Units/Cybran/UCX0103/UCX0103_Script.lua
+Summary of changes:
+- Experience.lua: Factory veterancy buffs are commented out.
+- EffectTemplates.lua: Several Cybran experimental effect emitters are commented out.
+- Research.lua: Research costs, prerequisites, and names adjusted (e.g., “Giant Transport” -> “Behemoth”).
+- BuffDefinitions.lua: Mass production and damage multipliers reduced.
+- ResearchBuffDefinitions.lua: Large-scale buff list and stat changes (many additions/removals).
+- research_layout.lua: Some research UI entries/icons commented out or hidden.
+- AI builder files: Build conditions and unit lists adjusted; some limits raised or checks removed.
+- UIX0104D1: EMP weapon replaced with tactical missile (script + blueprint changes).
+- Cybran UCS/UCL scripts: Remove custom movement-speed buff handling; call base OnResearchedTechnologyAdded.
+- UCX0103: Blast radius/damage increased; shield/effect visuals commented out.
+
+Section 3: zz_STORM.scd (Human-Readable Summary)
+zz_STORM.scd file count: 51
+Override vs vanilla: only one known override file (UIB0001_script.lua). All other files are new content.
+
+Units/Cybran
+- mods/DLC1/shadow/Units/Cybran/UCA0103/UCA0103_script.lua: inherits: AirUnit; weapons: Laser01, UCA0103; hooks: OnResearchedTechnologyAdded, OnStopBeingBuilt
+- mods/DLC1/shadow/Units/Cybran/UCA0104/UCA0104_Script.lua: inherits: AirUnit; weapons: AntiAir01, Bomb01, UCA0104; hooks: OnResearchedTechnologyAdded, OnStopBeingBuilt
+- mods/DLC1/shadow/Units/Cybran/UCA0901/UCA0901_script.lua: inherits: AirUnit; weapons: Laser01, UCA0901; hooks: OnKilled, OnResearchedTechnologyAdded, OnStopBeingBuilt
+- mods/DLC1/shadow/Units/Cybran/UCB0001/UCB0001_script.lua: inherits: FactoryUnit; weapons: UCB0001; hooks: OnStopBeingBuilt; build FX logic
+- mods/DLC1/shadow/Units/Cybran/UCB0002/UCB0002_script.lua: inherits: FactoryUnit; weapons: UCB0002; hooks: OnStopBeingBuilt; build FX logic
+- mods/DLC1/shadow/Units/Cybran/UCB0003/UCB0003_script.lua: inherits: FactoryUnit, SeaUnit; weapons: Cannon01, Cannon02, Cannon03, Cannon04, UCB0003; hooks: OnKilled, OnStopBeingBuilt; build FX logic
+- mods/DLC1/shadow/Units/Cybran/UCB0011/UCB0011_script.lua: inherits: ExperimentalGantryUnit; weapons: UCB0011; hooks: OnStopBeingBuilt; build FX logic
+- mods/DLC1/shadow/Units/Cybran/UCB0012/UCB0012_script.lua: inherits: ExperimentalGantryUnit; weapons: UCB0012; hooks: OnStopBeingBuilt; build FX logic
+- mods/DLC1/shadow/Units/Cybran/UCL0001/UCL0001_script.lua: weapons: AntiAir, DeathWeapon, MainGun, Nanobots, OverCharge, TacMissile, UCL0001; hooks: OnCreate, OnResearchedTechnologyAdded, OnStopBeingBuilt, OnStopBuild; damage data: DamageData.KnockbackDistance=40, DamageData.KnockbackDistance=50, DamageData.KnockbackRadius=3, DamageData.KnockbackRadius=4
+- mods/DLC1/shadow/Units/Cybran/UCL0102/UCL0102_Script.lua: inherits: MobileUnit; weapons: Artillery01, UCL0102; hooks: OnResearchedTechnologyAdded, OnStopBeingBuilt
+- mods/DLC1/shadow/Units/Cybran/UCL0103/UCL0103_Script.lua: inherits: MobileUnit; weapons: Laser01, Laser02, Laser03, UCL0103; hooks: OnResearchedTechnologyAdded
+- mods/DLC1/shadow/Units/Cybran/UCL0104/UCL0104_script.lua: inherits: MobileUnit; weapons: TacticalMissile01, UCL0104; hooks: OnResearchedTechnologyAdded, OnStopBeingBuilt
+- mods/DLC1/shadow/Units/Cybran/UCL0204/UCL0204_script.lua: inherits: MobileUnit; weapons: AntiAir01, AntiAir02, AntiMissile01, UCL0204; hooks: OnCreate, OnResearchedTechnologyAdded; shield effects logic
+- mods/DLC1/shadow/Units/Cybran/UCX0112/UCX0112_script.lua: weapons: AntiAir01, AntiAir02, Laser01, Laser02, Laser03, Missile01, Missile02, Missile03, UCX0112; hooks: OnStartBuild, OnStopBuild
+- mods/DLC1/shadow/Units/Cybran/UCX0114/UCX0114_Script.lua: inherits: StructureUnit; weapons: UCX0114; hooks: OnStopBeingBuilt
+- mods/DLC1/shadow/Units/Cybran/UCX0116/UCX0116_script.lua: weapons: Laser01, Laser02, Laser03, Laser04, Laser05, Laser06, Laser07, Laser08, UCX0116; hooks: OnKilled
+
+Units/Illuminate
+- mods/DLC1/shadow/Units/Illuminate/UIA0104/UIA0104_Script.lua: inherits: AirUnit; weapons: AAGun01, AntiMissile, Bomb01, Bomb02, UIA0104; hooks: OnStopBeingBuilt
+- mods/DLC1/shadow/Units/Illuminate/UIB0001/UIB0001_script.lua: inherits: FactoryUnit, SeaUnit; weapons: UIB0001; hooks: OnCreate, OnKilled, OnStopBeingBuilt; build FX logic
+- mods/DLC1/shadow/Units/Illuminate/UIB0002/UIB0002_script.lua: inherits: FactoryUnit; weapons: UIB0002; hooks: OnCreate, OnStopBeingBuilt; build FX logic
+- mods/DLC1/shadow/Units/Illuminate/UIB0011/UIB0011_script.lua: inherits: ExperimentalGantryUnit; weapons: UIB0011; hooks: OnStopBeingBuilt; build FX logic
+- mods/DLC1/shadow/Units/Illuminate/UIL0001/UIL0001_script.lua: weapons: AntiAir, DeathWeapon, MainGun, OverCharge, UIL0001; hooks: OnCreate, OnResearchedTechnologyAdded, OnStopBeingBuilt, OnStopBuild; shield effects logic
+- mods/DLC1/shadow/Units/Illuminate/UIX0111/UIX0111_EyeLaser.lua: weapons: EyeLaser; hooks: OnCreate
+- mods/DLC1/shadow/Units/Illuminate/UIX0112/UIX0112_script.lua: weapons: BeamTurret01, BeamTurret02, BeamTurret03, MainBeam01, PinWheelBomb01, UIX0112; hooks: OnKilled, OnStartBuild, OnStopBeingBuilt, OnStopBuild
+- mods/DLC1/shadow/Units/Illuminate/UIX0113/UIX0113_script.lua: inherits: StructureUnit; weapons: UIX0113; hooks: OnStopBeingBuilt
+- mods/DLC1/shadow/Units/Illuminate/UIX0114/UIX0114_Script.lua: inherits: StructureUnit; weapons: UIX0114; hooks: OnStopBeingBuilt
+
+Units/UEF
+- mods/DLC1/shadow/Units/UEF/UUB0001/UUB0001_script.lua: inherits: FactoryUnit; weapons: UUB0001; hooks: OnStopBeingBuilt; build FX logic
+- mods/DLC1/shadow/Units/UEF/UUB0002/UUB0002_script.lua: inherits: FactoryUnit; weapons: UUB0002; build FX logic
+- mods/DLC1/shadow/Units/UEF/UUB0003/UUB0003_script.lua: inherits: FactoryUnit; weapons: UUB0003; hooks: OnKilled; build FX logic
+- mods/DLC1/shadow/Units/UEF/UUB0011/UUB0011_script.lua: inherits: ExperimentalGantryUnit; weapons: UUB0011; build FX logic
+- mods/DLC1/shadow/Units/UEF/UUB0012/UUB0012_script.lua: inherits: ExperimentalGantryUnit; weapons: UUB0012; build FX logic
+- mods/DLC1/shadow/Units/UEF/UUL0003D1/UUL0003D1_script.lua: weapons: MainGun1, MainGun2, UUL0003D1; hooks: OnCreate, OnKilled, OnStopBeingBuilt
+- mods/DLC1/shadow/Units/UEF/UUL0201/UUL0201_script.lua: inherits: MobileUnit; weapons: UUL0201; hooks: OnCreate; shield effects logic
+
+Coststamps
+- mods/DLC1/shadow/coststamps/Custom/UCB0001_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UCB0002_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UCB0003_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UCB0011_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UCX0114_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UCX0115_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UIB0001_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UIB0002_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UIB0011_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UIX0113_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UUB0001_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UUB0002_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UUB0003_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+- mods/DLC1/shadow/coststamps/Custom/UUB0011_coststamp.lua: script overrides (no obvious weapon/hook markers detected)
+
+BlueprintMerges
+- mods/DLC1/zzz_Aeon_STORM_blueprintmerges.bp: DisplayName='<LOC UNIT_NAME_0094>Oblivion'; stats: Health=1000, ShieldMaxHealth=100, BuildTime=20, Damage=150, MaxRadius=30, RateOfFire=0.5, RateOfFire=0.1, Health=1000
+- mods/DLC1/zzz_Cybran_STORM_blueprintmerges.bp: DisplayName='<LOC UNIT_NAME_0016>Cerberus'; stats: Health=1000, ShieldMaxHealth=100, BuildTime=20, Damage=50, MaxRadius=30, RateOfFire=0.5, Health=1000, ShieldMaxHealth=100
+- mods/DLC1/zzz_UEF_STORM_blueprintmerges.bp: DisplayName='<LOC UNIT_NAME_0180>Ravager'; stats: Health=1000, ShieldMaxHealth=100, BuildTime=20, Damage=50, MaxRadius=60, RateOfFire=0.5, Health=1000, ShieldMaxHealth=100
+- mods/DLC1/zzz_abilitymerges.bp: DisplayName='<LOC SC2_ABILITIES_0097>Convert 1 Research to 2500 Energy'
+- mods/DLC1/zzz_projectiles.bp: blueprint overrides (no obvious stats captured)
+
+Repacking Notes (Critical)
+- The game will not launch if lua.scd or z_lua_dlc1.scd are repacked with generic zip defaults.
+- Repacking must preserve the original Storm archive’s zip metadata:
+  - Use backslashes in entry paths (Windows-style).
+  - Preserve entry order.
+  - Preserve per-entry metadata (timestamps, CRCs via original data, FAT origin, attributes, flags).
+  - Preserve compression method per entry (deflate as in original).
+- Correct approach used:
+  - Use the original Storm .scd as a template; iterate entries in original order.
+  - For each entry, write the extracted file data but reuse ZipInfo fields from the original entry.
+- zz_STORM.scd is used as a DIRECTORY (not a zip) in this setup and does not need repacking.
+
+Repack Script (working-dir)
+- Script: /home/boldi/supcom2-mod/working-dir/repack_sc2_archives.py
+- Assumes working-dir contains: lua/, z_lua_dlc1/, zz_STORM.scd/.
+- Uses hardcoded gamedata path: /home/boldi/.local/share/Steam/steamapps/common/Supreme Commander 2/gamedata
+- On run:
+  1) Deletes gamedata/lua.scd, gamedata/z_lua_dlc1.scd, gamedata/zz_STORM.scd
+  2) Copies working-dir/zz_STORM.scd (directory) into gamedata
+  3) Rebuilds lua.scd and z_lua_dlc1.scd in gamedata using original-storm templates
+- The script does not create any temporary files in working-dir.
+

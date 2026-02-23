@@ -1,0 +1,57 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2_DLC1/Gen/Snd_UEF_EXPL_Naval_Impact',
+        ImpactTerrain = 'SC2_DLC1/Gen/Snd_UEF_EXPL_Naval_Impact',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/Flamethrower/snd_Cybran_Flamethrower_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Display = {
+        StrategicIconSize = 4,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_HandCannon02_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_HandCannon02_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Large01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_HandCannon02_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'UEF_HandCannon02_Impact01',
+                TrajectoryAligned = true,
+            },
+            UnitAir = {
+                Template = 'UEF_HandCannon02_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Scale = 2,
+                Template = 'Water_Impact_Large01',
+            },
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        Weapon = 'Hand Cannon',
+    },
+    Physics = {
+        Acceleration = 0,
+        MaxSpeed = 100,
+        TurnRate = 360,
+        UseGravity = true,
+        VelocityAlign = true,
+    },
+}

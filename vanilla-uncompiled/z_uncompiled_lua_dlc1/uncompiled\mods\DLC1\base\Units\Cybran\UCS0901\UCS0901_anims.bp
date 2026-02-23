@@ -1,0 +1,30 @@
+RawAnimBlueprint {
+     ucs0901_Idle = {
+     	ScaName = '/mods/DLC1/base/units/cybran/ucs0901/ucs0901_alandidle01.sca',
+		PlaybackSpeed = 1.0,
+     },
+     ucs0901_JumpStart_Land = {
+     	ScaName = '/mods/DLC1/base/units/cybran/ucs0901/ucs0901_ajumpstart_land.sca',
+		PlaybackSpeed = 1.0,
+     },
+     ucs0901_JumpStart_Water = {
+     	ScaName = '/mods/DLC1/base/units/cybran/ucs0901/ucs0901_ajumpstart_water.sca',
+		PlaybackSpeed = 1.0,
+     },
+     ucs0901_TransformForLand = {
+     	ScaName = '/mods/DLC1/base/units/cybran/ucs0901/ucs0901_aseatoland01.sca',
+     	Events = {
+     	    { Trigger = 'OnStart',	Type = 'LuaCallback',		CallbackFunc = 'OnAnimStartTrigger',	LuaStrArg = 'TransformForLand', },
+			{ Trigger = 'OnEnd',	Type = 'AnimStateEvent',	AnimCommand = 'OnMove', },
+     	},
+		PlaybackSpeed = 1.0,
+     },
+     ucs0901_TransformForSea = {
+     	ScaName = '/mods/DLC1/base/units/cybran/ucs0901/ucs0901_alandtosea01.sca',
+		PlaybackSpeed = 1.0,
+     },
+     ucs0901_Walk = {
+     	ScaName = '/mods/DLC1/base/units/cybran/ucs0901/ucs0901_awalk01.sca',
+		PlaybackSpeed = 1.5,
+     },
+}

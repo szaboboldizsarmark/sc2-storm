@@ -1,0 +1,101 @@
+EmitterBlueprint {
+	BlueprintId = 'empfluxwarhead_02',
+	Lifetime = 250.00,
+	Repeattime = 250.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	Gravity = true,
+	LODCutoff = -1.00,
+	SnapToWaterline = true,
+	LowFidelity = false,
+	Texture = [[/textures/particles/cloud_smoke_alpha_10.dds]],
+	RampTexture = [[/textures/particles/ramp_white_02.dds]],
+	EmitRateCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=134.5750,y=1.0000,z=0.0000 },
+			{ x=239.4460,y=1.4370,z=0.0000 },
+			{ x=247.3610,y=14.0240,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=125.6500,y=186.0810,z=70.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.0000 },
+			{ x=124.3400,y=5.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=0.0000,y=-0.2380,z=0.0000 },
+			{ x=250.0000,y=-0.2380,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=125.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=125.0000,y=0.0000,z=0.1000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=125.0000,y=0.0000,z=0.1000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=125.0000,y=0.0200,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=125.6600,y=1.5790,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=128.9580,y=1.4180,z=0.1000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=125.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=125.0000,y=0.0000,z=10.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=125.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 250.0000,
+		Keys = {
+			{ x=108.5000,y=8.0000,z=16.0000 },
+		},
+	},
+}

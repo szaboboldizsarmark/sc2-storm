@@ -1,0 +1,152 @@
+--[[
+SkirmishBaseBlueprint {
+    BlueprintId = Unique name of the blueprint
+    BaseItemGroups = {
+        What item groups this base uses
+    },
+    ListItems = false, - For debugging: Prints the items for this base to the log
+    MaxEngineers = Maximum number of engineers this base should maintain
+    MinMassPercentFull = Minimum percent of mass extractors that must be built on before expanding
+}
+]]--
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultBalanced',
+    BaseItemGroups = {
+        'Balance Focus Startup Group',
+        'Default Item Group',
+        'Balanced Factories',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.5,
+}
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultBalancedExpansion',
+    BaseItemGroups = {
+        'Default Expansion Item Group',
+        'Balanced Expansion Factories',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.65,
+}
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultLand',
+    BaseItemGroups = {
+        'Land Focus Startup Group',
+        'Default Item Group',
+        'Land Factories',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.5,
+}
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultLandExpansion',
+    BaseItemGroups = {
+        'Default Expansion Item Group',
+        'Land Expansion Factories',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.65,
+}
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultRush',
+    BaseItemGroups = {
+        'Rush Focus Startup Group',
+        'Rush Item Group',
+        'Rush Factories',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.5,
+}
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultRushExpansion',
+    BaseItemGroups = {
+        'Rush Expansion Item Group',
+        'Rush Expansion Factories',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.65,
+}
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultAir',
+    BaseItemGroups = {
+        'Air Focus Startup Group',
+        'Default Item Group',
+        'Air Factories',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.5,
+}
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultAirExpansion',
+    BaseItemGroups = {
+        'Default Expansion Item Group',
+        'Air Expansion Factories',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.65,
+}
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultTurtle',
+    BaseItemGroups = {
+        'Turtle Focus Startup Group',
+        'Default Item Group',
+        'Turtle Factories',
+        'Turtle Item Group',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.75,
+}
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultTurtleExpansion',
+    BaseItemGroups = {
+        'Default Expansion Item Group',
+        'Turtle Expansion Factories',
+        'Turtle Expansion Item Group',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.75,
+}
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultNaval',
+    BaseItemGroups = {
+        'Default Item Group',
+        'Naval Factories',
+        'Sea Focus Startup Group',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.5,
+}
+
+SkirmishBaseBlueprint {
+    BlueprintId = 'DefaultNavalExpansion',
+    BaseItemGroups = {
+        'Default Naval Expansion Item Group',
+		'Default Expansion Item Group',
+        'Naval Expansion Factories',
+    },
+    ListItems = false,
+    MaxEngineers = 2,
+    MinMassPercentFull = 0.75,
+}

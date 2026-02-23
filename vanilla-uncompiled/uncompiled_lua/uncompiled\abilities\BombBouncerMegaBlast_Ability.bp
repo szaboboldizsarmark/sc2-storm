@@ -1,0 +1,8 @@
+AbilityBlueprint {
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0060>Activate Mega Blast',
+    InitiallyEnabled = false,
+	RunScript = 'OnMegaBlastActivate',
+	OrderBitmapId = 'bbouncedamage',
+	ShowCmdButtonWhenDisabled = true,
+}

@@ -1,0 +1,20 @@
+ProjectileBlueprint {
+    Display = {
+        UniformScale = 0,
+    },
+    Physics = {
+        Acceleration = 0,
+        AccelerationRange = 0,
+        CollideEntity = true,
+        CollideSurface = false,
+        DestroyOnWater = false,
+        Lifetime = 100,
+        MaxSpeed = 0,
+        PositionY = 0,
+        RotationalVelocity = 30,
+        RotationalVelocityRange = 720,
+        TurnRate = 360,
+        UseGravity = false,
+        VelocityAlign = false,
+    },
+}

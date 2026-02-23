@@ -1,0 +1,69 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/ILLUMINATE/AntiAir/snd_Illuminate_AntiAir_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/ILLUMINATE/AntiAir/snd_Illuminate_AntiAir_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/ILLUMINATE/AntiAir/snd_Illuminate_AntiAir_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'ANTIAIR',
+    },
+    CollisionShape = 'Sphere',
+    Display = {
+        StrategicIconSize = 2,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Illuminate_AntiAir03_Trails01',
+        },
+        Impacts = {
+            Air = {
+                Template = 'Illuminate_AntiAir01_Impact01',
+            },
+            Prop = {
+                Template = 'Illuminate_AntiAir01_Impact01',
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            UnitAir = {
+                Template = 'Illuminate_AntiAir01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Illuminate_AntiAir03_Polytrails01',
+        },
+        TerrainClass = 'Small01',
+    },
+    General = {
+        Category = 'Anti Air',
+        EntityCategory = {
+            'ILLUMINATE',
+            'PROJECTILE',
+            'ANTIAIR',
+        },
+        Faction = 'UEF',
+        TechLevel = 1,
+        Weapon = 'Anti Air',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 15,
+        Lifetime = 10,
+        MaxSpeed = 100,
+        MaxZigZag = 35,
+        TrackTarget = true,
+        TurnRate = 250,
+        UseGravity = false,
+        Velocity = 30,
+        VelocityAlign = true,
+        ZigZagFrequency = 0.2,
+    },
+}

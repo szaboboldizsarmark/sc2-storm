@@ -1,0 +1,58 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 800,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Structures/Quantum_Lab/Quantum_Lab_Gray_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/props/Structures/Quantum_Lab/Quantum_Lab_Mask.dds',
+                                    NormalName = '/props/Structures/Quantum_Lab/Quantum_Lab_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage, wreckage_edge_highlight',
+                                    
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Structures/Quantum_Lab/Quantum_Lab_wreckage01_lod0.scm',
+                },
+                {
+                    LODCutoff = 1000,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Structures/Quantum_Lab/Quantum_Lab_Gray_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/props/Structures/Quantum_Lab/Quantum_Lab_Mask.dds',
+                                    NormalName = '/props/Structures/Quantum_Lab/Quantum_Lab_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, alpha_test = 128, wreckage, wreckage_edge_highlight',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Structures/Quantum_Lab/Quantum_Lab_wreckage01_lod2.scm',
+                },
+            },
+        },
+        UniformScale = 1,
+    },
+    Economy = {
+        MassValue = 1,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

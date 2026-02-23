@@ -1,0 +1,71 @@
+EmitterBlueprint {
+	BlueprintId = 'uef_landfactory_03_sparks',
+	Lifetime = -20.00,
+	Repeattime = 20.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 830.00,
+	EmitIfVisible = false,
+	InterpolateEmission = false,
+	Texture = [[/textures/particles/glow/gl_0006_44.dds]],
+	RampTexture = [[/textures/particles/ramp_orange_01.dds]],
+	EmitRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.0000,y=2.0000,z=0.0000 },
+			{ x=0.2000,y=0.0000,z=0.0000 },
+			{ x=10.0000,y=0.0000,z=0.0000 },
+			{ x=10.0000,y=2.0000,z=0.0000 },
+			{ x=10.2000,y=0.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.5276,y=20.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=-4.0000,z=0.0000 },
+			{ x=10.0000,y=3.8500,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=9.5514,y=5.4500,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.1850,y=-2.4500,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=5.8312,y=4.0000,z=0.3000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=5.5936,y=5.6000,z=0.3000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.9774,y=0.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

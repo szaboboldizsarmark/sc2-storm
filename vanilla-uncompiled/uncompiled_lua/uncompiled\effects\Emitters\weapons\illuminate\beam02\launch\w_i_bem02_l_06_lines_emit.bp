@@ -1,0 +1,97 @@
+EmitterBlueprint {
+	BlueprintId = 'w_i_bem02_l_06_lines',
+	Lifetime = -1.00,
+	Repeattime = 20.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 150.00,
+	SortOrder = 1.00,
+	LowFidelity = false,
+	MedFidelity = false,
+	Texture = [[/textures/particles/ring_15.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0130_green.dds]],
+	EmitRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=18.9182,y=2.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=4.1000,y=2.5000,z=0.5000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=0.0000,z=1.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=0.0000,z=1.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=9.0000,y=-1.0000,z=1.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=6.3060,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=12.0000,z=9.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=3.8600,y=6.0000,z=4.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=7.4680,y=0.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=2.0000,z=4.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=0.7000,z=0.2000 },
+		},
+	},
+}

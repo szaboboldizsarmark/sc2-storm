@@ -1,0 +1,118 @@
+EmitterBlueprint {
+	BlueprintId = 'ucx0114_push_06_cameraring',
+	Lifetime = -1.00,
+	Repeattime = 8.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	LODCutoff = 300.00,
+	EmitIfVisible = false,
+	Texture = [[/textures/particles/ring_07.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0121_whiteandgrey.dds]],
+	DistortionMapTexture = [[/textures/particles/displacement/di_0009_55.dds]],
+	EmitRateCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=3.9683,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=2.1847,y=14.2857,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=3.9789,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=0.0000,y=3.0000,z=2.0000 },
+			{ x=7.1240,y=0.1500,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=0.0000,y=-1.0000,z=0.0000 },
+			{ x=7.9789,y=15.4924,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=3.9367,y=0.8036,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0106,y=0.6981,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=3.9894,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=0.0000,y=4.8396,z=0.0000 },
+			{ x=7.9789,y=10.5208,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=0.0000,y=12.1212,z=0.0000 },
+			{ x=7.9683,y=1.6694,z=0.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=2.1636,y=0.9000,z=0.2000 },
+		},
+	},
+	DistMapScaleCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=3.7464,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapBeginStrengthCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0848,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapEndStrengthCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0736,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapUShiftRateCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=3.8208,y=0.0000,z=0.0000 },
+		},
+	},
+}

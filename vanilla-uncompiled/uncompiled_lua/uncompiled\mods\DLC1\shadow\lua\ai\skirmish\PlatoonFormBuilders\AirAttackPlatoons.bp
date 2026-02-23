@@ -1,0 +1,447 @@
+--[[
+        Fighters
+]]--
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Air Attack Tiny',
+    PlatoonTemplate = 'AirAttackTiny',
+    PlatoonBehavior = 'NeuralAirAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    InstanceCount = 1,
+    MaxInstanceCount = 1,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 5, ConditionCategoryStringOne = 'MOBILE AIR FIGHTER -EXPERIMENTAL -TRANSPORTATION', },
+			{ ConditionType = 'BaseThreatLessThan', ConditionIntegerOne = 50, ConditionStringOne = 'AntiAir', ConditionIntegerTwo = 5, ConditionStringTwo = 'Enemy', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 5, ConditionCategoryStringOne = 'MOBILE AIR FIGHTER -EXPERIMENTAL -TRANSPORTATION', },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Air Attack Small',
+    PlatoonTemplate = 'AirAttackSmall',
+    PlatoonBehavior = 'NeuralAirAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 825,
+    InstanceCount = 1,
+    MaxInstanceCount = 1,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 11, ConditionCategoryStringOne = 'MOBILE AIR FIGHTER -EXPERIMENTAL -TRANSPORTATION', },
+			{ ConditionType = 'BaseThreatLessThan', ConditionIntegerOne = 50, ConditionStringOne = 'AntiAir', ConditionIntegerTwo = 10, ConditionStringTwo = 'Enemy', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 11, ConditionCategoryStringOne = 'MOBILE AIR FIGHTER -EXPERIMENTAL -TRANSPORTATION', },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Air Attack Medium',
+    PlatoonTemplate = 'AirAttackMedium',
+    PlatoonBehavior = 'NeuralAirAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 850,
+    InstanceCount = 1000,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 21, ConditionCategoryStringOne = 'MOBILE AIR FIGHTER -EXPERIMENTAL -TRANSPORTATION', },
+			{ ConditionType = 'BaseThreatLessThan', ConditionIntegerOne = 50, ConditionStringOne = 'AntiAir', ConditionIntegerTwo = 20, ConditionStringTwo = 'Enemy', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 21, ConditionCategoryStringOne = 'MOBILE AIR FIGHTER -EXPERIMENTAL -TRANSPORTATION', },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Air Attack Large',
+    PlatoonTemplate = 'AirAttackLarge',
+    PlatoonBehavior = 'NeuralAirAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 875,
+    InstanceCount = 1000,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 20, ConditionCategoryStringOne = 'MOBILE AIR FIGHTER -EXPERIMENTAL -TRANSPORTATION', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+--[[
+        Bombers/Gunships
+]]--
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Bomber Attack Tiny',
+    PlatoonTemplate = 'BomberAttackTiny',
+    PlatoonBehavior = 'NeuralBomberAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    InstanceCount = 1,
+    MaxInstanceCount = 4,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 5, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiAir', ConditionIntegerOne = 10 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 5, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Bomber Attack Small',
+    PlatoonTemplate = 'BomberAttackSmall',
+    PlatoonBehavior = 'NeuralBomberAttack',
+    AnnounceItem = false,
+    DebugItem = true,
+    BasePriority = 825,
+    InstanceCount = 1,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+		-- BaseFriendlyUnitsNearbyGreaterThan: ConditionCategoryStringTwo = Unit category to look for, ConditionIntegerTwo = how many units of ConditionCategoryStringOne each unit of ConditionCategoryStringTwo is worth.
+		-- So if ConditionCategoryStringOne unit + (ConditionCategoryStringTwo unit * ConditionIntegerTwo) > ConditionIntegerOne then this will return true.
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 10, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiAir', ConditionIntegerOne = 18 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 10, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Bomber Attack Medium',
+    PlatoonTemplate = 'BomberAttackMedium',
+    PlatoonBehavior = 'NeuralBomberAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 850,
+    InstanceCount = 1000,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 15, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiAir', ConditionIntegerOne = 28 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 15, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Bomber Attack Large',
+    PlatoonTemplate = 'BomberAttackLarge',
+    PlatoonBehavior = 'NeuralBomberAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 875,
+    InstanceCount = 1000,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 25, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiAir', ConditionIntegerOne = 42 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 25, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Bomber Attack Huge',
+    PlatoonTemplate = 'BomberAttackHuge',
+    PlatoonBehavior = 'NeuralBomberAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 876,
+    InstanceCount = 1000,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 40, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiAir', ConditionIntegerOne = 80 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 40, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Bomber Attack Extra Huge',
+    PlatoonTemplate = 'BomberAttackExtraHuge',
+    PlatoonBehavior = 'NeuralBomberAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 877,
+    InstanceCount = 1000,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 80, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiAir', ConditionIntegerOne = 130 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 80, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Bomber Attack Big \'Un',
+    PlatoonTemplate = 'BomberAttackBigUn',
+    PlatoonBehavior = 'NeuralBomberAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 878,
+    InstanceCount = 1000,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 120, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiAir', ConditionIntegerOne = 170 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 120, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Bomber Attack Ginormous',
+    PlatoonTemplate = 'BomberAttackGinormous',
+    PlatoonBehavior = 'NeuralBomberAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 879,
+    InstanceCount = 1000,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 150, ConditionCategoryStringOne = 'MOBILE AIR ANTISURFACE -EXPERIMENTAL -TRANSPORTATION', ConditionCategoryStringTwo = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', ConditionIntegerTwo = 15, ConditionBool = true, },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Air Guard Base',
+    PlatoonTemplate = 'AirAttackOpen',
+    PlatoonBehavior = 'AirGuardBase',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 1500,
+    InstanceCount = 10,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 3, ConditionStringOne = 'Air', ConditionIntegerTwo = 0, ConditionStringTwo = 'Enemy' },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+        {
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 3, ConditionStringOne = 'Land', ConditionIntegerTwo = 0, ConditionStringTwo = 'Enemy' },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+        {
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 3, ConditionStringOne = 'Naval', ConditionIntegerTwo = 0, ConditionStringTwo = 'Enemy' },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Air Scout',
+    PlatoonTemplate = 'AirScout',
+    PlatoonBehavior = 'AirScout',
+    AnnounceItem = false,
+    AnnounceFail = false,
+    --DebugItem = true,
+    BasePriority = 1000,
+    InstanceCount = 1,
+    BuilderType = 'Any',
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'NeedScouting', ConditionIntegerOne = 300, },
+            { ConditionType = 'FogOfWarEnabled', },
+			{ ConditionType = 'BasePoolUnitsLessThan', ConditionIntegerOne = 1, ConditionCategoryStringOne = 'UCA0105D1', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Air Scout Cybran',
+    PlatoonTemplate = 'AirScoutCybran',
+    PlatoonBehavior = 'AirScout',
+    AnnounceItem = false,
+    AnnounceFail = false,
+    --DebugItem = true,
+    BasePriority = 1000,
+    InstanceCount = 1,
+    BuilderType = 'Any',
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'NeedScouting', ConditionIntegerOne = 300, },
+            { ConditionType = 'FogOfWarEnabled', },
+			{ ConditionType = 'BasePoolUnitsGreaterThan', ConditionIntegerOne = 0, ConditionCategoryStringOne = 'UCA0105D1', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+    },
+}

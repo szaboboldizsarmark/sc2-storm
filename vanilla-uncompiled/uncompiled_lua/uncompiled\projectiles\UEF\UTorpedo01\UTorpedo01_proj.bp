@@ -1,0 +1,87 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/Torpedo/snd_UEF_Torpedo_Impact',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/Torpedo/snd_UEF_Torpedo_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'ANTINAVY',
+        'TORPEDO',
+        'NOSPLASHDAMAGE',
+    },
+    Display = {
+        Mesh = {
+        	CastShadow = false,
+            LODs = {
+                {
+                    DiffuseName = '/projectiles/UEF/UTorpedo01/UTorpedo01_Diffuse.dds',
+                    MaskName = '/projectiles/UEF/UTorpedo01/UTorpedo01_Mask.dds',
+                    NormalName = '/projectiles/UEF/UTorpedo01/UTorpedo01_Normal.dds',
+                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping',
+                },
+            },
+        },
+        StrategicIconSize = 2,
+        UniformScale = 0.12,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Torpedo01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Torpedo01_Impact01',
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Torpedo01_Impact03',
+            },
+            UnderWater = {
+                Template = 'UEF_Torpedo01_Impact03',
+            },
+            Unit = {
+                Template = 'UEF_Torpedo01_Impact01',
+            },
+            UnitUnderwater = {
+                Template = 'UEF_Torpedo01_Impact03',
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'UEF_Torpedo01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Anti Navy',
+        EntityCategory = {
+            'UEF',
+            'PROJECTILE',
+            'ANTINAVY',
+            'TORPEDO',
+        },
+        Faction = 'UEF',
+        Weapon = 'Angler Torpedo',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 5,
+        DestroyOnWater = false,
+        InitialSpeed = 3,
+        Lifetime = 7,
+        MaxSpeed = 18,
+        MaxZigZag = 2,
+        StayUnderwater = true,
+        TrackTarget = true,
+        TurnRate = 230,
+        VelocityAlign = true,
+        ZigZagFrequency = 0.5,
+    },
+}

@@ -1,0 +1,88 @@
+EmitterBlueprint {
+	BlueprintId = 'w_g_emp01_b_16_flatoriginelectricity',
+	Lifetime = 65.00,
+	Repeattime = 65.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	Flat = true,
+	LODCutoff = 1000.00,
+	EmitIfVisible = false,
+	CatchupEmit = false,
+	InterpolateEmission = false,
+	TextureStripcount = 2.00,
+	SortOrder = -2.00,
+	Texture = [[/textures/particles/electricity/el_0001_45.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=33.4100,y=3.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=16.6400,y=2.0000,z=1.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=33.1500,y=0.0000,z=40.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=32.5000,y=3.0000,z=1.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=7.3450,y=0.0000,z=40.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=32.8900,y=1.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=35.7500,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=16.1200,y=10.0000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=17.7515,y=10.0000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=34.4500,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=31.8500,y=1.0000,z=2.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 65.0000,
+		Keys = {
+			{ x=11.2320,y=0.3500,z=0.2000 },
+		},
+	},
+}

@@ -1,0 +1,70 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/Bomb/snd_UEF_Bomb_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/ILLUMINATE/Bomb/snd_Illuminate_Bomb_Impact',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/Bomb/snd_UEF_Bomb_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        StrategicIconSize = 3,
+        UniformScale = 0.2,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Illuminate_Bomb01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Illuminate_Bomb01_Impact02',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Illuminate_Bomb01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'Illuminate_Bomb01_Impact02',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Illuminate_Bomb01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Bomb',
+        EntityCategory = {
+            'ILLUMINATE',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+        },
+        Faction = 'Illuminate',
+        Weapon = 'Bomb',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 5,
+        MaxSpeed = 25,
+        OnLostTargetLifetime = 8,
+        RealisticOrdinance = true,
+        RotationalVelocityRange = 0.25,
+        TrackTarget = true,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

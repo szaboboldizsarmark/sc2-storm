@@ -1,0 +1,35 @@
+ProjectileBlueprint {
+    Effects = {
+        Emitters = {
+            Template = 'Cybran_Nanobot01_Trails02',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Cybran_Nanobot01_Impact02',
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Cybran_Nanobot01_Impact02',
+            },
+            Unit = {
+                Template = 'Cybran_Nanobot01_Impact02',
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+    },
+    Physics = {
+        CollideEntity = false,
+        MaxSpeed = 25,
+        RotationalVelocityRange = 1000,
+        TrackTarget = false,
+        TrackTargetGround = false,
+        TurnRate = 6,
+        UseGravity = false,
+        VelocityAlign = false,
+    },
+}

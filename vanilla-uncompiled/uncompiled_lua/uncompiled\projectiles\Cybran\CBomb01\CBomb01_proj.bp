@@ -1,0 +1,87 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/Bomb/snd_Cybran_Bomb_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/CYBRAN/Bomb/snd_Cybran_Bomb_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/Bomb/snd_Cybran_Bomb_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        Mesh = {
+        	CastShadow = false,
+            LODs = {
+                {
+                    LODCutoff = 150,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/projectiles/Cybran/CBomb01/CBomb01_Diffuse.dds',
+                                    MaskName = '/projectiles/Cybran/CBomb01/CBomb01_Mask.dds',
+                                    NormalName = '/projectiles/Cybran/CBomb01/CBomb01_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, environment_mapping',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        StrategicIconSize = 3,
+        UniformScale = 1.0,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Cybran_Bomb01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Cybran_Bomb01_Impact01',
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Cybran_Bomb01_Impact01',
+            },
+            Unit = {
+                Template = 'Cybran_Bomb01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Cybran_Bomb01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Bomb',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+        },
+        Faction = 'Cybran',
+        Weapon = 'Neutron Cluster Bomb',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 5,
+        DestroyOnWater = true,
+        MaxSpeed = 25,
+        OnLostTargetLifetime = 8,
+        RealisticOrdinance = true,
+        TrackTarget = true,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

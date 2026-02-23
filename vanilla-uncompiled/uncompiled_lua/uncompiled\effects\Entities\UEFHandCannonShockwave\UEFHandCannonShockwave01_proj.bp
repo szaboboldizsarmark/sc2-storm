@@ -1,0 +1,25 @@
+ProjectileBlueprint {
+    DevStatus = 'STABLE',
+    Effects = {
+        Emitters = {
+            Template = 'UEFHandCannonShockwave01_Trails01',
+            Scale = 0.7,
+        },
+    },
+    Physics = {
+        MinBounceCount = 10000,
+        MaxBounceCount = 10000,
+        BounceVelDamp = 1,
+        CollideEntity = false,
+        CollideSurface = false,
+        DestroyOnWater = false,
+        InitialSpeed = 10,
+        InitialSpeedRange = 0,
+        Lifetime = .7,
+        MaxSpeed = 30,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0.5,
+        TurnRate = 0,
+        UseGravity = false,
+    },
+}

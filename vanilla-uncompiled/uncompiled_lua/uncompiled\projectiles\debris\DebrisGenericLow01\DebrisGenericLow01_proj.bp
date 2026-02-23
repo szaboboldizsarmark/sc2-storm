@@ -1,0 +1,42 @@
+ProjectileBlueprint {
+    Audio = {
+        ExistLoop = 'SC2/SC2/Destructions/Debris/Low/snd_Debris_Activate',
+        Impact = 'SC2/SC2/Destructions/Debris/Low/snd_Debris_Impact_Other',
+        ImpactTerrain = 'SC2/SC2/Destructions/Debris/Low/snd_Debris_Impact_Land',
+        ImpactWater = 'SC2/SC2/Destructions/Debris/Low/snd_Debris_Impact_Water',
+    },
+    Display = {
+        UniformScale = 0.1,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Destroy_Trails_Large01',
+        },
+        Impacts = {
+            Terrain = {
+                Template = 'UEF_Destroy_Impact_Med01',
+            },
+            Water = {
+                Scale = 0.25,
+                Template = 'UEF_Destroy_ImpactWater_Med01',
+            },
+        },
+    },
+    Physics = {
+        BounceVelDamp = 0.3,
+        CollideEntity = true,
+        CollideSurface = true,
+        DestroyOnWater = true,
+        DirectionX = 0,
+        DirectionXRange = 0.7,
+        DirectionY = 1,
+        DirectionYRange = 0.7,
+        DirectionZ = 0,
+        DirectionZRange = 0.7,
+        InitialSpeed = 4,
+        InitialSpeedRange = 4,
+        RotationalVelocity = 0.3,
+        RotationalVelocityRange = 100,
+        VelocityAlign = false,
+    },
+}

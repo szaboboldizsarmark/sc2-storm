@@ -1,0 +1,64 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/ILLUMINATE/TacticalMissile/snd_Illuminate_TacticalMissile_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/ILLUMINATE/TacticalMissile/snd_Illuminate_TacticalMissile_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/ILLUMINATE/TacticalMissile/snd_Illuminate_TacticalMissile_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 1,
+        MaxHealth = 1,
+    },
+    Display = {
+        StrategicIconSize = 2,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Illuminate_Artillery02_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Illuminate_Artillery02_Impact01',
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Illuminate_Artillery02_Impact01',
+            },
+            Unit = {
+                Template = 'Illuminate_Artillery02_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Illuminate_Artillery02_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Artillery',
+        Faction = 'Illuminate',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 0,
+        InitialSpeed = 3,
+        MaxSpeed = 12,
+        MaxZigZag = 30,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TurnRate = 30,
+        VelocityAlign = true,
+        ZigZagFrequency = 0.2,
+    },
+}

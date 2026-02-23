@@ -1,0 +1,112 @@
+EmitterBlueprint {
+	BlueprintId = 'destruction_damaged_smoke_01',
+	Lifetime = -1.00,
+	Repeattime = 15.00,
+	Blendmode = 0.00,
+	TextureStripcount = 2.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/cloud_strip_01.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0126_tan.dds]],
+	EmitRateCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=6.2660,y=2.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=7.5600,y=12.0000,z=6.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=3.9780,y=0.0100,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=7.4000,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=2.4140,y=0.1000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=7.5200,y=0.0000,z=0.2000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=7.5500,y=0.2000,z=0.3000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=3.0300,y=0.0000,z=0.2000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=3.9780,y=0.0000,z=0.0000 },
+		},
+	},
+	ZAccelCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=4.2400,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=7.4670,y=0.0500,z=0.0500 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=4.0960,y=0.4000,z=0.1000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=7.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=7.5000,y=0.0000,z=10.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=7.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=4.2350,y=1.0000,z=2.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 15.0000,
+		Keys = {
+			{ x=7.5000,y=0.3000,z=0.4000 },
+		},
+	},
+}

@@ -1,0 +1,23 @@
+
+MeshBlueprint {
+    LODs = {
+ 	{
+			MeshName = '/props/Markers/M_ObjectiveArrow_lod0.scm',
+			LODCutoff = 9001,
+			MaterialSets = {
+				{
+					Materials = {
+						{
+				            DiffuseName = '/meshes/game/ping_alert_Albedo.dds',
+							ShaderMacros = 'diffuse_lighting, glow',
+						},
+					},
+				},
+			},
+		},
+	},
+    IconFadeInZoom = 100,
+    UniformScale = 1.0,
+	ReflectInWater = false,
+	CastShadow = false,
+}

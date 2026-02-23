@@ -1,0 +1,19 @@
+AbilityBlueprint {
+    ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	CommandType = 'EACT_Immediate',
+	Cooldown = 60,
+    DisplayName = '<LOC SC2_ABILITIES_0077>Recharge Shield',
+    InitiallyEnabled = true,
+	Resource = {
+		OnActivate = {
+			SourceType = 'Energy',
+			SourceAmount = 5000,
+		},
+	},
+	ScriptModule = '/abilities/RechargeShield_Ability.lua',
+	OrderBitmapId = 'rechargeshield',
+}

@@ -1,0 +1,98 @@
+EmitterBlueprint {
+	BlueprintId = 'b_general_evt_d_xxl_03_flashlines',
+	Lifetime = 6.00,
+	Repeattime = 6.00,
+	Blendmode = 3.00,
+	AlignRotation = true,
+	LODCutoff = 830.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/fire/fr_0020_44.dds]],
+	RampTexture = [[/textures/particles/ramp_fire_03.dds]],
+	EmitRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.6000,y=5.0000,z=1.0000 },
+			{ x=3.6000,y=0.0000,z=0.0000 },
+			{ x=4.8000,y=0.0000,z=0.0000 },
+			{ x=4.8000,y=7.0000,z=2.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.1200,y=2.8000,z=0.8000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0600,y=0.0000,z=16.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=2.5000,z=1.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0600,y=0.0000,z=16.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=2.3000,z=0.8500 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.0000,z=0.5000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.3000,z=0.1000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.3000,y=0.0000,z=0.5000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.4800,y=3.0000,z=0.2500 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=2.9400,y=8.0000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.1800,y=180.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=2.9400,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.4562,y=0.2000,z=0.4000 },
+		},
+	},
+}

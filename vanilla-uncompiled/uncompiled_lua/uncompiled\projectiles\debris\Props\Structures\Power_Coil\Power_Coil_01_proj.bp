@@ -1,0 +1,45 @@
+ProjectileBlueprint {
+    Audio = {
+        ExistLoop = 'SC2/SC2/Destructions/Debris/Medium/snd_Debris_Activate',
+        Impact = 'SC2/SC2/Destructions/Debris/Medium/snd_Debris_Impact_Other',
+        ImpactTerrain = 'SC2/SC2/Destructions/Debris/Medium/snd_Debris_Impact_Land',
+        ImpactWater = 'SC2/SC2/Destructions/Debris/Medium/snd_Debris_Impact_Water',
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Destroy_Trails_Med01',
+        },
+        Impacts = {
+            Prop = {
+                Scale = 4,
+                Template = 'Cybran_Artillery02_Impact01',
+            },
+            Terrain = {
+                Scale = 4,
+                Template = 'Cybran_Artillery02_Impact01',
+            },
+            Unit = {
+                Scale = 4,
+                Template = 'Cybran_Artillery02_Impact01',
+            },
+        },
+    },
+    Physics = {
+        BounceVelDamp = 0.5,
+        CollideEntity = true,
+        CollideSurface = true,
+        DestroyOnWater = true,
+        DirectionX = 0,
+        DirectionXRange = 1,
+        DirectionY = -1,
+        DirectionZ = 0,
+        DirectionZRange = 1,
+        InitialSpeed = 1,
+        InitialSpeedRange = 1,
+        MaxBounceCount = 1,
+        MinBounceCount = 0,
+        RotationalVelocity = 20,
+        RotationalVelocityRange = 20,
+        VelocityAlign = false,
+    },
+}

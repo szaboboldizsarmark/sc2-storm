@@ -1,0 +1,15 @@
+BeamBlueprint {
+    Lifetime = 1.5,
+    TextureName = '/textures/particles/ribbon/rb_0037_12.dds',
+    --TextureName = '/textures/particles/beam_ultrachrom_01.dds',
+    Thickness = 1.0,
+    StartColor = {x=0.2,y=0.5,z=1.0,w=1.0}, -- R,G,B,A
+    EndColor = {x=0.2,y=0.5,z=1.0,w=1.0}, -- R,G,B,A
+    Length = 1,
+    RepeatRate= 0.03,
+    UShift = 0.0,
+    VShift = -0.4,
+	Blendmode = 3.0,
+	LODCutoff = 500.00,
+}
+

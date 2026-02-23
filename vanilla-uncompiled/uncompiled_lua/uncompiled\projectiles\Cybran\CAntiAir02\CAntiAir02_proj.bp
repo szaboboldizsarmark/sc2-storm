@@ -1,0 +1,67 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/AntiAir/snd_Cybran_AntiAir_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/CYBRAN/AntiAir/snd_Cybran_AntiAir_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/AntiAir/snd_Cybran_AntiAir_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'ANTIAIR',
+    },
+    CollisionShape = 'Sphere',
+    Display = {
+        StrategicIconSize = 2,
+    },
+    Effects = {
+        Impacts = {
+            Air = {
+                Template = 'Cybran_AntiAir01_Impact01',
+            },
+            Prop = {
+                Template = 'Cybran_AntiAir01_Impact01',
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Cybran_AntiAir01_Impact01',
+            },
+            Unit = {
+                Template = 'Cybran_AntiAir01_Impact01',
+            },
+            UnitAir = {
+                Template = 'Cybran_AntiAir01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Cybran_AntiAir01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Anti Air',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'ANTIAIR',
+        },
+        Faction = 'Cybran',
+        TechLevel = 1,
+        Weapon = 'Electron Autocannon',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        InitialSpeed = 35,
+        Lifetime = 1.5,
+        TrackTarget = true,
+        TurnRate = 60,
+        UseGravity = false,
+        VelocityAlign = true,
+    },
+}

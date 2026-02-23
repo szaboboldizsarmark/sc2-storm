@@ -1,0 +1,22 @@
+MeshBlueprint {
+	LODs = {
+		{
+		    LODCutoff = 800,
+		    MaterialSets = {
+				{
+					Materials = {
+						{
+		    				DiffuseName = '/props/Structures/CommArray01/CommArray01_Diffuse.dds',
+							NormalName = '/props/Structures/CommArray01/CommArray01_Normal.dds',
+							MaskName = '/props/Structures/CommArray01/CommArray01_Mask.dds',
+							EffectName = '/textures/Units/Shared/Wreckage.dds',
+            				ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, wreckage, wreckage_edge_highlight',
+            			},
+            		},
+            	},
+            },				
+		},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

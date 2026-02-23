@@ -1,0 +1,11 @@
+BeamBlueprint {
+    Lifetime = 2,
+    TextureName = '/textures/particles/ser_contrail_01.dds',
+    Thickness = 0.45,
+    StartColor = {x=1.0,y=1.0,z=1.0,w=0.5}, -- R,G,B,A
+    EndColor = {x=1.0,y=1.0,z=1.0,w=0.8}, -- R,G,B,A
+    Length = 8,
+    LODCutoff = 500,
+    UShift = 0.0,
+    VShift = -0.5,
+}

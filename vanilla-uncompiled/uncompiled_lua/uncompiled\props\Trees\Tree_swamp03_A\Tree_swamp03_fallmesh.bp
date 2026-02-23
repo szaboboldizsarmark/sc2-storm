@@ -1,0 +1,70 @@
+MeshBlueprint {
+    IconFadeInZoom = 1000,
+    LODs = {
+        {
+			MeshName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_fall_lod0.scm',
+            LODCutoff = 200,
+            MaterialSets = {
+                {
+                    Materials = {
+                        {
+                            DiffuseName = '/Props/Trees/Tree_swamp03_A/Tree_swamp03_Bark_Diffuse.dds',
+                            MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Mask.dds',
+                            NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                        {
+                            DiffuseName = '/Props/Trees/Tree_swamp03_A/Tree_swamp03_Frond_Diffuse.dds',
+                            MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Mask.dds',
+                            NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                    },
+                },
+            },
+        },
+        {
+			MeshName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_fall_lod1.scm',
+            LODCutoff = 500,
+            MaterialSets = {
+                {
+                    Materials = {
+                        {
+                            DiffuseName = '/Props/Trees/Tree_swamp03_A/Tree_swamp03_Frond_Diffuse.dds',
+                            MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Mask.dds',
+                            NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                        {
+                            DiffuseName = '/Props/Trees/Tree_swamp03_A/Tree_swamp03_Bark_Diffuse.dds',
+                            MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Mask.dds',
+                            NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Bark_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                    },
+                },
+            },
+        },
+        {
+			MeshName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_fall_lod2.scm',
+            LODCutoff = 9001,
+            MaterialSets = {
+                {
+                    Materials = {
+                        {
+                            DiffuseName = '/Props/Trees/Tree_swamp03_A/Tree_swamp03_Frond_Diffuse.dds',
+                            MaskName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Mask.dds',
+                            NormalName = '/Props/Trees/Tree_jungle03_A/Tree_Jungle03_Frond_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                    },
+                },
+            },
+        },
+    },
+}

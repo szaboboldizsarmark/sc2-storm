@@ -1,0 +1,23 @@
+AbilityBlueprint {
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	ActivationRetriggerDelay = 20,
+    Cooldown = 30,
+    CooldownOnDeactivation = true,
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0042>Electroshock',
+	Duration = 20,
+    InitiallyEnabled = false,
+    OrderBitmapId = 'electroshock',
+	RemoveBuffsOnDeactivate = true,
+    Resource = {
+        OnActivate = {
+            SourceAmount = 300,
+            SourceType = 'ENERGY',
+        },
+    },
+    RunScript = 'OnElectroshock',
+}

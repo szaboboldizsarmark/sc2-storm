@@ -1,0 +1,105 @@
+EmitterBlueprint {
+	BlueprintId = 'ambient_t_s_04_wisps',
+	Lifetime = -1.00,
+	Repeattime = 100.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	LocalAcceleration = true,
+	AlignRotation = true,
+	LODCutoff = 300.00,
+	EmitIfVisible = false,
+	ParticleResistance = true,
+	TextureStripcount = 4.00,
+	Texture = [[/textures/particles/ribbon/rb_0040_35.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0100_lightblue.dds]],
+	EmitRateCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=0.0000,y=0.1500,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=0.0000,y=230.0000,z=150.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=0.0000,z=25.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=0.1000,z=2.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=0.0000,z=5.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=0.5000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=0.9000,z=0.2500 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=-0.0005,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=0.0150,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=4.0000,z=2.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=9.0000,z=4.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=0.0000,z=0.5000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=2.0000,z=4.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=0.6500,z=0.2000 },
+		},
+	},
+}

@@ -1,0 +1,22 @@
+AbilityBlueprint {
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	ActivationRetriggerDelay = 15,
+	CommandType = 'EACT_Immediate',
+    Cooldown = 5,
+    CooldownOnDeactivation = true,
+    DisplayName = '<LOC SC2_ABILITIES_0063>Knockback',
+    Duration = 15,
+    InitiallyEnabled = false,
+	Resource = {
+		OnActivate = {
+			SourceType = 'Energy',
+			SourceAmount = 250,
+		},
+	},
+	OrderBitmapId = 'knockback',
+	ScriptModule = '/abilities/KnockbackWeapon_Ability.lua',
+}

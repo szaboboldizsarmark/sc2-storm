@@ -1,0 +1,60 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/UEF/AntiAir/snd_UEF_AntiAir_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/UEF/AntiAir/snd_UEF_AntiAir_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/UEF/AntiAir/snd_UEF_AntiAir_Impact_Water',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'ANTIAIR',
+    },
+    CollisionShape = 'Sphere',
+    Display = {
+        StrategicIconSize = 2,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Flak01_Bulletspray01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Flak01_ImpactAirUnit01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'UEF_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            UnitAir = {
+                Template = 'UEF_Flak01_ImpactAirUnit01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+    },
+    General = {
+        Category = 'Anti Air',
+        EntityCategory = {
+            'UEF',
+            'PROJECTILE',
+            'ANTIAIR',
+        },
+        Faction = 'UEF',
+        TechLevel = 1,
+        Weapon = 'Linked Railgun',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        InitialSpeed = 120,
+        Lifetime = 50,
+        TrackTarget = true,
+        TurnRate = 60,
+        UseGravity = false,
+        VelocityAlign = true,
+    },
+}

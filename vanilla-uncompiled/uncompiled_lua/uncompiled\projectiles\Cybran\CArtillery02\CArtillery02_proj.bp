@@ -1,0 +1,71 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/Artillery/snd_Cybran_Artillery_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/CYBRAN/Artillery/snd_Cybran_Artillery_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/Artillery/snd_Cybran_Artillery_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        MeshBlueprint = '/projectiles/Cybran/CArtillery01/CArtillery01_mesh.bp',
+        StrategicIconSize = 3,
+        UniformScale = 0.3,
+    },
+    Effects = {
+        Beams = {
+            Template = 'Cybran_Artillery01_Beam01',
+        },
+        Emitters = {
+            Template = 'Cybran_Artillery01_Trails01',
+        },
+        Impacts = {
+            Air = {
+                Template = 'UEF_Noah01_ShellSplit01',
+            },
+            Prop = {
+                Template = 'Cybran_Artillery01_Impact01',
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Cybran_Artillery01_Impact01',
+            },
+            Unit = {
+                Template = 'Cybran_Artillery01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Cybran_Artillery01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Artillery',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+        },
+        Faction = 'Cybran',
+        TechLevel = 3,
+        Weapon = 'Proton Artillery',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        LeadTarget = false,
+        RotationalVelocity = 400,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

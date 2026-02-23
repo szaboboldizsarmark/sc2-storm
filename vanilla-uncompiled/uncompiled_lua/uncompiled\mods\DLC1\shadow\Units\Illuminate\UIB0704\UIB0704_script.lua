@@ -1,0 +1,177 @@
+-----------------------------------------------------------------------------
+--  File     : /units/illuminate/uib0704/uib0704_script.lua
+--  Author(s): Gordon Duclos
+--  Summary  : SC2 Illuminate Mass Converter: UIB0704
+--  Copyright © 2009 Gas Powered Games, Inc.  All rights reserved.
+-----------------------------------------------------------------------------
+local StructureUnit = import('/lua/sim/StructureUnit.lua').StructureUnit
+
+UIB0704 = Class(StructureUnit) {
+
+    OnStopBeingBuilt = function(self, createArgs)
+		StructureUnit.OnStopBeingBuilt(self, createArgs)
+
+		self.Spinners = {
+			Spinner01 = CreateRotator(self, 'UIB0704_Ball01', 'y', nil, 0, 50, 360):SetTargetSpeed(90),
+			Spinner02 = CreateRotator(self, 'UIB0704_Ball02', 'y', nil, 0, 40, 360):SetTargetSpeed(-20),
+			Spinner03 = CreateRotator(self, 'UIB0704_Ball03', 'y', nil, 0, 150, 360):SetTargetSpeed(-160),
+		}
+		for k, v in self.Spinners do
+			self.Trash:Add(v)
+		end
+		
+	end,
+	
+	OnMassConvert = function(self, abilityBP, state )  
+		if state == 'activate' then		
+			self:SendAnimEvent( 'OnConvert' )
+			self:PlayUnitSound('OnConvert')
+			
+			for k, v in EffectTemplates.Units.UEF.Base.UUB0704.ConvertMass01 do
+                CreateAttachedEmitter( self, 'Attachpoint01', self:GetArmy(), v ) 
+            end		
+		end
+    end,
+	-- By default, just destroy us when we are killed.
+    OnKilled = function(self, instigator, type, overkillRatio)
+        local layer = self:GetCurrentLayer()
+        self:DestroyIdleEffects()
+		
+        if (not self:IsBeingBuilt() or (self:IsBeingBuilt() and self:GetFractionComplete() > 0.5)) and ( layer == 'Water' or layer == 'Seabed' or layer == 'Sub' ) then
+			-- Remove any build scaffolding
+			if self.BuildScaffoldUnit and not self.BuildScaffoldUnit:IsDead() then
+				self.BuildScaffoldUnit:BuildUnitComplete()
+			end
+			
+			if self.DeathWeaponEnabled != false then
+				self:DoDeathWeapon()
+			end
+			
+			-- Give us a move type so we can sink
+			self:SetImmobile(false)
+			self:OccupyGround(false)
+			self:SetMotionType('RULEUMT_AmphibiousFloating')
+			self:CreateNavigator()
+			self:PlayUnitSound('Killed')
+			self:PlayUnitAmbientSound('Sinking')
+            self.SinkThread = self:ForkThread(self.SinkingThread)
+            self.Callbacks.OnKilled:Call( self, instigator, type )
+            if instigator and IsUnit(instigator) then
+                instigator:OnKilledUnit(self)
+            end
+        else
+            self.DeathBounce = 1
+            StructureUnit.OnKilled(self, instigator, type, overkillRatio)
+        end
+    end,
+	
+    SinkingThread = function(self)
+		if self:PrecacheDebris() then
+			WaitTicks(1)
+		end
+
+		-- Destroy any ambient damage effects on unit
+        self:DestroyAllDamageEffects()
+
+		-- Play destruction effects
+		local bp = self:GetBlueprint()
+		local ExplosionEffect = bp.Death.ExplosionEffect
+		local ExplosionScale = bp.Death.ExplosionEffectScale or 1
+
+		if ExplosionEffect then
+			local layer = self:GetCurrentLayer()
+			local emitters = EffectTemplates.Explosions[layer][ExplosionEffect]
+
+			if emitters then
+                for k, v in emitters do
+                    CreateEmitterAtBone( self, -2, self:GetArmy(), v ):ScaleEmitter( ExplosionScale )
+                end
+			end
+		end
+
+		if bp.Death.DebrisPieces then
+			self:DebrisPieces( self )
+		end
+
+		if bp.Death.ExplosionTendrils then
+			self:ExplosionTendrils( self )
+		end
+
+		if bp.Death.Light then
+			local myPos = self:GetPosition()
+			myPos[2] = myPos[2] + 7
+			CreateLight( myPos[1], myPos[2], myPos[3], 0, -1, 0, 10, 4, 0.1, 0.1, 0.5 )
+		end
+
+		-- Create destruction debris fragments.
+		self:CreateUnitDestructionDebris()
+
+        self:ForkThread(self.SinkingEffects)
+    end,
+
+    OnImpact = function(self, with, other)
+		if not self:IsDead() then
+			return
+		end
+
+        -- This is a bit of safety to keep us from calling the death thread twice in case we bounce twice quickly
+        if not self.DeathBounce then
+            self:ForkThread(self.DeathThread, self.OverKillRatio )
+            self.DeathBounce = 1
+        end
+    end,
+
+    DeathThread = function(self, overkillRatio, instigator)
+        if self:GetCurrentLayer() == 'Water' then
+			SeaUnit.DeathThread(self, overkillRatio)
+        else
+            StructureUnit.DeathThread(self, overkillRatio)
+        end
+        self:ForkThread(self.SeaFloorImpactEffects)
+
+        -- delay so dust impact effects can cover up the wreckage/prop swap
+        WaitSeconds(1.0)
+
+        local bp = self:GetBlueprint()
+		self:StopUnitAmbientSound('Sinking')
+
+		-- Create unit wreckage
+        self:CreateWreckage( overkillRatio )
+
+        self:PlayUnitSound('Destroyed')
+        self:Destroy()
+    end,
+
+    SeaFloorImpactEffects = function(self)
+        local sx, sy, sz = self:GetUnitSizes()
+        local vol = sx * sz  / 7
+        CreateAttachedEmitter(self,-2,self:GetArmy(),'/effects/emitters/units/general/event/death/destruction_underwater_seafloordust_01_emit.bp'):ScaleEmitter(vol/12)
+    end,
+
+    SinkingEffects = function(self)
+        local i = 8 -- initializing the above surface counter
+        local sx, sy, sz = self:GetUnitSizes()
+        local vol = sx * sz / 7
+        local army = self:GetArmy()
+
+        while i >= 0 do
+            if i > 0 then
+                local rx, ry, rz = self:GetRandomOffset(1)
+                local rs = Random(vol/2, vol*2) / (vol*2)
+                CreateAttachedEmitter(self,-1,army,'/effects/emitters/units/general/event/death/destruction_water_sinking_ripples_01_emit.bp'):OffsetEmitter(rx, 0, rz):ScaleEmitter(rs)
+
+                local rx, ry, rz = self:GetRandomOffset(1)
+                CreateAttachedEmitter(self,-1,army, '/effects/emitters/units/general/event/death/destruction_water_sinking_wash_01_emit.bp'):OffsetEmitter(rx, 0, rz):ScaleEmitter(rs)
+            end
+
+            local rx, ry, rz = self:GetRandomOffset(1)
+            local rs = Random(vol/2.5, vol*2.5) / (vol*2.5)
+            CreateAttachedEmitter(self,-2,army,'/effects/emitters/units/general/event/death/destruction_underwater_sinking_wash_01_emit.bp'):OffsetEmitter(rx, 0, rz):ScaleEmitter(rs)
+            CreateAttachedEmitter(self,-2,army,'/effects/emitters/units/general/event/death/destruction_water_sinking_bubbles_01_emit.bp'):OffsetEmitter(rx, 0, rz):ScaleEmitter(vol/8)
+
+            i = i - 1
+            WaitSeconds(1)
+        end
+    end,
+}
+TypeClass = UIB0704

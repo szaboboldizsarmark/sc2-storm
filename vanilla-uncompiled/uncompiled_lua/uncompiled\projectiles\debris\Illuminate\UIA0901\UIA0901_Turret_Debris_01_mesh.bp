@@ -1,0 +1,22 @@
+MeshBlueprint {
+	LODs = {
+		{
+		    LODCutoff = 200,
+		    MaterialSets = {
+				{
+					Materials = {
+						{
+		    				DiffuseName = '/Units/Illuminate/UIA0901/UIA0901_Diffuse.dds',
+							NormalName = '/Units/Illuminate/UIA0901/UIA0901_Normal.dds',								
+							MaskName = '/Units/Illuminate/UIA0901/UIA0901_Mask.dds',
+							EffectName = '/textures/Units/Shared/Wreckage.dds',
+            				ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, wreckage',
+            			},
+            		},
+            	},
+            },            						
+		},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

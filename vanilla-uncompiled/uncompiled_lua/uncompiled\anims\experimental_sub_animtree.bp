@@ -1,0 +1,91 @@
+AnimTreeBlueprint {
+	Description = 'Experimental Sub AnimTree',
+	StartStateID = 'idle',
+	AnimTreeStates = {
+		['root'] = {
+			type = 'Messenger',
+			transitions = {
+				OnAttack = { TargetStateID = 'attack' },
+				OnDeploy = { TargetStateID = 'deploy' },
+				OnIdle = { TargetStateID = 'idle' },
+				OnIdleSurface = { TargetStateID = 'idle_surface' },
+				OnIdleUnderwater = { TargetStateID = 'idle_underwater' },
+				OnMoveSurface = { TargetStateID = 'move_surface' },
+				OnMoveUnderwater = { TargetStateID = 'move_underwater' },
+				OnRetract = { TargetStateID = 'retract' },
+				OnTransitionToSurface = { TargetStateID = 'transition_to_surface' },
+				OnTransitionToUnderwater = { TargetStateID = 'transition_to_underwater' },
+			},
+			children = {
+				['attack'] = {
+					type='BasicAnim',
+					transitions = {
+						AnimEnd = { TargetStateID = 'retract' },
+					},
+					data = {
+						Looping = true,
+					},
+				},
+				['deploy'] = {
+					type='BasicAnim',
+					transitions = {
+						AnimEnd = { TargetStateID = 'attack' },
+					},
+				},
+				['idle'] = {
+					type='Messenger',
+				},
+				['idle_surface'] = {
+					type='BasicAnim',
+					data = {
+						Looping = true,
+					},
+				},
+				['idle_underwater'] = {
+					type='BasicAnim',
+					data = {
+						Looping = true,
+					},
+				},
+				['move_surface'] = {
+					type='BasicAnim',
+					transitions = {
+						AnimEnd = { TargetStateID = 'idle_surface' },
+					},
+					data = {
+						Looping = true,
+						ScaleByMovementSpeed = true,
+					},
+				},
+				['move_underwater'] = {
+					type='BasicAnim',
+					transitions = {
+						AnimEnd = { TargetStateID = 'idle_underwater' },
+					},
+					data = {
+						Looping = true,
+						ScaleByMovementSpeed = true,
+					},
+				},
+				['retract'] = {
+					type='BasicAnim',
+					transitions = {
+						AnimEnd = { TargetStateID = 'idle_surface' },
+					},
+				},
+				['transition_to_surface'] = {
+					type='BasicAnim',
+					transitions = {
+						AnimEnd = { TargetStateID = 'idle_surface' },
+					},
+				},
+				['transition_to_underwater'] = {
+					type='BasicAnim',
+					transitions = {
+						AnimEnd = { TargetStateID = 'idle_underwater' },
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,23 @@
+MeshBlueprint {
+    LODs = {
+	{
+        MeshName = '/props/Lights/UEF/ULight03/ulight03_beam_lod0.scm',
+        LODCutoff = 1000,
+			MaterialSets = {
+				{
+					Materials = {
+						{
+							DiffuseName = '/props/lights/UEF/Ulight03/Ulight03_Beam_Diffuse.dds',
+							MaskName = '/props/lights/UEF/ULight03/Ulight03_Beam_mask.dds',
+							ShaderMacros = 'Alpha_blend',
+							ShaderState = 'AlphaBlendState',
+						},
+					},
+				},
+			},
+		},
+	},
+	IconFadeInZoom = 4,
+    SortOrder = 1000,
+    DrawAfterWater = true,
+}

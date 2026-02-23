@@ -1,0 +1,115 @@
+EmitterBlueprint {
+	BlueprintId = 'destruction_explosion_fire_plume_02',
+	Lifetime = 20.00,
+	Repeattime = 20.00,
+	Blendmode = 3.00,
+	LODCutoff = -1.00,
+	SnapToWaterline = true,
+	TextureStripcount = 4.00,
+	SortOrder = -5.00,
+	Texture = [[/textures/particles/fire_flame_add_05.dds]],
+	RampTexture = [[/textures/particles/ramp_fire_08.dds]],
+	EmitRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=9.7100,y=6.0000,z=2.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.7388,y=25.0000,z=10.0000 },
+			{ x=19.0000,y=10.0000,z=8.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.0000,y=0.1200,z=0.1000 },
+			{ x=20.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.1500 },
+			{ x=19.9000,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.0000,y=-0.2400,z=0.5000 },
+			{ x=19.9000,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.1000,y=0.0000,z=0.5000 },
+			{ x=20.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=0.0000,z=0.0200 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=9.2350,y=0.0000,z=0.0200 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=9.8680,y=0.0000,z=0.0200 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.0530,y=0.3080,z=0.3000 },
+			{ x=20.0000,y=0.0300,z=0.0300 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.0000,y=0.4440,z=0.2500 },
+			{ x=19.9000,y=0.0600,z=0.0300 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.1320,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=2.0000,z=4.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=4.2000,y=0.5000,z=0.0000 },
+		},
+	},
+}

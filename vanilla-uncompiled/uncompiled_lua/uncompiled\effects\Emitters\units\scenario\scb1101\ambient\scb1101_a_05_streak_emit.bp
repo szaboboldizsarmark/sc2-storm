@@ -1,0 +1,61 @@
+EmitterBlueprint {
+	BlueprintId = 'scb1101_a_05_streak',
+	Lifetime = -50.00,
+	Repeattime = 50.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 300.00,
+	EmitIfVisible = false,
+	InterpolateEmission = false,
+	Texture = [[/textures/particles/ribbon/rb_0032_33.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0095_red.dds]],
+	EmitRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=0.0000,y=1.0000,z=0.0000 },
+			{ x=0.5000,y=0.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=26.3190,y=30.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=23.8785,y=0.5000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.4625,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=14.5780,y=2.0000,z=0.4000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=13.9840,y=3.6000,z=0.4000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=27.4435,y=90.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

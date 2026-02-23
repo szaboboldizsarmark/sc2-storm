@@ -1,0 +1,301 @@
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'NoahCannon',
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uux0114', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uux0114', ConditionIntegerOne = 3 },
+			{ ConditionType = 'BaseEnemyUnitsInRangeGreaterThan', ConditionCategoryStringOne = 'STRUCTURE -MASSEXTRACTION', ConditionFloat = 750, ConditionIntegerOne = 0, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'NoahCannon',
+    BuildLocation = 'Base',
+    BasePriority = 950,
+    InstanceCount = 1,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'DisruptorStation',
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uux0115', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uux0115', ConditionIntegerOne = 4 },
+			{ ConditionType = 'BaseEnemyUnitsInRangeGreaterThan', ConditionCategoryStringOne = 'STRUCTURE -MASSEXTRACTION', ConditionFloat = 750, ConditionIntegerOne = 0, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'DisruptorStation',
+    BuildLocation = 'Base',
+    BasePriority = 950,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'DisruptorStation - Exp',
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uux0115', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uux0115', ConditionIntegerOne = 4 },
+			{ ConditionType = 'BaseEnemyUnitsInRangeGreaterThan', ConditionCategoryStringOne = 'STRUCTURE -MASSEXTRACTION', ConditionFloat = 750, ConditionIntegerOne = 0, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Expansion Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'DisruptorStation',
+    BuildLocation = 'Base',
+    BasePriority = 950,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Magnetron',
+    BuilderIds = {
+        'ucl0002',
+        'ucl0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucx0114', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'ucx0114', ConditionIntegerOne = 2 },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Magnetron',
+    BuildLocation = 'Base',
+    BasePriority = 950,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Magnetron - Exp',
+    BuilderIds = {
+        'ucl0002',
+        'ucl0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucx0114', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'ucx0114', ConditionIntegerOne = 2 },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+			{ ConditionType = 'BaseEnemyUnitsInRangeGreaterThan', ConditionCategoryStringOne = 'STRUCTURE FACTORY', ConditionFloat = 300, ConditionIntegerOne = 1, },
+        },
+    },
+    ItemGroups = {
+        'Default Expansion Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Magnetron',
+    BuildLocation = 'Base',
+    BasePriority = 950,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'ProtoBrain',
+    BuilderIds = {
+        'ucl0002',
+        'ucl0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucx0115', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'ucx0115', ConditionIntegerOne = 1 },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'ProtoBrain',
+    BuildLocation = 'Base',
+    BasePriority = 900,
+    InstanceCount = 1,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'SpaceTemple',
+    BuilderIds = {
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uix0113', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uix0113', ConditionIntegerOne = 1 },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'ENERGYPRODUCTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'SpaceTemple',
+    BuildLocation = 'Base',
+    BasePriority = 900,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'LoyaltyGun',
+    BuilderIds = {
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uix0114', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uix0114', ConditionIntegerOne = 2 },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'LoyaltyGun',
+    BuildLocation = 'Base',
+    BasePriority = 900,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'LoyaltyGun Exp',
+    BuilderIds = {
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uix0114', ConditionBool = true, },
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'uix0114', ConditionIntegerOne = 2 },
+			{ ConditionType = 'BaseEnemyUnitsInRangeGreaterThan', ConditionCategoryStringOne = 'STRUCTURE -MASSEXTRACTION', ConditionFloat = 175, ConditionIntegerOne = 5, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Expansion Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'LoyaltyGun',
+    BuildLocation = 'Base',
+    BasePriority = 900,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Atlantis',
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uux0104', ConditionBool = true, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'ENERGYPRODUCTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Naval Expansion Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Atlantis',
+    BuildLocation = 'NavalMarker',
+    BasePriority = 825,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Krakken',
+    BuilderIds = {
+        'ucl0002',
+        'ucl0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucx0113', ConditionBool = true, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'ENERGYPRODUCTION', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    ItemGroups = {
+        'Default Naval Expansion Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Krakken',
+    BuildLocation = 'NavalMarker',
+    BasePriority = 825,
+    InstanceCount = 1,
+    SkirmishResourceType = 'Experimentals',
+}
+

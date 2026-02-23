@@ -1,0 +1,16 @@
+AbilityBlueprint {
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_CheckUnitState',	
+			UnitStateRestrictions = {
+				'Jumping',
+				'Hunkered',
+			},
+		},
+	},
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0052>Detonate',
+    InitiallyEnabled = false,
+	ScriptModule = '/abilities/PowerDetonate_Ability.lua',
+	OrderBitmapId = 'killself',
+}

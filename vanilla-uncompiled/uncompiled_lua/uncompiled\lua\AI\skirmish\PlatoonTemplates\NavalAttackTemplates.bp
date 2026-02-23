@@ -1,0 +1,42 @@
+PlatoonBlueprint {
+    BlueprintId = 'NavalAttackTiny',
+    GlobalSquads = {
+        { Category = 'MOBILE NAVAL -EXPERIMENTAL', UnitMin = 1, UnitMax = 500, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'NavalAttackSmall',
+    GlobalSquads = {
+        { Category = 'MOBILE NAVAL -EXPERIMENTAL', UnitMin = 4, UnitMax = 500, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'NavalAttackMedium',
+    GlobalSquads = {
+        { Category = 'MOBILE NAVAL -EXPERIMENTAL', UnitMin = 8, UnitMax = 500, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'NavalAttackLarge',
+    GlobalSquads = {
+        { Category = 'MOBILE NAVAL -EXPERIMENTAL', UnitMin = 11, UnitMax = 500, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'NavalAttackOpen',
+    GlobalSquads = {
+        { Category = 'MOBILE NAVAL', UnitMin = 1, UnitMax = 200, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'NavalAttackExperimental',
+    GlobalSquads = {
+        { Category = 'MOBILE NAVAL EXPERIMENTAL', UnitMin = 1, UnitMax = 100, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+

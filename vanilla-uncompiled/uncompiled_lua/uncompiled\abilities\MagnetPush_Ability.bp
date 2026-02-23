@@ -1,0 +1,31 @@
+AbilityBlueprint {
+	AbilityStateChange = {
+		OnActivate = {
+			Disable = {
+				'Magnet',
+			},
+		},
+		RestoreStatesOnDeactivate = true,
+	},
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	CanUseDuringNoRush = false,
+    CommandType = 'EACT_Immediate',
+    Cooldown = 30,
+    DisplayName = '<LOC SC2_ABILITIES_0062>Activate Repulsor',
+    Duration = 20,
+    InitiallyEnabled = true,
+    OrderBitmapId = 'magnetpush',
+	RefreshUIOnActivate = true;
+	RefreshUIOnDeactivate = true;
+    Resource = {
+        OnActivate = {
+            SourceAmount = 500,
+            SourceType = 'Energy',
+        },
+    },
+    RunScript = 'OnMagnetPushActivate',
+}

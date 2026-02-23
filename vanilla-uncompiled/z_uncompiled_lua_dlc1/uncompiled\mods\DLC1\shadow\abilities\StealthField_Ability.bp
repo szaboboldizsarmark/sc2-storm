@@ -1,0 +1,22 @@
+AbilityBlueprint {
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	ActivationRetriggerDelay = 60,
+	CommandType = 'EACT_Immediate',
+    Cooldown = 45,
+    CooldownOnDeactivation = true,
+    DisplayName = '<LOC SC2_ABILITIES_0095>Enable Stealth Field',
+    Duration = 60,
+    InitiallyEnabled = true,
+	Resource = {
+		OnActivate = {
+			SourceType = 'Energy',
+			SourceAmount = 1250,
+		},
+	},
+	OrderBitmapId = 'stealthfield',
+	ScriptModule = '/abilities/StealthField_Ability.lua',
+}

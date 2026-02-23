@@ -1,0 +1,24 @@
+MeshBlueprint {
+    LODs = {
+		{
+            LODCutoff = 1000,
+			MaterialSets = {
+				{
+					Materials = {
+						{
+							DiffuseName = '/meshes/Shield/ShieldDomeSection01_Diffuse.dds',
+							EffectName = '/meshes/Shield/Shield01_Effect.dds',
+							ShaderMacros = 'diffuse_lighting, shield_panel, edge_highlight',
+							ShaderState = 'AdditiveBlendState',
+						},
+					},
+				},
+			},
+            MeshName = '/effects/entities/hunkershield/hunkershield_lod0.scm',
+		},
+		UniformScale = 0.05,
+		
+	},
+	DrawAfterWater = true,
+    SortOrder = 1000,
+}

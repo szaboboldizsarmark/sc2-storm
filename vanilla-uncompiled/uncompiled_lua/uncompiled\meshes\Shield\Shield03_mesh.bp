@@ -1,0 +1,23 @@
+MeshBlueprint {
+    LODs = {
+	{
+        MeshName = '/effects/Entities/Sphere01/Sphere01_lod0.scm',
+        LODCutoff = 1000,
+			MaterialSets = {
+				{
+					Materials = {
+						{
+							DiffuseName = '/meshes/Shield/Shield03_Diffuse.dds',
+							EffectName = '/meshes/Shield/Shield01_Effect.dds',
+							ShaderMacros = 'alpha_blend, edge_highlight, pulse_alpha = 4, shield_dome',
+							ShaderState = 'AdditiveBlendState',
+						},
+					},
+				},
+			},
+		},
+	},
+	IconFadeInZoom = 4,
+    SortOrder = 1000,
+    DrawAfterWater = true,
+}

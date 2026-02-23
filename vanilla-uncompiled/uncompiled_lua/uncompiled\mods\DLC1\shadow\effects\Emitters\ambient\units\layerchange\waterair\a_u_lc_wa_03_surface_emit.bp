@@ -1,0 +1,110 @@
+EmitterBlueprint {
+	BlueprintId = 'a_u_lc_wa_03_surface',
+	Lifetime = 10.00,
+	Repeattime = 10.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	Flat = true,
+	LODCutoff = 500.00,
+	SnapToWaterline = true,
+	OnlyEmitOnWater = true,
+	SortOrder = 1.00,
+	Texture = [[/textures/particles/water/wa_0012_44.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	EmitRateCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=1.6670,y=5.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=50.0000,z=30.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=2.1200,y=0.0000,z=1.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=0.0000,y=-0.2000,z=0.6000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=10.0000,y=0.0000,z=6.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=6.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=1.9300,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=0.9900,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=6.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=3.1930,y=0.0000,z=0.0020 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=6.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=0.0000,y=2.5000,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=8.0000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=1.4500,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=4.9000,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=10.0000,y=0.5000,z=0.5000 },
+		},
+	},
+}

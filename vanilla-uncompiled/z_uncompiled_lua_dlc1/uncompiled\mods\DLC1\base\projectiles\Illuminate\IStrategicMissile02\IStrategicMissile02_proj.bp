@@ -1,0 +1,55 @@
+ProjectileBlueprint {
+    Audio = {
+        ExistLoop = 'SC2/SC2/Projectiles/ILLUMINATE/StrategicMissile/snd_Illuminate_StrategicMissile_Move_Loop',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+        'EMP',
+        'MISSILE',
+        'NOSPLASHDAMAGE',
+    },
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 25,
+        MaxHealth = 25,
+    },
+    Description = 'Illuminate EMP Missile',
+    Display = {
+        CameraFollowTimeout = 10,
+        CameraFollowsProjectile = true,
+        StrategicIconSize = 4,
+    },
+    General = {
+        Category = 'Missile',
+        EntityCategory = {
+            'ILLUMINATE',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+            'EMP',
+            'MISSILE',
+            'NOSPLASHDAMAGE',
+        },
+        Faction = 'Illuminate',
+    },
+    Interface = {
+        HelpText = 'Illuminate Inferno EMP Missile',
+    },
+    Physics = {
+        Acceleration = 3,
+        CollideEntity = false,
+        CollideSurface = false,
+        InitialSpeed = 0,
+        Lifetime = 600,
+        MaxSpeed = 40,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = true,
+        TrackTargetGround = true,
+        TurnRate = 0,
+        UseGravity = false,
+        VelocityAlign = true,
+    },
+    SizeX = 1,
+}

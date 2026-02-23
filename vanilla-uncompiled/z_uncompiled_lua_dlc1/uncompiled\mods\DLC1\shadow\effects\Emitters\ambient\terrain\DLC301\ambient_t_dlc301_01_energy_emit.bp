@@ -1,0 +1,78 @@
+EmitterBlueprint {
+	BlueprintId = 'ambient_t_dlc301_01_energy',
+	Lifetime = -100.00,
+	Repeattime = 100.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 1500.00,
+	EmitIfVisible = false,
+	Texture = [[/textures/particles/plasma_03.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0069_green.dds]],
+	EmitRateCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=0.0000,y=2.0000,z=0.0000 },
+			{ x=1.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=52.6380,y=320.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=47.7570,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.9250,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=4.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=0.5000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=29.1560,y=20.0000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=27.9680,y=20.0000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=54.8870,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=0.0000,z=20.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

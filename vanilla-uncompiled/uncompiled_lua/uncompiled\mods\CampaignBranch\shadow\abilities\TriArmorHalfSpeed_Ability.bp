@@ -1,0 +1,29 @@
+AbilityBlueprint {
+	Buffs = {
+		'SpeedReducingMegaArmor',
+	},
+	CommandType = 'EACT_Immediate',
+	Cooldown = 25,
+    DisplayName = '<LOC SC2_ABILITIES_0056>Engage Mega Armor',
+    OrderBitmapId = 'halftriarmor',
+    Duration = 15,
+    Effects = {
+		OnActivate = {
+			{
+				Emitters = {
+					'/effects/emitters/ambient/units/unit_upgrade_ambient_01_emit.bp',
+				},
+			},
+		},
+		OnDeactivate = {},
+		RemoveEffectsOnDeactivate = true,
+	},
+    InitiallyEnabled = false,
+	RemoveBuffsOnDeactivate = true,
+    Resource = {
+        OnActivate = {
+            SourceAmount = 20,
+            SourceType = 'ENERGY',
+        },
+    },
+}

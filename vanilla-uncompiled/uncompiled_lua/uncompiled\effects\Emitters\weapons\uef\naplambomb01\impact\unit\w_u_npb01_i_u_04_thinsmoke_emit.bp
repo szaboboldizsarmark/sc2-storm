@@ -1,0 +1,125 @@
+EmitterBlueprint {
+	BlueprintId = 'w_u_npb01_i_u_04_thinsmoke',
+	Lifetime = 60.00,
+	Repeattime = 60.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	LODCutoff = 150.00,
+	SnapToWaterline = true,
+	LowFidelity = false,
+	Texture = [[/textures/particles/cloud_smoke_alpha_14.dds]],
+	RampTexture = [[/textures/particles/ramp_black_03.dds]],
+	EmitRateCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=37.6500,y=0.7500,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=40.0000,y=14.0000,z=8.0000 },
+			{ x=60.0000,y=25.0000,z=10.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=9.4160,y=2.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=40.0000,y=0.8500,z=0.0000 },
+			{ x=60.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=40.0000,y=-1.6000,z=0.0000 },
+			{ x=60.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=40.0000,y=0.3000,z=0.0000 },
+			{ x=60.0000,y=0.1500,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=47.8890,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=11.8740,y=0.4000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=13.2630,y=0.0000,z=0.0000 },
+		},
+	},
+	XAccelCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=22.3210,y=0.0000,z=0.0000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=40.0000,y=0.0100,z=0.0000 },
+			{ x=60.0000,y=0.0050,z=0.0000 },
+		},
+	},
+	ZAccelCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=30.4750,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=13.5360,y=0.5000,z=0.3500 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=14.5650,y=1.0000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=0.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=8.2990,y=0.0000,z=10.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=35.2990,y=2.1200,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 60.0000,
+		Keys = {
+			{ x=0.0000,y=0.5000,z=1.0000 },
+		},
+	},
+}

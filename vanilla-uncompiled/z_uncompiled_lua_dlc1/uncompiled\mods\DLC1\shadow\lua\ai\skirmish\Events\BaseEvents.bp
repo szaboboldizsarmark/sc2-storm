@@ -1,0 +1,67 @@
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Mass Spots full - Expand',
+    ResponseType = 'StartResourceExpansionBase',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    Events = {
+        {
+            EventType = 'BaseMassExtractorsFull',
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Clear expansion base',
+    ResponseType = 'ClearResourceExpansionBase',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    Events = {
+        {
+            EventType = 'BaseUnableToExpand',
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Half Bake',
+    ResponseType = 'HalfBakeExperimental',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    Events = {
+        {
+            EventType = 'StrategicThreatGreaterThan',
+            NumRings = 2,
+            RepeatType = 'RepeatTest',
+            ThreatValue = 19,
+            ThreatType = 'Land',
+            Alliance = 'Enemy',
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Need Mass Conv',
+    ResponseType = 'ResearchNeed',
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'NeedMassConv',
+    },
+    Events = {
+        {
+            EventType = 'EconomyStorageGreaterThan',
+            RepeatType = 'TrueOnceRepeatTest',
+			ResType = 'Energy',
+			Minimum = 20000,
+        },
+    },
+}

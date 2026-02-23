@@ -1,0 +1,61 @@
+EmitterBlueprint {
+	BlueprintId = 'ambient_t_l_03_streak',
+	Lifetime = -100.00,
+	Repeattime = 100.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 300.00,
+	EmitIfVisible = false,
+	InterpolateEmission = false,
+	Texture = [[/textures/particles/ribbon/rb_0032_33.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0095_red.dds]],
+	EmitRateCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=0.0000,y=1.0000,z=0.0000 },
+			{ x=1.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=52.6380,y=150.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=47.7570,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.9250,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=29.1560,y=1.0000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=27.9680,y=2.5000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=54.8870,y=90.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 100.0000,
+		Keys = {
+			{ x=50.0000,y=1.0000,z=0.0000 },
+		},
+	},
+}

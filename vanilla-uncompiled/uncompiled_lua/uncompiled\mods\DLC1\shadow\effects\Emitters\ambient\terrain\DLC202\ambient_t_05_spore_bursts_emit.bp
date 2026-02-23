@@ -1,0 +1,135 @@
+EmitterBlueprint {
+	BlueprintId = 'ambient_t_05_spore_bursts',
+	Lifetime = -1.00,
+	Repeattime = 400.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LocalAcceleration = true,
+	Gravity = true,
+	LODCutoff = 1000.00,
+	ParticleResistance = true,
+	Texture = [[/textures/particles/glow/gl_0006_44.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0051_pinkorange.dds]],
+	EmitRateCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=0.0000,y=0.1500,z=0.3000 },
+			{ x=6.0000,y=4.0000,z=2.0000 },
+			{ x=12.0000,y=0.0000,z=0.0000 },
+			{ x=20.0000,y=0.0000,z=0.0000 },
+			{ x=25.0000,y=9.0000,z=4.0000 },
+			{ x=34.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=30.0000,z=20.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=0.0000,z=1.5000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=0.5000,z=1.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=0.0000,z=1.5000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=12.6649,y=2.5000,z=1.0000 },
+			{ x=28.0000,y=4.5000,z=1.0000 },
+			{ x=32.0000,y=0.0000,z=0.2000 },
+			{ x=200.0000,y=0.3500,z=0.2000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=0.0000,z=0.2000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=0.5000,z=0.2000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=0.0000,z=0.2000 },
+		},
+	},
+	XAccelCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=0.0000,z=0.1000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=116.0952,y=-0.0200,z=0.0000 },
+		},
+	},
+	ZAccelCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=0.0000,z=0.1000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=0.1500,z=0.1500 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=2.0000,z=0.6000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=0.2000,z=0.4000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=10.0000,z=10.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 400.0000,
+		Keys = {
+			{ x=200.0000,y=0.1500,z=0.3000 },
+		},
+	},
+}

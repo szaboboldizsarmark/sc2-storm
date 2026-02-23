@@ -1,0 +1,262 @@
+UnitBlueprint {
+    Abilities = {
+        {
+            Blueprint = 'RechargeShield',
+        },
+    },
+    Audio = {
+        DeathExplosion = 'SC2/SC2/Destructions/Explosions/UEF/snd_Destroy_Lrg_PreDestroy',
+        Destroyed = 'SC2/SC2/Destructions/Explosions/UEF/snd_Destroy_Huge',
+        OnReclaimed = 'SC2/SC2/Destructions/Explosions/UEF/snd_Destroy_Med_Land',
+        ShieldOff = 'SC2/SC2/Buildings/UEF/UUB0202/snd_UUB0202_ShieldGen_Shieldoff',
+        ShieldOn = 'SC2_DLC1/Gen/s_UUX0116D1_Shield_Recharge',
+        UISelection = 'SC2/SC2/Selection/snd_GENERIC_Select_Building',
+    },
+    Build = {
+        BuildScaffoldUnit = 'uub0021',
+        UseBuildMaterial = true,
+    },
+    Categories = {
+        'PRODUCTSC2',
+        'SELECTABLE',
+        'BUILTBYMOBILE',
+        'STRUCTURE',
+        'LAND',
+        'TECH1',
+        'SHIELD',
+        'DEFENSE',
+        'DRAGBUILD',
+        'SIZE12',
+        'VISIBLETORECON',
+        'RECLAIMABLE',
+        'OVERLAYDEFENSE',
+        'SORTDEFENSE',
+        'UEF',
+        'EXPERIMENTAL',
+    },
+    Death = {
+        DebrisPieces = true,
+        DestructionParts = {
+            {
+                AttachBone = 'Tower01',
+                Meshes = {
+                    '/mods/DLC1/base/projectiles/debris/UEF/UUX0116D1/UUX0116D1_Turret_Debris_01_mesh',
+                    '/mods/DLC1/base/projectiles/debris/UEF/UUX0116D1/UUX0116D1_Turret_Debris_02_mesh',
+                    '/mods/DLC1/base/projectiles/debris/UEF/UUX0116D1/UUX0116D1_Turret_Debris_03_mesh',
+                },
+                Projectile = '/projectiles/debris/DebrisGenericLow01/DebrisGenericLow01_proj.bp',
+            },
+        },
+        ExplosionEffect = 'UEFStructureDestroyEffectsExtraLarge01',
+    },
+    Defense = {
+        AirThreatLevel = 30,
+        EconomyThreatLevel = 15,
+        Health = 7500,
+        MaxHealth = 7500,
+        RegenRate = 16,
+        Shield = {
+            AllowPenetration = false,
+            CollisionOffsetY = -1,
+            CollisionShape = 'Sphere',
+            ImpactEffects = 'ShieldHit01',
+            Mesh = '/meshes/Shield/Shield01_mesh',
+            PanelArray = {
+                Panel_1 = '/meshes/Shield/ShieldDomeSection01_mesh',
+                Panel_2 = '/meshes/Shield/ShieldDomeSection02_mesh',
+            },
+            ShieldMaxHealth = 50000,
+            ShieldRegenRate = 0,
+            ShieldSize = 100,
+            ShieldType = 'Panel',
+        },
+        SurfaceThreatLevel = 30,
+    },
+    Description = '<LOC UNIT_DESCRIPTION_0145>Experimental Shield Generator',
+    Display = {
+        AnimationActivate = '/mods/DLC1/base/units/UEF/UUX0105D1/UUX0105D1_Aidle01.sca',
+        AnimationActivateLoop = true,
+        DisplayName = '<LOC UNIT_NAME_0291>Aegis',
+        IdleEffects = {
+            Land = {
+                Effects = {
+                    {
+                        Bones = {
+                            'UUX0116D1',
+                        },
+                        Type = 'UEFShieldGenerator01',
+                    },
+                },
+            },
+        },
+        Mesh = {
+            IconFadeInZoom = 130,
+            LODs = {
+                {
+                    LODCutoff = 80,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, point_cloud, glow, alpha_test = 128',
+                                },
+                            },
+                            Name = 'Base',
+                        },
+                        {
+                            Materials = {
+                                {
+                                    EffectName = '/textures/units/shared/illuminatebuild.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, point_cloud, alpha_test = 128, chrome, build_overlay',
+                                },
+                            },
+                            Name = 'Build',
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 160,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, point_cloud, glow, alpha_test = 128',
+                                },
+                            },
+                            Name = 'Base',
+                        },
+                        {
+                            Materials = {
+                                {
+                                    EffectName = '/textures/units/shared/illuminatebuild.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, point_cloud, alpha_test = 128, chrome, build_overlay',
+                                },
+                            },
+                            Name = 'Build',
+                        },
+                    },
+                },
+                {
+                    LODCutoff = 800,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, ambient_occlusion, team_color, point_cloud, glow',
+                                },
+                            },
+                            Name = 'Base',
+                        },
+                        {
+                            Materials = {
+                                {
+                                    EffectName = '/textures/units/shared/illuminatebuild.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, ambient_occlusion, team_color, point_cloud, chrome, build_overlay',
+                                },
+                            },
+                            Name = 'Build',
+                        },
+                    },
+                },
+            },
+        },
+        Tarmacs = {
+            {
+                DeathLifetime = 300,
+                Diffuse = '/UEF/Tar_default_diffuse',
+                FadeOut = 150,
+                Length = 6,
+                Normal = '/UEF/Tar_default_normal',
+                Orientations = {
+                    0,
+                    90,
+                    180,
+                    270,
+                },
+                RemoveWhenDead = false,
+                Width = 14,
+            },
+        },
+        UniformScale = 0.12,
+    },
+    Economy = {
+        BuildTime = 190,
+        CaptureTimeMult = 0.6,
+        EnergyValue = 6000,
+        MassValue = 1100,
+        RebuildBonusIds = {
+            'UUX0116D1',
+        },
+        SacrificeCaptureTimeMult = 0.2,
+    },
+    Footprint = {
+        SizeX = 12,
+        SizeZ = 12,
+    },
+    General = {
+        BuildIconIndex = 5,
+        BuildIconPage = 2,
+        BuildIconSortPriority = 170,
+        ExperienceValue = 500,
+        FactionName = 'UEF',
+        Icon = 'land',
+        SelectionPriority = 5,
+        UnitName = '<LOC UNIT_NAME_0292>Aegis',
+        UnitWeight = 1,
+    },
+    Intel = {
+        VisionRadius = 20,
+    },
+    LifeBarHeight = 0.32,
+    LifeBarOffset = 4.9,
+    LifeBarSize = 9.5,
+    Navigation = {
+        CostStamp = '/coststamps/Default/Default12x12_coststamp.lua',
+    },
+    Physics = {
+        BankingSlope = 0,
+        BuildOnLayerCaps = {
+            LAYER_Land = true,
+        },
+        MaxSteerForce = 0,
+        MeshExtentsX = 4.25,
+        MeshExtentsY = 4.25,
+        MeshExtentsZ = 4.5,
+        MotionType = 'RULEUMT_None',
+        OccupyGround = true,
+    },
+    SelectionCenterOffsetX = 0.05,
+    SelectionCenterOffsetZ = 0,
+    SelectionMeshOffsetX = 0,
+    SelectionMeshOffsetY = -2.75,
+    SelectionMeshOffsetZ = 0,
+    SelectionMeshScaleX = 0.95,
+    SelectionMeshScaleY = 0.5,
+    SelectionMeshScaleZ = 0.95,
+    SelectionSizeX = 8,
+    SelectionSizeZ = 8,
+    SelectionThickness = 0.45,
+    SizeX = 8,
+    SizeY = 4,
+    SizeZ = 8,
+    StrategicIconName = 'icon_experimental_generic',
+    StrategicIconSortPriority = 195,
+    Wreckage = {
+        Blueprint = '/mods/DLC1/base/props/Wreckage/UEF/UUX0116D1/UUX0116D1_wreckage01_prop.bp',
+        Decay = 0,
+        EnergyMult = 0,
+        HealthMult = 0.9,
+        MassMult = 0.2,
+        ReclaimTimeMultiplier = 0.1,
+        UseCustomMesh = true,
+        WreckageLayers = {
+            Land = true,
+        },
+    },
+}

@@ -1,0 +1,35 @@
+AbilityBlueprint {
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	Buffs = {
+		'SpeedOverdrive',
+	},
+	CommandType = 'EACT_Immediate',
+	Cooldown = 45,
+    DisplayName = '<LOC SC2_ABILITIES_0079>Engage Afterburner',
+    OrderBitmapId = 'speedoverdrive',
+    Duration = 20,
+    Effects = {
+		OnActivate = {
+			{
+				Emitters = {
+					'/effects/emitters/ambient/units/afterburn_ambient_01_emit.bp',
+					'/effects/emitters/ambient/units/afterburn_ambient_02_emit.bp',
+				},
+			},
+		},
+		OnDeactivate = {},
+		RemoveEffectsOnDeactivate = true,
+	},
+    InitiallyEnabled = false,
+	RemoveBuffsOnDeactivate = true,
+    Resource = {
+        OnActivate = {
+            SourceAmount = 25,
+            SourceType = 'ENERGY',
+        },
+    },
+}

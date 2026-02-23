@@ -1,0 +1,134 @@
+EmitterBlueprint {
+	BlueprintId = 'w_i_sb01_i_u_01_plasma',
+	Lifetime = 40.00,
+	Repeattime = 40.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 150.00,
+	SnapToWaterline = true,
+	ParticleResistance = true,
+	LowFidelity = false,
+	Texture = [[/textures/particles/ser_plasma03.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0058_lightblue.dds]],
+	EmitRateCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=25.0000,y=5.0000,z=4.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=6.0000,y=5.0000,z=3.0000 },
+			{ x=10.0000,y=15.0000,z=10.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=0.5800,y=2.5000,z=0.0000 },
+			{ x=40.0000,y=1.7500,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=15.8310,y=0.2000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=9.6480,y=-0.8000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=0.0000,y=0.5000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=15.7780,y=0.0000,z=0.1500 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=0.0000,y=1.0000,z=0.0000 },
+			{ x=10.0000,y=0.2000,z=0.1000 },
+			{ x=30.0000,y=0.1000,z=0.1000 },
+			{ x=40.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=0.0000,y=0.5000,z=0.0000 },
+			{ x=10.0000,y=0.2000,z=0.0200 },
+			{ x=30.0000,y=0.2000,z=0.0200 },
+			{ x=40.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=0.0000,y=0.0100,z=0.0000 },
+			{ x=10.0000,y=0.0200,z=0.0000 },
+			{ x=30.0000,y=0.0200,z=0.0000 },
+			{ x=40.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=20.0000,y=0.1000,z=0.1000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=2.6910,y=0.7000,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=0.0000,y=0.9000,z=0.3500 },
+			{ x=10.0000,y=0.2000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=0.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=5.5330,y=0.0000,z=10.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=15.0670,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=10.2900,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 40.0000,
+		Keys = {
+			{ x=0.0000,y=0.7500,z=0.5000 },
+			{ x=25.0000,y=0.7500,z=0.5000 },
+		},
+	},
+}

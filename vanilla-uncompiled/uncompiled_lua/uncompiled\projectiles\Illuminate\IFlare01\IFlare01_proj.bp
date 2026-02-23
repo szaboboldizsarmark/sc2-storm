@@ -1,0 +1,53 @@
+ProjectileBlueprint {
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'FLARE',
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Illuminate_Flair01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Illuminate_Flair01_Impact01',
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Small01',
+            },
+            Terrain = {
+                Template = 'Illuminate_Flair01_Impact01',
+            },
+            Unit = {
+                Template = 'Illuminate_Flair01_Impact01',
+            },
+            UnitAir = {
+                Template = 'Illuminate_Flair01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+    },
+    General = {
+        Category = 'Bomb',
+        EntityCategory = {
+            'ILLUMINATE',
+            'PROJECTILE',
+            'FLARE',
+        },
+        Faction = 'Illuminate',
+        Weapon = 'Flare',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 0,
+        InitialSpeed = 0,
+        MaxSpeed = 0,
+        TrackTarget = false,
+        TurnRate = 360,
+        UseGravity = true,
+    },
+}

@@ -1,0 +1,82 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/AntiAir/snd_Cybran_AntiAir_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/CYBRAN/AntiAir/snd_Cybran_AntiAir_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/AntiAir/snd_Cybran_AntiAir_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'MISSILE',
+        'PROJECTILE',
+        'ANTIAIR',
+    },
+    CollisionShape = 'Sphere',
+    Display = {
+        MeshBlueprint = '/projectiles/Cybran/CAntiAir03/CAntiAir03_mesh.bp',
+        StrategicIconSize = 2,
+        UniformScale = 0.16,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Cybran_AntiAir02_Trails01',
+        },
+        Impacts = {
+            Air = {
+                Template = 'Cybran_AntiAir02_Impact01',
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Cybran_AntiAir02_Impact01',
+            },
+            Unit = {
+                Template = 'Cybran_AntiAir02_Impact01',
+            },
+            UnitAir = {
+                Template = 'Cybran_AntiAir02_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Cybran_AntiAir02_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Anti Air',
+        EntityCategory = {
+            'CYBRAN',
+            'MISSILE',
+            'PROJECTILE',
+            'ANTIAIR',
+        },
+        Faction = 'Cybran',
+        TechLevel = 1,
+        Weapon = 'Nanodart Launcher',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 3,
+        InitialSpeed = 15,
+        LeadTarget = false,
+        Lifetime = 4,
+        MaxSpeed = 25,
+        MaxZigZag = 5,
+        OnLostTargetLifetime = 0.7,
+
+        -- RotationalVelocity = 15,
+        -- RotationalVelocityRange = 200,
+        TrackTarget = true,
+        TurnRate = 100,
+        UseGravity = false,
+        VelocityAlign = true,
+        ZigZagFrequency = 0.25,
+    },
+    SizeX = 1,
+}

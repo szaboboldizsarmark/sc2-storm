@@ -1,0 +1,59 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/Illuminate/UIL0203/UIL0203_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/Illuminate/UIL0203/UIL0203_Mask.dds',
+                                    NormalName = '/Units/Illuminate/UIL0203/UIL0203_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128, wreckage, team_color',
+                                    TeamName = '/Units/Illuminate/UIL0203/UIL0203_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Illuminate/UIL0203/UIL0203_Wreckage01_lod0.scm',
+                },
+                {
+                    LODCutoff = 800,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/Illuminate/UIL0203/UIL0203_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/Illuminate/UIL0203/UIL0203_Mask.dds',
+                                    NormalName = '/Units/Illuminate/UIL0203/UIL0203_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128, wreckage, team_color',
+                                    TeamName = '/Units/Illuminate/UIL0203/UIL0203_Team.dds',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/Illuminate/UIL0203/UIL0203_Wreckage01_lod2.scm',
+                },
+            },
+        },
+        UniformScale = 0.12,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 2,
+    SizeY = 0.3,
+    SizeZ = 1.9,
+}

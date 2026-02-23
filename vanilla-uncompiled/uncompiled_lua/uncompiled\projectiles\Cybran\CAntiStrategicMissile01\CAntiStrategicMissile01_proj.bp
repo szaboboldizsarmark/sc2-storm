@@ -1,0 +1,88 @@
+ProjectileBlueprint {
+    Categories = {
+        'UEF',
+        'STRATEGIC',
+		'PROJECTILE',
+        'MISSILE',
+        'ANTIMISSILE',
+    },
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 25,
+        MaxHealth = 25,
+    },
+    Description = 'Cybran Nuclear Missile',
+    Display = {
+        CameraFollowTimeout = 10,
+        CameraFollowsProjectile = true,
+        Mesh = {
+            IconFadeInZoom = 200,
+            LODs = {
+                {
+                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, environment_mapping',
+                },
+            },
+        },
+        StrategicIconIgnoreIntel = true,
+        UniformScale = 1,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_AntiNuke01_Trails01',
+        },
+        Impacts = {
+            Air = {
+                Template = 'UEF_AntiNuke01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Projectile = {
+                Template = 'UEF_AntiNuke01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Prop = {
+                Template = 'UEF_AntiNuke01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_AntiNuke01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'UEF_AntiNuke01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'UEF_AntiNuke01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Missile',
+        Faction = 'Cybran',
+    },
+    Interface = {
+        HelpText = 'Cybran Anti Strategic Missile',
+    },
+    Physics = {
+        Acceleration = 200,
+        CollideEntity = true,
+        CollideProjectile = true,
+        CollideSurface = false,
+        Lifetime = 600,
+        MaxSpeed = 90,
+        MustHitAssignedTarget = true,
+        TrackTarget = true,
+        TurnRate = 720,
+        UseGravity = false,
+        VelocityAlign = true,
+    },
+    SizeX = 1,
+	StrategicIconName = '/textures/ui/common/game/strategicicons/icon_antistrategic_nuke.dds',
+}

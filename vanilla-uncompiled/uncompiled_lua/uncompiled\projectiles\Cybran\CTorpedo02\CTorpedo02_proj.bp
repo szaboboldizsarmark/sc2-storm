@@ -1,0 +1,90 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/Torpedo/snd_Cybran_Torpedo_Impact',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/Torpedo/snd_Cybran_Torpedo_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'ANTINAVY',
+        'TORPEDO',
+        'NOSPLASHDAMAGE',
+    },
+    Defense = {
+        Health = 1,
+    },
+    Display = {
+        CameraFollowsProjectile = true,
+        Mesh = {
+        	CastShadow = false,
+            LODs = {
+                {
+                    LODCutoff = 175,
+                    ShaderName = 'TMeshGlow',
+                },
+            },
+        },
+        StrategicIconSize = 2,
+        UniformScale = 0.3,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Torpedo01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Torpedo01_Impact01',
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'UEF_Torpedo01_Impact03',
+            },
+            UnderWater = {
+                Template = 'UEF_Torpedo01_Impact03',
+            },
+            Unit = {
+                Template = 'UEF_Torpedo01_Impact01',
+            },
+            UnitUnderwater = {
+                Template = 'UEF_Torpedo01_Impact03',
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'UEF_Torpedo01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Anti Navy',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'ANTINAVY',
+            'TORPEDO',
+            'NOSPLASHDAMAGE',
+        },
+        Faction = 'Cybran',
+        Weapon = 'Nanite Torpedo',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 5,
+        DestroyOnWater = false,
+        InitialSpeed = 3,
+        Lifetime = 7,
+        MaxSpeed = 18,
+        MaxZigZag = 0.5,
+        StayUnderwater = true,
+        TrackTarget = true,
+        TurnRate = 230,
+        VelocityAlign = true,
+        ZigZagFrequency = 1,
+    },
+}

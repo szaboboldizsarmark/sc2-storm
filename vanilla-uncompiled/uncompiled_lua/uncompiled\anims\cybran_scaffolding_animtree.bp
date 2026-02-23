@@ -1,0 +1,43 @@
+AnimTreeBlueprint {
+	Description = 'UEF Structure Build Scaffolding AnimTree',
+	StartStateID = 'idle',
+	AnimTreeStates = {
+		['root'] = {
+			type = 'Messenger',
+			transitions = {
+				play_deploy = { TargetStateID = 'deploy' },
+				play_open_doors = { TargetStateID = 'open_doors' },
+				play_close_doors = { TargetStateID = 'close_doors' },
+				play_build_loop = { TargetStateID = 'build_loop' },
+				play_pack = { TargetStateID = 'pack' },
+				play_idle = { TargetStateID = 'idle' },
+			},
+			children = {
+				['build_loop'] = {
+					type='BasicAnim',
+					data = {
+						Looping = true,
+					},
+				},
+				['close_doors'] = {
+					type='BasicAnim',
+					data = {
+						StartAtFrame = -1,
+					},
+				},
+				['deploy'] = {
+					type='BasicAnim',
+				},
+				['idle'] = {
+					type='Messenger',
+				},
+				['open_doors'] = {
+					type='BasicAnim',
+				},
+				['pack'] = {
+					type='BasicAnim',
+				},
+			},
+		},
+	},
+}

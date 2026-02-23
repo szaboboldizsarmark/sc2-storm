@@ -1,0 +1,61 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/Cannon/snd_Cybran_Cannon_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/CYBRAN/Cannon/snd_Cybran_Cannon_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/Cannon/snd_Cybran_Cannon_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Display = {
+        StrategicIconSize = 3,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Cybran_Laser03_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Cybran_Laser03_ImpactUnit01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Medium01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Cybran_Laser03_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'Cybran_Laser03_ImpactUnit01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Cybran_Laser03_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'DIRECTFIRE',
+        },
+        Faction = 'Cybran',
+        Weapon = 'Molecular Ripper Cannon',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        InitialSpeed = 20,
+        UseGravity = true,
+    },
+}

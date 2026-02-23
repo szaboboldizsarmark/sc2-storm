@@ -1,0 +1,133 @@
+EmitterBlueprint {
+	BlueprintId = 'uef_airfactory_02_smoke',
+	Lifetime = 8.00,
+	Repeattime = 8.00,
+	Blendmode = 0.00,
+	LODCutoff = 200.00,
+	ParticleResistance = true,
+	InterpolateEmission = false,
+	TextureStripcount = 2.00,
+	SortOrder = 1.00,
+	Texture = [[/textures/particles/cloud_strip_01.dds]],
+	RampTexture = [[/textures/particles/ramp_white_12.dds]],
+	EmitRateCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.8000,y=8.0000,z=4.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0400,y=14.0000,z=7.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=3.9360,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=2.8480,y=0.0000,z=2.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=7.9280,y=1.0000,z=0.2000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0000,y=0.0000,z=3.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=1.6080,y=1.0000,z=1.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0000,y=0.0000,z=1.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=0.9200,y=0.2500,z=0.2000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0720,y=0.0000,z=1.0000 },
+		},
+	},
+	XAccelCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0400,y=0.0000,z=0.0000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0000,y=0.1000,z=0.0200 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=1.9200,y=0.5000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=3.8320,y=0.3500,z=0.0500 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=3.9120,y=2.0000,z=0.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0400,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0000,y=0.0000,z=10.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.1200,y=0.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=4.0400,y=1.0000,z=2.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 8.0000,
+		Keys = {
+			{ x=3.4000,y=1.0000,z=2.0000 },
+		},
+	},
+}

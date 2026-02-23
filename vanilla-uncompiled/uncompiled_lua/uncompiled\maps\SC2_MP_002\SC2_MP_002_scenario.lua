@@ -1,0 +1,46 @@
+version = 3
+ScenarioInfo = {
+    devname = 'MP_002: 6 Player FFA LAND',
+    name = '<LOC SC2_MAPNAME_0002>[6] Open Palms (FFA)',
+    x360_name = '<LOC SC2_MAPNAME_0003>[4] Open Palms (2v2)',
+    x360_maptype = '2v2',
+    description = 'SC2_MP_002',
+    type = 'skirmish',
+    starts = true,
+    preview = '',
+    reverbPreset = 'SC2_MP_002',
+    size = {1024, 1024},
+    map = '/maps/SC2_MP_002/SC2_MP_002.scmap',
+    save = '/maps/SC2_MP_002/SC2_MP_002_save.lua',
+    script = '/maps/SC2_MP_002/SC2_MP_002_script.lua',
+    norushradius = 50.000000,
+    norushoffsetX_ARMY_1 = 0.000000,
+    norushoffsetY_ARMY_1 = 0.000000,
+    norushoffsetX_ARMY_2 = 0.000000,
+    norushoffsetY_ARMY_2 = 0.000000,
+    norushoffsetX_ARMY_3 = 0.000000,
+    norushoffsetY_ARMY_3 = 0.000000,
+    norushoffsetX_ARMY_4 = 0.000000,
+    norushoffsetY_ARMY_4 = 0.000000,
+    norushoffsetX_ARMY_5 = 0.000000,
+    norushoffsetY_ARMY_5 = 4.000000,
+    norushoffsetX_ARMY_6 = 0.000000,
+    norushoffsetY_ARMY_6 = 0.000000,
+    StartPositions = {
+    			['ARMY_1'] = { 622.5, 15.493, 398.5 },
+                ['ARMY_2'] = { 401.5, 15.492, 625.5 },
+                ['ARMY_3'] = { 653.5, 15.493, 547.5 },
+                ['ARMY_4'] = { 370.5, 15.493, 476.5 },
+                ['ARMY_5'] = { 475.5, 15.493, 366.5 },
+                ['ARMY_6'] = { 548.5, 15.494, 657.5 },
+     },
+    Configurations = {
+        ['standard'] = {
+            teams = {
+                { name = 'FFA', armies = {'ARMY_1','ARMY_2','ARMY_3','ARMY_4','ARMY_5','ARMY_6',} },
+            },
+            customprops = {
+                ['ExtraArmies'] = STRING( 'ARMY_EXTRA' ),
+            },
+        },
+    }}

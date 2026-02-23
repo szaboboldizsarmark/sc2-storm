@@ -1,0 +1,31 @@
+AbilityBlueprint {
+	AbilityStateChange = {
+		OnActivate = {
+			Disable = {
+				'MagnetPush',
+			},
+		},
+		RestoreStatesOnDeactivate = true,
+	},
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	CanUseDuringNoRush = false,
+    CommandType = 'EACT_Immediate',
+    Cooldown = 45,
+    DisplayName = '<LOC SC2_ABILITIES_0061>Activate Attractor',
+    Duration = 20,
+    InitiallyEnabled = true,
+    OrderBitmapId = 'magnetpull',
+	RefreshUIOnActivate = true;
+	RefreshUIOnDeactivate = true;
+    Resource = {
+        OnActivate = {
+            SourceAmount = 500,
+            SourceType = 'Energy',
+        },
+    },
+    RunScript = 'OnMagnetActivate',
+}

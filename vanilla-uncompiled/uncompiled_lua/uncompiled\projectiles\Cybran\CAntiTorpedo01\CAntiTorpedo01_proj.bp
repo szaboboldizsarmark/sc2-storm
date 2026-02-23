@@ -1,0 +1,29 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/Torpedo/snd_Cybran_Torpedo_Impact',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/Torpedo/snd_Cybran_Torpedo_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'ANTITORPEDO',
+    },
+    General = {
+        Category = 'Defense',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 1,
+        DestroyOnWater = false,
+        MaxSpeed = 3,
+
+        -- this is a workaround for tracking projectiles not intercepting correctly.  Original value: true
+        StayUnderwater = false,
+        TrackTarget = true,
+        TurnRate = 270,
+        UseGravity = true,
+        VelocityAlign = true,
+    },
+}

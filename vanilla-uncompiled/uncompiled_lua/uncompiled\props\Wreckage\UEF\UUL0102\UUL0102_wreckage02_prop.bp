@@ -1,0 +1,98 @@
+PropBlueprint {
+    Categories = {
+        'RECLAIMABLE',
+    },
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/UEF/UUL0102/UUL0102_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/UEF/UUL0102/UUL0102_Mask.dds',
+                                    NormalName = '/Units/UEF/UUL0102/UUL0102_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, wreckage',
+                                    TeamName = '/Units/UEF/UUL0102/UUL0102_Team.dds',
+                                },
+                                {
+                                    DiffuseName = '/textures/Units/Shared/Treads/Treads01_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/textures/Units/Shared/Treads/Treads01_Mask.dds',
+                                    NormalName = '/textures/Units/Shared/Treads/Treads01_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, wreckage',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/UEF/UUL0102/UUL0102_Wreckage01_lod0.scm',
+                },
+                {
+                    LODCutoff = 800,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/UEF/UUL0102/UUL0102_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/UEF/UUL0102/UUL0102_Mask.dds',
+                                    NormalName = '/Units/UEF/UUL0102/UUL0102_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, wreckage',
+                                    TeamName = '/Units/UEF/UUL0102/UUL0102_Team.dds',
+                                },
+                                {
+                                    DiffuseName = '/textures/Units/Shared/Treads/Treads01_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/textures/Units/Shared/Treads/Treads01_Mask.dds',
+                                    NormalName = '/textures/Units/Shared/Treads/Treads01_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, wreckage',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/UEF/UUL0102/UUL0102_Wreckage01_lod1.scm',
+                },
+                {
+                    LODCutoff = 1000,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Units/UEF/UUL0102/UUL0102_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/Units/UEF/UUL0102/UUL0102_Mask.dds',
+                                    NormalName = '/Units/UEF/UUL0102/UUL0102_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, ambient_occlusion, wreckage',
+                                    TeamName = '/Units/UEF/UUL0102/UUL0102_Team.dds',
+                                },
+                                {
+                                    DiffuseName = '/textures/Units/Shared/Treads/Treads01_Diffuse.dds',
+                                    EffectName = '/textures/Units/Shared/Wreckage.dds',
+                                    MaskName = '/textures/Units/Shared/Treads/Treads01_Mask.dds',
+                                    NormalName = '/textures/Units/Shared/Treads/Treads01_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, ambient_occlusion, wreckage',
+                                },
+                            },
+                        },
+                    },
+                    MeshName = '/props/Wreckage/UEF/UUL0102/UUL0102_Wreckage01_lod2.scm',
+                },
+            },
+        },
+        UniformScale = 0.19,
+    },
+    Interface = {
+        HelpText = 'Wreckage',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Wreckage',
+    ScriptModule = '/lua/sim/wreckage.lua',
+    SizeX = 1.25,
+    SizeY = 0.55,
+    SizeZ = 1.21,
+}

@@ -1,0 +1,41 @@
+AbilityBlueprint {
+	ActivationRetriggerDelay = 3,
+	AI = {
+		IgnoreSteeringWhileActive = true,
+	},
+	Commands = {
+		OnActivate = {
+			Disable = {
+				RULEUCC_Attack = true,
+				RULEUCC_Guard = true,
+				RULEUCC_Move = true,
+				RULEUCC_Patrol = true,
+				RULEUCC_Stop = true,
+				RULEUCC_RetaliateToggle = true,
+			},
+		},
+		RestoreCommandCapsOnDeactivate = true,
+	},
+	CanUseDuringNoRush = false,
+	CommandType = 'EACT_Toggle',
+    Cooldown = 5,
+    CooldownOnDeactivation = true,
+    DisplayName = '<LOC SC2_ABILITIES_0064>Activate/Deactivate Vortex',
+    InitiallyEnabled = true,
+	RefreshUIOnActivate = true;
+	RefreshUIOnDeactivate = true;
+	RunScript = 'OnPullinsmash',
+	OrderBitmapId = 'pullinsmash',
+	UnitStates = {
+		OnActivate = {
+			Enable = {
+				'Immobile',
+			},
+		},
+		OnDeactivate = {
+			Disable = {
+				'Immobile',
+			},
+		},
+	},
+}

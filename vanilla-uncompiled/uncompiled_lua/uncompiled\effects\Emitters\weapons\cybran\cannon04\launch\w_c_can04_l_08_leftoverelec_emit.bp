@@ -1,0 +1,129 @@
+EmitterBlueprint {
+	BlueprintId = 'w_c_can04_l_08_leftoverelec',
+	Lifetime = 12.00,
+	Repeattime = 12.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 250.00,
+	TextureStripcount = 4.00,
+	SortOrder = 1.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/electricity_08.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	DistortionMapTexture = [[/textures/particles/displacement/di_0005_55.dds]],
+	EmitRateCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=0.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=12.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.1200,y=0.0000,z=1.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=5.8572,y=0.0000,z=1.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=12.0000,y=0.0000,z=1.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=2.9448,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=5.5380,y=0.0000,z=0.0000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=2.2692,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=12.0000,y=1.6000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=12.0000,y=1.6000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.3600,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=4.5672,y=0.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=5.8800,y=2.0000,z=4.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.0000 },
+			{ x=12.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	DistMapScaleCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=2.0000,z=0.0000 },
+		},
+	},
+	DistMapBeginStrengthCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=0.0200,z=0.0000 },
+		},
+	},
+	DistMapEndStrengthCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=0.0100,z=0.0000 },
+		},
+	},
+	DistMapUShiftRateCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=0.1000,z=0.0100 },
+		},
+	},
+	DistMapVShiftRateCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=0.1000,z=0.0100 },
+		},
+	},
+}

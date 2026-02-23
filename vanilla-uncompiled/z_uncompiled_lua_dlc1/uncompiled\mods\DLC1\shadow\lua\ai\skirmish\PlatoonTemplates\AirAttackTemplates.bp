@@ -1,0 +1,119 @@
+PlatoonBlueprint {
+    BlueprintId = 'AirAttackTiny',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR FIGHTER -EXPERIMENTAL -TRANSPORTATION', UnitMin = 2, UnitMax = 200, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'AirAttackSmall',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR FIGHTER -EXPERIMENTAL -TRANSPORTATION', UnitMin = 5, UnitMax = 200, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'AirAttackMedium',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR FIGHTER -EXPERIMENTAL -TRANSPORTATION', UnitMin = 11, UnitMax = 200, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'AirAttackLarge',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR FIGHTER -EXPERIMENTAL -TRANSPORTATION', UnitMin = 21, UnitMax = 200, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'BomberAttackTiny',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR BOMBER -EXPERIMENTAL -TRANSPORTATION, MOBILE AIR GROUNDATTACK -EXPERIMENTAL -TRANSPORTATION', UnitMin = 2, UnitMax = 500, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'BomberAttackSmall',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR BOMBER -EXPERIMENTAL -TRANSPORTATION, MOBILE AIR GROUNDATTACK -EXPERIMENTAL -TRANSPORTATION', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'None' },
+		{ Category = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'BomberAttackMedium',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR BOMBER -EXPERIMENTAL -TRANSPORTATION, MOBILE AIR GROUNDATTACK -EXPERIMENTAL -TRANSPORTATION', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'None' },
+		{ Category = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'BomberAttackLarge',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR BOMBER -EXPERIMENTAL -TRANSPORTATION, MOBILE AIR GROUNDATTACK -EXPERIMENTAL -TRANSPORTATION', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'None' },
+		{ Category = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'BomberAttackHuge',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR BOMBER -EXPERIMENTAL -TRANSPORTATION, MOBILE AIR GROUNDATTACK -EXPERIMENTAL -TRANSPORTATION', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'None' },
+		{ Category = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'BomberAttackExtraHuge',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR BOMBER -EXPERIMENTAL -TRANSPORTATION, MOBILE AIR GROUNDATTACK -EXPERIMENTAL -TRANSPORTATION', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'None' },
+		{ Category = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'BomberAttackBigUn',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR BOMBER -EXPERIMENTAL -TRANSPORTATION, MOBILE AIR GROUNDATTACK -EXPERIMENTAL -TRANSPORTATION', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'None' },
+		{ Category = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'BomberAttackGinormous',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR BOMBER -EXPERIMENTAL -TRANSPORTATION, MOBILE AIR GROUNDATTACK -EXPERIMENTAL -TRANSPORTATION', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'None' },
+		{ Category = 'MOBILE AIR EXPERIMENTAL -TRANSPORTATION', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'AirAttackOpen',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR -TRANSPORTATION', UnitMin = 1, UnitMax = 200, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'BomberAttackOpen',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR BOMBER -TRANSPORTATION, MOBILE AIR GROUNDATTACK -TRANSPORTATION', UnitMin = 1, UnitMax = 200, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'AirScout',
+    GlobalSquads = {
+        { Category = 'MOBILE AIR -EXPERIMENTAL -TRANSPORTATION', UnitMin = 1, UnitMax = 1, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'AirScoutCybran',
+    GlobalSquads = {
+        { Category = 'UCA0105D1', UnitMin = 1, UnitMax = 1, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+

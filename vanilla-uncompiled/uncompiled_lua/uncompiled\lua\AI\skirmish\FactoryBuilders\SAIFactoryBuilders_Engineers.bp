@@ -1,0 +1,33 @@
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Factory Build Engineer - Max 1',
+    FactoryType = 'All',
+    Platoons = {
+        {
+            { UnitId = 'uul0002', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uil0002', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'ucl0002', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseNeedsEngineerBuilt', ConditionBool = true },
+            { ConditionType = 'BuilderIsNotInCategory', ConditionCategoryStringOne = 'uux0114', },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    InstanceCount = 1,
+    BasePriority = 950,
+    SkirmishResourceType = 'Expansion',
+}
+

@@ -1,0 +1,65 @@
+EmitterBlueprint {
+	BlueprintId = 'uub0705d1_evt_cv_04_ring',
+	Lifetime = 5.00,
+	Repeattime = 5.00,
+	Blendmode = 3.00,
+	Flat = true,
+	LODCutoff = 400.00,
+	InterpolateEmission = false,
+	Texture = [[/textures/particles/_swirl05.dds]],
+	RampTexture = [[/textures/particles/ramp_yellow_01.dds]],
+	EmitRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=3.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.2333,y=7.0000,z=7.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=0.0000,z=3.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=2.5000,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=3.5000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=10.0000,z=10.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=0.4000,z=0.5000 },
+		},
+	},
+}

@@ -1,0 +1,61 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/ILLUMINATE/Laser/snd_Illuminate_Laser_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/ILLUMINATE/Laser/snd_Illuminate_Laser_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/ILLUMINATE/Laser/snd_Illuminate_Laser_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Display = {
+        StrategicIconSize = 4,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Illuminate_Plasma02_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Illuminate_Plasma02_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Large01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Illuminate_Plasma02_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'Illuminate_Plasma02_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Large01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Illuminate_Plasma02_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        Faction = 'Illuminate',
+        TechLevel = 1,
+        Weapon = 'Heavy Disintegrator Pulse Laser',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        InitialSpeed = 20,
+        InitialSpeedRange = 3,
+        InitialSpeedReduceDistance = 30,
+        LeadTarget = false,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

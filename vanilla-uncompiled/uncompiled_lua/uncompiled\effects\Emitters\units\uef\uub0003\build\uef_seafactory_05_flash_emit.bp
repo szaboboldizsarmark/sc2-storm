@@ -1,0 +1,110 @@
+EmitterBlueprint {
+	BlueprintId = 'uef_seafactory_05_flash',
+	Lifetime = -20.00,
+	Repeattime = 20.00,
+	Blendmode = 3.00,
+	LODCutoff = 830.00,
+	SortOrder = 1.00,
+	Texture = [[/textures/particles/glow/gl_0006_44.dds]],
+	RampTexture = [[/textures/particles/ramp_orange_01.dds]],
+	EmitRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.9000,y=2.0000,z=0.0000 },
+			{ x=1.0000,y=0.0000,z=0.0000 },
+			{ x=9.9000,y=0.0000,z=0.0000 },
+			{ x=10.0000,y=1.0000,z=0.0000 },
+			{ x=10.2000,y=0.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=11.6100,y=20.0000,z=0.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=1.5540,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=-3.3000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=13.4000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=-4.5000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.0540,y=0.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=9.8000,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.2960,y=0.0000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=4.6960,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=9.8160,y=2.0000,z=1.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.3400,y=7.0000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=6.9392,y=0.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=5.1980,y=0.0000,z=0.0000 },
+		},
+	},
+}

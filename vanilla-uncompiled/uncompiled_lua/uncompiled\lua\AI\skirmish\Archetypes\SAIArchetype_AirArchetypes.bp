@@ -1,0 +1,210 @@
+SkirmishArchetypeBlueprint {
+    BlueprintId = 'DefaultAirArchetype',
+	PlatoonPlan = {
+		{
+			PlatoonTaskType = 'NeuralLandAttack',
+			Aggressiveness = 1.0,
+		},
+		{
+			PlatoonTaskType = 'NeuralBomberAttack',
+			Aggressiveness = 1.0,
+		},
+		{
+			PlatoonTaskType = 'NeuralAirAttack',
+			Aggressiveness = 1.0,
+		},
+		{
+			PlatoonTaskType = 'NeuralNavalAttack',
+			Aggressiveness = 1.0,
+		},
+	},
+    StartingBases = {
+        'DefaultAir',
+    },
+    ExpansionBases = {
+        'DefaultAirExpansion',
+    },
+    ArchetypeResponseGroups = {
+        'Default Archetype Response',
+		'Air Archetype Response',
+    },
+    EconomyPlan = {
+        {
+            ResourceType = 'Defense',
+            MassCap = 300,
+            MassPercent = 0.05,
+            EnergyCap = 750,
+            EnergyPercent = 0.05,
+        },
+        {
+            ResourceType = 'LandUnits',
+            MassCap = -1,
+            MassPercent = 0,
+            EnergyCap = -1,
+            EnergyPercent = 0,
+        },
+        {
+            ResourceType = 'AirUnits',
+            MassCap = 200,
+            MassPercent = 0.20,
+            EnergyCap = 500,
+            EnergyPercent = 0.20,
+        },
+        {
+            ResourceType = 'NavalUnits',
+            MassCap = -1,
+            MassPercent = 0,
+            EnergyCap = -1,
+            EnergyPercent = 0,
+        },
+        {
+            ResourceType = 'Expansion',
+            MassCap = 300,
+            MassPercent = 0.25,
+            EnergyCap = 600,
+            EnergyPercent = 0.25,
+        },
+        {
+            ResourceType = 'Artillery',
+            MassCap = 350,
+            MassPercent = 0,
+            EnergyCap = 1500,
+            EnergyPercent = 0,
+        },
+        {
+            ResourceType = 'Experimentals',
+            MassCap = 1200,
+            MassPercent = 0.01,
+            EnergyCap = 4000,
+            EnergyPercent = 0.01,
+        },
+        {
+            ResourceType = 'Misc',
+            MassCap = -1,
+            MassPercent = 0,
+            EnergyCap = -1,
+            EnergyPercent = 0,
+        },
+    },
+    ResearchPlans = {
+        --**************************************************
+        --*                 UEF Research
+        --**************************************************
+            -- Heavy Air
+        {
+            ResearchItems = {
+                'UBB_BUILDTIME',
+				'UAU_GUNSHIP',
+                'UAB_TRAINING2',		
+                'UAB_BUILDTIME',
+				'UBU_MASSCONVERTOR',				
+                'UAP_SHIELDS',
+				'UAU_AC1000TERROR',
+				'UAB_REGENERATION',
+                'UAB_TRAINING4',
+				'UAU_AIRFORTRESS',
+            },
+            FactionId = 1,
+            NavalResearchPriority = 4,
+            ACUResearchPriority = 2,
+            LandResearchPriority = 3,
+            StructureResearchPriority = 3,
+            AirResearchPriority = 1,
+        },		
+            -- Exp Rush
+        {
+            ResearchItems = {
+                'UBB_BUILDTIME', 
+                'UAU_AC1000TERROR',
+                'UAB_TRAINING2',				
+                'UAB_BUILDTIME',				
+                'UAP_SHIELDS',
+				'UAB_REGENERATION',
+				'UBU_MASSCONVERTOR',
+                'UAB_TRAINING4',
+				'UAU_AIRFORTRESS',
+            },
+            FactionId = 1,
+            NavalResearchPriority = 4,
+            ACUResearchPriority = 2,
+            LandResearchPriority = 3,
+            StructureResearchPriority = 3,
+            AirResearchPriority = 1,
+        },
+        --**************************************************
+        --*                Cybran Research
+        --**************************************************
+            -- Heavy Air
+        {
+            ResearchItems = {
+				'CBB_BUILDCOST',
+                'CAU_GUNSHIP',
+                'CAB_TRAINING2',
+				'CBU_MASSCONVERTOR',
+				'CAP_SHIELDS',
+				'CAU_SOULRIPPERII',
+				'CAB_TRAINING4',
+            },
+            FactionId = 2,
+            NavalResearchPriority = 4,
+            ACUResearchPriority = 1,
+            LandResearchPriority = 3,
+            StructureResearchPriority = 2,
+            AirResearchPriority = 1,
+        },
+            -- Exp Rush
+        {
+            ResearchItems = {
+				'CBB_BUILDCOST',
+                'CAU_SOULRIPPERII',
+                'CAB_TRAINING2',
+				'CBU_MASSCONVERTOR',
+				'CAP_SHIELDS',
+				'CAB_TRAINING4',
+            },
+            FactionId = 2,
+            NavalResearchPriority = 4,
+            ACUResearchPriority = 1,
+            LandResearchPriority = 3,
+            StructureResearchPriority = 2,
+            AirResearchPriority = 1,
+        },
+        --**************************************************
+        --*               Illuminate Research
+        --**************************************************
+            -- Heavy Air
+        {
+            ResearchItems = {
+                'IAU_GUNSHIP',
+                'IAP_AAFLARE',
+                'IAB_TRAINING2',
+				'IBU_POWERDOME',
+				'IAU_CZAR',
+				'IAB_TRAINING4',
+            },
+            FactionId = 3,
+            NavalResearchPriority = 4,
+            ACUResearchPriority = 2,
+            LandResearchPriority = 3,
+            StructureResearchPriority = 3,
+            AirResearchPriority = 1,
+        },
+            -- Exp rush
+        {
+            ResearchItems = {
+                'IAU_GUNSHIP',
+                'IAP_AAFLARE',
+				'IAU_CZAR',
+                'IAB_TRAINING2',
+				'IBU_POWERDOME',
+				'IAB_TRAINING4',
+            },
+            FactionId = 3,
+            NavalResearchPriority = 4,
+            ACUResearchPriority = 2,
+            LandResearchPriority = 3,
+            StructureResearchPriority = 2,
+            AirResearchPriority = 1,
+        },
+    },
+}

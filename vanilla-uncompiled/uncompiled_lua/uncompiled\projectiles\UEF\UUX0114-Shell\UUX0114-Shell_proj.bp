@@ -1,0 +1,54 @@
+ProjectileBlueprint {
+    Audio = {
+        ExistLoop = 'SC2/SC2/Experimentals/UEF/UUX0114/snd_UUX0114_UnitCannon_whistle',
+        Impact = 'SC2/SC2/Experimentals/UEF/UUX0114/snd_UUX0114_UnitCannon_shell_open',
+    },
+    Categories = {
+        'UEF',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+    },
+    Display = {
+        CameraFollowTimeout = 5,
+        CameraFollowsProjectile = true,
+        StrategicIconName = '/textures/ui/common/game/strategicicons/icon_strategic_artillery.dds',
+        StrategicIconSize = 0,
+        UniformScale = 0.1,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'UEF_Noah01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'UEF_Noah01_Impact01',
+            },
+            Terrain = {
+                Template = 'UEF_Noah01_Impact01',
+            },
+            Unit = {
+                Template = 'UEF_Noah01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Large01',
+            },
+        },
+    },
+    General = {
+        Category = 'Artillery',
+        Faction = 'UEF',
+        TechLevel = 3,
+        Weapon = 'Unit Cannon Transport Shell',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        CollideEntity = false,
+        InitialSpeed = 50,
+        LeadTarget = false,
+        StayUpright = true,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

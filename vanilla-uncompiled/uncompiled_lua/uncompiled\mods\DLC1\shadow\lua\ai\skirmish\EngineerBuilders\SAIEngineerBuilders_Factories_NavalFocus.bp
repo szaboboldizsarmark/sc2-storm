@@ -1,0 +1,475 @@
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Air Factory - NavalFocus',
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        }
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Naval Factories',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'AirFactory',
+    BuildLocation = 'Base',
+    BasePriority = 925,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'All',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Air Factory - 2 - NavalFocus',
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0002, ucb0002, uib0002', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Naval Factories',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'AirFactory',
+    BuildLocation = 'Base',
+    BasePriority = 900,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'All',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Air Factory - More - NavalFocus',
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+        'ucl0001',
+        'ucl0002',
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'MassStorageTypeGreaterThan', ConditionFloat = 500, ConditionStringOne = "Slush" },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'MassStorageTypeGreaterThan', ConditionFloat = 500, ConditionStringOne = "Slush" },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'MassStorageTypeGreaterThan', ConditionFloat = 500, ConditionStringOne = "Slush" },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Naval Factories',
+    },
+    MinDifficultyLevel = 2,
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'AirFactory',
+    BuildLocation = 'Base',
+    BasePriority = 900,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Expansion',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Location - Need Naval Factory - NavalFocus',
+    BuilderIds = {
+        'uul0002',
+        'ucl0002',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'BaseIsNaval', },
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0003, ucb0003', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+        {
+            { ConditionType = 'BaseIsNaval', },
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0003, ucb0003', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Naval Factories',
+    },
+	BufferSize = 5,
+    UnitToBuild = 'SeaFactory',
+    BuildLocation = 'NavalMarker',
+    BuildRelative = 'CenterPoint',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 1025,
+    SkirmishResourceType = 'All',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Naval Factory - Less than 2 - NavalFocus',
+    BuilderIds = {
+        'uul0002',
+        'ucl0002',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'BaseIsNaval', },
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0003, ucb0003, uib0003', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'BaseIsNaval', },
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0003, ucb0003, uib0003', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'BaseIsNaval', },
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0003, ucb0003, uib0003', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Naval Factories',
+    },
+	BufferSize = 5,
+    UnitToBuild = 'SeaFactory',
+    BuildLocation = 'NavalMarker',
+    BuildRelative = 'CenterPoint',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    SkirmishResourceType = 'All',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need Naval Factory - Naval Focus - More',
+    BuilderIds = {
+        'uul0002',
+        'ucl0002',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'BaseIsNaval', },
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'BaseIsNaval', },
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'BaseIsNaval', },
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'EngineerBlueprintTestNewFactoryDrainMass', ConditionFloat = 1.1, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'MassStorageTypeGreaterThan', ConditionFloat = 500, ConditionStringOne = "Slush" },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'MassStorageTypeGreaterThan', ConditionFloat = 500, ConditionStringOne = "Slush" },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'MassStorageTypeGreaterThan', ConditionFloat = 500, ConditionStringOne = "Slush" },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'MASSEXTRACTION', ConditionIntegerOne = 6, },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Naval Factories',
+    },
+    MinDifficultyLevel = 2,
+	BufferSize = 5,
+    UnitToBuild = 'SeaFactory',
+    BuildLocation = 'NavalMarker',
+    BuildRelative = 'CenterPoint',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    SkirmishResourceType = 'Expansion',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need ExperimentalGantry - Naval Focus',
+    AnnounceFail = false,
+    BuilderIds = {
+        'uil0001',
+        'uil0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 3, },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0011', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uib0011', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Naval Factories',
+    },
+    UnitToBuild = 'ExperimentalGantry',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need LandGantry - Naval Focus',
+    AnnounceFail = false,
+    BuilderIds = {
+        'ucl0001',
+        'ucl0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0011', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'ucb0011', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Naval Factories',
+    },
+    UnitToBuild = 'LandGantry',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need AirGantry - Naval Focus',
+    AnnounceFail = false,
+    BuilderIds = {
+        'ucl0001',
+        'ucl0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 2, },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0012', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'ucb0012', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Naval',
+    },
+    UnitToBuild = 'AirGantry',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need UtilityGantry - Naval Focus',
+    AnnounceFail = false,
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0012', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0012', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Naval Factories',
+    },
+    UnitToBuild = 'UtilityGantry',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+    SharedInstanceCount = 'FactoryConstruction',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Location - Need AssaultGantry - Naval Focus',
+    AnnounceFail = false,
+    BuilderIds = {
+        'uul0001',
+        'uul0002',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'UnitFactionCheck', ConditionIntegerOne = 1, },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0011', ConditionBool = true, },
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'BaseFactoriesLessThan', ConditionCategoryStringOne = 'uub0011', ConditionIntegerOne = 1, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Naval Factories',
+    },
+    UnitToBuild = 'AssaultGantry',
+    BuildLocation = 'Base',
+    PlatoonBehavior = 'EngineerBuild',
+    BasePriority = 975,
+    BuildRelative = 'CenterPoint',
+    SkirmishResourceType = 'Experimentals',
+    SharedInstanceCount = 'FactoryConstruction',
+}

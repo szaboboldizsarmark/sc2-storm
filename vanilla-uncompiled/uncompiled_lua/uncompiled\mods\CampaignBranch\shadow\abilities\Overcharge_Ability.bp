@@ -1,0 +1,53 @@
+AbilityBlueprint {
+	ActivationConditions = {
+		ConditionType = 'EAACT_CheckUnitState',	
+		UnitStateRestrictions = {
+			'Jumping',
+			'Hunkered',
+		},
+	},
+	CommandType = 'EACT_Immediate',
+    Cooldown = 25,
+    DisplayName = '<LOC SC2_ABILITIES_0070>Enter Overcharge Mode',
+    Effects = {
+		OnActivate = {
+			{
+			    Attached = false,
+				Emitters = {
+					'/effects/emitters/units/general/event/overcharge/u_g_e_oc_01_flash_emit.bp',
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_02_halfring_emit.bp',
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_03_ring_emit.bp',
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_04_groundflash_emit.bp',
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_05_outwardlines_emit.bp',
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_06_outwardenergy_emit.bp',		
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_07_glow_emit.bp',
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_08_distort_emit.bp',
+				},
+			},
+		},
+		OnDeactivate = {
+			{
+			    Attached = false,
+				Emitters = {
+					'/effects/emitters/units/general/event/overcharge/u_g_e_oc_09_deflash_emit.bp',
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_10_dehalfring_emit.bp',
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_11_dering_emit.bp',
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_12_degroundflash_emit.bp',
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_13_inwardlines_emit.bp',
+		            '/effects/emitters/units/general/event/overcharge/u_g_e_oc_07_glow_emit.bp',
+				},
+			},
+		},
+		RemoveEffectsOnDeactivate = false,
+	},
+	Duration = 10.7,
+    InitiallyEnabled = false,
+    Resource = {
+        OnActivate = {
+            SourceAmount = 2000,
+            SourceType = 'ENERGY',
+        },
+    },
+	ScriptModule = '/abilities/Overcharge_Ability.lua',
+	OrderBitmapId = 'overcharge',
+}

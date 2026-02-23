@@ -1,0 +1,92 @@
+PlatoonBlueprint {
+    BlueprintId = 'LandAttackTiny',
+    GlobalSquads = {
+        { Category = 'MOBILE LAND -EXPERIMENTAL -ROGUENANITE -ENGINEER', UnitMin = 3, UnitMax = 500, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'LandAttackSmall',
+    GlobalSquads = {
+        { Category = 'MOBILE LAND -EXPERIMENTAL -ROGUENANITE -ENGINEER', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'AttackFormation' },
+		{ Category = 'MOBILE LAND EXPERIMENTAL -ENGINEER', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'LandAttackMedium',
+    GlobalSquads = {
+		{ Category = 'MOBILE LAND -EXPERIMENTAL -ROGUENANITE -ENGINEER', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'AttackFormation' },
+		{ Category = 'MOBILE LAND EXPERIMENTAL -ENGINEER', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'LandAttackLarge',
+    GlobalSquads = {
+		{ Category = 'MOBILE LAND -EXPERIMENTAL -ROGUENANITE -ENGINEER', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'AttackFormation' },
+		{ Category = 'MOBILE LAND EXPERIMENTAL -ENGINEER', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'LandAttackHuge',
+    GlobalSquads = {
+		{ Category = 'MOBILE LAND -EXPERIMENTAL -ROGUENANITE -ENGINEER', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'AttackFormation' },
+		{ Category = 'MOBILE LAND EXPERIMENTAL -ENGINEER', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'LandAttackExtraHuge',
+    GlobalSquads = {
+		{ Category = 'MOBILE LAND -EXPERIMENTAL -ROGUENANITE -ENGINEER', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'AttackFormation' },
+		{ Category = 'MOBILE LAND EXPERIMENTAL -ENGINEER', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'LandAttackBigUn',
+    GlobalSquads = {
+		{ Category = 'MOBILE LAND -EXPERIMENTAL -ROGUENANITE -ENGINEER', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'AttackFormation' },
+		{ Category = 'MOBILE LAND EXPERIMENTAL -ENGINEER', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'LandAttackGinormous',
+    GlobalSquads = {
+		{ Category = 'MOBILE LAND -EXPERIMENTAL -ROGUENANITE -ENGINEER', UnitMin = 10, UnitMax = 500, Squad = 'Attack', FormationName = 'AttackFormation' },
+		{ Category = 'MOBILE LAND EXPERIMENTAL -ENGINEER', UnitMin = 0, UnitMax = 100, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'LandAttackGuard',
+    GlobalSquads = {
+        { Category = 'MOBILE LAND -EXPERIMENTAL -ROGUENANITE -ENGINEER', UnitMin = 6, UnitMax = 10, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'LandAttackOpen',
+    GlobalSquads = {
+        { Category = 'MOBILE LAND -ROGUENANITE -ENGINEER', UnitMin = 1, UnitMax = 200, Squad = 'Attack', FormationName = 'AttackFormation' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'LandScout',
+    GlobalSquads = {
+        { Category = 'MOBILE LAND -EXPERIMENTAL -ENGINEER -ROGUENANITE', UnitMin = 1, UnitMax = 1, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+PlatoonBlueprint {
+    BlueprintId = 'RogueNanite',
+    GlobalSquads = {
+        { Category = 'ROGUENANITE', UnitMin = 1, UnitMax = 1, Squad = 'Attack', FormationName = 'None' }
+    },
+}
+
+

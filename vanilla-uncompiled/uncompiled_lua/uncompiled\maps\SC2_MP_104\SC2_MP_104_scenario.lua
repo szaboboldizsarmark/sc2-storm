@@ -1,0 +1,46 @@
+version = 3
+ScenarioInfo = {
+    devname = 'MP_104: 3v3 LAND',
+    name = '<LOC SC2_MAPNAME_0020>[6] Boolon Complex (3v3)',
+    x360_name = '<LOC SC2_MAPNAME_0021>[4] Boolon Complex (2v2)',
+    x360_maptype = '2v2',
+    description = 'SC2_MP_104',
+    type = 'skirmish',
+    starts = true,
+    preview = '',
+    reverbPreset = 'SC2_MP_104',
+    size = {1024, 1024},
+    map = '/maps/SC2_MP_104/SC2_MP_104.scmap',
+    save = '/maps/SC2_MP_104/SC2_MP_104_save.lua',
+    script = '/maps/SC2_MP_104/SC2_MP_104_script.lua',
+    norushradius = 100.000000,
+    norushoffsetX_ARMY_1 = 0.000000,
+    norushoffsetY_ARMY_1 = 5.000000,
+    norushoffsetX_ARMY_2 = 0.000000,
+    norushoffsetY_ARMY_2 = 0.000000,
+    norushoffsetX_ARMY_3 = 0.000000,
+    norushoffsetY_ARMY_3 = 0.000000,
+    norushoffsetX_ARMY_4 = 0.000000,
+    norushoffsetY_ARMY_4 = 0.000000,
+    norushoffsetX_ARMY_5 = 0.000000,
+    norushoffsetY_ARMY_5 = 0.000000,
+    norushoffsetX_ARMY_6 = 0.000000,
+    norushoffsetY_ARMY_6 = 0.000000,
+    StartPositions = {
+ 				['ARMY_6'] = { 550.5, 65.913, 202.5 },
+                ['ARMY_5'] = { 548.5, 65.909, 816.5 },
+                ['ARMY_4'] = { 754.5, 58.169, 282.5 },
+                ['ARMY_2'] = { 248.5, 64.219, 314.5 },
+                ['ARMY_1'] = { 250.5, 64.22, 703.5 },
+                ['ARMY_3'] = { 750.5, 57.988, 732.5 },
+    },
+    Configurations = {
+        ['standard'] = {
+            teams = {
+                { name = 'FFA', armies = {'ARMY_1','ARMY_2','ARMY_3','ARMY_4','ARMY_5','ARMY_6',} },
+            },
+            customprops = {
+                ['ExtraArmies'] = STRING( 'ARMY_EXTRA' ),
+            },
+        },
+    }}

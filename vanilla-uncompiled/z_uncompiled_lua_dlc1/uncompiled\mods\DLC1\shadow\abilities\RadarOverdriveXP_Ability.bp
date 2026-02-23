@@ -1,0 +1,38 @@
+AbilityBlueprint {
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	ActivationRetriggerDelay = 15,
+	Buffs = {
+		'RadarOverdriveXP',
+	},
+    Cooldown = 60,
+    CooldownOnDeactivation = true,
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0094>Overdrive Intel Gathering',
+	Duration = 15,
+	Effects = {
+		OnActivate = {
+			{
+				Emitters = {
+					'/effects/emitters/units/illuminate/uix0118d1/overdrive/uix0118d1_overdrive_01_ring_emit.bp',
+					'/effects/emitters/units/illuminate/uix0118d1/overdrive/uix0118d1_overdrive_02_wisps_emit.bp',
+					'/effects/emitters/units/illuminate/uix0118d1/overdrive/uix0118d1_overdrive_03_refraction_emit.bp',
+					'/effects/emitters/units/illuminate/uix0118d1/overdrive/uix0118d1_overdrive_04_glow_emit.bp',
+				},
+			},
+		},
+	},
+    InitiallyEnabled = true,
+	RemoveBuffsOnDeactivate = true,
+	Resource = {
+        OnActivate = {
+            SourceAmount = 3000,
+            SourceType = 'Energy',
+        },
+    },
+	OrderBitmapId = 'radarovd',
+	ScriptModule = '/abilities/RadarOverdriveXP_Ability.lua',
+}

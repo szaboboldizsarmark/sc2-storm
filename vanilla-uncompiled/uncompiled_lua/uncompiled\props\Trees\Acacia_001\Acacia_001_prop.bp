@@ -1,0 +1,17 @@
+PropBlueprint {
+    Display = {
+        SRTPath = '/props/Trees/Acacia_001/Acacia_001.srt',
+        UniformScale = 0.12,
+    },
+    Interface = {
+        HelpText = 'Acacia_001',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Tree',
+    ScriptModule = '/lua/proptree.lua',
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

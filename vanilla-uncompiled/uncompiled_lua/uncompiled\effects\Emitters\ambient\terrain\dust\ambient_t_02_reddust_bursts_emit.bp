@@ -1,0 +1,112 @@
+EmitterBlueprint {
+	BlueprintId = 'ambient_t_02_reddust_bursts',
+	Lifetime = -1.00,
+	Repeattime = 50.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	LocalAcceleration = true,
+	LODCutoff = 300.00,
+	ParticleResistance = true,
+	Texture = [[/textures/particles/dust/du_0009_55.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0136_lightpink.dds]],
+	EmitRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=0.0000,y=10.0000,z=10.0000 },
+			{ x=1.0000,y=0.0000,z=0.0000 },
+			{ x=20.0000,y=0.0000,z=0.0000 },
+			{ x=21.0000,y=10.0000,z=10.0000 },
+			{ x=22.0000,y=0.0000,z=0.0000 },
+			{ x=26.0000,y=0.0000,z=0.0000 },
+			{ x=27.0000,y=10.0000,z=10.0000 },
+			{ x=28.0000,y=0.0000,z=0.0000 },
+			{ x=43.0000,y=0.1932,z=0.0000 },
+			{ x=44.0000,y=10.0000,z=10.0000 },
+			{ x=45.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=20.0000,z=10.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=70.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=35.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.4000,z=0.1000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=1.0000,z=0.2500 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.6000,z=0.2500 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=14.5119,y=0.0300,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.1000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=1.5000,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=4.0000,z=2.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0000,z=0.5000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.5000,z=0.4000 },
+		},
+	},
+}

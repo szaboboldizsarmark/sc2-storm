@@ -1,0 +1,101 @@
+MeshBlueprint {
+    IconFadeInZoom = 1000,
+    LODs = {
+        {
+			MeshName = 'TreeAsh01_fall_lod0.scm',
+            LODCutoff = 300,
+            MaterialSets = {
+                {
+                    Materials = {
+                        {
+                            DiffuseName = '/Props/Trees/treeash01/Ash01Leaves_Diffuse.dds',
+                            MaskName = '/Props/Trees/redwood01/redwoodbranches01_Mask.dds',
+                            NormalName = '/Props/Trees/redwood01/redwoodbranches01_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                        {
+                            DiffuseName = '/Props/Trees/treeash01/Ash01Trunk_Diffuse.dds',
+                            MaskName = '/Props/Trees/redwood01/redwoodtrunk01_Mask.dds',
+                            NormalName = '/Props/Trees/redwood01/redwoodtrunk01_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                    },
+                },
+            },
+        },
+        {
+			MeshName = 'TreeAsh01_fall_lod1.scm',
+            LODCutoff = 600,
+            MaterialSets = {
+                {
+                    Materials = {
+                        {
+                            DiffuseName = '/Props/Trees/treeash01/Ash01Leaves_Diffuse.dds',
+                            MaskName = '/Props/Trees/redwood01/redwoodbranches01_Mask.dds',
+                            NormalName = '/Props/Trees/redwood01/redwoodbranches01_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                        {
+                            DiffuseName = '/Props/Trees/treeash01/Ash01Trunk_Diffuse.dds',
+                            MaskName = '/Props/Trees/redwood01/redwoodtrunk01_Mask.dds',
+                            NormalName = '/Props/Trees/redwood01/redwoodtrunk01_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                    },
+                },
+            },
+        },
+        {
+			MeshName = 'TreeAsh01_fall_lod2.scm',
+            LODCutoff = 1000,
+            MaterialSets = {
+                {
+                    Materials = {
+                        {
+                            DiffuseName = '/Props/Trees/treeash01/Ash01Leaves_Diffuse.dds',
+                            MaskName = '/Props/Trees/redwood01/redwoodbranches01_Mask.dds',
+                            NormalName = '/Props/Trees/redwood01/redwoodbranches01_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                        {
+                            DiffuseName = '/Props/Trees/treeash01/Ash01Trunk_Diffuse.dds',
+                            MaskName = '/Props/Trees/redwood01/redwoodtrunk01_Mask.dds',
+                            NormalName = '/Props/Trees/redwood01/redwoodtrunk01_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                    },
+                },
+            },
+        },
+        {
+			MeshName = 'TreeAsh01_fall_lod3.scm',
+            LODCutoff = 9001,
+            MaterialSets = {
+                {
+                    Materials = {
+                        {
+                            DiffuseName = '/Props/Trees/treeash01/Ash01Leaves_Diffuse.dds',
+                            MaskName = '/Props/Trees/redwood01/redwoodbranches01_Mask.dds',
+                            NormalName = '/Props/Trees/redwood01/redwoodbranches01_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                        {
+                            DiffuseName = '/Props/Trees/treeash01/Ash01Trunk_Diffuse.dds',
+                            MaskName = '/Props/Trees/redwood01/redwoodtrunk01_Mask.dds',
+                            NormalName = '/Props/Trees/redwood01/redwoodtrunk01_Normal.dds',
+                            RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, alpha_test = 128',
+                        },
+                    },
+                },
+            },
+        },			
+    },
+}

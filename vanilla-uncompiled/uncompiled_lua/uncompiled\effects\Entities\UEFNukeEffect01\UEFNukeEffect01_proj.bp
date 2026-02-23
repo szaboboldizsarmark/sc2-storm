@@ -1,0 +1,36 @@
+ProjectileBlueprint {
+    Display = {
+        Mesh = {
+            LODs = {
+				{
+                    MeshName = '/effects/Entities/Sphere01/Sphere01_lod0.scm',
+                    LODCutoff = 1000.0,
+					MaterialSets = {
+						{
+							Materials = {
+								{
+				                    ShaderName = 'NukeUEF',
+				                    DiffuseName = '/effects/Entities/UEFNukeEffect01/UEFNukeEffect01_albedo.dds',
+				                    NormalName = '/effects/Entities/UEFNukeEffect01/UEFNukeEffect01_normals.dds',
+								},
+							},
+						},
+					},
+				},
+			},
+            SortOrder = 0,
+        },
+        UniformScale = 17.00,
+    },
+    Physics = {
+        CollideEntity = false,
+        CollideSurface = false,
+        DestroyOnWater = false,
+        InitialSpeed = 0,
+        Lifetime = 45,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        UseGravity = false,
+        VelocityAlign = false,
+    },
+}

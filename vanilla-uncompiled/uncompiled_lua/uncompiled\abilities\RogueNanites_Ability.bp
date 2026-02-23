@@ -1,0 +1,20 @@
+AbilityBlueprint {
+    ActivationConditions = {
+		{
+			ConditionType = 'EAACT_Resource',
+		},
+	},
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0065>Rogue Nanites',
+    Cooldown = 45,
+    InitiallyEnabled = false,
+	RemoveBuffsOnDeactivate = false,
+	Resource = {
+		OnActivate = {
+			SourceType = 'Energy',
+			SourceAmount = 750,
+		},
+	},
+	RunScript = 'OnRogueNaniteActivate',
+	OrderBitmapId = 'roguenanites',
+}

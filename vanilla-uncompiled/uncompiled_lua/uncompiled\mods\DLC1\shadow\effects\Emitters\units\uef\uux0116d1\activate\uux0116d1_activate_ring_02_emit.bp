@@ -1,0 +1,54 @@
+EmitterBlueprint {
+	BlueprintId = 'uux0116d1_activate_ring_02',
+	Lifetime = 3.00,
+	Repeattime = 3.00,
+	Blendmode = 5.00,
+	Flat = true,
+	LODCutoff = -1.00,
+	LowFidelity = false,
+	MedFidelity = false,
+	Texture = [[/textures/particles/ring/rn_0021_44.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0115_white_premod.dds]],
+	EmitRateCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.8000,y=9.0000,z=0.0000 },
+			{ x=1.0000,y=20.0000,z=0.0000 },
+			{ x=1.8000,y=20.0000,z=0.0000 },
+			{ x=2.0000,y=40.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=10.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=0.8000,y=70.0000,z=0.0000 },
+			{ x=1.0000,y=60.0000,z=0.0000 },
+			{ x=1.7098,y=60.6061,z=0.0000 },
+			{ x=2.0000,y=60.0000,z=0.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 3.0000,
+		Keys = {
+			{ x=1.5000,y=180.0000,z=360.0000 },
+		},
+	},
+}

@@ -1,0 +1,81 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/ILLUMINATE/TacticalMissile/snd_Illuminate_TacticalMissile_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/ILLUMINATE/TacticalMissile/snd_Illuminate_TacticalMissile_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/ILLUMINATE/TacticalMissile/snd_Illuminate_TacticalMissile_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+        'TACTICAL',
+        'MISSILE',
+        'NOSPLASHDAMAGE',
+    },
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 6,
+        MaxHealth = 6,
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        StrategicIconSize = 3,
+        UniformScale = 0.05,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Illuminate_Missile02_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Illuminate_Missile02_Impact01',
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Medium01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Illuminate_Missile02_Impact01',
+            },
+            Unit = {
+                Template = 'Illuminate_Missile02_Impact01',
+            },
+            Water = {
+                Scale = 1.4,
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Illuminate_Missile02_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Missile',
+        EntityCategory = {
+            'ILLUMINATE',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+            'TACTICAL',
+            'MISSILE',
+            'NOSPLASHDAMAGE',
+        },
+        Faction = 'Illuminate',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 3,
+        InitialSpeed = 3,
+        MaxSpeed = 12,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = true,
+        TrackTargetGround = true,
+        TurnRate = 4,
+        UseGravity = false,
+        VelocityAlign = true,
+    },
+    SizeX = 2,
+}

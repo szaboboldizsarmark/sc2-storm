@@ -1,0 +1,66 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/ILLUMINATE/Laser/snd_Illuminate_Laser_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/ILLUMINATE/Laser/snd_Illuminate_Laser_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/ILLUMINATE/Laser/snd_Illuminate_Laser_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Display = {
+        StrategicIconSize = 2,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Cybran_Laser01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Cybran_Laser01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Cybran_Laser01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'Cybran_Laser01_Impact01',
+                TrajectoryAligned = true,
+            },
+            UnitAir = {
+                Template = 'Cybran_Laser01_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Cybran_Laser01_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        EntityCategory = {
+            'ILLUMINATE',
+            'PROJECTILE',
+            'DIRECTFIRE',
+        },
+        Faction = 'Illuminate',
+        Weapon = 'Disintegrator Pulse Laser',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        InitialSpeed = 15,
+        ProjectileLifetime = 1.5,
+        UseGravity = true,
+    },
+}

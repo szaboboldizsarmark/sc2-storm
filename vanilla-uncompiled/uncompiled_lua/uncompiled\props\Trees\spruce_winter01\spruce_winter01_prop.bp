@@ -1,0 +1,109 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    MeshName = '/Props/Trees/spruce01/spruce01_lod0.scm',
+					LODCutoff = 100,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Props/Trees/spruce_winter01/sprucebranches_winter01_Diffuse.dds',
+                                    MaskName = '/Props/Trees/spruce01/sprucebranches01_Mask.dds',
+                                    NormalName = '/Props/Trees/spruce01/sprucebranches01_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, wind_sway = 15, leaf_sway = 3, alpha_test = 128',
+                                },
+                                {
+                                    DiffuseName = '/Props/Trees/spruce01/sprucetrunk01_Diffuse.dds',
+                                    MaskName = '/Props/Trees/spruce01/sprucetrunk01_Mask.dds',
+                                    NormalName = '/Props/Trees/spruce01/sprucetrunk01_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, wind_sway = 15, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+				{
+                    MeshName = '/Props/Trees/spruce01/spruce01_lod1.scm',
+					LODCutoff = 200,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Props/Trees/spruce_winter01/sprucebranches_winter01_Diffuse.dds',
+                                    MaskName = '/Props/Trees/spruce01/sprucebranches01_Mask.dds',
+                                    NormalName = '/Props/Trees/spruce01/sprucebranches01_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, wind_sway = 15, leaf_sway = 3, alpha_test = 128',
+                                },
+                                {
+                                    DiffuseName = '/Props/Trees/spruce01/sprucetrunk01_Diffuse.dds',
+                                    MaskName = '/Props/Trees/spruce01/sprucetrunk01_Mask.dds',
+                                    NormalName = '/Props/Trees/spruce01/sprucetrunk01_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, wind_sway = 15, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    MeshName = '/Props/Trees/spruce01/spruce01_lod1.scm',
+					LODCutoff = 400,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Props/Trees/spruce_winter01/sprucebranches_winter01_Diffuse.dds',
+                                    MaskName = '/Props/Trees/spruce01/sprucebranches01_Mask.dds',
+                                    NormalName = '/Props/Trees/spruce01/sprucebranches01_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, wind_sway = 15, leaf_sway = 3, alpha_test = 128',
+                                },
+                                {
+                                    DiffuseName = '/Props/Trees/spruce01/sprucetrunk01_Diffuse.dds',
+                                    MaskName = '/Props/Trees/spruce01/sprucetrunk01_Mask.dds',
+                                    NormalName = '/Props/Trees/spruce01/sprucetrunk01_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, wind_sway = 15, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+                {
+                    MeshName = '/Props/Trees/spruce01/spruce01_lod3.scm',
+					LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/Props/Trees/spruce_winter01/sprucecard_winter01_Diffuse.dds',
+                                    MaskName = '/Props/Trees/spruce01/sprucecard01_Mask.dds',
+                                    NormalName = '/Props/Trees/spruce01/sprucecard01_Normal.dds',
+                                    RampName = '/textures/Units/Shared/Ramps/UEF_Ramp01.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, wind_sway = 15, leaf_sway = 3, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.3,
+    },
+    Interface = {
+        HelpText = 'Douglas01',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Tree',
+    ScriptModule = '/lua/proptree.lua',
+    SizeX = 1,
+    SizeY = 1,
+    SizeZ = 1,
+}

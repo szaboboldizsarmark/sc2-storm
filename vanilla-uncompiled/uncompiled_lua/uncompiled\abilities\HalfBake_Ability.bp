@@ -1,0 +1,13 @@
+AbilityBlueprint {
+	ActivateOnBuildProgress = 0.5,
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_BuildProgress',
+		},
+	},
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0046>Launch Half-Baked',
+	--RunScript = 'OnBakeUnit',
+	ScriptModule = '/abilities/HalfBake_Ability.lua',
+	OrderBitmapId = 'halfbaked',
+}

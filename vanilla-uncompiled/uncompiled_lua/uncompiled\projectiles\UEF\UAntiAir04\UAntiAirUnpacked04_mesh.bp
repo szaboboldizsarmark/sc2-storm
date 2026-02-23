@@ -1,0 +1,10 @@
+MeshBlueprint {
+    LODs = {
+        {
+            MeshName = '/projectiles/UEF/UAntiAir01/UAntiAirUnpacked01_lod0.scm',
+            DiffuseName = '/projectiles/UEF/UAntiAir01/UAntiAirUnpacked01_albedo.dds',
+            ShaderName = 'TMeshAlpha',
+            LODCutoff = 150,
+        },
+    },
+}

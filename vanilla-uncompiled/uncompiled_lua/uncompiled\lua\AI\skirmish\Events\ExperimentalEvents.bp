@@ -1,0 +1,425 @@
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Experimental research unlocked - Mass',
+    ResponseType = 'ChangeSpending',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+		'Land Archetype Response',
+		'Balanced Archetype Response',
+		'Air Archetype Response',
+		'Naval Archetype Response',
+    },
+    ResponseData = {
+        'Experimentals',
+        0.30,
+        'MASS',
+        'Percent',
+    },
+    Events = {
+        {
+            EventType = 'ResearchUnlocked',
+            EventStrings = {
+                'CAU_GIANTTRANSPORT',
+                'CAU_SOULRIPPERII',
+                'CBU_UNITMAGNET', -- unit magnet is more defensive and we don't need a million
+                'CBU_PROTOBRAINCOMPLEX',
+                'CLU_BOMBBOUNCER',
+                'CLU_CREX',
+                'CLU_MEGALITHII',
+                'CSU_KRAKKEN',
+                'IAU_CZAR',
+                'IBU_SPACETEMPLE', -- dont need many of these
+                'IBU_LOYALTYGUN', -- defensive
+                'ILU_AIRNOMO',
+                'ILU_PULINSMASH',
+                'ILU_UNIVERSALCOLOSSUS',
+                'ILU_URCHINOW',
+                'ILU_WILFINDJA',
+                'UAU_AC1000TERROR',
+                'UAU_AIRFORTRESS',
+                'UAU_C230STARKING',
+                'UBU_DISRUPTORSTATION',
+                'UBU_NOAHUNITCANNON',
+                'ULU_FATBOY',
+                'ULU_KINGKRIPTOR',
+                'USU_ATLANTIS',
+				'CBU_MISSILELAUNCHDEFENSE',
+                'UBU_ICBMLAUNCHFACILITY',
+                'IBU_ICBMLAUNCHFACILITY',
+				'IBU_TML',
+				'UBU_FORTIFIEDARTILLERY',
+				'CBU_LONGRANGEARTILLERY',
+				'UBU_LONGRANGEARTILLERY',
+            },
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Experimental research unlocked - Energy',
+    ResponseType = 'ChangeSpending',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+		'Land Archetype Response',
+		'Balanced Archetype Response',
+		'Air Archetype Response',
+		'Naval Archetype Response',
+    },
+    ResponseData = {
+        'Experimentals',
+        0.30,
+        'ENERGY',
+        'Percent',
+    },
+    Events = {
+        {
+            EventType = 'ResearchUnlocked',
+            EventStrings = {
+                'CAU_GIANTTRANSPORT',
+                'CAU_SOULRIPPERII',
+                'CBU_UNITMAGNET', -- unit magnet is more defensive and we don't need a million
+                'CBU_PROTOBRAINCOMPLEX',
+                'CLU_BOMBBOUNCER',
+                'CLU_CREX',
+                'CLU_MEGALITHII',
+                'CSU_KRAKKEN',
+                'IAU_CZAR',
+                'IBU_SPACETEMPLE', -- dont need many of these
+                'IBU_LOYALTYGUN', -- defensive
+                'ILU_AIRNOMO',
+                'ILU_PULINSMASH',
+                'ILU_UNIVERSALCOLOSSUS',
+                'ILU_URCHINOW',
+                'ILU_WILFINDJA',
+                'UAU_AC1000TERROR',
+                'UAU_AIRFORTRESS',
+                'UAU_C230STARKING',
+                'UBU_DISRUPTORSTATION',
+                'UBU_NOAHUNITCANNON',
+                'ULU_FATBOY',
+                'ULU_KINGKRIPTOR',
+                'USU_ATLANTIS',
+				'CBU_MISSILELAUNCHDEFENSE',
+                'UBU_ICBMLAUNCHFACILITY',
+                'IBU_ICBMLAUNCHFACILITY',
+				'IBU_TML',
+				'UBU_FORTIFIEDARTILLERY',
+				'CBU_LONGRANGEARTILLERY',
+				'UBU_LONGRANGEARTILLERY',
+            },
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Experimental research unlocked - Mass - Turtle',
+    ResponseType = 'ChangeSpending',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+        'Turtle Archetype Response',
+    },
+    ResponseData = {
+        'Experimentals',
+        0.35,
+        'MASS',
+        'Percent',
+    },
+    Events = {
+        {
+            EventType = 'ResearchUnlocked',
+            EventStrings = {
+                'CAU_GIANTTRANSPORT',
+                'CAU_SOULRIPPERII',
+                'CBU_UNITMAGNET', -- unit magnet is more defensive and we don't need a million
+                'CBU_PROTOBRAINCOMPLEX',
+                'CLU_BOMBBOUNCER',
+                'CLU_CREX',
+                'CLU_MEGALITHII',
+                'CSU_KRAKKEN',
+                'IAU_CZAR',
+                'IBU_SPACETEMPLE', -- dont need many of these
+                'IBU_LOYALTYGUN', -- defensive
+                'ILU_AIRNOMO',
+                'ILU_PULINSMASH',
+                'ILU_UNIVERSALCOLOSSUS',
+                'ILU_URCHINOW',
+                'ILU_WILFINDJA',
+                'UAU_AC1000TERROR',
+                'UAU_AIRFORTRESS',
+                'UAU_C230STARKING',
+                'UBU_DISRUPTORSTATION',
+                'UBU_NOAHUNITCANNON',
+                'ULU_FATBOY',
+                'ULU_KINGKRIPTOR',
+                'USU_ATLANTIS',
+				'CBU_MISSILELAUNCHDEFENSE',
+                'UBU_ICBMLAUNCHFACILITY',
+                'IBU_ICBMLAUNCHFACILITY',
+				'IBU_TML',
+				'UBU_FORTIFIEDARTILLERY',
+				'CBU_LONGRANGEARTILLERY',
+				'UBU_LONGRANGEARTILLERY',
+            },
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Experimental research unlocked - Energy - Turtle',
+    ResponseType = 'ChangeSpending',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+        'Turtle Archetype Response',
+    },
+    ResponseData = {
+        'Experimentals',
+        0.35,
+        'ENERGY',
+        'Percent',
+    },
+    Events = {
+        {
+            EventType = 'ResearchUnlocked',
+            EventStrings = {
+                'CAU_GIANTTRANSPORT',
+                'CAU_SOULRIPPERII',
+                'CBU_UNITMAGNET', -- unit magnet is more defensive and we don't need a million
+                'CBU_PROTOBRAINCOMPLEX',
+                'CLU_BOMBBOUNCER',
+                'CLU_CREX',
+                'CLU_MEGALITHII',
+                'CSU_KRAKKEN',
+                'IAU_CZAR',
+                'IBU_SPACETEMPLE', -- dont need many of these
+                'IBU_LOYALTYGUN', -- defensive
+                'ILU_AIRNOMO',
+                'ILU_PULINSMASH',
+                'ILU_UNIVERSALCOLOSSUS',
+                'ILU_URCHINOW',
+                'ILU_WILFINDJA',
+                'UAU_AC1000TERROR',
+                'UAU_AIRFORTRESS',
+                'UAU_C230STARKING',
+                'UBU_DISRUPTORSTATION',
+                'UBU_NOAHUNITCANNON',
+                'ULU_FATBOY',
+                'ULU_KINGKRIPTOR',
+                'USU_ATLANTIS',
+				'CBU_MISSILELAUNCHDEFENSE',
+                'UBU_ICBMLAUNCHFACILITY',
+                'IBU_ICBMLAUNCHFACILITY',
+				'IBU_TML',
+				'UBU_FORTIFIEDARTILLERY',
+				'CBU_LONGRANGEARTILLERY',
+				'UBU_LONGRANGEARTILLERY',
+            },
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Experimental research unlocked - Mass - Rush',
+    ResponseType = 'ChangeSpending',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+        'Rush Archetype Response',
+    },
+    ResponseData = {
+        'Experimentals',
+        0.25,
+        'MASS',
+        'Percent',
+    },
+    Events = {
+        {
+            EventType = 'ResearchUnlocked',
+            EventStrings = {
+                'CAU_GIANTTRANSPORT',
+                'CAU_SOULRIPPERII',
+                'CBU_UNITMAGNET', -- unit magnet is more defensive and we don't need a million
+                'CBU_PROTOBRAINCOMPLEX',
+                'CLU_BOMBBOUNCER',
+                'CLU_CREX',
+                'CLU_MEGALITHII',
+                'CSU_KRAKKEN',
+                'IAU_CZAR',
+                'IBU_SPACETEMPLE', -- dont need many of these
+                'IBU_LOYALTYGUN', -- defensive
+                'ILU_AIRNOMO',
+                'ILU_PULINSMASH',
+                'ILU_UNIVERSALCOLOSSUS',
+                'ILU_URCHINOW',
+                'ILU_WILFINDJA',
+                'UAU_AC1000TERROR',
+                'UAU_AIRFORTRESS',
+                'UAU_C230STARKING',
+                'UBU_DISRUPTORSTATION',
+                'UBU_NOAHUNITCANNON',
+                'ULU_FATBOY',
+                'ULU_KINGKRIPTOR',
+                'USU_ATLANTIS',
+				'CBU_MISSILELAUNCHDEFENSE',
+                'UBU_ICBMLAUNCHFACILITY',
+                'IBU_ICBMLAUNCHFACILITY',
+				'IBU_TML',
+				'UBU_FORTIFIEDARTILLERY',
+				'CBU_LONGRANGEARTILLERY',
+				'UBU_LONGRANGEARTILLERY',
+            },
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Experimental research unlocked - Energy - Rush',
+    ResponseType = 'ChangeSpending',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+        'Rush Archetype Response',
+    },
+    ResponseData = {
+        'Experimentals',
+        0.25,
+        'ENERGY',
+        'Percent',
+    },
+    Events = {
+        {
+            EventType = 'ResearchUnlocked',
+            EventStrings = {
+                'CAU_GIANTTRANSPORT',
+                'CAU_SOULRIPPERII',
+                'CBU_UNITMAGNET', -- unit magnet is more defensive and we don't need a million
+                'CBU_PROTOBRAINCOMPLEX',
+                'CLU_BOMBBOUNCER',
+                'CLU_CREX',
+                'CLU_MEGALITHII',
+                'CSU_KRAKKEN',
+                'IAU_CZAR',
+                'IBU_SPACETEMPLE', -- dont need many of these
+                'IBU_LOYALTYGUN', -- defensive
+                'ILU_AIRNOMO',
+                'ILU_PULINSMASH',
+                'ILU_UNIVERSALCOLOSSUS',
+                'ILU_URCHINOW',
+                'ILU_WILFINDJA',
+                'UAU_AC1000TERROR',
+                'UAU_AIRFORTRESS',
+                'UAU_C230STARKING',
+                'UBU_DISRUPTORSTATION',
+                'UBU_NOAHUNITCANNON',
+                'ULU_FATBOY',
+                'ULU_KINGKRIPTOR',
+                'USU_ATLANTIS',
+				'CBU_MISSILELAUNCHDEFENSE',
+                'UBU_ICBMLAUNCHFACILITY',
+                'IBU_ICBMLAUNCHFACILITY',
+				'IBU_TML',
+				'UBU_FORTIFIEDARTILLERY',
+				'CBU_LONGRANGEARTILLERY',
+				'UBU_LONGRANGEARTILLERY',
+            },
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Artillery research unlocked - Energy',
+    ResponseType = 'ChangeSpending',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'Artillery',
+        0.05,
+        'ENERGY',
+        'Percent',
+    },
+    Events = {
+        {
+            EventType = 'ResearchUnlocked',
+            EventStrings = {
+				'IBU_TML',
+				'UBU_FORTIFIEDARTILLERY',
+            },
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Artillery research unlocked - Mass',
+    ResponseType = 'ChangeSpending',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'Artillery',
+        0.05,
+        'MASS',
+        'Percent',
+    },
+    Events = {
+        {
+            EventType = 'ResearchUnlocked',
+            EventStrings = {
+				'IBU_TML',
+				'UBU_FORTIFIEDARTILLERY',
+            },
+        },
+    },
+}
+
+--[[SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Nuke Launcher complete - Energy percent',
+    ResponseType = 'ChangeSpending',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'Misc',
+        0.10,
+        'ENERGY',
+        'Percent',
+    },
+    Events = {
+        {
+            EventType = 'UnitConstructed',
+            CategoryString = 'NUKE',
+            Minimum = 1,
+        },
+    },
+}
+
+SkirmishResponseBlueprint {
+    AnnounceResponse = false,
+    BlueprintId = 'Nuke Launcher complete - Mass percent',
+    ResponseType = 'ChangeSpending',
+    ResponseCountMaximum = 1,
+    ResponseGroups = {
+        'Default Archetype Response',
+    },
+    ResponseData = {
+        'Misc',
+        0.10,
+        'MASS',
+        'Percent',
+    },
+    Events = {
+        {
+            EventType = 'UnitConstructed',
+            CategoryString = 'NUKE',
+            Minimum = 1,
+        },
+    },
+}]]--

@@ -1,0 +1,68 @@
+EmitterBlueprint {
+	BlueprintId = 'w_c_art02_l_12_aftershock',
+	Lifetime = 10.00,
+	Repeattime = 10.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 0.00,
+	TextureStripcount = 4.00,
+	LowFidelity = false,
+	MedFidelity = false,
+	Texture = [[/textures/particles/electricity/el_0005_46.dds]],
+	RampTexture = [[/textures/particles/ramp_red_02.dds]],
+	EmitRateCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=0.2000,y=2.0000,z=1.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=1.0000,z=0.5000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.0000,z=0.5000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0130,y=0.0000,z=0.5000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=0.0000,y=2.0000,z=0.4000 },
+			{ x=10.0000,y=-1.0000,z=0.4000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=1.2000,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=0.9000,z=0.4000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0130,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 10.0000,
+		Keys = {
+			{ x=5.0000,y=2.0000,z=4.0000 },
+		},
+	},
+}

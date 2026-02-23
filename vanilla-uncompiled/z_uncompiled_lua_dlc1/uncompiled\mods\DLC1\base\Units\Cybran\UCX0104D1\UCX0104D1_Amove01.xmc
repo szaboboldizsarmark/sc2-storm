@@ -1,0 +1,1646 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<PUPPETSHOP_CLIP ver="1.01">
+  <INFORMATION>
+    <URL>www.Puppetshop.com</URL>
+    <FILE_CREATOR>pzimmer</FILE_CREATOR>
+    <CREATIONDATE>6/16/2010 5:31:30 PM</CREATIONDATE>
+    <PUPPET_SIZE>1.0</PUPPET_SIZE>
+    <FRAMES>35.0</FRAMES>
+    <LAYER_COUNT>1</LAYER_COUNT>
+  </INFORMATION>
+  <ANIMNODE ID="1" NAME="UCX0104D1">
+    <BASE_POSE>
+      <POSITION>[0,0,0]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="2" NAME="Root">
+    <BASE_POSE>
+      <POSITION>[0,1.59529e-006,17.5041]</POSITION>
+      <ROTATION>(quat -0.5 0.5 -0.5 0.5)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.00338927, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(34.0, 0.00338927, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 9.60364, 0.0, 0.0, 0.154754, 0.151447, #custom, #custom), #(6.0, 9.11348, 0.0, 0.0, 0.589547, 0.640796, #custom, #custom), #(11.0, 9.60364, 0.0, 0.0, 0.154754, 0.151447, #custom, #custom), #(17.0, 9.11348, 0.0, 0.0, 0.589547, 0.640796, #custom, #custom), #(23.0, 9.60364, 0.0, 0.0, 0.154754, 0.151447, #custom, #custom), #(29.0, 9.11348, 0.0, 0.0, 0.589547, 0.640796, #custom, #custom), #(34.0, 9.60364, 0.0, 0.0, 0.154754, 0.151447, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -0.184911, 0.0, -0.0994015, 0.859892, 0.3333, #custom, #custom), #(9.0, -3.01222, 0.0, 0.0, 0.3333, 0.106249, #custom, #custom), #(27.0, 2.99694, 0.0, 0.0, 0.3333, 0.199708, #custom, #custom), #(34.0, -0.184911, 0.126619, 0.00011566, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -9.99999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -9.99999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="3" NAME="sat_arm">
+    <BASE_POSE>
+      <POSITION>[28.2901,0,-8.00513]</POSITION>
+      <ROTATION>(quat 0 -0.384917 0 0.922951)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.90735e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -1.90735e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 9.53674e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 9.53674e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -0.277169, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -0.277169, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="4" NAME="sat_head">
+    <BASE_POSE>
+      <POSITION>[9.73,0,0]</POSITION>
+      <ROTATION>(quat 0 0.385505 0 0.922706)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.37487e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.37487e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 7.72972e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 7.72972e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.70755e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.70755e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.63555e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 4.63555e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="5" NAME="sat_spin">
+    <BASE_POSE>
+      <POSITION>[0.814611,0,-0.590071]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.6226e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.6226e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.84774e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -1.84774e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="6" NAME="sat_finger4_01">
+    <BASE_POSE>
+      <POSITION>[2.54977,0,6.52784]</POSITION>
+      <ROTATION>(quat 0 0 0.707107 0.707107)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.86102e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.86102e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -8.20728e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -8.20728e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.38419e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -2.38419e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 5.1093e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 5.1093e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.61354e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 4.61354e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="7" NAME="sat_finger4_02">
+    <BASE_POSE>
+      <POSITION>[0,0,10.96]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.24216e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.24216e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -7.62939e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -7.62939e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -6.67572e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -6.67572e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.28372e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.28372e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 7.614e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 7.614e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="8" NAME="sat_finger1_01">
+    <BASE_POSE>
+      <POSITION>[2.54977,8.75406e-007,-6.53567]</POSITION>
+      <ROTATION>(quat 0.707107 0.707107 0 0)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -9.53674e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -9.53674e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -8.27442e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -8.27442e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.76837e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 4.76837e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.6301e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 4.6301e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.36604e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.36604e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="9" NAME="sat_finger1_02">
+    <BASE_POSE>
+      <POSITION>[0,0,10.96]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -6.37956e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -6.37956e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -7.62939e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -7.62939e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.14441e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -1.14441e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 8.59036e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 8.59036e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="10" NAME="sat_finger2_01">
+    <BASE_POSE>
+      <POSITION>[2.54977,-5.57897,-3.40415]</POSITION>
+      <ROTATION>(quat 0.612372 0.612372 -0.353553 -0.353554)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 6.91414e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 6.91414e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -4.76837e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -4.76837e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.86102e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.86102e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.02453e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.02453e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.36604e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.36604e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="11" NAME="sat_finger2_02">
+    <BASE_POSE>
+      <POSITION>[0,0,10.96]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.76837e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 4.76837e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.28882e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -2.28882e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 3.8147e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 3.8147e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 9.3715e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 9.3715e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 7.82642e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 7.82642e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 6.51002e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 6.51002e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="12" NAME="sat_finger3_01">
+    <BASE_POSE>
+      <POSITION>[2.54977,-5.61849,3.33759]</POSITION>
+      <ROTATION>(quat -0.353553 -0.353553 0.612373 0.612372)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -7.15256e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -7.15256e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.76837e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 4.76837e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -7.15256e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -7.15256e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.70755e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.70755e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.19528e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.19528e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="13" NAME="sat_finger3_02">
+    <BASE_POSE>
+      <POSITION>[0,0,10.96]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.86102e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -2.86102e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.07322e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.07322e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.23182e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 4.23182e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="14" NAME="sat_finger5_01">
+    <BASE_POSE>
+      <POSITION>[2.53702,5.64467,3.26197]</POSITION>
+      <ROTATION>(quat 0.353554 0.353553 0.612372 0.612372)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 6.4373e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 6.4373e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.90735e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -1.90735e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -4.76837e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -4.76837e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.70754e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.70754e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="15" NAME="sat_finger5_02">
+    <BASE_POSE>
+      <POSITION>[0,0,10.96]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.90735e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -1.90735e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -7.62939e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -7.62939e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 7.62939e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 7.62939e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.16327e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.16327e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.1411e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.1411e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="16" NAME="sat_finger6_01">
+    <BASE_POSE>
+      <POSITION>[2.53703,5.65104,-3.27031]</POSITION>
+      <ROTATION>(quat 0.612373 0.612372 0.353554 0.353553)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.6226e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.6226e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.90735e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -1.90735e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.38419e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -2.38419e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.02453e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.02453e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="17" NAME="sat_finger6_02">
+    <BASE_POSE>
+      <POSITION>[0,0,10.96]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.90735e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -1.90735e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 5.72205e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 5.72205e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 5.67626e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 5.67626e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 8.32429e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 8.32429e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="18" NAME="thigh_fr-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[-1.75962,1.8384,4.59436]</POSITION>
+      <ROTATION>(quat 0.856607 0.354817 0.143355 0.346091)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.90735e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 1.90735e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 1.90735e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 1.90735e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 1.90735e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 1.90735e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 1.90735e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 3.57628e-007, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 3.57628e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 3.57628e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 3.57628e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 3.57628e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 3.57628e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 3.57628e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.38419e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 2.38419e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 2.38419e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 2.38419e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 2.38419e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 2.38419e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 2.38419e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 6.83019e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 6.83019e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 6.83019e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 6.83019e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 6.83019e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 6.83019e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 6.83019e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.39057e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 2.39057e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 2.39057e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 2.39057e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 2.39057e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 2.39057e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 2.39057e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.70755e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 1.70755e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 1.70755e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 1.70755e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 1.70755e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 1.70755e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 1.70755e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="19" NAME="knee_fr-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[11.03,-4.76837e-006,-4.76837e-007]</POSITION>
+      <ROTATION>(quat 0 0 -0.258819 0.965926)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 3.62725e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 3.62725e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 3.62725e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 3.62725e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 3.62725e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 3.62725e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 3.62725e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 7.59552e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 7.59552e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 7.59552e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 7.59552e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 7.59552e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 7.59552e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 7.59552e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="20" NAME="foot_fr-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[10.07,-1.90735e-006,4.05312e-006]</POSITION>
+      <ROTATION>(quat 0 0 0.965926 0.258819)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 7.93062e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 7.93062e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 7.93062e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 7.93062e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 7.93062e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 7.93062e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 7.93062e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(5.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(6.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(32.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="21" NAME="thigh_fr-FootCtrl">
+    <BASE_POSE>
+      <POSITION>[-15.745,-18.0238,-0.0439949]</POSITION>
+      <ROTATION>(quat 4.05781e-007 3.45773e-007 0.390731 0.920505)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.408064, -0.00419679, 0.00419679, 0.333333, 0.3333, #custom, #custom), #(15.0, 0.599379, 0.0, 0.0, 0.3333, 0.3333, #custom, #auto), #(17.0, 1.77198, -0.159626, 0.159626, 0.3333, 0.3333, #auto, #auto), #(22.0, 6.55877, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 6.28062, 0.134326, -0.134326, 0.3333, 0.3333, #auto, #auto), #(26.0, 3.45609, 0.157962, -0.157962, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.383375, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.408064, -0.00213161, 0.00213161, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -15.8735, 0.0, 0.0, 0.3333, 4.16667e-006, #custom, #custom), #(15.0, 1.27283, -0.415264, 0.000662286, 0.3333, 0.434504, #linear, #custom), #(30.0, -20.4459, 0.0, 0.0, 0.3333, 3.28947e-006, #custom, #custom), #(34.0, -15.8735, 0.0, 0.0, 1.5625e-005, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.52588e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(15.0, 1.52588e-005, 0.0, 0.0415252, 0.3333, 0.319774, #custom, #custom), #(17.0, 1.07416, -0.144304, 0.144304, 0.3333, 0.3333, #auto, #auto), #(22.0, 5.38737, -0.151139, 0.151139, 0.3333, 0.3333, #auto, #auto), #(23.0, 5.91062, -0.0543593, 0.0543593, 0.3333, 0.3333, #auto, #auto), #(26.0, 6.54704, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 1.52588e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 1.52588e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -8.19623e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(15.0, -8.19623e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -8.19623e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(22.0, -8.19623e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, -8.19623e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, -8.19623e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, -8.19623e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -8.19623e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="22" NAME="thigh_fr-Swivel">
+    <BASE_POSE>
+      <POSITION>[-26.0947,-28.012,8.43307]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -10.0165, 0.0, 0.0, 0.3333, 4.16667e-006, #custom, #custom), #(15.0, -30.3823, 0.0, 0.0, 4.16667e-006, 0.3333, #custom, #custom), #(23.0, 2.26687, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -10.0165, 0.0, 0.0, 1.5625e-005, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -49.2392, 0.0, 0.0, 0.3333, 4.16667e-006, #custom, #custom), #(15.0, -27.9227, 0.0, 0.0, 4.16667e-006, 0.3333, #custom, #custom), #(30.0, -54.9236, 0.0, 0.0, 0.3333, 1.5625e-005, #custom, #custom), #(34.0, -49.2392, 0.0, 0.0, 1.5625e-005, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 3.20937, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(15.0, 3.20938, -2.56572e-007, 2.56572e-007, 0.3333, 0.3333, #auto, #auto), #(23.0, 13.3816, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 3.20937, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 3.20937, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.24662e-007, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(15.0, 1.24662e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 1.24662e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(22.0, 1.24662e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 1.24662e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 1.24662e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 1.24662e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 1.24662e-007, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 6.53671e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(15.0, 6.53671e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 6.53671e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(22.0, 6.51003e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 6.37662e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 6.72347e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 6.53671e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 6.53671e-006, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 99.9999, -7.45058e-007, 7.45058e-007, 0.333333, 0.333333, #auto, #auto), #(23.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 99.9999, 6.38621e-007, -6.38621e-007, 0.333333, 0.333333, #auto, #auto), #(30.0, 99.9999, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 99.9999, 6.38621e-007, -6.38621e-007, 0.333333, 0.333333, #auto, #auto), #(30.0, 99.9999, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(15.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(22.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="23" NAME="thigh_cr-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[-1.75962,1.8384,0.472767]</POSITION>
+      <ROTATION>(quat 0.936637 0.350193 0.00305527 0.00817373)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 3.8147e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, 3.8147e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, 3.8147e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 3.8147e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, 3.8147e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 3.8147e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 3.8147e-006, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.19209e-007, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, -1.19209e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, -1.19209e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, -1.19209e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, -1.19209e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, -1.19209e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -1.19209e-007, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.49012e-007, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, -1.49012e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, -1.49012e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, -1.49012e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, -1.49012e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, -1.49012e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -1.49012e-007, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.72243e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, 4.72243e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, 4.72243e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 4.72243e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, 4.72243e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 4.72243e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 4.72243e-006, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 3.41509e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, 3.41509e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, 3.41509e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 3.41509e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, 3.41509e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 3.41509e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 3.41509e-006, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="24" NAME="knee_cr-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[11.03,-2.86102e-006,-1.43051e-006]</POSITION>
+      <ROTATION>(quat 0 0 -0.224951 0.97437)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 3.59022e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, 3.59022e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, 3.59022e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 3.59022e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, 3.59022e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 3.59022e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 3.59022e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.09811e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, 4.09811e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, 4.09811e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 4.09811e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, 4.09811e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 4.09811e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 4.09811e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="25" NAME="foot_cr-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[10.07,-9.53674e-007,2.5928e-006]</POSITION>
+      <ROTATION>(quat 0.0088745 0.000231023 0.968148 0.250222)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.22763e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, 1.22763e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, 1.22763e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 1.22763e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, 1.22763e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 1.22763e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 1.22763e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(20.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(28.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="26" NAME="thigh_cr-FootCtrl">
+    <BASE_POSE>
+      <POSITION>[-20.119,-0.188194,-0.0550079]</POSITION>
+      <ROTATION>(quat 0 0 0.707107 0.707107)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -12.8602, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(2.0, -12.8271, -0.00679474, 0.00679474, 0.3333, 0.3333, #auto, #auto), #(3.0, -11.9865, -0.283575, 0.283575, 0.3333, 0.3333, #auto, #auto), #(9.0, 2.31588, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, -5.37801, 0.359976, -0.359976, 0.3333, 0.3333, #auto, #auto), #(17.0, -13.0431, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -12.8602, -0.00213154, 0.00213154, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.89988, 0.0, 0.0, 0.3333, 3.125e-005, #custom, #custom), #(2.0, 7.18603, 0.0, 0.0, 3.28947e-006, 0.3333, #custom, #custom), #(17.0, -14.5327, 0.0, 0.0, 0.3333, 3.67647e-006, #custom, #custom), #(34.0, 4.89988, 0.0, 0.0, 3.67647e-006, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 7.62939e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(2.0, 7.62939e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(3.0, 7.62939e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 4.71204, -0.065138, 0.065138, 0.3333, 0.3333, #auto, #auto), #(13.0, 5.19304, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 7.62939e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 7.62939e-006, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(2.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(3.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -0.569747, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(2.0, -0.569747, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(3.0, -0.569747, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, -0.569747, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, -0.569747, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -0.569747, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -0.569747, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 1.11759e-006, -1.11759e-006, 0.333333, 0.333333, #custom, #custom), #(2.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 1.49012e-006, -1.49012e-006, 0.333333, 0.333333, #custom, #custom), #(2.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(2.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="27" NAME="thigh_cr-Swivel">
+    <BASE_POSE>
+      <POSITION>[-35.5176,-1.05361,9.90903]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -107.569, 0.0277506, -0.0277506, 0.333333, 0.3333, #custom, #custom), #(2.0, -107.709, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(3.0, -107.425, -0.0930908, 0.0930908, 0.3333, 0.3333, #auto, #auto), #(9.0, -97.6811, -0.339155, 0.339155, 0.3333, 0.3333, #auto, #auto), #(13.0, -89.3367, -0.287169, 0.287169, 0.3333, 0.3333, #auto, #auto), #(17.0, -85.4285, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -107.569, 0.017958, -0.017958, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 18.9939, -1.82882, 1.82882, 0.333333, 0.3333, #custom, #custom), #(2.0, 29.2612, 0.0, 0.0, 3.28947e-006, 0.3333, #custom, #custom), #(3.0, 28.0182, 0.407577, -0.407577, 0.3333, 0.3333, #auto, #auto), #(9.0, -14.6411, 1.48479, -1.48479, 0.3333, 0.3333, #auto, #auto), #(13.0, -51.1705, 1.25714, -1.25714, 0.3333, 0.3333, #auto, #auto), #(17.0, -68.2792, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 18.9939, -0.96257, 0.96257, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 52.7944, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(2.0, 52.7944, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(3.0, 52.7944, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 52.7944, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 52.7944, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 52.7944, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 52.7944, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.50688e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(2.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(3.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -0.569829, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(2.0, -0.569829, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(3.0, -0.569829, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(9.0, -0.569829, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, -0.569829, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -0.569829, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -0.569829, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 6.70552e-006, -6.70552e-006, 0.333333, 0.333333, #custom, #custom), #(2.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 99.9999, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 1.86265e-006, -1.86265e-006, 0.333333, 0.333333, #custom, #custom), #(2.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 7.45058e-006, -7.45058e-006, 0.333333, 0.333333, #custom, #custom), #(2.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 99.9999, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 99.9999, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(2.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(3.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(9.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="28" NAME="thigh_br-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[-1.75962,1.47332,-3.5427]</POSITION>
+      <ROTATION>(quat 0.850436 0.360987 -0.149527 -0.352262)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 9.53674e-007, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 9.53674e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 9.53674e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 9.53674e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 9.53674e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 9.53674e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -7.15256e-007, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, -7.15256e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, -7.15256e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -7.15256e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, -7.15256e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -7.15256e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -7.15256e-007, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, -7.15256e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, -7.15256e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -7.15256e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, -7.15256e-007, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -7.15256e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.92099e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 1.92099e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 1.92099e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 1.92099e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 1.92099e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 1.92099e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="29" NAME="knee_br-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[11.03,0,-4.76837e-007]</POSITION>
+      <ROTATION>(quat 0 0 -0.25038 0.968148)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.55955e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 2.55955e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 2.55955e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 2.55955e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 2.55955e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 2.55955e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 5.2934e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 5.2934e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 5.2934e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 5.2934e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 5.2934e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 5.2934e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="30" NAME="foot_br-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[10.07,-5.24521e-006,3.69549e-006]</POSITION>
+      <ROTATION>(quat -0.00790018 -0.00480976 0.961251 0.275519)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 9.81839e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 9.81839e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 9.81839e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 9.81839e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 9.81839e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 9.81839e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.63284e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 1.63284e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 1.63284e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 1.63284e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 1.63284e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 1.63284e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -5.46415e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, -5.46415e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, -5.46415e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -5.46415e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, -5.46415e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -5.46415e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9998, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 99.9998, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="31" NAME="thigh_br-FootCtrl">
+    <BASE_POSE>
+      <POSITION>[-15.8703,17.0742,-0.101406]</POSITION>
+      <ROTATION>(quat 0 0 0.92388 0.382683)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.26163, 0.257009, -0.257009, 0.333333, 0.3333, #custom, #custom), #(4.0, -6.85357, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -6.70578, -0.00213169, 0.00213169, 0.3333, 0.3333, #auto, #auto), #(23.0, -6.63756, -0.00555343, 0.00555343, 0.3333, 0.3333, #auto, #auto), #(30.0, 2.35911, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -2.26163, 0.215922, -0.215922, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.9171, 0.0, -0.188561, 0.3333, 0.185033, #custom, #custom), #(4.0, 0.237452, 0.0, 0.0, 0.3333, 3.28947e-006, #custom, #custom), #(23.0, 21.9568, 0.0, 0.0, 3.28947e-006, 0.3333, #custom, #custom), #(30.0, 8.49243, 0.32454, -0.32454, 0.3333, 0.3333, #auto, #auto), #(34.0, 2.9171, 0.142794, 0.0, 0.345937, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 8.18626, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 3.8147e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 7.43603, -0.10094, 0.10094, 0.3333, 0.3333, #auto, #auto), #(34.0, 8.18626, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.51912e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 2.51912e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 2.51912e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 2.51912e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 2.51912e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 2.51912e-006, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -0.569747, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, -0.569747, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -0.569747, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, -0.569747, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, -0.569747, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -0.569747, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="32" NAME="thigh_br-Swivel">
+    <BASE_POSE>
+      <POSITION>[-25.9179,26.8584,7.6323]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -23.0684, 0.44962, -0.44962, 0.333333, 0.3333, #custom, #custom), #(4.0, -27.8567, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -23.2982, -0.072876, 0.072876, 0.3333, 0.3333, #auto, #auto), #(23.0, -20.4719, -0.0731148, 0.0731148, 0.3333, 0.3333, #auto, #auto), #(30.0, -18.2289, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -23.0684, 0.225651, -0.225651, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 31.8799, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 19.8106, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 41.8815, -0.380589, 0.380589, 0.3333, 0.3333, #auto, #auto), #(23.0, 58.3769, 0.0, 0.0, 3.28947e-006, 0.3333, #custom, #custom), #(30.0, 49.1007, 0.451654, -0.451654, 0.3333, 0.3333, #auto, #auto), #(34.0, 31.8799, 0.686486, -0.686486, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 10.1695, -1.48315e-007, 1.48315e-007, 0.333333, 0.3333, #custom, #custom), #(4.0, 10.1695, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 10.1695, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 10.1695, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 10.1695, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 10.1695, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.50688e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -0.569829, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, -0.569829, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, -0.569829, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, -0.569829, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, -0.569829, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -0.569829, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 99.9999, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 99.9999, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 99.9999, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(4.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(17.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(23.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(30.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="33" NAME="thigh_fl-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[-1.75962,-1.8384,4.59436]</POSITION>
+      <ROTATION>(quat 0.346091 0.143355 0.354817 0.856607)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 9.53674e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 9.53674e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -5.96046e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -5.96046e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.43051e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.43051e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.06722e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.06722e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -5.46415e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -5.46415e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.79292e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.79292e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="34" NAME="knee_fl-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[11.03,-4.76837e-007,7.86781e-006]</POSITION>
+      <ROTATION>(quat 1.68587e-007 2.92002e-007 -0.258819 0.965926)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.3755e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.3755e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.26673e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 4.26673e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="35" NAME="foot_fl-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[10.07,-3.8147e-006,-2.14577e-006]</POSITION>
+      <ROTATION>(quat 0 -2.32463e-007 0.965926 0.258819)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.31235e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.31235e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.39057e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.39057e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="36" NAME="thigh_fl-FootCtrl">
+    <BASE_POSE>
+      <POSITION>[15.745,-18.0238,-0.0439835]</POSITION>
+      <ROTATION>(quat 6.35501e-007 -2.76774e-007 -0.390731 0.920505)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.96637, 0.0, -0.308183, 0.3333, 0.3333, #custom, #custom), #(5.0, -6.84527, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, -0.759952, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, -0.759952, 0.0, 0.0, 0.3333, 0.3333, #custom, #auto), #(34.0, -1.96637, 0.123873, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.431537, 0.108392, -0.108392, 0.3333, 0.333333, #custom, #custom), #(13.0, -20.5968, 0.0, 0.0, 0.3333, 3.28947e-006, #custom, #custom), #(32.0, 1.123, -0.521684, 0.000662286, 0.3333, 0.434504, #linear, #custom), #(34.0, 0.431537, 0.108392, -0.108392, 0.333333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.07414, 0.0, 0.221404, 0.3333, 0.3333, #custom, #custom), #(5.0, 5.38735, -0.114018, 0.114018, 0.333333, 0.333333, #auto, #auto), #(9.0, 6.54702, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, -3.8147e-006, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, -3.8147e-006, 0.0, 0.0415252, 0.3333, 0.319774, #custom, #custom), #(34.0, 1.07414, -0.110292, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 4.58378e-005, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(13.0, 4.58378e-005, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 4.58378e-005, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(34.0, 4.58378e-005, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.50427e-005, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(13.0, 1.50427e-005, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 1.50427e-005, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(34.0, 1.50427e-005, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -0.569747, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(13.0, -0.569747, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, -0.569747, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(34.0, -0.569747, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="37" NAME="thigh_fl-Swivel">
+    <BASE_POSE>
+      <POSITION>[26.0959,-28.0102,8.4308]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 20.0936, 0.0, -1.13628, 0.3333, 0.3333, #custom, #custom), #(6.0, -2.96375, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 3.76495, -0.665266, 0.25721, 0.3333, 0.3333, #linear, #linear), #(32.0, 29.8289, -0.25721, -0.912687, 0.3333, -1.0, #linear, #linear), #(34.0, 20.0936, 0.912687, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -29.7832, 0.207322, -0.207322, 0.3333, 0.333333, #custom, #custom), #(13.0, -55.2265, 0.0, 0.0, 0.3333, 3.28947e-006, #custom, #custom), #(32.0, -28.4835, 0.0, 0.0, 3.28947e-006, 0.3333, #custom, #custom), #(34.0, -29.7832, 0.207322, -0.207322, 0.333333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 6.23151, 0.0, 0.452426, 0.3333, 0.3333, #custom, #custom), #(6.0, 13.3839, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(13.0, 3.21162, 0.539538, 0.0, 0.3333, 0.3333, #linear, #linear), #(32.0, 3.21162, 0.0, 0.283114, 0.3333, -1.0, #linear, #linear), #(34.0, 6.23151, -0.283114, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(13.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.50688e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(13.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 2.50688e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -0.569829, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(13.0, -0.569829, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -0.569829, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 99.9999, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #custom, #custom), #(13.0, 0.0, 0.0, 0.0, 0.333333, 0.333333, #auto, #auto), #(32.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="38" NAME="thigh_cl-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[-1.75962,-1.8384,0.472767]</POSITION>
+      <ROTATION>(quat 0.00817369 0.00305503 0.350193 0.936637)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.90735e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.90735e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.86763e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.86763e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 3.95204e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 3.95204e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="39" NAME="knee_cl-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[11.03,-9.53674e-007,6.85453e-006]</POSITION>
+      <ROTATION>(quat 0 2.32308e-007 -0.224951 0.97437)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 8.92327e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 8.92327e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 3.24434e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 3.24434e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="40" NAME="foot_cl-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[10.07,-5.24521e-006,-2.65241e-006]</POSITION>
+      <ROTATION>(quat -0.00887433 -0.000230978 0.968148 0.250222)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.31268e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.31268e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="41" NAME="thigh_cl-FootCtrl">
+    <BASE_POSE>
+      <POSITION>[20.119,-0.188198,-0.0550117]</POSITION>
+      <ROTATION>(quat 0 -1.49012e-007 -0.707107 0.707107)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 12.9018, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(19.0, 12.9018, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, -2.33913, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 12.9018, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -14.8618, 0.0, 0.562328, 0.3333, 0.3333, #custom, #custom), #(19.0, 6.858, 0.0, 0.0, 3.28947e-006, 0.3333, #custom, #custom), #(26.0, -2.91793, 0.271497, -0.271497, 0.3333, 0.3333, #auto, #auto), #(34.0, -14.8618, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(20.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(26.0, 4.71204, -0.0651374, 0.0651374, 0.3333, 0.3333, #auto, #auto), #(30.0, 5.19303, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.358e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 1.358e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.51422e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 1.51422e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -5.46415e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, -5.46415e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="42" NAME="thigh_cl-Swivel">
+    <BASE_POSE>
+      <POSITION>[35.5187,-1.06545,9.91643]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 84.7387, -0.337622, 0.337622, 0.333333, 0.3333, #custom, #custom), #(19.0, 107.988, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 84.7387, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -69.4668, 0.0, 0.0, 0.3333, 3.28947e-006, #custom, #custom), #(19.0, 27.8472, 0.0, 0.0, 3.28947e-006, 0.3333, #custom, #custom), #(34.0, -69.4668, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 52.787, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(19.0, 52.787, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 52.787, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 5.89604e-006, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 5.89604e-006, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="43" NAME="thigh_bl-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[-1.75962,-1.47332,-3.5427]</POSITION>
+      <ROTATION>(quat -0.352262 -0.149527 0.360987 0.850436)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -9.53674e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -9.53674e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.38419e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.38419e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -4.76837e-007, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -4.76837e-007, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="44" NAME="knee_bl-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[11.03,-1.90735e-006,2.86102e-006]</POSITION>
+      <ROTATION>(quat 0 2.30824e-007 -0.25038 0.968148)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.67424e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.67424e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.56132e-005, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.56132e-005, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="45" NAME="foot_bl-FKCtrl">
+    <BASE_POSE>
+      <POSITION>[10.07,-7.15256e-006,-6.79493e-006]</POSITION>
+      <ROTATION>(quat 0.00790019 0.00480975 0.961251 0.275519)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 6.02978e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 6.02978e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.98821e-006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.98821e-006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 99.9999, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 99.9999, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="46" NAME="thigh_bl-FootCtrl">
+    <BASE_POSE>
+      <POSITION>[15.8703,17.0742,-0.10141]</POSITION>
+      <ROTATION>(quat 1.29031e-007 -3.11509e-007 0.92388 -0.382684)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 7.03138, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(6.0, 7.03138, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, -2.09875, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 7.03138, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 7.03138, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 14.8719, 0.0, 0.0, 0.3333, 1.04167e-005, #custom, #custom), #(6.0, 21.731, 0.0, 0.0, 3.28947e-006, 0.3333, #custom, #custom), #(13.0, 8.35676, 0.271505, -0.271505, 0.3333, 0.3333, #auto, #auto), #(21.0, 0.0105705, 0.0, 0.0, 0.3333, 3.28947e-006, #custom, #custom), #(34.0, 14.8719, -0.214346, 0.214346, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -3.8147e-006, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(6.0, -3.8147e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 7.43603, -0.10094, 0.10094, 0.3333, 0.3333, #auto, #auto), #(17.0, 8.18625, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, -3.8147e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -3.8147e-006, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.03097e-005, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(21.0, 2.03097e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 2.03097e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 3.06672e-006, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(21.0, 3.06672e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 3.06672e-006, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -5.46415e-005, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(21.0, -5.46415e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -5.46415e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="47" NAME="thigh_bl-Swivel">
+    <BASE_POSE>
+      <POSITION>[25.918,26.858,7.63224]</POSITION>
+      <ROTATION>(quat 0 0 0 1)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 23.9861, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 21.324, 0.0720757, -0.0720757, 0.3333, 0.3333, #auto, #auto), #(13.0, 18.9888, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 28.3248, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 23.9861, 0.0690874, -0.0690874, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 41.389, 0.0, 0.0, 0.3333, 1.04167e-005, #custom, #custom), #(6.0, 57.9117, 0.0, 0.0, 3.28947e-006, 0.3333, #custom, #custom), #(13.0, 48.6582, 0.482973, -0.482973, 0.3333, 0.3333, #auto, #auto), #(21.0, 19.2739, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 41.389, -0.381294, 0.381294, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 10.1695, 0.0, 0.0, 0.333333, 0.3333, #custom, #custom), #(6.0, 10.1695, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(13.0, 10.1695, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(21.0, 10.1695, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 10.1695, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(21.0, 0.0, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 0.0, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 5.89604e-006, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(21.0, 5.89604e-006, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, 5.89604e-006, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #custom, #custom), #(21.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.3333, #auto, #auto), #(34.0, -2.73208e-005, 0.0, 0.0, 0.3333, 0.333333, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES>
+      <ATTRIBUTENODE ID="1" NAME="SubAnim:fkikBlend" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></ATTRIBUTENODE>
+      <ATTRIBUTENODE ID="2" NAME="SubAnim:footLock" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, -1.0, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></ATTRIBUTENODE>
+    </ATTRIBUTES>
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="48" NAME="foot_bl_ref">
+    <BASE_POSE>
+      <POSITION>[34.31,-2.86102e-005,-6.4373e-006]</POSITION>
+      <ROTATION>(quat -0.219253 0.293702 -0.549029 0.751156)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.11595, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.11595, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.47467, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -1.47467, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.42724, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.42724, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="49" NAME="foot_br_ref">
+    <BASE_POSE>
+      <POSITION>[34.31,-4.3869e-005,1.52662e-005]</POSITION>
+      <ROTATION>(quat -0.597581 0.707181 -0.22933 0.300333)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -1.14318, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -1.14318, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.109896, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.109896, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 5.30211, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 5.30211, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="50" NAME="foot_cl_ref">
+    <BASE_POSE>
+      <POSITION>[34.89,-4.00543e-005,5.90086e-006]</POSITION>
+      <ROTATION>(quat 0.0941946 -0.082559 -0.679964 0.722469)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.95407, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.95407, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -11.0745, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -11.0745, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -10.8531, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -10.8531, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="51" NAME="foot_cr_ref">
+    <BASE_POSE>
+      <POSITION>[34.89,-3.62396e-005,-2.01501e-005]</POSITION>
+      <ROTATION>(quat -0.642783 0.755659 0.10238 -0.0729956)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.68521, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.68521, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 10.9307, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 10.9307, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 5.15734, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 5.15734, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="52" NAME="foot_fl_ref">
+    <BASE_POSE>
+      <POSITION>[34.49,-3.8147e-006,2.08244e-006]</POSITION>
+      <ROTATION>(quat 0.280798 -0.320961 -0.515789 0.743033)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.718113, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.718113, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, -6.4821, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, -6.4821, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 5.79372, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 5.79372, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <ANIMNODE ID="53" NAME="foot_fr_ref">
+    <BASE_POSE>
+      <POSITION>[34.49,-1.90735e-005,-1.055e-005]</POSITION>
+      <ROTATION>(quat -0.54413 0.682306 0.305766 -0.380643)</ROTATION>
+    </BASE_POSE>
+    <POSITION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="POSITION_XYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 0.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 0.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </POSITION_KEYS>
+    <ROTATION_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="EULER_XYZ" AXISORDER="1">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 2.06006, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 2.06006, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 14.4227, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 14.4227, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 1.53838, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 1.53838, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </ROTATION_KEYS>
+    <SCALE_KEYS>
+      <LAYER ID="1" CONTROLLER_TYPE="SCALEXYZ" NAME="Animation">
+        <SUBANIM ID="1" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="2" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+        <SUBANIM ID="3" SUB_TYPE="BEZIER_FLOAT"><![CDATA[#(#(0.0, 100.0, 0.0, 0.0, 0.3333, 0.333, #custom, #custom), #(34.0, 100.0, 0.0, 0.0, 0.3333, -1.0, #custom, #custom))]]></SUBANIM>
+      </LAYER>
+    </SCALE_KEYS>
+    <ATTRIBUTES />
+    <ALIEN_ATTRIBUTES />
+  </ANIMNODE>
+  <CURVES>
+    <WEIGHT>
+      <LAYER ID="1" CONTROLLER_TYPE="BEZIER_FLOAT"><![CDATA[#()]]></LAYER>
+    </WEIGHT>
+    <MULTIPLIER>
+      <LAYER ID="1" CONTROLLER_TYPE="UNDEFINED" />
+    </MULTIPLIER>
+  </CURVES>
+</PUPPETSHOP_CLIP>

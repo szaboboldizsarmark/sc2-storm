@@ -1,0 +1,23 @@
+MeshBlueprint {
+	LODs = {
+		{
+			LODCutoff = 800,
+            MeshName = '/projectiles/debris/Props/Structures/U01_gate01/U01_gate01_Turret_Debris_01_lod0.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/props/Structures/U01_gate01/U01_gate01_diffuse.dds',
+						NormalName = '/props/Structures/U01_gate01/U01_gate01_Normal.dds',
+						MaskName = '/props/Structures/U01_gate01/U01_gate01_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},	
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

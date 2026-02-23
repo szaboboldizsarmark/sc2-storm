@@ -1,0 +1,151 @@
+SkirmishFormBlueprint {
+    BlueprintId = 'Naval Attack Tiny',
+    PlatoonTemplate = 'NavalAttackTiny',
+    PlatoonBehavior = 'NeuralNavalAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    InstanceCount = 1,
+    MaxInstanceCount = 1,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 4, ConditionCategoryStringOne = 'MOBILE NAVAL -EXPERIMENTAL', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 4, ConditionCategoryStringOne = 'MOBILE NAVAL -EXPERIMENTAL', },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+		'Default Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Naval Attack Small',
+    PlatoonTemplate = 'NavalAttackSmall',
+    PlatoonBehavior = 'NeuralNavalAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 801,
+    InstanceCount = 1,
+    MaxInstanceCount = 3,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 8, ConditionCategoryStringOne = 'MOBILE NAVAL -EXPERIMENTAL', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 8, ConditionCategoryStringOne = 'MOBILE NAVAL -EXPERIMENTAL', },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+		'Default Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Naval Attack Medium',
+    PlatoonTemplate = 'NavalAttackMedium',
+    PlatoonBehavior = 'NeuralNavalAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 802,
+    InstanceCount = 1,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 11, ConditionCategoryStringOne = 'MOBILE NAVAL -EXPERIMENTAL', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+		{
+			{ ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 11, ConditionCategoryStringOne = 'MOBILE NAVAL -EXPERIMENTAL', },
+			{ ConditionType = 'UnitCapRatioGreaterThanOrEqual', ConditionFloat = 0.95 },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+		'Default Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Naval Attack Large',
+    PlatoonTemplate = 'NavalAttackLarge',
+    PlatoonBehavior = 'NeuralNavalAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 803,
+    InstanceCount = 100,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+	},
+    ItemGroups = {
+        'Default Item Group',
+		'Default Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    AnnounceFail = false,
+    AnnounceItem = false,
+    BlueprintId = 'Naval Guard Base',
+    PlatoonBehavior = 'NavalGuardBase',
+    PlatoonTemplate = 'NavalAttackOpen',
+    BasePriority = 1500,
+    InstanceCount = 10,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 3, ConditionStringOne = 'Land', ConditionIntegerTwo = 0, ConditionStringTwo = 'Enemy' },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+        {
+            { ConditionType = 'BaseThreatGreaterThan', ConditionIntegerOne = 3, ConditionStringOne = 'Naval', ConditionIntegerTwo = 0, ConditionStringTwo = 'Enemy' },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+		'Default Expansion Item Group',
+    },
+}
+
+SkirmishFormBlueprint {
+    BlueprintId = 'Naval Attack Experimental',
+    PlatoonTemplate = 'NavalAttackExperimental',
+    PlatoonBehavior = 'NeuralNavalAttack',
+    AnnounceItem = false,
+    --DebugItem = true,
+    BasePriority = 800,
+    InstanceCount = 1000,
+    BuilderType = 'Any',
+    Conditions = {
+        -- First conditions set
+        {
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 1, },
+        },
+	},
+    ItemGroups = {
+        'Default Item Group',
+		'Default Expansion Item Group',
+    },
+}
+

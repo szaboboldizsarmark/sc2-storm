@@ -1,0 +1,35 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+        	LODs = {
+				{
+					MeshName = '/props/Trees/Tree_Palm11/Tree_Palm11_lod0.scm',
+					MaterialSets = {
+						{
+							Materials = {
+								{
+									DiffuseName = '/props/Trees/Tree_Palm06/Tree_Palm06_Diffuse.dds',
+									MaskName = '/props/Trees/Tree_Palm06/Tree_Palm06_mask.dds',
+									NormalName = '/props/Trees/Tree_Palm06/Tree_Palm06_Normal.dds',
+									ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, alpha_test = 128',
+								},
+							},
+						},
+					},
+				},
+			},
+        },
+        UniformScale = 0.1,
+    },
+    Interface = {
+        HelpText = 'Tree_Poplar_003',
+    },
+    Physics = {
+        BlockPath = false,
+    },
+    ScriptClass = 'Tree',
+    ScriptModule = '/lua/proptree.lua',
+    SizeX = 1,
+    SizeY = 1,
+    SizeZ = 1,
+}

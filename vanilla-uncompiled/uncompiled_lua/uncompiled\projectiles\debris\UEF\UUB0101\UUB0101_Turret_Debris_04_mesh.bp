@@ -1,0 +1,60 @@
+MeshBlueprint {
+	LODs = {
+		{
+			LODCutoff = 200,
+            MeshName = '/projectiles/debris/UEF/UUB0101/UUB0101_Turret_Debris_04_lod0.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/units/UEF/UUB0101/UUB0101_diffuse.dds',
+						NormalName = '/Units/UEF/UUB0101/UUB0101_Normal.dds',
+						TeamName = '/Units/UEF/UUB0101/UUB0101_Team.dds',
+						MaskName = '/Units/UEF/UUB0101/UUB0101_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},	
+		{
+			LODCutoff = 800,
+            MeshName = '/projectiles/debris/UEF/UUB0101/UUB0101_Turret_Debris_04_lod1.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/units/UEF/UUB0101/UUB0101_diffuse.dds',
+						NormalName = '/Units/UEF/UUB0101/UUB0101_Normal.dds',
+						TeamName = '/Units/UEF/UUB0101/UUB0101_Team.dds',
+						MaskName = '/Units/UEF/UUB0101/UUB0101_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},
+		{
+			LODCutoff = 1000,
+            MeshName = '/projectiles/debris/UEF/UUB0101/UUB0101_Turret_Debris_04_lod2.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/units/UEF/UUB0101/UUB0101_diffuse.dds',
+						NormalName = '/Units/UEF/UUB0101/UUB0101_Normal.dds',
+						TeamName = '/Units/UEF/UUB0101/UUB0101_Team.dds',
+						MaskName = '/Units/UEF/UUB0101/UUB0101_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

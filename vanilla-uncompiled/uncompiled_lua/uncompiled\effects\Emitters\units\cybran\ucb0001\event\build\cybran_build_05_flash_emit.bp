@@ -1,0 +1,79 @@
+EmitterBlueprint {
+	BlueprintId = 'cybran_build_05_flash',
+	Lifetime = -20.00,
+	Repeattime = 20.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	Flat = true,
+	LODCutoff = 830.00,
+	EmitIfVisible = false,
+	InterpolateEmission = false,
+	Texture = [[/textures/particles/build_laser_add_01.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0095_red.dds]],
+	EmitRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=0.0000,y=2.0000,z=0.0000 },
+			{ x=0.2000,y=0.0000,z=0.0000 },
+			{ x=9.8000,y=0.0000,z=0.0000 },
+			{ x=10.0000,y=2.0000,z=0.0000 },
+			{ x=10.2000,y=0.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.5276,y=20.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=-8.0000,z=0.0000 },
+			{ x=10.0000,y=8.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=9.5514,y=0.1700,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.1850,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=5.8312,y=5.0000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=5.5936,y=5.0000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=90.0000,z=0.0000 },
+			{ x=10.0000,y=270.0000,z=0.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 20.0000,
+		Keys = {
+			{ x=10.0000,y=0.3000,z=0.3000 },
+		},
+	},
+}

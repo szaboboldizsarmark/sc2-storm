@@ -1,0 +1,110 @@
+EmitterBlueprint {
+	BlueprintId = 'w_i_bem02_i_u_08_ring',
+	Lifetime = -30.00,
+	Repeattime = 30.00,
+	Blendmode = 0.00,
+	Flat = true,
+	LODCutoff = 500.00,
+	InterpolateEmission = false,
+	SortOrder = 1.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/water/wa_0002_44.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0039_blue.dds]],
+	DistortionMapTexture = [[/textures/particles/displacement/di_0009_55.dds]],
+	EmitRateCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=0.0000,y=0.5000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=13.5000,y=4.0000,z=2.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.3000,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=14.7240,y=-1.5000,z=1.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=13.5000,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=7.7580,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=16.5000,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=15.0000,y=2.0000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=29.6438,y=6.0000,z=2.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=10.2000,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=14.7000,y=1.0000,z=2.0000 },
+		},
+	},
+	DistMapScaleCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=8.1540,y=1.5000,z=1.0000 },
+		},
+	},
+	DistMapBeginStrengthCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=8.2320,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapEndStrengthCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=7.6380,y=0.0000,z=0.0000 },
+		},
+	},
+	DistMapUShiftRateCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=8.1120,y=0.0150,z=0.0100 },
+		},
+	},
+	DistMapVShiftRateCurve = {
+		XRange = 30.0000,
+		Keys = {
+			{ x=8.2740,y=0.0150,z=0.0100 },
+		},
+	},
+}

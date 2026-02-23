@@ -1,0 +1,15 @@
+ProjectileBlueprint {
+    Effects = {
+        Emitters = {
+            Template = 'UEFNukeShockwave01_Trails01',
+        },
+    },
+    Physics = {
+        CollideEntity = false,
+        CollideSurface = false,
+        DestroyOnWater = false,
+        InitialSpeed = 2,
+        UseGravity = false,
+        Lifetime = 30,
+    },
+}

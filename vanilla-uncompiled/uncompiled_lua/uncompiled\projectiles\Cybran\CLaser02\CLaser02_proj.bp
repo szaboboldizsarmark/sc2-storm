@@ -1,0 +1,64 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Units/CYBRAN/UCA0103/snd_UCA0103_gunship_gun_impact',
+        ImpactTerrain = 'SC2/SC2/Units/CYBRAN/UCA0103/snd_UCA0103_gunship_gun_impact',
+        ImpactWater = 'SC2/SC2/Units/CYBRAN/UCA0103/snd_UCA0103_gunship_gun_impact',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Display = {
+        StrategicIconSize = 3,
+    },
+    Effects = {
+        Emitters = {
+            Scale = 0.4,
+            Template = 'Cybran_Laser02_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Scale = 0.5,
+                Template = 'Cybran_Laser02_Impact01',
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Medium01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Scale = 0.5,
+                Template = 'Cybran_Laser02_Impact01',
+            },
+            Unit = {
+                Scale = 0.5,
+                Template = 'Cybran_Laser02_Impact01',
+            },
+            UnitAir = {
+                Scale = 0.5,
+                Template = 'Cybran_Laser02_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'DIRECTFIRE',
+        },
+        Faction = 'Cybran',
+        Weapon = 'Disintegrator Pulse Laser',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        InitialSpeed = 15,
+        ProjectileLifetime = 1.5,
+        UseGravity = true,
+    },
+}

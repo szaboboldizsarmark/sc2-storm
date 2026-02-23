@@ -1,0 +1,153 @@
+
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Need Radar - have 0 - UEF/Illuminate',
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0301', ConditionBool = true, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'BaseUnitIdLessThan', ConditionIntegerOne = 1, ConditionStringOne = 'uub0301, uib0301, ucb0303', },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 10, ConditionCategoryStringOne = 'STRUCTURE' },
+            { ConditionType = 'FogOfWarEnabled', },
+        },
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0301', ConditionBool = true, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'BaseUnitIdLessThan', ConditionIntegerOne = 1, ConditionStringOne = 'uub0301, uib0301, ucb0303', },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 10, ConditionCategoryStringOne = 'STRUCTURE' },
+            { ConditionType = 'FogOfWarEnabled', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Radar',
+    BuildLocation = 'Base',
+    BasePriority = 900,
+    SkirmishResourceType = 'Expansion',
+    BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    AnnounceFail = false,
+    BlueprintId = 'Need Dual Intel - have 0 - Cybran',
+    BuilderIds = {
+        'ucl0002',
+        'ucl0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0303', ConditionBool = true, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'BaseUnitIdLessThan', ConditionIntegerOne = 1, ConditionStringOne = 'uub0301, uib0301, ucb0303', },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 10, ConditionCategoryStringOne = 'STRUCTURE' },
+            { ConditionType = 'FogOfWarEnabled', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'DualIntelStation',
+    BuildLocation = 'Base',
+    BasePriority = 900,
+    SkirmishResourceType = 'Expansion',
+    BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Need Radar - have 0 - UEF/Illuminate - Expansion',
+    BuilderIds = {
+        'uul0002',
+        'uul0001',
+        'uil0002',
+        'uil0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uub0301', ConditionBool = true, },
+            --{ ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'BaseUnitIdLessThan', ConditionIntegerOne = 1, ConditionStringOne = 'uub0301, uib0301, ucb0303', },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 2, ConditionCategoryStringOne = 'STRUCTURE' },
+			{ ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 1, ConditionCategoryStringOne = 'uub0301, uib0301, ucb0303', ConditionFloat = 100 },
+            { ConditionType = 'FogOfWarEnabled', },
+        },
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'uib0301', ConditionBool = true, },
+            --{ ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'BaseUnitIdLessThan', ConditionIntegerOne = 1, ConditionStringOne = 'uub0301, uib0301, ucb0303', },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 2, ConditionCategoryStringOne = 'STRUCTURE' },
+			{ ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 1, ConditionCategoryStringOne = 'uub0301, uib0301, ucb0303', ConditionFloat = 100 },
+            { ConditionType = 'FogOfWarEnabled', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'Radar',
+    BuildLocation = 'Base',
+    BasePriority = 750,
+    SkirmishResourceType = 'Expansion',
+    BuildRelative = 'CenterPoint',
+}
+
+SkirmishEngineerBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Need Dual Intel - have 0 - Cybran - Expansion',
+    BuilderIds = {
+        'ucl0002',
+        'ucl0001',
+    },
+    Conditions = {
+        {
+            { ConditionType = 'EngineerBlueprintCanAfford', },
+            { ConditionType = 'UnitBuildCheck', ConditionStringOne = 'ucb0303', ConditionBool = true, },
+            --{ ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'FACTORY', ConditionIntegerOne = 2, },
+            { ConditionType = 'EngineerBlueprintPositionQuery', },
+            { ConditionType = 'BaseUnitIdLessThan', ConditionIntegerOne = 1, ConditionStringOne = 'uub0301, uib0301, ucb0303', },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 2, ConditionCategoryStringOne = 'STRUCTURE' },
+			{ ConditionType = 'BaseFriendlyUnitsNearbyLessThan', ConditionIntegerOne = 1, ConditionCategoryStringOne = 'uub0301, uib0301, ucb0303', ConditionFloat = 100 },
+            { ConditionType = 'FogOfWarEnabled', },
+        },
+    },
+    InstanceCount = 1,
+    ItemGroups = {
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    PlatoonBehavior = 'EngineerBuild',
+    UnitToBuild = 'DualIntelStation',
+    BuildLocation = 'Base',
+    BasePriority = 750,
+    SkirmishResourceType = 'Expansion',
+    BuildRelative = 'CenterPoint',
+}
+

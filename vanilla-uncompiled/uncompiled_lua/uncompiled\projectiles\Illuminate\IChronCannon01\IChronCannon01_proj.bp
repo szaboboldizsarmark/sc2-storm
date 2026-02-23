@@ -1,0 +1,62 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/ILLUMINATE/Cannon/snd_Illuminate_Cannon_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/ILLUMINATE/Cannon/snd_Illuminate_Cannon_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/ILLUMINATE/Cannon/snd_Illuminate_Cannon_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'DIRECTFIRE',
+    },
+    Display = {
+        StrategicIconSize = 3,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Illuminate_Plasma05_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Illuminate_Plasma05_Impact01',
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Medium01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Illuminate_Plasma05_Impact01',
+            },
+            UnderWater = {
+                Template = 'Illuminate_Plasma05_Impact01',
+            },
+            Unit = {
+                Template = 'Illuminate_Plasma05_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Illuminate_Plasma05_Polytrails01',
+        },
+    },
+    General = {
+        Category = 'Direct Fire',
+        Faction = 'Illuminate',
+        TechLevel = 1,
+        Weapon = 'Chronatron Cannon',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        InitialSpeed = 14.6,
+        InitialSpeedRange = 3,
+        InitialSpeedReduceDistance = 30,
+        LeadTarget = false,
+        RotationalVelocity = 900,
+        TurnRate = 360,
+        VelocityAlign = true,
+    },
+}

@@ -1,0 +1,9 @@
+MeshBlueprint {
+	LODs = {
+		{
+			LODCutoff = 100,
+			DiffuseName = '/meshes/projectiles/debris_misc_04_albedo.dds',
+			ShaderMacros = 'ambient_lighting, glow, diffuse_lighting, specular_lighting, environment_mapping',
+		},
+	},
+}

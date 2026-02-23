@@ -1,0 +1,37 @@
+PropBlueprint {
+    Display = {
+        Mesh = {
+            LODs = {
+                {
+                    LODCutoff = 9001,
+                    MaterialSets = {
+                        {
+                            Materials = {
+                                {
+                                    DiffuseName = '/props/Structures/Reactor_Core/Reactor_Core_Diffuse.dds',
+                                    MaskName = '/props/Structures/Reactor_Core/Reactor_Core_Mask.dds',
+                                    NormalName = '/props/Structures/Reactor_Core/Reactor_Core_Normal.dds',
+                                    ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, glow, ambient_occlusion, alpha_test = 128',
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+        UniformScale = 0.01,
+    },
+    Footprint = {
+        SizeX = 8,
+        SizeZ = 8,
+    },
+    Interface = {
+        HelpText = 'Reactor_Core_Switch01',
+    },
+    Physics = {
+        BlockPath = true,
+    },
+    SizeX = 0.3,
+    SizeY = 0.1,
+    SizeZ = 0.5,
+}

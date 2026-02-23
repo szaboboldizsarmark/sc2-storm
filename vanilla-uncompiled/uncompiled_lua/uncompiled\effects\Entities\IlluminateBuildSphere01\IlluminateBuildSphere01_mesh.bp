@@ -1,0 +1,20 @@
+MeshBlueprint {
+	LODs = {
+				{
+			MeshName = '/effects/Entities/Sphere01/Sphere01_lod0.scm',
+			LODCutoff = 1000,
+					MaterialSets = {
+						{
+							Materials = {
+								{
+							DiffuseName = '/effects/Entities/IlluminateBuildSphere01/IlluminateBuildSphere01_Diffuse.dds',
+							MaskName = '/effects/Entities/IlluminateBuildSphere01/IlluminateBuildSphere01_Mask.dds',
+							ShaderMacros = 'glow',
+								},
+							},
+						},
+					},
+				},
+			},
+	IconFadeInZoom = 4,
+}

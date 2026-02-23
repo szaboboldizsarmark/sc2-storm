@@ -1,0 +1,92 @@
+AbilityBlueprint {
+	AbilityStateChange = {
+		OnActivate = {
+			Disable = {
+				'EscapePod',
+				'KnockbackWeapon',
+				'RogueNanites',
+				'Overcharge',
+			},
+		},
+		RestoreStatesOnDeactivate = true,
+	},
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_CheckUnitState',	
+			UnitStateRestrictions = {
+				'Jumping',
+			},
+		},
+	},
+	ActivationRetriggerDelay = 3,
+	AI = {
+		DisableAttackOnActivate = true,
+		EnableAttackOnDeactivate = true,
+		IgnoreSteeringWhileActive = true,
+	},
+	Buffs = {
+		'ACUHunker',
+	},
+	Commands = {
+		OnActivate = {
+			Disable = {
+				RULEUCC_Attack = true,
+				RULEUCC_CallTransport = true,
+				RULEUCC_Capture = true,
+				RULEUCC_Guard = true,
+				RULEUCC_Jump = true,
+				RULEUCC_Move = true,
+				RULEUCC_Patrol = true,
+				RULEUCC_Pause = true,
+				RULEUCC_Reclaim = true,
+				RULEUCC_Repair = true,
+				RULEUCC_RetaliateToggle = true,
+				RULEUCC_Stop = true,
+				RULEUCC_Teleport = true,
+			},
+		},
+		ClearCommandQueueOnActivate = true,
+		RestoreCommandCapsOnDeactivate = true,
+	},
+	CommandType = 'EACT_Toggle',
+    Cooldown = 5,
+    CooldownOnDeactivation = true,
+    DisplayName = '<LOC SC2_ABILITIES_0050>Hunker',
+	Effects = {
+		OnActivate = {
+			{
+				Emitters = {
+					'/effects/emitters/ambient/units/unit_hunker_01_emit.bp', -- rings
+					'/effects/emitters/ambient/units/unit_hunker_04_emit.bp', -- base glow
+					'/effects/emitters/ambient/units/unit_hunker_07_emit.bp', -- wisps
+					'/effects/emitters/ambient/units/unit_hunker_08_emit.bp', -- activate outward rings
+					'/effects/emitters/ambient/units/unit_hunker_09_emit.bp', -- activate flash
+				},
+			},
+		},
+		RemoveEffectsOnDeactivate = true,
+	},
+    InitiallyEnabled = false,
+    Navigation = {
+		CollisionPushClassOverride = 10,
+    },
+	OrderBitmapId = 'hunker',
+	RefreshUIOnActivate = true;
+	RefreshUIOnDeactivate = true;
+	RemoveBuffsOnDeactivate = true,	
+	ScriptModule = '/abilities/ACU_Hunker_Ability.lua',
+	UnitStates = {
+		OnActivate = {
+			Enable = {
+				'Immobile',
+				'Hunkered',
+			},
+		},
+		OnDeactivate = {
+			Disable = {
+				'Immobile',
+				'Hunkered',
+			},
+		},
+	},
+}

@@ -1,0 +1,41 @@
+AbilityBlueprint {
+	ActivationConditions = {
+		{
+			ConditionType = 'EAACT_CheckUnitState',	
+			UnitStateRestrictions = {
+				'Jumping',
+				'Hunkered',
+			},
+		},
+	},
+	Commands = {
+		OnActivate = {
+			Disable = {
+				RULEUCC_Attack = true,
+				RULEUCC_CallTransport = true,
+				RULEUCC_Capture = true,
+				RULEUCC_Jump = true,
+				RULEUCC_Move = true,
+				RULEUCC_Patrol = true,
+				RULEUCC_Pause = true,
+				RULEUCC_Reclaim = true,
+				RULEUCC_Repair = true,
+				RULEUCC_RetaliateToggle = true,
+				RULEUCC_Stop = true,
+			},
+		},
+	},
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0044>Launch Escape Pod',
+    InitiallyEnabled = false,
+	RefreshUIOnActivate = true;
+	ScriptModule = '/abilities/EscapePod_Ability.lua',
+	OrderBitmapId = 'escapepod',
+	UnitStates = {
+		OnActivate = {
+			Enable = {
+				'UnSelectable',
+			},
+		},
+	},
+}

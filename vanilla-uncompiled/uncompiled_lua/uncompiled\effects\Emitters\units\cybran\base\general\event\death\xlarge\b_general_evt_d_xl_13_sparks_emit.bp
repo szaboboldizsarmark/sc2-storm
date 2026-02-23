@@ -1,0 +1,134 @@
+EmitterBlueprint {
+	BlueprintId = 'b_general_evt_d_xl_13_sparks',
+	Lifetime = 14.00,
+	Repeattime = 14.00,
+	Blendmode = 3.00,
+	LODCutoff = 250.00,
+	ParticleResistance = true,
+	InterpolateEmission = false,
+	SortOrder = 1.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/laser_lens_flare_02.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0072_emberflicker.dds]],
+	EmitRateCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=5.0000,y=0.0000,z=0.0000 },
+			{ x=5.0000,y=5.0000,z=4.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=7.0700,y=6.0000,z=4.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=6.8880,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=4.9840,y=0.0000,z=11.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=13.8740,y=3.2000,z=2.5000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=7.0000,y=0.0000,z=11.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=2.8140,y=0.5000,z=0.2000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=7.0000,y=0.0000,z=1.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=1.6100,y=0.2500,z=0.6000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=7.1260,y=-0.7000,z=0.7000 },
+		},
+	},
+	XAccelCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=7.0700,y=0.0000,z=0.0000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=7.0000,y=-0.0200,z=0.0200 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=3.3600,y=0.1000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=6.7060,y=0.6000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=6.8460,y=0.1000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=7.0700,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=7.0000,y=0.0000,z=10.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=7.2100,y=0.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=7.0700,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 14.0000,
+		Keys = {
+			{ x=5.9500,y=0.2000,z=0.4000 },
+		},
+	},
+}

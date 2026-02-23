@@ -1,0 +1,50 @@
+ProjectileBlueprint {
+    DevStatus = 'STABLE',
+    Display = {
+        MeshBlueprint = '/meshes/projectiles/debris_misc_04_mesh.bp',
+        UniformScale = 0.15,
+    },
+    Effects = {
+        TerrainClass = 'Small01',
+        Impacts = {
+            Prop = {
+                Template = 'LavaPlume_Projectile_Impact01',
+                TrajectoryAligned = true,
+            },
+            Shield = {
+                Template = 'LavaPlume_Projectile_Impact01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'LavaPlume_Projectile_Impact01',
+                TrajectoryAligned = true,
+            },
+            Unit = {
+                Template = 'LavaPlume_Projectile_Impact01',
+                TrajectoryAligned = true,
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+    },
+    Physics = {
+        MinBounceCount = 3,
+        MaxBounceCount = 10,
+		BounceVelDamp = 0.3,
+        DestroyOnWater = true,
+        DirectionX = 0,
+        DirectionXRange = 1,
+        DirectionY = 0.75,
+        DirectionYRange = 0.5,
+        DirectionZ = 0,
+        DirectionZRange = 1,
+        InitialSpeed = 7.0,
+        InitialSpeedRange = 6,
+        MaxSpeed = 24,
+        RotationalVelocity = 360,
+        RotationalVelocityRange = 180,
+        Lifetime = 20,
+        VelocityAlign = false,
+    },
+}

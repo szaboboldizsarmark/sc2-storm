@@ -1,0 +1,118 @@
+EmitterBlueprint {
+	BlueprintId = 'uix0112_evt_d_04_plasmacloud',
+	Lifetime = 12.00,
+	Repeattime = 12.00,
+	Blendmode = 3.00,
+	Gravity = true,
+	LODCutoff = 200.00,
+	ParticleResistance = true,
+	Texture = [[/textures/particles/ser_plasma03.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0102_lightaqua.dds]],
+	EmitRateCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=10.0000,z=3.0000 },
+			{ x=6.0000,y=6.0000,z=3.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=9.0000,y=12.0000,z=8.0000 },
+			{ x=9.0000,y=20.0000,z=10.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0840,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.1200,y=0.0000,z=4.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=5.9520,y=3.0000,z=4.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.3960,y=0.0000,z=4.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=3.0000,y=2.4107,z=0.0000 },
+			{ x=6.0000,y=3.0000,z=0.0000 },
+			{ x=6.0000,y=1.4000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=1.4640,y=0.0000,z=1.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=3.2451,y=0.2000,z=1.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=3.1200,y=0.2000,z=1.0000 },
+		},
+	},
+	XAccelCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0240,y=0.0000,z=0.0000 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=6.0000,y=-0.0100,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=7.2000,y=0.2000,z=0.1500 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=0.0000,y=1.0000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=9.0000,y=6.0000,z=1.0000 },
+			{ x=9.0000,y=8.0000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=4.1280,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 12.0000,
+		Keys = {
+			{ x=2.8680,y=0.0000,z=0.0000 },
+		},
+	},
+}

@@ -1,0 +1,54 @@
+AnimTreeBlueprint {
+	Description = 'UEF Structure Build Scaffolding AnimTree',
+	StartStateID = 'idle',
+	AnimTreeStates = {
+		['root'] = {
+			type = 'Messenger',
+			transitions = {
+				play_deploy = { TargetStateID = 'deploy' },
+				play_build_loop_phase_01 = { TargetStateID = 'build_phase_01' },
+				play_build_transition_01 = { TargetStateID = 'build_transition_01' },
+				play_build_loop_phase_02 = { TargetStateID = 'build_phase_02' },
+				play_build_transition_02 = { TargetStateID = 'build_transition_02' },
+				play_build_loop_phase_03 = { TargetStateID = 'build_phase_03' },
+				play_pack = { TargetStateID = 'pack' },
+				reset = { TargetStateID = 'idle' },
+			},
+			children = {
+				['deploy'] = {
+					type='BasicAnim',
+				},
+				['build_phase_01'] = {
+					type='BasicAnim',
+					data = {
+						Looping = true,
+					},
+				},
+				['build_transition_01'] = {
+					type='BasicAnim',
+				},
+				['build_phase_02'] = {
+					type='BasicAnim',
+					data = {
+						Looping = true,
+					},
+				},
+				['build_transition_02'] = {
+					type='BasicAnim',
+				},
+				['build_phase_03'] = {
+					type='BasicAnim',
+					data = {
+						Looping = true,
+					},
+				},
+				['pack'] = {
+					type='BasicAnim',
+				},
+				['idle'] = {
+					type='Messenger',
+				},
+			},
+		},
+	},
+}

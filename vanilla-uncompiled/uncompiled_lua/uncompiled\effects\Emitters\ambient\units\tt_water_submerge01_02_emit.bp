@@ -1,0 +1,112 @@
+EmitterBlueprint {
+	BlueprintId = 'tt_water_submerge01_02',
+	Lifetime = 35.00,
+	Repeattime = 35.00,
+	Blendmode = 0.00,
+	CreateIfVisible = true,
+	SortOrder = -95.00,
+	Texture = [[/textures/particles/water_splash_alpha_04.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=0.0000,y=3.0000,z=0.0000 },
+			{ x=11.6358,y=1.5000,z=0.0000 },
+			{ x=35.0000,y=-0.5000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=15.3825,y=10.0000,z=4.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=17.2200,y=0.1460,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=17.5000,y=0.0000,z=0.3000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=18.0081,y=0.3000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=17.5000,y=0.0000,z=2.8000 },
+			{ x=30.0000,y=0.2381,z=1.5000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=17.5875,y=0.6000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=17.5000,y=0.0000,z=0.0800 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=0.0000,y=0.0100,z=0.0000 },
+			{ x=4.0635,y=0.1000,z=0.0000 },
+			{ x=35.0000,y=0.0790,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=17.5000,y=0.0000,z=0.0800 },
+		},
+	},
+	YAccelCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.0000 },
+			{ x=18.5623,y=-0.0030,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=0.3150,y=0.4000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=27.7968,y=1.0000,z=0.5000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=17.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=16.4850,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 35.0000,
+		Keys = {
+			{ x=15.4700,y=0.0000,z=0.0000 },
+		},
+	},
+}

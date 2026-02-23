@@ -1,0 +1,20 @@
+AbilityBlueprint {
+	--This is the upgrade ability for Cybran power generators.
+	ActivationConditions = {
+		ConditionType = 'EAACT_Resource',
+	},
+	Cooldown = 1,
+	CommandType = 'EACT_Immediate',
+    DisplayName = '<LOC SC2_ABILITIES_0040>Convert Energy to Mass',
+	InitiallyEnabled = false,
+	Resource = {
+		OnActivate = {
+			SourceType = 'Energy',
+			SourceAmount = 1000,
+			TargetType = 'Mass',
+			TargetAmount = 150,
+		},
+	},
+	RunScript = 'OnMassConvert',
+	OrderBitmapId = 'massconv',
+}

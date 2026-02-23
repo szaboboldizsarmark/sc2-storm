@@ -1,0 +1,447 @@
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - Scout Less than 1',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uca0105d1', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'CategoryLessThan', ConditionIntegerOne = 1, ConditionCategoryStringOne = 'uca0105d1', }, 
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 751,
+    SkirmishResourceType = 'AirUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - Scout',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uca0105d1', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'CategoryLessThan', ConditionIntegerOne = 3, ConditionCategoryStringOne = 'uca0105d1', }, 
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'AirUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - Fighter',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uua0101', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'TestFlag', ConditionStringOne = 'AirUnitsSpotted' },
+            { ConditionType = 'BasePoolUnitRatioLessThan', ConditionFloat = 0.8, ConditionCategoryStringOne = 'MOBILE AIR FIGHTER', ConditionCategoryStringTwo = 'MOBILE AIR -FIGHTER', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'AirUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - Bomber',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uua0102', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'AirUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - Gunship',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uua0103', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uca0103', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uia0103', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'AirUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+	AnnounceFail = false,
+	DebugItem = false,
+    BlueprintId = 'Air Unit - Fighter/Bomber',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uca0104', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uia0104', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 750,
+    SkirmishResourceType = 'AirUnits',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - Transport',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uca0901', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uia0901', NumToBuild = 1 },
+        },
+        {
+            { UnitId = 'uua0901', NumToBuild = 1 },
+        },
+    },
+    Conditions = {
+		-- The TargetBrainThreatLessThan conditions will need to match the TargetBrainThreatLessThan conditions of the land platoons
+		-- in LandAttackPlatoons.bp to ensure that the AI builds enough transports for its units. The beauty of the AI system
+		-- is because the conditions are the same they will only get checked once and the results will count for both.
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'uub0001, uib0001, ucb0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 5, ConditionCategoryStringOne = 'MOBILE LAND -EXPERIMENTAL -ENGINEER', },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiSurface', ConditionIntegerOne = 10 },
+			{ ConditionType = 'BaseThreatLessThan', ConditionIntegerOne = 50, ConditionStringOne = 'AntiAir', ConditionIntegerTwo = 50, ConditionStringTwo = 'Enemy', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION', ConditionIntegerOne = 3, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'uub0001, uib0001, ucb0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 10, ConditionCategoryStringOne = 'MOBILE LAND -EXPERIMENTAL -ENGINEER', },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiSurface', ConditionIntegerOne = 28 },
+			{ ConditionType = 'BaseThreatLessThan', ConditionIntegerOne = 50, ConditionStringOne = 'AntiAir', ConditionIntegerTwo = 50, ConditionStringTwo = 'Enemy', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION', ConditionIntegerOne = 4, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'uub0001, uib0001, ucb0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 15, ConditionCategoryStringOne = 'MOBILE LAND -EXPERIMENTAL -ENGINEER', },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiSurface', ConditionIntegerOne = 42 },
+			{ ConditionType = 'BaseThreatLessThan', ConditionIntegerOne = 50, ConditionStringOne = 'AntiAir', ConditionIntegerTwo = 50, ConditionStringTwo = 'Enemy', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION', ConditionIntegerOne = 5, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'uub0001, uib0001, ucb0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 30, ConditionCategoryStringOne = 'MOBILE LAND -EXPERIMENTAL -ENGINEER', },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiSurface', ConditionIntegerOne = 80 },
+			{ ConditionType = 'BaseThreatLessThan', ConditionIntegerOne = 50, ConditionStringOne = 'AntiAir', ConditionIntegerTwo = 50, ConditionStringTwo = 'Enemy', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION', ConditionIntegerOne = 9, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'uub0001, uib0001, ucb0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 50, ConditionCategoryStringOne = 'MOBILE LAND -EXPERIMENTAL -ENGINEER', },
+			{ ConditionType = 'TargetBrainThreatGreaterThan', ConditionStringOne = 'StructureAntiSurface', ConditionIntegerOne = 80 },
+			{ ConditionType = 'BaseThreatLessThan', ConditionIntegerOne = 50, ConditionStringOne = 'AntiAir', ConditionIntegerTwo = 50, ConditionStringTwo = 'Enemy', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+		-- For non-land maps
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'uub0001, uib0001, ucb0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 5, ConditionCategoryStringOne = 'MOBILE LAND -EXPERIMENTAL -ENGINEER', },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiSurface', ConditionIntegerOne = 10 },
+			{ ConditionType = 'NotSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION', ConditionIntegerOne = 3, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'uub0001, uib0001, ucb0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 10, ConditionCategoryStringOne = 'MOBILE LAND -EXPERIMENTAL -ENGINEER', },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiSurface', ConditionIntegerOne = 28 },
+			{ ConditionType = 'NotSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION', ConditionIntegerOne = 4, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'uub0001, uib0001, ucb0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 15, ConditionCategoryStringOne = 'MOBILE LAND -EXPERIMENTAL -ENGINEER', },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiSurface', ConditionIntegerOne = 42 },
+			{ ConditionType = 'NotSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION', ConditionIntegerOne = 5, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'uub0001, uib0001, ucb0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 30, ConditionCategoryStringOne = 'MOBILE LAND -EXPERIMENTAL -ENGINEER', },
+			{ ConditionType = 'TargetBrainThreatLessThan', ConditionStringOne = 'StructureAntiSurface', ConditionIntegerOne = 80 },
+			{ ConditionType = 'NotSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION', ConditionIntegerOne = 9, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'uub0001, uib0001, ucb0001', ConditionIntegerOne = 1, },
+            { ConditionType = 'BaseFriendlyUnitsNearbyGreaterThan', ConditionIntegerOne = 50, ConditionCategoryStringOne = 'MOBILE LAND -EXPERIMENTAL -ENGINEER', },
+			{ ConditionType = 'TargetBrainThreatGreaterThan', ConditionStringOne = 'StructureAntiSurface', ConditionIntegerOne = 80 },
+			{ ConditionType = 'NotSkirmishLandMap', },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 800,
+    InstanceCount = 1,
+	SharedInstanceCount = 'TransportConstruction',
+    SkirmishResourceType = 'All',
+}
+
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - AC-1000',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uux0102', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 825,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - C-230 Star King',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uux0103', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION EXPERIMENTAL', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'EXPERIMENTAL LAND', ConditionIntegerOne = 1, },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 825,
+	InstanceCount = 1,
+	SharedInstanceCount = 'TransportConstruction',
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - Air Fortress',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uux0112', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 825,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - Darkenoid',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uix0112', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 825,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - Sooprizer',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'uix0105d1', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 825,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - Soul Ripper',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'ucx0112', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+		{
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+		},
+    },
+    ItemGroups = {
+        'Default Item Group',
+        'Rush Item Group',
+        'Default Expansion Item Group',
+        'Rush Expansion Item Group',
+    },
+    BasePriority = 825,
+    SkirmishResourceType = 'Experimentals',
+}
+
+SkirmishFactoryBlueprint {
+    AnnounceItem = false,
+    BlueprintId = 'Air Unit - Giant Transport',
+    FactoryType = 'Air',
+    Platoons = {
+        {
+            { UnitId = 'ucx0102', NumToBuild = 1, },
+        },
+    },
+    Conditions = {
+        {
+            { ConditionType = 'CategoryLessThan', ConditionCategoryStringOne = 'TRANSPORTATION EXPERIMENTAL', ConditionIntegerOne = 2, },
+            { ConditionType = 'CategoryGreaterThanOrEqual', ConditionCategoryStringOne = 'EXPERIMENTAL LAND', ConditionIntegerOne = 1, },
+			{ ConditionType = 'NoRushTimeLessThan', ConditionIntegerOne = 300, },
+        },
+    },
+    ItemGroups = {
+        'Default Item Group',
+    },
+    BasePriority = 825,
+    InstanceCount = 1,
+	SharedInstanceCount = 'TransportConstruction',
+    SkirmishResourceType = 'Experimentals',
+}
+

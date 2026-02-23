@@ -1,0 +1,86 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/CYBRAN/TacticalMissile/snd_Cybran_TacticalMissile_Impact_Water',
+    },
+    Categories = {
+        'CYBRAN',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+        'TACTICAL',
+        'MISSILE',
+        'NOSPLASHDAMAGE',
+    },
+    CollisionOffsetX = -0.3,
+    CollisionOffsetY = -0.7,
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 4,
+        MaxHealth = 4,
+    },
+    Display = {
+        CameraFollowsProjectile = true,
+        MeshBlueprint = '/projectiles/UEF/UTacticalMissile01/UTacticalMissile01_mesh.bp',
+        StrategicIconSize = 2,
+        UniformScale = 0.1,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Cybran_Missile02_Trails02',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Cybran_Missile02_Split01',
+            },
+            Shield = {
+                Template = 'Cybran_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Cybran_Missile02_Split01',
+            },
+            Unit = {
+                Template = 'Cybran_Missile02_Split01',
+            },
+            Water = {
+                Template = 'Water_Impact_Small01',
+            },
+        },
+        PolyTrails = {
+            Template = 'Cybran_Missile02_Polytrails02',
+        },
+    },
+    General = {
+        Category = 'Missile',
+        EntityCategory = {
+            'CYBRAN',
+            'PROJECTILE',
+            'INDIRECTFIRE',
+            'TACTICAL',
+            'MISSILE',
+            'CYBRANMOBILEMISSILE',
+            'NOSPLASHDAMAGE',
+        },
+        Faction = 'Cybran',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 0,
+        DetonateBelowHeight = 6,
+        InitialSpeed = 3,
+        MaxSpeed = 0,
+        MaxZigZag = 0,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = false,
+        TrackTargetGround = true,
+        TurnRate = 60,
+        UseGravity = true,
+        VelocityAlign = true,
+        ZigZagFrequency = 0,
+    },
+    SizeX = 2,
+}

@@ -1,0 +1,114 @@
+EmitterBlueprint {
+	BlueprintId = 'w_c_art02_l_04_smoke',
+	Lifetime = 6.00,
+	Repeattime = 6.00,
+	Blendmode = 3.00,
+	LocalVelocity = true,
+	LODCutoff = 200.00,
+	ParticleResistance = true,
+	LowFidelity = false,
+	Texture = [[/textures/particles/smoke/sm_0011_55.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.5912,y=5.0000,z=2.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.1400,y=30.0000,z=10.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=6.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.0870,y=0.5000,z=0.0000 },
+			{ x=0.6333,y=-0.5000,z=0.0000 },
+			{ x=1.1478,y=0.5000,z=0.0000 },
+			{ x=1.5911,y=-0.5000,z=0.0000 },
+			{ x=1.9630,y=0.5000,z=0.0000 },
+			{ x=2.3747,y=-0.5000,z=0.0000 },
+			{ x=3.0633,y=0.5000,z=0.0000 },
+			{ x=3.5065,y=-0.5000,z=0.0000 },
+			{ x=3.9261,y=0.5000,z=0.0000 },
+			{ x=4.6544,y=-0.5000,z=0.0000 },
+			{ x=4.9630,y=0.5000,z=0.0000 },
+			{ x=5.3667,y=-0.5000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0360,y=0.7000,z=0.2000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=6.0000,y=0.0000,z=0.2000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=6.0000,y=0.0000,z=0.1000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=6.0000,y=0.1000,z=0.0000 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.0000,y=0.1000,z=0.2000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.0000,y=0.1000,z=0.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=0.0000,y=1.5000,z=0.5000 },
+			{ x=6.0000,y=0.7000,z=0.2000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=3.1800,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=2.9400,y=0.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 6.0000,
+		Keys = {
+			{ x=1.5516,y=0.0000,z=0.0000 },
+		},
+	},
+}

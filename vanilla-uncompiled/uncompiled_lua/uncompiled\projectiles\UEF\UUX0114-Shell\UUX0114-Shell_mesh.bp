@@ -1,0 +1,18 @@
+MeshBlueprint {
+	LODs = {
+		{
+            LODCutoff = 500,
+					MaterialSets = {
+						{
+							Materials = {
+								{
+				            ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, team_color, environment_mapping',
+								},
+							},
+						},
+					},
+				},
+        StrategicIconSize = 1,
+	},
+	UniformScale = 0.15,
+}

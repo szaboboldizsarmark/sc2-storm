@@ -1,0 +1,107 @@
+EmitterBlueprint {
+	BlueprintId = 'w_u_art02_p_02_ringwake',
+	Lifetime = -1.00,
+	Repeattime = 2.50,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	SnapToWaterline = true,
+	LowFidelity = false,
+	Texture = [[/textures/particles/water_churn_alpha_01.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0075_whitefast.dds]],
+	EmitRateCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=1.0000,y=4.0000,z=1.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=1.2500,y=10.0000,z=6.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=1.2750,y=0.0600,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.1500 },
+		},
+	},
+	YPosCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=2.5000,y=0.0000,z=0.1500 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.1500 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=1.2500,y=-0.0500,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=2.5000,y=0.0000,z=0.0000 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=2.5000,y=0.0000,z=0.0000 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=0.6365,y=0.4000,z=0.2000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=1.2575,y=1.0000,z=0.4000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=1.2500,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=1.2750,y=0.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=1.2500,y=2.0000,z=4.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 2.5000,
+		Keys = {
+			{ x=0.6725,y=0.0000,z=0.0000 },
+		},
+	},
+}

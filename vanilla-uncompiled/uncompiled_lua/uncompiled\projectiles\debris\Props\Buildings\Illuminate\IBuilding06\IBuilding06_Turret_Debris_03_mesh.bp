@@ -1,0 +1,23 @@
+MeshBlueprint {
+	LODs = {
+		{
+			LODCutoff = 1000,
+            MeshName = '/projectiles/debris/Props/Buildings/Illuminate/IBuilding06/IBuilding06_Turret_Debris_03_lod0.scm',
+			MaterialSets = {
+				{
+					Materials = {
+						{
+						DiffuseName = '/props/Buildings/Illuminate/IBuilding01/IBuilding_diffuse.dds',
+						NormalName = '/props/Buildings/Illuminate/IBuilding01/IBuilding_Normal.dds',
+						MaskName = '/props/Buildings/Illuminate/IBuilding01/IBuilding_Mask.dds',
+						EffectName = '/textures/Units/Shared/Wreckage.dds',
+				        ShaderMacros = 'ambient_lighting, diffuse_lighting, specular_lighting, ambient_occlusion, environment_mapping, wreckage',
+						},
+					},
+				},
+			},
+		},
+        StrategicIconSize = 1,
+        UniformScale = 0.05,
+	},
+}

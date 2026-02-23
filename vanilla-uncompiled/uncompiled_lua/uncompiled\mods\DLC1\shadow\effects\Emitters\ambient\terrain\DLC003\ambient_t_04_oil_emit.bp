@@ -1,0 +1,103 @@
+EmitterBlueprint {
+	BlueprintId = 'ambient_t_04_oil',
+	Lifetime = -1.00,
+	Repeattime = 50.00,
+	Blendmode = 3.00,
+	Flat = true,
+	LODCutoff = 2000.00,
+	EmitIfVisible = false,
+	SnapToWaterline = true,
+	Texture = [[/textures/particles/energy/en_0005_44.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0133_lightpurple.dds]],
+	DistortionMapTexture = [[/textures/particles/displacement/di_0009_55.dds]],
+	EmitRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=21.9657,y=0.2500,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=200.0000,z=60.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=5.0000,y=0.0000,z=5.0000 },
+			{ x=15.0000,y=-5.0000,z=5.0000 },
+			{ x=25.0000,y=2.0000,z=5.0000 },
+			{ x=35.0000,y=5.0000,z=5.0000 },
+			{ x=45.0000,y=0.0000,z=5.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=1.0000,y=-35.0000,z=0.0000 },
+			{ x=25.0000,y=0.0000,z=0.0000 },
+			{ x=49.0000,y=35.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=5.0000,z=2.0000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=9.0000,z=2.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=180.0000,z=360.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=14.9077,y=0.8000,z=0.3000 },
+		},
+	},
+	DistMapScaleCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=10.0264,y=1.3034,z=0.5000 },
+		},
+	},
+	DistMapBeginStrengthCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=14.6438,y=0.1000,z=0.0000 },
+		},
+	},
+	DistMapEndStrengthCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=10.4222,y=0.1000,z=0.0000 },
+		},
+	},
+	DistMapUShiftRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=25.0000,y=0.0100,z=0.0000 },
+		},
+	},
+	DistMapVShiftRateCurve = {
+		XRange = 50.0000,
+		Keys = {
+			{ x=12.1372,y=0.0000,z=0.0000 },
+		},
+	},
+}

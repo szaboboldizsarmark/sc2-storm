@@ -1,0 +1,92 @@
+EmitterBlueprint {
+	BlueprintId = 'b_general_evt_d_xxl_05_flat_electricity',
+	Lifetime = 7.00,
+	Repeattime = 7.00,
+	Blendmode = 3.00,
+	Flat = true,
+	LODCutoff = 830.00,
+	InterpolateEmission = false,
+	TextureStripcount = 4.00,
+	LowFidelity = false,
+	Texture = [[/textures/particles/electricity/el_0005_46.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0095_red.dds]],
+	EmitRateCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=1.4000,y=0.0000,z=0.0000 },
+			{ x=1.4000,y=3.0000,z=0.0000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.5000,y=2.3000,z=0.2000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=2.1070,y=0.0000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=0.0000,y=0.0000,z=0.0000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=1.4140,y=0.2000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=1.1760,y=0.0000,z=0.0000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.6260,y=0.0000,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.5000,y=20.0000,z=0.5000 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=4.6668,y=20.0000,z=1.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	TextureSelectionCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=3.0100,y=2.0000,z=4.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 7.0000,
+		Keys = {
+			{ x=2.2533,y=0.5000,z=0.2000 },
+		},
+	},
+}

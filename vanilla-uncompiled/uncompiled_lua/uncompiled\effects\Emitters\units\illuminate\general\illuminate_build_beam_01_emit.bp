@@ -1,0 +1,12 @@
+BeamBlueprint {
+    Lifetime = 2,
+    --TextureName = '/textures/particles/quantum_beam_01.dds',
+    TextureName = '/textures/particles/ser_experimental_beam_01.dds',
+    Thickness = 1.0,
+    StartColor = {x=0.7,y=0.9,z=0.9,w=0.6}, -- R,G,B,A
+    EndColor = {x=0.7,y=0.9,z=0.9,w=0.6}, -- R,G,B,A
+    Length = 8,
+    LODCutoff = 400,
+    UShift = 0.0,
+    VShift = -0.2,
+}

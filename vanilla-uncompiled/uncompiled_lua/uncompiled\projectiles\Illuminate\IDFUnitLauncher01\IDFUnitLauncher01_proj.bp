@@ -1,0 +1,68 @@
+ProjectileBlueprint {
+    Audio = {
+        Impact = 'SC2/SC2/Projectiles/ILLUMINATE/UnitLauncherBot/snd_Illuminate_UnitLauncherBot_Impact',
+        ImpactTerrain = 'SC2/SC2/Projectiles/ILLUMINATE/UnitLauncherBot/snd_Illuminate_UnitLauncherBot_Impact_Land',
+        ImpactWater = 'SC2/SC2/Projectiles/ILLUMINATE/UnitLauncherBot/snd_Illuminate_UnitLauncherBot_Impact_Water',
+    },
+    Categories = {
+        'ILLUMINATE',
+        'PROJECTILE',
+        'INDIRECTFIRE',
+        'TACTICAL',
+        'MISSILE',
+        'NOSPLASHDAMAGE',
+    },
+    CollisionShape = 'Sphere',
+    Defense = {
+        Health = 1,
+        MaxHealth = 1,
+    },
+    Display = {
+        CameraFollowTimeout = 3,
+        CameraFollowsProjectile = true,
+        StrategicIconSize = 3,
+    },
+    Effects = {
+        Emitters = {
+            Template = 'Illuminate_DeathClaw01_Trails01',
+        },
+        Impacts = {
+            Prop = {
+                Template = 'Illuminate_DeathClaw01_Impact01',
+            },
+            Shield = {
+                Template = 'Illuminate_Shield_Impact_Small01',
+                TrajectoryAligned = true,
+            },
+            Terrain = {
+                Template = 'Illuminate_DeathClaw01_Impact01',
+            },
+            Unit = {
+                Template = 'Illuminate_DeathClaw01_Impact01',
+            },
+            Water = {
+                Template = 'Water_Impact_Medium01',
+            },
+        },
+    },
+    General = {
+        Category = 'Missile',
+        Faction = 'Illuminate',
+    },
+    Interface = {
+        HelpText = 0,
+    },
+    Physics = {
+        Acceleration = 3,
+        InitialSpeed = 20,
+        MaxSpeed = 30,
+        RotationalVelocity = 0,
+        RotationalVelocityRange = 0,
+        TrackTarget = true,
+        TrackTargetGround = true,
+        TurnRate = 0,
+        UseGravity = false,
+        VelocityAlign = true,
+    },
+    SizeX = 1,
+}

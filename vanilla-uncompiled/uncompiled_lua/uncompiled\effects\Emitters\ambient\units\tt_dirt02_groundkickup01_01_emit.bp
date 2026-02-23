@@ -1,0 +1,115 @@
+EmitterBlueprint {
+	BlueprintId = 'tt_dirt02_groundkickup01_01',
+	Lifetime = -1.00,
+	Repeattime = 5.00,
+	Blendmode = 0.00,
+	LocalVelocity = true,
+	ParticleResistance = true,
+	LowFidelity = false,
+	Texture = [[/textures/particles/cloud_smoke_alpha_08.dds]],
+	RampTexture = [[/textures/particles/ramp/ra_0126_tan.dds]],
+	EmitRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5860,y=0.6000,z=0.2000 },
+		},
+	},
+	LifetimeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.4750,y=30.0000,z=20.0000 },
+		},
+	},
+	SizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5200,y=0.3000,z=0.0000 },
+		},
+	},
+	XPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.5700,y=0.0000,z=0.2000 },
+		},
+	},
+	YPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.6600,y=0.0000,z=0.0000 },
+		},
+	},
+	ZPosCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=0.6400,y=0.0000,z=0.2000 },
+		},
+	},
+	VelocityCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5200,y=1.0000,z=0.0000 },
+		},
+	},
+	XDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=0.0000,z=0.0500 },
+		},
+	},
+	YDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5730,y=0.0100,z=0.0300 },
+		},
+	},
+	ZDirectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=-0.0600,z=0.0200 },
+		},
+	},
+	ResistanceCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.1830,y=0.0100,z=0.0000 },
+		},
+	},
+	StartSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5400,y=0.4310,z=0.0500 },
+		},
+	},
+	EndSizeCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5300,y=0.7000,z=0.0500 },
+			{ x=3.8460,y=1.2000,z=0.0000 },
+			{ x=4.9500,y=1.0000,z=0.0000 },
+		},
+	},
+	InitialRotationCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=180.0000,z=360.0000 },
+		},
+	},
+	RotationRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=0.0000,z=10.0000 },
+		},
+	},
+	FrameRateCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=2.5000,y=1.0000,z=0.0000 },
+		},
+	},
+	RampSelectionCurve = {
+		XRange = 5.0000,
+		Keys = {
+			{ x=1.5567,y=0.7000,z=0.4000 },
+		},
+	},
+}
