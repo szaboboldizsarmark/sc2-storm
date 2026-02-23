@@ -1885,6 +1885,7 @@ UnitBlueprint {
     },
     Intel = {
         RadarRadius = 100, -- 65
+        RadarStealth = true,
         VisionRadius = 60, -- 45
     },
     Navigation = {

@@ -32,6 +32,7 @@ TEMPLATE_DLC = ORIGINAL / "z_lua_dlc1.scd"
 OUT_LUA = GAMEDATA / "lua.scd"
 OUT_DLC = GAMEDATA / "z_lua_dlc1.scd"
 OUT_ZZ = GAMEDATA / "zz_STORM.scd"
+EXPORT_ZIP = ROOT / "export.zip"
 
 
 def repack_from_template(template_zip: Path, source_dir: Path, out_zip: Path) -> None:
@@ -87,9 +88,21 @@ def main() -> None:
     repack_from_template(TEMPLATE_LUA, WORK_LUA_DIR, OUT_LUA)
     repack_from_template(TEMPLATE_DLC, WORK_DLC_DIR, OUT_DLC)
 
+    # Build export.zip next to working-dir (repo root)
+    if EXPORT_ZIP.exists():
+        EXPORT_ZIP.unlink()
+    with zipfile.ZipFile(EXPORT_ZIP, "w", compression=zipfile.ZIP_DEFLATED) as z:
+        z.write(OUT_LUA, "lua.scd")
+        z.write(OUT_DLC, "z_lua_dlc1.scd")
+        for p in WORK_ZZ_DIR.rglob("*"):
+            if p.is_file():
+                arc = "zz_STORM.scd/" + str(p.relative_to(WORK_ZZ_DIR)).replace("\\", "/")
+                z.write(p, arc)
+
     print(f"Wrote {OUT_LUA}")
     print(f"Wrote {OUT_DLC}")
     print(f"Copied {OUT_ZZ}")
+    print(f"Wrote {EXPORT_ZIP}")
 
 
 if __name__ == "__main__":

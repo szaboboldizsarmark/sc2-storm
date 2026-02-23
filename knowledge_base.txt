@@ -4,9 +4,8 @@ Change Log (Latest)
   - ucx0111 (Cybranasaurus Rex)
   - ucx0117d1 (Monkeylord)
   File: working-dir/zz_STORM.scd/mods/DLC1/zzz_Cybran_STORM_blueprintmerges.bp
-
-Maintenance
-- Coding agents must update this knowledge base whenever they change files, repacking logic, or mod structure.
+- Added RadarStealth to UEF Giant Transport (uux0103).
+  File: working-dir/zz_STORM.scd/mods/DLC1/zzz_UEF_STORM_blueprintmerges.bp
 
 Workspace Folders
 - original-storm: Template-only source for zip metadata (entry order, FAT headers, backslashes). Do not read or edit; it exists solely to preserve metadata during repacks.
