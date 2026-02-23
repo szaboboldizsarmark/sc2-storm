@@ -1,7 +1,15 @@
+Change Log (Latest)
+- Removed RadarStealth from Cybran units in zz_STORM:
+  - ucx0102 (Giant Transport)
+  - ucx0111 (Cybranasaurus Rex)
+  - ucx0117d1 (Monkeylord)
+  File: working-dir/zz_STORM.scd/mods/DLC1/zzz_Cybran_STORM_blueprintmerges.bp
+
 Maintenance
 - Coding agents must update this knowledge base whenever they change files, repacking logic, or mod structure.
 
 Workspace Folders
+- original-storm: Template-only source for zip metadata (entry order, FAT headers, backslashes). Do not read or edit; it exists solely to preserve metadata during repacks.
 - vanilla-uncompiled: Vanilla reference sources. Contains uncompiled_lua.scd and z_uncompiled_lua_dlc1.scd plus extracted trees for read-only reference.
 - working-dir: Active edit workspace. All changes should be made here before repacking into gamedata.
 
@@ -135,12 +143,12 @@ Repacking Notes (Critical)
 - zz_STORM.scd is used as a DIRECTORY (not a zip) in this setup and does not need repacking.
 
 Repack Script (working-dir)
-- Script: /home/boldi/supcom2-mod/working-dir/repack_sc2_archives.py
+- Script: /home/boldi/git/sc2-storm/working-dir/repack_sc2_archives.py
 - Assumes working-dir contains: lua/, z_lua_dlc1/, zz_STORM.scd/.
 - Uses hardcoded gamedata path: /home/boldi/.local/share/Steam/steamapps/common/Supreme Commander 2/gamedata
+- Root path is resolved relative to the script location (repo root).
 - On run:
   1) Deletes gamedata/lua.scd, gamedata/z_lua_dlc1.scd, gamedata/zz_STORM.scd
   2) Copies working-dir/zz_STORM.scd (directory) into gamedata
   3) Rebuilds lua.scd and z_lua_dlc1.scd in gamedata using original-storm templates
 - The script does not create any temporary files in working-dir.
-

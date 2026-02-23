@@ -1641,7 +1641,6 @@ UnitBlueprint {
         ExperienceValue = 750, -- 1500
     },
     Intel = {
-        RadarStealth = true,
     },
     Navigation = {
         Radius = 4, -- 8
@@ -1738,7 +1737,6 @@ UnitBlueprint {
         ExperienceValue = 1500, -- 3000
     },
     Intel = {
-        RadarStealth = true,
         VisionRadius = 60, -- 75
         WaterVisionRadius = 60, -- 75
     },
@@ -2172,7 +2170,6 @@ UnitBlueprint {
         ExperienceValue = 5000, -- 5000
     },
     Intel = {
-        RadarStealth = true,
         VisionRadius = 100, -- 64
         WaterVisionRadius = 100, -- 64
     },

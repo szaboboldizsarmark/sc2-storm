@@ -15,10 +15,10 @@ from pathlib import Path
 import shutil
 import zipfile
 
+ROOT = Path(__file__).resolve().parents[1]
+
 # Hardcoded gamedata path (as requested)
 GAMEDATA = Path("/home/boldi/.local/share/Steam/steamapps/common/Supreme Commander 2/gamedata")
-
-ROOT = Path("/home/boldi/supcom2-mod")
 ORIGINAL = ROOT / "original-storm"
 WORKING = ROOT / "working-dir"
 
