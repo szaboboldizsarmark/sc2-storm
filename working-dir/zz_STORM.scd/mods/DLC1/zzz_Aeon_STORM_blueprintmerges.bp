@@ -2522,11 +2522,30 @@ UnitBlueprint {
 UnitBlueprint {
    Merge = true,
    BlueprintId = "uix0115", -- Pulinsmash
+    Defense = {
+        Health = 59750, -- 26500
+        MaxHealth = 59750,
+    },
     Display = {
         UniformScale = 0.08, -- 0.1
     },
+    Economy = {
+        BuildTime = 190, -- 190
+        EnergyValue = 6125, -- 2500
+        MassValue = 1250, -- 750
+    },
+    Physics = {
+        MaxSpeed = 3.4, -- 3.1
+    },
     SelectionSizeX = 4.4, -- 5.5
     SelectionSizeZ = 4.4, -- 5.5
+    Weapons = {
+        {},
+        {
+            Damage = 10000, -- 7500
+            DamageRadius = 5, -- 4
+        },
+    },
 }
 
 UnitBlueprint {
