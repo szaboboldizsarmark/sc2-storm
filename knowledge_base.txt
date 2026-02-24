@@ -1,4 +1,11 @@
 Change Log (Latest)
+- Reused Cybran land "Loyalist Stealth" tech slot (CLA_ASSAULTBOTHUNKER) for Cicada unlock.
+  - Removed Loyalist RadarStealth functionality from this slot.
+  - Converted node to unit unlock with BuildRestrictionRemoval = 'SNEAKOTRON'.
+  - Updated name/info to Cicada unlock text.
+  File: working-dir/z_lua_dlc1/mods/DLC1/shadow/lua/sim/Research.lua
+- Updated Cybran land tech-tree icon for this slot to Cicada unit icon.
+  File: working-dir/z_lua_dlc1/mods/DLC1/shadow/lua/ui/game/research/research_layout.lua
 - Wayfinder TML (uib0106) tweaks:
   - MaxRadius set to 800.
   - BuildTime set to 100.

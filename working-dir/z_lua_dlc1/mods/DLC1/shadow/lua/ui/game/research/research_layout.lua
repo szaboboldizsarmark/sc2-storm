@@ -326,7 +326,7 @@ research_layout = {
     },
     CYBRAN_LAND = {
         CLA_ASSAULTBOTHUNKER = {
-            icon = '/textures/ui/common/icons/orders/360_hd_hunker_u.dds',
+            icon = '/textures/ui/common/icons/hud/units/ucx0104d1.dds',
             col = 9, -- 5
             row = 1,
         },

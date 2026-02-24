@@ -1062,21 +1062,20 @@ ResearchDefinitions = {
         tip_type = '<LOC SC2_TIP_TYPE_0055>Passive Ability',
     },
     CLA_ASSAULTBOTHUNKER = {
-        NAME = '<LOC RESEARCH_NAME_0056>Loyalist Stealth',
+        NAME = '<LOC RESEARCH_NAME_0304>Cicada',
         TIME = 0,
-        COST = 3, -- 2
+        COST = 9,
         ENERGY = 0,
         MASS = 0,
-        INFO = '<LOC SC2_RESEARCH_INFO_0056>Makes Loyalists invisible to Radar.',
-        CATS = 'ucl0103',
-        IntelEnable = {
-            'RadarStealth',
+        INFO = '<LOC SC2_RESEARCH_INFO_0552>Unlock the \'Cicada\' Experimental Mobile Cloak Generator.',
+        CATS = 'LANDGANTRYBUILDER',
+        BuildRestrictionRemoval = {
+            'SNEAKOTRON',
         },
-        PREREQUISITES = 'CLP_SHIELD', -- CLB_RADAR
+        PREREQUISITES = 'CLP_SHIELD',
         CampaignUnlockIndex = 303001,
-        tip_affects = '<LOC SC2_RESEARCH_AFFECTS_0056>Affects: Assault Bot',
-        tip_usage_cost = 0,
-        tip_type = '<LOC SC2_TIP_TYPE_0056>Activated Ability',
+        tip_affects = '<LOC SC2_RESEARCH_AFFECTS_0076>Built By: Land Experimental Gantry',
+        tip_type = '<LOC SC2_TIP_TYPE_0078>Unit Unlock',
     },
     CLA_JUMPJETS = {
         NAME = '<LOC RESEARCH_NAME_0057>Jump Jets',

@@ -1677,6 +1677,21 @@ UnitBlueprint {
 
 UnitBlueprint {
    Merge = true,
+   BlueprintId = "ucx0104d1", -- Cicada
+    Display = {
+        UniformScale = 0.08, -- 0.1
+    },
+    Economy = {
+        BuildTime = 150, -- 115
+        EnergyValue = 5000, -- 2375
+        MassValue = 1000, -- 475
+    },
+    SelectionSizeX = 2.88, -- 3.6
+    SelectionSizeZ = 2.48, -- 3.1
+}
+
+UnitBlueprint {
+   Merge = true,
    BlueprintId = "ucx0103", -- Bomb Bouncer
     Defense = {
         Health = 20000, -- 26500
