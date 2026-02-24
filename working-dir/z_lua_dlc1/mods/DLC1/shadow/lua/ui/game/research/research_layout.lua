@@ -1007,11 +1007,11 @@ research_layout = {
             col = 5,
             row = 5,
         },
---        ILU_PULINSMASH = {
---            icon = '/textures/ui/common/icons/hud/units/uix0115.dds',
---            col = 9,
---            row = 5,
---        },
+        ILU_PULINSMASH = {
+            icon = '/textures/ui/common/icons/hud/units/uix0115.dds',
+            col = 9,
+            row = 5,
+        },
         ILU_SNIPER = {
             icon = '/textures/ui/common/icons/hud/units/uil0106d1.dds',
             col = 5,
@@ -1020,7 +1020,7 @@ research_layout = {
         ILU_UNIVERSALCOLOSSUS = {
             icon = '/textures/ui/common/icons/hud/units/uix0111.dds',
             col = 9,
-            row = 5, -- 4
+            row = 4, -- 4
         },
         ILU_URCHINOW = {
             icon = '/textures/ui/common/icons/hud/units/uix0101.dds',
@@ -1030,7 +1030,7 @@ research_layout = {
         ILU_WILFINDJA = {
             icon = '/textures/ui/common/icons/hud/units/uix0102.dds',
             col = 9, -- 5
-            row = 4,
+            row = 3,
         },
     },
     UEF_AIR = {

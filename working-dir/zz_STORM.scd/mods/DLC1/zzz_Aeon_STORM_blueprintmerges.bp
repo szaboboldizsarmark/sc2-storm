@@ -2516,7 +2516,17 @@ UnitBlueprint {
         {
             MaxRadius = 150, -- 175
         },
+	},
+}
+
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "uix0115", -- Pulinsmash
+    Display = {
+        UniformScale = 0.08, -- 0.1
     },
+    SelectionSizeX = 4.4, -- 5.5
+    SelectionSizeZ = 4.4, -- 5.5
 }
 
 UnitBlueprint {
