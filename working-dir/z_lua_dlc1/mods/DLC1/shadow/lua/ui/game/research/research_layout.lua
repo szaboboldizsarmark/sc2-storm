@@ -190,11 +190,11 @@ research_layout = {
             col = 7,
             row = 4,
         },
---        CBU_NUKEREDIRECTOR = {
---            icon = '/textures/ui/common/icons/hud/units/ucb0205d1.dds',
---            col = 9,
---            row = 4,
---        },
+        CBU_NUKEREDIRECTOR = {
+            icon = '/textures/ui/common/icons/hud/units/ucb0205d1.dds',
+            col = 9,
+            row = 4,
+        },
         CBU_PROTOBRAINCOMPLEX = {
             icon = '/textures/ui/common/icons/hud/units/ucx0115.dds',
             col = 9,

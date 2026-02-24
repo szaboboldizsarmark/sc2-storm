@@ -747,7 +747,47 @@ UnitBlueprint {
         },
         {
         },
+	},
+}
+
+UnitBlueprint {
+   Merge = true,
+   BlueprintId = "ucb0205d1", -- Boomerang
+    Display = {
+        IdleEffects = {
+            Land = {
+                Effects = {
+                    {
+                        Scale = 0.67, -- 1.0
+                    },
+                    {
+                        Scale = 0.67, -- 1.0
+                    },
+                },
+            },
+        },
+        Tarmacs = {
+            {
+                Length = 10, -- 12.8
+                Width = 10, -- 12.8
+            },
+        },
+        UniformScale = 0.0683, -- 0.1025
     },
+    Economy = {
+        BuildTime = 100, -- 195
+        EnergyValue = 3000, -- 3600
+        MassValue = 750, -- 1100
+    },
+    Footprint = {
+        SizeX = 6, -- 8
+        SizeZ = 6,
+    },
+    Navigation = {
+        CostStamp = '/coststamps/Default/Default6x6_coststamp.lua',
+    },
+    SelectionSizeX = 3, -- 4.5
+    SelectionSizeZ = 2.7, -- 3.6
 }
 
 UnitBlueprint {
