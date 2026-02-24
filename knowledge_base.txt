@@ -1,4 +1,8 @@
 Change Log (Latest)
+- Wayfinder TML (uib0106) tweaks:
+  - MaxRadius set to 800.
+  - BuildTime set to 100.
+  File: working-dir/zz_STORM.scd/mods/DLC1/zzz_Aeon_STORM_blueprintmerges.bp
 - Scaled Buhbledow idle ambient effect to match smaller unit scale (Scale=0.6).
   File: working-dir/z_lua_dlc1/mods/DLC1/base/Units/Illuminate/UIX0104D1/UIX0104D1_unit.bp
 - Updated Buhbledow research description to match unit: "Experimental Shield Destroyer".

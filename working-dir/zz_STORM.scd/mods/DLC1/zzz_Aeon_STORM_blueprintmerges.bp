@@ -537,7 +537,7 @@ UnitBlueprint {
         DisplayName = '<LOC UNIT_NAME_0098>Wayfinder',
     },
     Economy = {
-        BuildTime = 90, -- 35
+        BuildTime = 100, -- 35
         EnergyValue = 1500, -- 1500
         MassValue = 350, -- 350
     },
@@ -548,7 +548,7 @@ UnitBlueprint {
         {
             Damage = 1500, -- 1500
             DamageRadius = 4, -- 0
-            MaxRadius = 325, -- 225
+            MaxRadius = 800, -- 225
             MuzzleVelocity = 6, -- 3
             ProjectileLifetime = 80, -- 40
         },
