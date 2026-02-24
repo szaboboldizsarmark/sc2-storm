@@ -1796,15 +1796,10 @@ UnitBlueprint {
         'OVERLAYDIRECTFIRE',
         'CANNOTUSEAIRSTAGING',
         'SOULRIPPERII',
-        'AIRGANTRYBUILDER',
+        
         'EXPERIMENTAL',
         'ANTISURFACE',
-        'AIRSTAGINGPLATFORM',
-        'CARRIER',
-        'FACTORY',
-        'PARALLELBUILDER',
-        'SHOWQUEUE',
-        'SORTCONSTRUCTION',
+        
     },
     Defense = {
         Health = 25000, -- 16500
@@ -1812,13 +1807,7 @@ UnitBlueprint {
         RegenRate = 75, -- 83
     },
     Economy = {
-        BuildEnergyCostMultiplier = 0.9,
-        BuildMassCostMultiplier = 0.9,
-        BuildRate = 1.5,
         BuildTime = 200, -- 190
-        BuildableCategory = {
-            'BUILTBYFACTORY CYBRAN AIR TECH1 -uca0901',
-        },
         EnergyValue = 7500, -- 5625
         MassValue = 1500, -- 1200
     },
@@ -1832,31 +1821,16 @@ UnitBlueprint {
             RULEUCC_Pause = true,
             RULEUCC_RetaliateToggle = true,
             RULEUCC_Stop = true,
-            RULEUCC_Transport = true,
+            
         },
-        ConstructionBar = true,
+        
         ExperienceValue = 1500, -- 6000
-        OrderOverrides = {
-            RULEUCC_Transport = {
-                bitmapId = 'deploy',
-                helpText = 'deploy',
-            },
-        },
+        
     },
     Intel = {
         RadarStealth = true,
     },
-    Transport = {
-        AirClass = true,
-        LandingBones = {
-            'ucx0112',
-        },
-        LaunchingBones = {
-            'ucx0112',
-        },
-        StorageSlots = 25,
-        TeleportTime = 1,
-    },
+    
     Weapons = {
         {
             Damage = 100, -- 115x3

@@ -2320,16 +2320,11 @@ UnitBlueprint {
         'OVERLAYRADAR',
         'OVERLAYANTIAIR',
         'DARKENOID',
-        'MOBILEGANTRYBUILDER',
+        
         'GROUNDATTACK',
         'EXPERIMENTAL',
         'ANTISURFACE',
-        'AIRSTAGINGPLATFORM',
-        'CARRIER',
-        'FACTORY',
-        'PARALLELBUILDER',
-        'SHOWQUEUE',
-        'SORTCONSTRUCTION',
+        
     },
     Defense = {
         Health = 20000, -- 27500
@@ -2375,15 +2370,9 @@ UnitBlueprint {
         UniformScale = 0.112, -- 0.16
     },
     Economy = {
-        BuildEnergyCostMultiplier = 0.75,
-        BuildMassCostMultiplier = 0.75,
-        BuildRate = 1.25,
-        BuildTime = 250, -- 190
-        BuildableCategory = {
-            'BUILTBYFACTORY ILLUMINATE AIR TECH1 -uia0901',
-        },
+        BuildTime = 200, -- 190
         EnergyValue = 10000, -- 5000
-        MassValue = 2000, -- 1500
+        MassValue = 1500, -- 1500
     },
     General = {
         BuildIconSortPriority = 60, -- 30
@@ -2396,17 +2385,12 @@ UnitBlueprint {
             RULEUCC_RetaliateToggle = true,
             RULEUCC_Stop = true,
             RULEUCC_Teleport = false,
-            RULEUCC_Transport = true,
+            
         },
-        ConstructionBar = true,
+        
         ExperienceValue = 2500, -- 4500
         MoveEnergyCost = 1000,
-        OrderOverrides = {
-            RULEUCC_Transport = {
-                bitmapId = 'deploy',
-                helpText = 'deploy',
-            },
-        },
+        
         TeleportCooldown = 30,
         TeleportRange = 200,
     },
@@ -2420,17 +2404,7 @@ UnitBlueprint {
     SelectionSizeZ = 8.4, -- 12
     SizeX = 10, -- 15
     SizeZ = 10, -- 15
-    Transport = {
-        AirClass = true,
-        LandingBones = {
-            'uix0112',
-        },
-        LaunchingBones = {
-            'uix0112',
-        },
-        StorageSlots = 30,
-        TeleportTime = 2,
-    },
+    
     Weapons = {
         {
             Damage = 100, -- 75

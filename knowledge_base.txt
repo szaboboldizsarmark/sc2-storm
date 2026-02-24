@@ -14,6 +14,24 @@ Change Log (Latest)
   - Energy cost set to 15000.
   - Implemented by replacing bytecode BP with uncompiled BP in working-dir.
   File: working-dir/z_lua_dlc1/mods/DLC1/shadow/abilities/RechargeShield_Ability.bp
+- Removed factory/production capability from flying factories:
+  - Cybran Soul Ripper II (ucx0112)
+  - Illuminate Darkenoid saucer (uix0112)
+  Changes: removed factory/gantry categories, BuildRate/BuildableCategory, ConstructionBar.
+  Files:
+    - working-dir/zz_STORM.scd/mods/DLC1/zzz_Cybran_STORM_blueprintmerges.bp
+    - working-dir/zz_STORM.scd/mods/DLC1/zzz_Aeon_STORM_blueprintmerges.bp
+- Removed transport capability (unload button) from the same units:
+  - Cybran Soul Ripper II (ucx0112)
+  - Illuminate Darkenoid saucer (uix0112)
+  Changes: removed AIRSTAGINGPLATFORM/CARRIER categories, RULEUCC_Transport, OrderOverrides, and Transport block.
+  Files:
+    - working-dir/zz_STORM.scd/mods/DLC1/zzz_Cybran_STORM_blueprintmerges.bp
+    - working-dir/zz_STORM.scd/mods/DLC1/zzz_Aeon_STORM_blueprintmerges.bp
+- Darkenoid (uix0112) economy tweaks:
+  - BuildTime set to 200.
+  - MassValue set to 1500.
+  File: working-dir/zz_STORM.scd/mods/DLC1/zzz_Aeon_STORM_blueprintmerges.bp
 
 Workspace Folders
 - original-storm: Template-only source for zip metadata (entry order, FAT headers, backslashes). Do not read or edit; it exists solely to preserve metadata during repacks.
