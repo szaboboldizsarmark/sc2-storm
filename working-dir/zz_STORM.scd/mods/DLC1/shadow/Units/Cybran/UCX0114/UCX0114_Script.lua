@@ -15,7 +15,7 @@ UCX0114 = Class(StructureUnit) {
 
     OnStopBeingBuilt = function(self,builder,layer)
         StructureUnit.OnStopBeingBuilt(self,builder,layer)
-		self.MagnetEffects = {false}
+		self.MagnetEffects = {}
 		self.Pushing = false
 		self.Pulling = false
 		self.Trash:Add(CreateRotator(self, 'Gear01', 'z', nil, 0, 60, 360):SetTargetSpeed(105))
@@ -122,29 +122,29 @@ UCX0114 = Class(StructureUnit) {
 		end
 	end,
 
---	CreatePullEffects = function(self)
---        for k, v in EffectTemplates.Units.Cybran.Experimental.UCX0114.Pull01 do
---            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, -2, self:GetArmy(), v ))
---        end
+	CreatePullEffects = function(self)
+        for k, v in EffectTemplates.Units.Cybran.Experimental.UCX0114.Pull01 do
+            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, -2, self:GetArmy(), v ))
+        end
 
---        for k, v in EffectTemplates.Units.Cybran.Experimental.UCX0114.Pull02 do
---            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect01', self:GetArmy(), v ))
---            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect02', self:GetArmy(), v ))
---            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect03', self:GetArmy(), v ))
---        end
---	end,	
+        for k, v in EffectTemplates.Units.Cybran.Experimental.UCX0114.Pull02 do
+            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect01', self:GetArmy(), v ))
+            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect02', self:GetArmy(), v ))
+            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect03', self:GetArmy(), v ))
+        end
+	end,	
 	
---	CreatePushEffects = function(self)
---        for k, v in EffectTemplates.Units.Cybran.Experimental.UCX0114.Push01 do
---            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect01', self:GetArmy(), v ))
---            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect02', self:GetArmy(), v ))
---            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect03', self:GetArmy(), v ))
---        end
+	CreatePushEffects = function(self)
+        for k, v in EffectTemplates.Units.Cybran.Experimental.UCX0114.Push01 do
+            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect01', self:GetArmy(), v ))
+            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect02', self:GetArmy(), v ))
+            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, 'Effect03', self:GetArmy(), v ))
+        end
 
---        for k, v in EffectTemplates.Units.Cybran.Experimental.UCX0114.Push02 do
---            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, -2, self:GetArmy(), v ))
---        end	
---	end,	
+        for k, v in EffectTemplates.Units.Cybran.Experimental.UCX0114.Push02 do
+            table.insert( self.MagnetEffects, CreateAttachedEmitter( self, -2, self:GetArmy(), v ))
+        end	
+	end,	
 	
 	DestroyMagnetEffects = function(self)
 		if self.MagnetEffects then
