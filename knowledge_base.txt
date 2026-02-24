@@ -1,4 +1,12 @@
 Change Log (Latest)
+- Updated Buhbledow research description to match unit: "Experimental Shield Destroyer".
+  File: working-dir/z_lua_dlc1/mods/DLC1/shadow/lua/sim/Research.lua
+- Removed Buhbledow (uix0104d1) shield from zz_STORM merge and cleared shield-focused Description override.
+  File: working-dir/zz_STORM.scd/mods/DLC1/zzz_Aeon_STORM_blueprintmerges.bp
+- Reverted Buhbledow (uix0104d1) to vanilla behavior (EMP device, no shield) by restoring vanilla unit bp and script.
+  Files:
+    - working-dir/z_lua_dlc1/mods/DLC1/base/Units/Illuminate/UIX0104D1/UIX0104D1_unit.bp
+    - working-dir/z_lua_dlc1/mods/DLC1/base/Units/Illuminate/UIX0104D1/UIX0104D1_script.lua
 - Removed RadarStealth from Cybran units in zz_STORM:
   - ucx0102 (Giant Transport)
   - ucx0111 (Cybranasaurus Rex)

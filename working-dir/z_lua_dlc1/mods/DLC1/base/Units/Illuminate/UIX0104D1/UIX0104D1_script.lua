@@ -7,19 +7,18 @@
 
 local StructureUnit = import('/lua/sim/StructureUnit.lua').StructureUnit
 local NukeWeapon = import('/lua/sim/DefaultWeapons.lua').NukeWeapon
-local DefaultProjectileWeapon = import('/lua/sim/DefaultWeapons.lua').DefaultProjectileWeapon
 
 UIX0104D1 = Class(StructureUnit) {
 
     OnStopBeingBuilt = function(self,builder,layer)
         StructureUnit.OnStopBeingBuilt(self,builder,layer)
---		self.Trash:Add( CreateRotator(self, 'upperring', 'y', nil, 0, 100, 100) )
---        self.Trash:Add( CreateRotator(self, 'innerring', 'y', nil, 0, -100, -100) )
---		self.Trash:Add( CreateRotator(self, 'lowerring', 'y', nil, 0, -100, -100) )
+		self.Trash:Add( CreateRotator(self, 'upperring', 'y', nil, 0, 100, 100) )
+        self.Trash:Add( CreateRotator(self, 'innerring', 'y', nil, 0, -100, -100) )
+		self.Trash:Add( CreateRotator(self, 'lowerring', 'y', nil, 0, -100, -100) )
     end,
 
     Weapons = {
-        TacticalMissile01 = Class(DefaultProjectileWeapon) {},
+        EMP = Class(NukeWeapon) {},
     },
 }
 TypeClass = UIX0104D1

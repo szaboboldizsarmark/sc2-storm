@@ -2119,25 +2119,7 @@ UnitBlueprint {
         Health = 20000, -- 11000
         MaxHealth = 20000,
         RegenRate = 100, -- 30
-        Shield = {
-            AllowPenetration = true,
-            CollisionOffsetY = -4,
-            CollisionShape = 'Sphere',
-            ImpactEffects = 'ShieldHit01',
-            Mesh = '/meshes/Shield/Shield03_mesh',
-            PanelArray = {
-                Panel_1 = '/meshes/Shield/ShieldDomeSection05_mesh',
-                Panel_2 = '/meshes/Shield/ShieldDomeSection06_mesh',
-            },
-            ShieldDamageAbsorb = 0.85,
-            ShieldMaxHealth = 50000,
-            ShieldRechargeTime = 60,
-            ShieldRegenRate = 125,
-            ShieldSize = 100,
-            ShieldType = 'Panel',
-        },
     },
-    Description = '<LOC UNIT_DESCRIPTION_0139>Experimental Tactical Missle & Shield',
     Display = {
         Tarmacs = {
             {

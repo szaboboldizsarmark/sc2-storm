@@ -2461,7 +2461,7 @@ ResearchDefinitions = {
         COST = 15, -- 8
         ENERGY = 0,
         MASS = 0,
-        INFO = '<LOC SC2_RESEARCH_INFO_0558>Unlock the \'Buhbledow\' Experimental Tactical Missile Barrage.',
+        INFO = '<LOC SC2_RESEARCH_INFO_0558>Unlock the \'Buhbledow\' Experimental Shield Destroyer.',
         CATS = 'ILLUMINATE ENGINEER',
         BuildRestrictionRemoval = {
             'uix0104d1',
