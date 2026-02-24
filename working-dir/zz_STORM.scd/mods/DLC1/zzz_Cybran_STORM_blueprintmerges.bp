@@ -2187,7 +2187,7 @@ UnitBlueprint {
 		RegenRate = 190, -- 190
     },
     Display = {
-        UniformScale = 0.1, -- 0.2
+        UniformScale = 0.19, -- 0.2 (95% of vanilla)
     },
     Economy = {
         BuildTime = 300, -- 300
@@ -2209,8 +2209,8 @@ UnitBlueprint {
     Physics = {
         MaxSpeed = 2.5, -- 2.6
     },
-    SelectionSizeX = 3, -- 6
-    SelectionSizeZ = 3.5, -- 7
+    SelectionSizeX = 5.7, -- 6 (95% of vanilla)
+    SelectionSizeZ = 6.65, -- 7 (95% of vanilla)
     Weapons = {
         {
             Damage = 250, -- 250

@@ -2534,6 +2534,9 @@ UnitBlueprint {
         EnergyValue = 6125, -- 2500
         MassValue = 1250, -- 750
     },
+    Intel = {
+        VisionRadius = 75, -- 60
+    },
     Physics = {
         MaxSpeed = 3.4, -- 3.1
     },
