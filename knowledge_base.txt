@@ -1,4 +1,6 @@
 Change Log (Latest)
+- Scaled Buhbledow idle ambient effect to match smaller unit scale (Scale=0.6).
+  File: working-dir/z_lua_dlc1/mods/DLC1/base/Units/Illuminate/UIX0104D1/UIX0104D1_unit.bp
 - Updated Buhbledow research description to match unit: "Experimental Shield Destroyer".
   File: working-dir/z_lua_dlc1/mods/DLC1/shadow/lua/sim/Research.lua
 - Removed Buhbledow (uix0104d1) shield from zz_STORM merge and cleared shield-focused Description override.

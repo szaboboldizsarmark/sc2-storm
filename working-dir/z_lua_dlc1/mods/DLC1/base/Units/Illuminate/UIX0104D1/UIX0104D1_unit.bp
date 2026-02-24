@@ -68,6 +68,7 @@ UnitBlueprint {
                         Bones = {
                             -2,
                         },
+                        Scale = 0.6,
                         Type = 'IlluminateUIX0104D1Ambient01',
                     },
                 },
